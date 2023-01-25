@@ -1,0 +1,23 @@
+/*
+ * Custom CSS
+ */
+
+.abortMark {
+	display: inline-block !important;
+}
+
+@media only screen and (max-width: 479px){
+	HTML, BODY, #loginForm, .outerFrame {
+        width: 320px; margin: 0 ! important; padding: 0; background-color: #fbfbfb;
+		width: 100%;
+    }
+	.guiVersion2 .par .orLoginWith {
+		    padding-left: 28% !important;
+	}
+}
+
+@media only screen and (min-width: 479px){
+	.logo {
+		margin-left: 0px !important;
+	}
+}

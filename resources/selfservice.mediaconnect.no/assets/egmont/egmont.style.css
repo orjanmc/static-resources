@@ -1,0 +1,25 @@
+@import url('/assets/default.theme.css');
+
+svg.app-menu-button {
+    fill: #000 !important;
+}
+
+svg.app-wcag-button {
+    fill: #000 !important;
+}
+
+.app-back-button {
+    color: #212121 !important;
+}
+
+.mat-app-header {
+ color: #212121;
+ background-color: #ffffff; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #ffffff; }
+
+.app-card-add-container.mat-elevation-z1.mat-app-support-card {
+    display: none;
+}

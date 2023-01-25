@@ -1,0 +1,113 @@
+
+/*
+ * Logo øverst til venstre
+ */
+
+.not_logged_in .main { background: url(cover.jpg) no-repeat 1px 10px; padding-left:170px; }
+.not_logged_in .linksTopRight{display: none;}
+
+/* CSS Document */
+body{ background:#f1f1f2; }
+
+.login {}
+.login .toppBanner {}
+.toppBanner a{}
+.login .linksTopRight{display: none;}
+.login .main {}
+.login .main .heading {	display: none;}
+.content {}
+.login .main .minimumBredde{}
+.login .hoyreBanner {}
+.credential-page {}
+.tabControl .title { font: 1.2em/1.4em Georgia,"Times New Roman",Times,serif; padding:0; margin:0; white-space:nowrap;}
+.intro { width: 60%;}
+.velkommenBoks { padding-bottom: 0;  width: 35em;}
+.tabEnd{ /*display:none;*/}
+.tabTopRight a{
+	font-weight:bold;
+	padding: 4px 8px;
+	color: #fff;
+	background:#333;
+	text-decoration:none;
+}
+.VelkommenWidget .tabTopRight A, .linksTopRight A  { float: right; margin:-1em 0 0 400px; width:140px; text-align:center;  -moz-border-radius: 5px;
+border-radius: 5px;  }
+/*.login .linksTopRight{display: none;}
+.tabTopRight.linksTopRight{display: none;}*/
+
+.tabControl { background-color:#f1f1f2;}	
+.VelkommenWidget .velkommenBoks { background-color:#f1f1f2;}	
+.VelkommenWidget .tabHeaders {margin: 30px 0px 0 0; width: 100%;background-color:#f1f1f2;}
+.VelkommenWidget .tabHeaders table { margin: 100px 0 0 0;}
+.VelkommenWidget .tabSpacer {padding: 0 10px 0 0;text-transform:uppercase;}
+
+.KundeVisningWidget {
+  margin:0.5em 0.5em 0.5em 0;
+  margin-bottom: 8px; /* Fixes bug with white horizontal line in Chrome */
+}
+
+
+.tabControl .tabHeader {
+}
+
+.tabControl .tabHeader a { 
+	text-align:left;
+    cursor:pointer; 
+	white-space: normal;
+    text-decoration:none; 
+	color:black;
+    display:block; 
+	padding:0.3em 0.5em 0; 
+	margin:0;
+	text-transform:uppercase;
+	font-size:12px;
+	background-color: #ebebeb;
+	min-height:35px;
+	line-height:13px; 
+}
+
+.tabHeader:hover,
+.tabHeader A:hover,
+.tabControl .tabHeader.selected,
+.tabControl .tabHeader.selected A,
+.tabControl .tabPage    { background-color:#d6d6d6; }
+.tabControl .tabPage    { padding:0px; padding-bottom:1em; padding-top:1.5em;    box-shadow: 2px 2px 2px #a8b0b8;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='#c0c8d0', Direction=135, Strength=3); }
+	
+.tabControl .blank { width:100%; background-color:#F1F1F2; height:4px; }
+
+.AkseptFieldset{ float:left;}
+.mediumHeader{text-transform:uppercase;font-size:14px;}
+.overview h1 { text-transform:uppercase;font-size:14px; }
+#titlerIntro p { display:none;}
+
+.AkseptWidget .button { margin-top:0.5em; text-align:center;  -moz-border-radius: 5px;border-radius: 5px; }
+
+.button {background-color: #616665; color: #fff; width:auto; font-size:100%;
+    padding:4px 16px; cursor:pointer; white-space:nowrap; border:1px #333 solid; text-align:center;  -moz-border-radius: 5px;border-radius: 5px;box-shadow: 1px 1px 2px #444;  }
+.button:hover { background-color:#97282E; color:#fff; }
+
+
+.logged_in .link_SUBSCRIPTION_TERMS, 
+.logged_in .link_SELFSERVICE_INFORMATION { display:none; }
+
+.VelkommenWidget .tabTopRight a { display:none; }
+.VelkommenWidget .tabTopRight a:first-child { display:block; }
+
+.tabPage .button { box-shadow: 1px 1px 2px #444; filter:progid:DXImageTransform.Microsoft.Shadow(color='#444', Direction=135, Strength=2); }
+
+
+/* GE 2015-04-23: Added the following styles to compensate for new default skin with blue theme */
+
+.tabHeader:hover, .tabHeader A:hover, .tabControl .tabHeader.selected, .tabControl .tabHeader.selected A, .tabControl .tabPage {
+  background-color: #888;
+  color: #fff;
+}
+
+.tabHeader.selected { box-shadow: 2px 2px 2px #444; }
+
+.VelkommenWidget .tabHeaders, .tabHeaders {
+  background-color: #ddd;
+  height: 30px;
+}
+

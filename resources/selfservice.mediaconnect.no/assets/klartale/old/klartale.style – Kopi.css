@@ -1,0 +1,9 @@
+@import url('/css.ng/assets/default.theme.css');
+
+.mat-app-header {
+  color: white;
+  background-color: #75aec7; }
+
+.mat-app-footer {
+  color: #212121;
+  background-color: #eeddee; }

@@ -1,0 +1,59 @@
+/* Subscribe */
+
+@import url('../../common/css/common.css');
+@import url('../../common/fonts/fonts.css');
+
+.page {
+    background: #fafaf7 url('../img/bg-home.jpg') no-repeat 0 -188px;
+    background-size: 768px 1024px;
+}
+
+body, input, button {
+    font-family: 'Helvetica Neue Light';
+}
+
+input, button {
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+input, .error, .submitButton {
+    text-align: center;
+}
+
+.customerNumberExplanationImage, input, .submitButton, .otherButton {
+    border-width: 0;
+    border-radius: 0;
+}
+.error {
+    border-radius: 0;
+}
+
+input {
+    background: #fafaf7;
+}
+
+.submitButton {
+    background: #5faac8;
+}
+
+.otherButton {
+    background: #b90051;
+}
+
+.bodyHeader {
+    background: #b90051 url('../img/logo.png') no-repeat center 25px;
+    background-size: auto 50px;
+}
+
+.bodyFooter {
+    background: rgba(255, 255, 255, .5) url('../img/faq-arrow-up.png') no-repeat 730px 20px;
+}
+
+.bodyFooter.open {
+    background: rgba(255, 255, 255, .5) url('../img/faq-arrow-down.png') no-repeat 730px 20px;
+}
+
+.bodyFooter p#openMe {
+    color: #b90051;
+}

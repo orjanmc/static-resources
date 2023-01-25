@@ -1,0 +1,689 @@
+{
+    "title": "Aller CSS",
+    "favicon": "assets/aller/aller.favicon.ico",
+    "styleUrl": "assets/aller/aller.style.css",
+    "headerUrl": "assets/aller/aller.header.html",
+    "footerUrl": "assets/aller/aller.footer.html",
+    "backUrl": "http://www.mediaconnect.no/",
+    "backIcon": "exit_to_app",
+    "contrastIcon": "remove_red_eye",
+    "messageConfig": {
+        "language": "nb_NO",
+        "url": "assets/messages.json"
+    },
+    "scriptsUrls": [
+      "assets/aller/set_copyright_year.js"
+    ],
+    "products": {
+        "all": true,
+        "productCodes": [
+        ],
+        "companyCodes": [
+        ]
+    },
+    "productImages": {
+          "imageUrlPattern": "https://connect.mediaconnect.no/selfservice/resources/113/{product}/cover.jpg",
+          "imageUrls": [
+              {
+                  "product": "DBPE",
+                  "url": "https://www.e-pages.dk/dagbladet/32315/teasers/medium.jpg"
+              }
+          ],
+          "imageLinks": [
+              {
+                  "product": "DBPE",
+                  "link": "https://www.e-pages.dk/dagbladet"
+              }
+          ]
+      },
+    "membershipCards": {
+      "urlPattern": "assets/aller/default.member.card.html",
+      "textHeader": "Membership Card",
+      "textBlock": "10% discount on cinema tickets",
+      "validTill": "2018",
+      "cards": [
+        {
+          "product": "DBPE",
+          "url": "assets/aller/default.member.card.html",
+          "textHeader": "Membership Card",
+          "textBlock": "10% discount on cinema tickets",
+          "validTill": "2018"
+        }
+      ]
+    },
+    "cardTypes": [
+        {
+            "cardTypeName": "VISA",
+            "url": "assets/visa.png"
+        },
+        {
+            "cardTypeName": "MasterCard",
+            "url": "assets/master.png"
+        }
+    ],
+    "paymentMethods": [
+        {
+            "paymentMethod": "invoice",
+            "icon": "format_list_bulleted",
+            "description": "%paymentMethods.invoice.description%"
+        },
+        {
+            "paymentMethod": "eInvoice",
+            "icon": "get_app",
+            "description": "%paymentMethods.eInvoice.description%"
+        },
+        {
+            "paymentMethod": "autoGiro",
+            "icon": "payment",
+            "description": "%paymentMethods.autoGiro.description%"
+        },
+        {
+            "paymentMethod": "recurringPayment",
+            "icon": "payment",
+            "description": "%paymentMethods.recurringPayment.description%"
+        }
+    ],
+    "invoicePaymentMethod": {
+        "A": "%invoicePaymentMethod.A%",
+        "B": "%invoicePaymentMethod.B%",
+        "C": "%invoicePaymentMethod.C%",
+        "D": "%invoicePaymentMethod.D%",
+        "E": "%invoicePaymentMethod.E%",
+        "F": "%invoicePaymentMethod.F%",
+        "G": "%invoicePaymentMethod.G%"
+    },
+    "messages": {
+        "default-message": {
+            "text": "%messages.default-message.text%",
+            "color": "#d32f2f",
+            "duration": 0,
+            "button": null
+        },
+        "app-configHeaderError": {
+            "text": "%messages.app-configHeaderError.text%",
+            "duration": 0
+        },
+        "app-configFooterError": {
+            "text": "%messages.app-configFooterError.text%",
+            "duration": 0
+        },
+        "app-loginCustomerEmpty": {
+            "text": "%messages.app-loginCustomerEmpty.text%",
+            "duration": 0
+        },
+        "proxyService-connectionError": {
+            "text": "%messages.proxyService-connectionError.text%",
+            "duration": 0
+        },
+        "userService-emptyCustomerNumber": {
+            "text": "%messages.userService-emptyCustomerNumber.text%",
+            "duration": 0
+        },
+        "profile-saveSuccess": {
+            "text": "%messages.profile-saveSuccess.text%",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "address-saveSuccess": {
+            "text": "%messages.address-saveSuccess.text%",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "address-deleteSuccess": {
+            "text": "%messages.address-deleteSuccess.text%",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "account_delete_success": {
+            "text": "%messages.account_delete_success.text%",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "data_download_success": {
+            "text": "%messages.data_download_success.text%",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "app-contactMessageEmailEmpty": {
+            "text": "%messages.app-contactMessageEmailEmpty.text%",
+            "duration": 10
+        }
+    },
+    "dialogs": {
+        "send-message": {
+            "icon": "warning",
+            "textBold": "%dialogs.send-message.textBold%",
+            "textNormal": "%dialogs.send-message.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "cancel-subscription": {
+            "icon": "warning",
+            "textBold": "%dialogs.cancel-subscription.textBold%",
+            "textNormal": "%dialogs.cancel-subscription.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "save-profile": {
+            "icon": "warning",
+            "textBold": "%dialogs.save-profile.textBold%",
+            "textNormal": "%dialogs.save-profile.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-card": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-card.textBold%",
+            "textNormal": "%dialogs.delete-card.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "save-address": {
+            "icon": "warning",
+            "textBold": "%dialogs.save-address.textBold%",
+            "textNormal": "%dialogs.save-address.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "save-email": {
+            "icon": "warning",
+            "textBold": "%dialogs.save-email.textBold%",
+            "textNormal": "%dialogs.save-email.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-address": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-address.textBold%",
+            "textNormal": "%dialogs.delete-address.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-temporary-address": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-temporary-address.textBold%",
+            "textNormal": "%dialogs.delete-temporary-address.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-temporary-stop": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-temporary-stop.textBold%",
+            "textNormal": "%dialogs.delete-temporary-stop.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-email": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-email.textBold%",
+            "textNormal": "%dialogs.delete-email.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "delete-account": {
+            "icon": "warning",
+            "textBold": "%dialogs.delete-account.textBold%",
+            "textNormal": "%dialogs.delete-account.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "download-data": {
+            "icon": "warning",
+            "textBold": "%dialogs.download-data.textBold%",
+            "textNormal": "%dialogs.download-data.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        },
+        "change-password": {
+            "icon": "warning",
+            "textBold": "%dialogs.change-password.textBold%",
+            "textNormal": "%dialogs.change-password.textNormal%",
+            "buttonTrue": "%dialogs.buttonTrue%",
+            "buttonFalse": "%dialogs.buttonFalse%"
+        }
+    },
+    "login": {
+        "customerUrl": "https://api-test.mediaconnect.no/login/register?clientId=selfservice.aller&errorUrl=https://selfservice-test.mediaconnect.no/&returnUrl=https://selfservice-test.mediaconnect.no/&abortUrl=https://selfservice-test.mediaconnect.no/",
+        "customerIcon": "account_box"
+    },
+    "menu": {
+        "customerNumberInfo": {
+            "label": "%menu.customerNumberInfo.label%",
+            "separator": "%menu.customerNumberInfo.separator%"
+        },
+        "logoutButton": {
+            "name": "%menu.logoutButton.name%",
+            "icon": "arrow_forward"
+        },
+        "home": {
+            "name": "%menu.home.name%",
+            "icon": "home",
+            "visible": true
+        },
+        "subscriptions": {
+            "name": "%menu.subscriptions.name%",
+            "icon": "import_contacts",
+            "visible": true
+        },
+        "account": {
+            "name": "%menu.account.name%",
+            "icon": "person_outline",
+            "visible": false
+        },
+        "cards": {
+            "name": "%menu.cards.name%",
+            "icon": "credit_card",
+            "visible": false
+        },
+        "payments": {
+            "name": "%menu.payments.name%",
+            "icon": "format_list_bulleted",
+            "visible": false
+        },
+        "privacy": {
+            "name": "%menu.privacy.name%",
+            "icon": "lock_outline",
+            "visible": true
+        },
+        "contact": {
+            "name": "%menu.contact.name%",
+            "icon": "chat_bubble_outline",
+            "visible": true
+        }
+    },
+    "account": {
+        "title": "%account.title%",
+        "tabs": [
+            {
+                "id": "profileTab",
+                "title": "%account.tabs.profileTab.title%",
+                "visible": true
+            },
+            {
+                "id": "addressesTab",
+                "title": "%account.tabs.addressesTab.title%",
+                "visible": true
+            },
+            {
+                "id": "paymentMethodsTab",
+                "title": "%account.tabs.paymentMethodsTab.title%",
+                "visible": true
+            },
+            {
+                "id": "emailsTab",
+                "title": "%account.tabs.emailsTab.title%",
+                "visible": true
+            }
+        ],
+        "profile": {
+            "firstNameLabel": "%account.profile.firstNameLabel%",
+            "middleNameLabel": "%account.profile.middleNameLabel%",
+            "lastNameLabel": "%account.profile.lastNameLabel%",
+            "homePhoneNumberLabel": "%account.profile.homePhoneNumberLabel%",
+            "mobilePhoneNumberLabel": "%account.profile.mobilePhoneNumberLabel%",
+            "saveButton": "%account.profile.saveButton%",
+            "cancelButton": "%account.profile.cancelButton%",
+            "changePasswordButton": "%account.profile.changePasswordButton%",
+            "lastNameRequired": "%account.profile.lastNameRequired%"
+        },
+        "addresses": {
+            "editAddressTitle": "%account.addresses.editAddressTitle%",
+            "cardCareOfAddressPrefix": "%account.addresses.cardCareOfAddressPrefix%",
+            "cardStreetAddressPrefix": "%account.addresses.cardStreetAddressPrefix%",
+            "cardEntrancePrefix": "%account.addresses.cardEntrancePrefix%",
+            "cardFloorPrefix": "%account.addresses.cardFloorPrefix%",
+            "cardSuitePrefix": "%account.addresses.cardSuitePrefix%",
+            "cardCountryCodePrefix": "%account.addresses.cardCountryCodePrefix%",
+            "productPrefix": "%account.addresses.productPrefix%",
+            "timeSepatator": "%account.addresses.timeSepatator%",
+            "timeFormat": "%account.addresses.timeFormat%",
+            "careOfAddressLabel": "%account.addresses.careOfAddressLabel%",
+            "streetAddressLabel": "%account.addresses.streetAddressLabel%",
+            "streetNumberLabel": "%account.addresses.streetNumberLabel%",
+            "entranceLabel": "%account.addresses.entranceLabel%",
+            "floorLabel": "%account.addresses.floorLabel%",
+            "suiteLabel": "%account.addresses.suiteLabel%",
+            "postalCodeLabel": "%account.addresses.postalCodeLabel%",
+            "postalPlaceLabel": "%account.addresses.postalPlaceLabel%",
+            "startTimeLabel": "%account.addresses.startTimeLabel%",
+            "startTimeRequired": "%account.addresses.startTimeRequired%",
+            "startTimeMin": "%account.addresses.startTimeMin%",
+            "endTimeLabel": "%account.addresses.endTimeLabel%",
+            "endTimeRequired": "%account.addresses.endTimeRequired%",
+            "endTimeMin": "%account.addresses.endTimeMin%",
+            "editButton": "%account.addresses.editButton%",
+            "saveButton": "%account.addresses.saveButton%",
+            "cancelButton": "%account.addresses.cancelButton%",
+            "addButton": "%account.addresses.addButton%",
+            "deleteButton": "%account.addresses.deleteButton%",
+            "streetAddressRequired": "%account.addresses.streetAddressRequired%",
+            "streetNumberRequired": "%account.addresses.streetNumberRequired%",
+            "postalCodeRequired": "%account.addresses.postalCodeRequired%",
+            "postalPlaceRequired": "%account.addresses.postalPlaceRequired%"
+        },
+        "emails": {
+            "emailLabel": "%account.emails.emailLabel%",
+            "primaryEmailLabel": "%account.emails.primaryEmailLabel%",
+            "deleteButton": "%account.emails.deleteButton%",
+            "addButton": "%account.emails.addButton%",
+            "saveButton": "%account.emails.saveButton%",
+            "cancelButton": "%account.emails.cancelButton%",
+            "editButton": "%account.emails.editButton%",
+            "emailRequired": "%account.emails.emailRequired%",
+            "emailPatternRequired": "%account.emails.emailPatternRequired%",
+            "emailUniqueRequired": "%account.emails.emailUniqueRequired%"
+        }
+    },
+    "subscriptions": {
+        "title": "%subscriptions.title%",
+        "empty": "%subscriptions.empty%",
+        "showButton": "%subscriptions.showButton%"
+    },
+    "subscription": {
+        "title": "%subscription.title%",
+        "deliveryAddressChangeButton": {
+            "name": "%subscription.deliveryAddressChangeButton.name%",
+            "visible": true,
+            "productCodes": [
+                "DBPE"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetTempButton": {
+            "name": "%subscription.deliveryAddressSetTempButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetStopButton": {
+            "name": "%subscription.deliveryAddressSetStopButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodChangeButton": {
+            "name": "%subscription.paymentMethodChangeButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodViewHistButton": {
+            "name": "%subscription.paymentMethodViewHistButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "registerComplaintButton": {
+            "name": "%subscription.registerComplaintButton.name%",
+            "visible": false,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "cancelSubscriptionButton": {
+            "name": "%subscription.cancelSubscriptionButton.name%",
+            "visible": false,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "temporaryAddressRemoveButton": {
+            "name": "%subscription.temporaryAddressRemoveButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "temporaryStopRemoveButton": {
+            "name": "%subscription.temporaryStopRemoveButton.name%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "showMembershipCardButton": {
+            "name": "%subscription.showMembershipCardButton.name%",
+            "visible": false,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSection": {
+            "title": "%subscription.deliveryAddressSection.title%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "printed"
+        },
+        "temporaryAddressSection": {
+            "title": "%subscription.temporaryAddressSection.title%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "printed"
+        },
+        "temporaryStopSection": {
+            "title": "%subscription.temporaryStopSection.title%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "printed"
+        },
+        "paymentMethodSection": {
+            "title": "%subscription.paymentMethodSection.title%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "billingAddressSection": {
+            "title": "%subscription.billingAddressSection.title%",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "activeStopDate": "%subscription.activeStopDate%",
+        "subscribedFrom": "%subscription.subscribedFrom%",
+        "paidUntil": "%subscription.paidUntil%",
+        "cancelDate": "%subscription.cancelDate%",
+        "tillNextIssue": "%subscription.tillNextIssue%",
+        "day": "%subscription.day%",
+        "days": "%subscription.days%",
+        "validTill": "%subscription.validTill%",
+        "creditCardIsNotSetUp": "%subscription.creditCardIsNotSetUp%",
+        "paymentHistory": {
+            "title": "%subscription.paymentHistory.title%",
+            "closeButton": "%subscription.paymentHistory.closeButton%"
+        },
+        "membershipCard": {
+            "title": "%subscription.membershipCard.title%",
+            "closeButton": "%subscription.membershipCard.closeButton%",
+            "printButton": "%subscription.membershipCard.printButton%"
+        },
+        "changePayment": {
+            "title": "%subscription.changePayment.title%",
+            "validTill": "%subscription.changePayment.validTill%",
+            "submitButton": "%subscription.changePayment.submitButton%",
+            "cancelButton": "%subscription.changePayment.cancelButton%",
+            "creditCardIsNotSetUp": "%subscription.changePayment.creditCardIsNotSetUp%",
+            "addCardButton": "%subscription.changePayment.addCardButton%",
+            "addIcon": "add"
+        },
+        "registerComplaint": {
+            "title": "%subscription.registerComplaint.title%",
+            "description": "%subscription.registerComplaint.description%",
+            "issueDateTitle": "%subscription.registerComplaint.issueDateTitle%",
+            "complaintReasonTitle": "%subscription.registerComplaint.complaintReasonTitle%",
+            "messageTitle": "%subscription.registerComplaint.messageTitle%",
+            "submitButton": "%subscription.registerComplaint.submitButton%",
+            "cancelButton": "%subscription.registerComplaint.cancelButton%",
+            "sentIcon": "done",
+            "sentText": "%subscription.registerComplaint.sentText%",
+            "sentButton": "%subscription.registerComplaint.sentButton%",
+            "issueDateRequired": "%subscription.registerComplaint.issueDateRequired%",
+            "complaintReasonRequired": "%subscription.registerComplaint.complaintReasonRequired%",
+            "forwardIssueTitle": "%subscription.registerComplaint.forwardIssueTitle%"
+        },
+        "changeDeliveryAddress": {
+            "title": "%subscription.changeDeliveryAddress.title%",
+            "streetAddressTitle": "%subscription.changeDeliveryAddress.streetAddressTitle%",
+            "streetAddressRequired": "%subscription.changeDeliveryAddress.streetAddressRequired%",
+            "streetNumberTitle": "%subscription.changeDeliveryAddress.streetNumberTitle%",
+            "streetNumberRequired": "%subscription.changeDeliveryAddress.streetNumberRequired%",
+            "postalCodeTitle": "%subscription.changeDeliveryAddress.postalCodeTitle%",
+            "postalCodeRequired": "%subscription.changeDeliveryAddress.postalCodeRequired%",
+            "postalPlaceTitle": "%subscription.changeDeliveryAddress.postalPlaceTitle%",
+            "postalPlaceRequired": "%subscription.changeDeliveryAddress.postalPlaceRequired%",
+            "careOfTitle": "%subscription.changeDeliveryAddress.careOfTitle%",
+            "entranceTitle": "%subscription.changeDeliveryAddress.entranceTitle%",
+            "floorTitle": "%subscription.changeDeliveryAddress.floorTitle%",
+            "sentIcon": "done",
+            "sentText": "%subscription.changeDeliveryAddress.sentText%",
+            "submitButton": "%subscription.changeDeliveryAddress.submitButton%",
+            "cancelButton": "%subscription.changeDeliveryAddress.cancelButton%",
+            "sentButton": "%subscription.changeDeliveryAddress.sentButton%"
+        },
+        "setTemporaryAddress": {
+            "title": "%subscription.setTemporaryAddress.title%",
+            "newAddressOption": "%subscription.setTemporaryAddress.newAddressOption%",
+            "selectAddressTitle": "%subscription.setTemporaryAddress.selectAddressTitle%",
+            "streetAddressTitle": "%subscription.setTemporaryAddress.streetAddressTitle%",
+            "streetAddressRequired": "%subscription.setTemporaryAddress.streetAddressRequired%",
+            "streetNumberTitle": "%subscription.setTemporaryAddress.streetNumberTitle%",
+            "streetNumberRequired": "%subscription.setTemporaryAddress.streetNumberRequired%",
+            "postalCodeTitle": "%subscription.setTemporaryAddress.postalCodeTitle%",
+            "postalCodeRequired": "%subscription.setTemporaryAddress.postalCodeRequired%",
+            "postalPlaceTitle": "%subscription.setTemporaryAddress.postalPlaceTitle%",
+            "postalPlaceRequired": "%subscription.setTemporaryAddress.postalPlaceRequired%",
+            "careOfTitle": "%subscription.setTemporaryAddress.careOfTitle%",
+            "entranceTitle": "%subscription.setTemporaryAddress.entranceTitle%",
+            "floorTitle": "%subscription.setTemporaryAddress.floorTitle%",
+            "startTimeTitle": "%subscription.setTemporaryAddress.startTimeTitle%",
+            "startTimeRequired": "%subscription.setTemporaryAddress.startTimeRequired%",
+            "startTimeMin": "%subscription.setTemporaryAddress.startTimeMin%",
+            "endTimeTitle": "%subscription.setTemporaryAddress.endTimeTitle%",
+            "endTimeMin": "%subscription.setTemporaryAddress.endTimeMin%",
+            "endTimeRequired": "%subscription.setTemporaryAddress.endTimeRequired%",
+            "addressExistsForPeriodError": "%subscription.setTemporaryAddress.addressExistsForPeriodError%",
+            "sentIcon": "done",
+            "sentText": "%subscription.setTemporaryAddress.sentText%",
+            "submitButton": "%subscription.setTemporaryAddress.submitButton%",
+            "cancelButton": "%subscription.setTemporaryAddress.cancelButton%",
+            "sentButton": "%subscription.setTemporaryAddress.sentButton%"
+        },
+        "setTemporaryDeliveryStop": {
+            "title": "%subscription.setTemporaryDeliveryStop.title%",
+            "selectTypeTitle": "%subscription.setTemporaryDeliveryStop.selectTypeTitle%",
+            "stopTypeOptions": [
+                {
+                    "value": "temporary",
+                    "label": "%subscription.setTemporaryDeliveryStop.stopTypeOptions.temporary.label%",
+                    "visible": true
+                },
+                {
+                    "value": "donation",
+                    "label": "%subscription.setTemporaryDeliveryStop.stopTypeOptions.donation.label%",
+                    "visible": true
+                },
+                {
+                    "value": "noDelivery",
+                    "label": "%subscription.setTemporaryDeliveryStop.stopTypeOptions.noDelivery.label%",
+                    "visible": true
+                }
+            ],
+            "stopTypeRequired": "%subscription.setTemporaryDeliveryStop.stopTypeRequired%",
+            "startTimeTitle": "%subscription.setTemporaryDeliveryStop.startTimeTitle%",
+            "startTimeRequired": "%subscription.setTemporaryDeliveryStop.startTimeRequired%",
+            "startTimeMin": "%subscription.setTemporaryDeliveryStop.startTimeMin%",
+            "endTimeTitle": "%subscription.setTemporaryDeliveryStop.endTimeTitle%",
+            "endTimeMin": "%subscription.setTemporaryDeliveryStop.endTimeMin%",
+            "endTimeRequired": "%subscription.setTemporaryDeliveryStop.endTimeRequired%",
+            "stopExistsForPeriodError": "%subscription.setTemporaryDeliveryStop.stopExistsForPeriodError%",
+            "sentIcon": "done",
+            "sentText": "%subscription.setTemporaryDeliveryStop.sentText%",
+            "submitButton": "%subscription.setTemporaryDeliveryStop.submitButton%",
+            "cancelButton": "%subscription.setTemporaryDeliveryStop.cancelButton%",
+            "sentButton": "%subscription.setTemporaryDeliveryStop.sentButton%"
+        }
+    },
+    "cards": {
+        "title": "%cards.title%",
+        "validTill": "%cards.validTill%",
+        "deleteButton": "%cards.deleteButton%",
+        "addButton": "%cards.addButton%",
+        "emptyCardList": "%cards.emptyCardList%"
+    },
+    "payments": {
+        "title": "Betalinger",
+        "filterMessage": "Søk etter betaling...",
+        "invoiceIcon": "file_download"
+    },
+    "privacy": {
+        "title": "%payments.title%",
+        "issuer": "ALLER",
+        "languageCode": "nb_NO",
+        "infoIcon": "error_outline",
+        "subjectType": "CONNECT",
+        "source": "SELFSERVICE",
+        "childConsentBehaviour": "hide",
+        "mainTab": {
+            "title": "MINE PERSONLIGE DATA",
+            "visible": true,
+            "generalInformationText": "I følge GDPR (the General Data Protection Regulation) har du rett til å vite hva ulike bedrifter vet om deg, inklusive informasjon du selv har gitt til dem og data som er samlet inn gjennom din aktivitet. Personopplysninger Aller Media samler er alle opplysninger og vurderinger som kan knyttes til deg som enkeltperson. Dette kan f.eks. være navn, bosted, epostadresse, kommunikasjon, kjøpshistorikk eller teknisk informasjon når du bruker våre nettjenester. Ønsker du å slette dine data eller få innsyn i hva vi lagrer om deg, send en mail til pvo@aller.com. Ved innsyn vil vi samle data vi har lagret om deg og pakke den i en Zip-fil. Denne vil du motta på din registrerte e-postadresse og innen 30 dager. Ønsker du å slette dine data vil dette bli utført innen 30 dager, du vil få en e-post til din registrerte e-postadresse innen 30 dager med bekreftelse på at dette er utført. Husk om du sletter data vi har samlet om deg vil du ikke beholde dine historiske data på blader fra Aller Media og/eller Dagbladet pluss, som du tidligere har abonnert på. For å kunne slette dine data må du ikke ha noen aktive abonnement hos Aller Media. Utestående gjeld eller betalinger er du fremdeles forpliktet til å betale. Vær oppmerksom på at vi beholder noen data for regnskapsformål.",
+            "downloadData": {
+                "visible": false,
+                "button": "%privacy.mainTab.downloadData.button%",
+                "text": "Aller Media gir vi deg muligheten til å laste ned data som vi har samlet om deg. Trykk på «LAST NED MINE DATA» og si ja til å sende en forespørsel. Dataen vi har samlet inn om deg pakker vi en zip-fil. Denne vil være klar for nedlastning innen 30 dager. Filen vil være tilgjengelig på Min Side i kort tid av sikkerhetsmessige årsaker. Deretter må du be om ny fil for nedlastning av data."
+            },
+            "deleteAccount": {
+                "visible": false,
+                "button": "%privacy.mainTab.deleteAccount.button%",
+                "text": "I følge GDPR (the General Data Protection Regulation) har du rett til og når som helst slette den informasjonen ulike bedrifter har om deg. Dette blir gjerne også kalt retten til å bli glemt. Les mer i vår personvernerklæring. For å slette dine data send en forespørsel til pov@aller.com. Husk om du sletter dataen vi har samlet om deg vil du ikke beholde dine historiske data på blader og eller Dagbladet pluss, som du tidligere har abonnert på. Vær oppmerksom på at vi beholder noen data for regnskapsformål. Les mer i vår personvernerklæring. For å kunne slette dine data må du ikke ha noen aktive abonnement hos Aller Media. Utestående gjeld eller betalinger er du fremdeles forpliktet til å betale. Om du sletter kontoen din mens du venter på filer til nedlastning, vil vi ikke kunne fullføre forespørselen din og dataene dine går tapt."
+            }
+        }
+    },
+    "contact": {
+        "title": "%contact.title%",
+        "message": {
+            "cardtitle": "%contact.message.cardtitle%",
+            "productTitle": "%contact.message.productTitle%",
+            "productRequired": "%contact.message.productRequired%",
+            "generalMessageOption": "%contact.message.generalMessageOption%",
+            "messageTitle": "%contact.message.messageTitle%",
+            "messageRequired": "%contact.message.messageRequired%",
+            "sendButton": "%contact.message.sendButton%",
+            "sentIcon": "done",
+            "sentTextBig": "%contact.message.sentTextBig%",
+            "sentTextSmall": "%contact.message.sentTextSmall%"
+        },
+        "support": {
+            "contactIcon": "people_outline",
+            "contactPhone": "21 30 12 20",
+            "contactText": "Ta kontakt med vårt kundesenter på telefon eller epost: abo.felles@aller.no"
+        }
+    }
+}

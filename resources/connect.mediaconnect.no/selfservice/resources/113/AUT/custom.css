@@ -1,0 +1,21 @@
+
+.not_logged_in .main { 
+  width:400px; 
+  background: url(cover.jpg) no-repeat 0px 20px;
+  padding-left:170px;  
+  background-size: 150px 200px;
+} 
+.not_logged_in .hoyreBanner { 
+  background: no-repeat url(autofil_kundeservice.png);  
+  width:205px; 
+  height:479px;
+}
+.not_logged_in .toppBanner {
+  background: no-repeat url(autofil_topp.png);
+  background-color:#333334;
+  height:39px;
+}
+.not_logged_in .linksTopRight { position:relative; top:5px; }
+.not_logged_in .linksTopRight A { color:white; }
+
+

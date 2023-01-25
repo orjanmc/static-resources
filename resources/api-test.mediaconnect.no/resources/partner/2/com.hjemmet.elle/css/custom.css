@@ -1,0 +1,38 @@
+/* Subscribe */
+
+@import url('../../common/css/common.css');
+@import url('../../common/fonts/fonts.css');
+
+.page {
+    background: #fafaf7 url(../img/bg-home.jpg) no-repeat 0 bottom;
+    background-size: cover;
+}
+
+input{
+    border-color: #C7C7C7;
+    background: #fafaf7;
+}
+
+.submitButton {
+    background: #232423;
+}
+
+.bodyHeader {
+    background: #232424 url(../img/logo.png) no-repeat center ;
+    background-size: 136px auto;
+}
+
+.bodyFooter {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-up.png) no-repeat 730px 20px;
+}
+
+.bodyFooter.open {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-down.png) no-repeat 730px 20px;
+}
+
+.bodyFooter p#openMe {
+    color: #6c074e;
+}
+
+.floatingText { text-shadow: 0 0 3px #fff; }
+

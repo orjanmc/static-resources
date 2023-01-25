@@ -1,0 +1,14 @@
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .toppBanner {
+  /*background: url(logo.jpg) no-repeat 1px 5px;*/
+  background: url(mb_logo.png) no-repeat 1px 5px;
+  height: 60px;
+  /* background: url(logo.gif) no-repeat 1px 5px; */
+  /* height:30px; */
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

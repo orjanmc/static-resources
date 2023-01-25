@@ -1,0 +1,19 @@
+.guiVersion2 body {
+    background-image: url(../img/wsport_background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guiVersion2 .button {
+    background-color: #1C7984 ! important;
+    padding: 12px 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: none;
+    border: none;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #D3EAE2 !important;
+}

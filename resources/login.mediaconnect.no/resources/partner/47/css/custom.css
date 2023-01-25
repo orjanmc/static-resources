@@ -1,0 +1,10 @@
+/*
+ * Custom CSS
+ */
+.guiVersion2 .loginFrame{
+    background-color: #faf9f7 ! important;
+ }
+
+.guiVersion2 .button{
+    background-color: #dc415a ! important;
+}

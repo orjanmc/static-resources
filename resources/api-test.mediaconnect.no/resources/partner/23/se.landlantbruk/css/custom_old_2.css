@@ -1,0 +1,18 @@
+
+
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+.acceptTermsLabel INPUT { margin-left:30px; }
+
+.customerNumberExplanation { margin: 1em 0; }
+
+
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: fbfbfb;
+}
+

@@ -1,0 +1,53 @@
+/* Subscribe */
+
+@import url('../../common/css/common.css');
+@import url('../../common/fonts/fonts.css');
+@import url('fonts/fonts.css');
+
+body {
+    color: #000000;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.page {
+    background: #fafaf7 url(../img/bg-home.jpg) no-repeat 0 bottom;
+    background-size: cover;
+}
+
+input{
+    border-color: #C7C7C7;
+    background: #fafaf7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.submitButton {
+    background: #faa61a;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bodyHeader {
+    background: #eff1f3 url(../img/logo.png) no-repeat center ;
+    background-size: auto 50px;
+}
+
+.heading{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bodyFooter {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-up.png) no-repeat 730px 20px;
+}
+
+.bodyFooter.open {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-down.png) no-repeat 730px 20px;
+}
+
+.bodyFooter p#openMe {
+    color: #000000;
+}
+
+.floatingText { text-shadow: 0 0 3px #fff; }
+

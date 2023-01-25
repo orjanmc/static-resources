@@ -1,0 +1,162 @@
+{
+  "changePaymentRedirectUrl": "https://api-test.mediaconnect.no/login/paymentChange",
+  "addTicketRedirectUrl": "https://api-test.mediaconnect.no/login/ticket/add",
+  "addPayExTokenRedirectUrl": "https://api-test.mediaconnect.no/login/payment/payex/token/add",
+  "changePasswordRedirectUrl": "https://api-test.mediaconnect.no/login/resetPassword",
+  "payInvoiceRedirectUrl": "https://api-test.mediaconnect.no/login/payment/invoice/pay",
+  "addVippsAgreementRedirectUrl": "https://api-test.mediaconnect.no/login/payment/vipps/agreement/add",
+  "addKlarnaTokenRedirectUrl": "https://api-test.mediaconnect.no/login/payment/klarna/token/add",
+  "paymentProvider": "DIBS",
+  "scriptsUrls": [
+    "assets/system/system.1.js"
+  ],
+  "scripts": [
+    {
+      "src": "assets/system/system_body_top.js",
+      "selector": "body",
+      "position": "top"
+    },
+    {
+      "src": "assets/system/system_modern.js",
+      "async": true
+    }
+  ],
+  "clientConfigUrl": {
+    "default": "api/client/config?clientId=default",
+    "selfservice.tun": "assets/tun/tun.config.json",
+    "selfservice.lrf": "assets/lrf/lrf.config.json",
+    "selfservice.aller": "api/client/config?clientId=selfservice.aller",
+    "selfservice.dagsavisen": "api/client/config?clientId=selfservice.dagsavisen",
+    "selfservice.dagen": "api/client/config?clientId=selfservice.dagen",
+    "selfservice.vl": "api/client/config?clientId=selfservice.vl",
+    "selfservice.rogalandsavis": "assets/rogaland/rogaland.config.json",
+    "selfservice.klartale": "assets/klartale/klartale.config.json",
+    "selfservice.egmont": "api/client/config?clientId=selfservice.egmont",
+    "selfservice.nordsjomedia": "assets/nordsjomedia/nordsjomedia.config.json",
+    "selfservice.morgenbladet": "api/client/config?clientId=selfservice.morgenbladet",
+    "selfservice.kondis": "assets/kondis/kondis.config.json",
+    "selfservice.dagenssamhalle": "assets/ds/ds.config.json",
+    "selfservice.medierogledelse": "assets/medierogledelse/ml.config.json",
+    "selfservice.dagogtid": "assets/dagogtid/dt.config.json",
+    "selfservice.budstikka": "assets/abb/abb.config.json",
+    "selfservice.mediaconnect": "assets/mediaconnect/mediaconnect.config.json",
+    "selfservice.fabas": "assets/fabas/fabas.config.json",
+    "selfservice.klassekampentest": "api/client/config?clientId=selfservice.klassekampentest",
+    "selfservice.klassekampen": "api/client/config?clientId=selfservice.klassekampen"
+  },
+  "messages": {
+    "default-message": {
+      "text": "An error has occurred in the application",
+      "color": "#d32f2f",
+      "duration": 0,
+      "button": null
+    },
+    "app-configClientError": {
+      "text": "An error occurred while loading client configuration",
+      "duration": 0
+    },
+    "app-configMessageError": {
+      "text": "An error occurred while loading message configuration",
+      "duration": 0
+    },
+    "app-configHeaderError": {
+      "text": "An error occurred while loading client header",
+      "duration": 0
+    },
+    "app-configFooterError": {
+      "text": "An error occurred while loading client footer",
+      "duration": 0
+    },
+    "proxyService-connectionError": {
+      "text": "An error occurred while connecting to the server",
+      "duration": 0
+    },
+    "authService-badParams": {
+      "text": "Bad parameters in OAuth callback response",
+      "duration": 0
+    },
+    "authService-badState": {
+      "text": "Incorrect parameter 'state' in OAuth callback response",
+      "duration": 0
+    },
+    "userService-emptyCustomerNumber": {
+      "text": "Empty customer number",
+      "duration": 0
+    },
+    "app-cardRemoveError": {
+      "text": "Removing card failed",
+      "duration": 10
+    },
+    "app-cardAddError": {
+      "text": "Adding card failed",
+      "duration": 10
+    },
+    "app-paymentChangeErrorUrl": {
+      "text": "Payment change failed",
+      "duration": 10
+    },
+    "app-paymentChangeResultFinished": {
+      "text": "Payment change succeeded",
+      "color": "#0097a7",
+      "duration": 10
+    },
+    "app-paymentChangeResultCancelled": {
+      "text": "Payment change cancelled",
+      "duration": 10
+    },
+    "app-paymentChangeResultFailed": {
+      "text": "Payment change failed",
+      "duration": 10
+    },
+    "app-paymentChangeResultUnknown": {
+      "text": "Payment change result unknown",
+      "duration": 10
+    },
+    "app-paymentChangeResultInitiated": {
+      "text": "Payment change initiated",
+      "duration": 10
+    },
+    "app-paymentChangeResultError": {
+      "text": "Payment change error",
+      "duration": 10
+    },
+    "app-changePasswordSuccessUrl": {
+      "text": "Change password succeeded",
+      "color": "#0097a7",
+      "duration": 10
+    },
+    "app-changePasswordErrorUrl": {
+      "text": "Change password failed",
+      "duration": 10
+    },
+    "app-addingCardResultFinished": {
+      "text": "Adding card succeeded",
+      "color": "#0097a7",
+      "duration": 10
+    },
+    "app-addingCardResultCancelled": {
+      "text": "Adding card cancelled",
+      "duration": 10
+    },
+    "app-addingCardResultFailed": {
+      "text": "Adding card failed",
+      "duration": 10
+    },
+    "app-addingCardResultUnknown": {
+      "text": "Adding card result unknown",
+      "duration": 10
+    },
+    "app-addingCardResultInitiated": {
+      "text": "Adding card initiated",
+      "duration": 10
+    },
+    "app-addingCardResultError": {
+      "text": "Adding card error",
+      "duration": 10
+    },
+    "app-addingCardErrorUrl": {
+      "text": "Adding card failed",
+      "duration": 10
+    }
+  }
+}

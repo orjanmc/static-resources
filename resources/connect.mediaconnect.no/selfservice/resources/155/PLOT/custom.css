@@ -1,0 +1,64 @@
+
+/*
+ * Logo øverst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.jpeg) no-repeat 1px 5px;
+  height:65px;
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+ 
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 57px;  background-size: 200px 80px; }
+
+
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Bestill, Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 57px;  background-size: 200px 80px; }
+
+
+ 
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 57px;  background-size: 200px 80px; }
+
+
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+/*
+ * Innlogget
+ */
+.logged_in .main { 
+  /*width:570px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px;
+} 
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 57px;  background-size: 200px 80px; }
+
+
+
+.logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

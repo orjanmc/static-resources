@@ -1,0 +1,12 @@
+
+/*
+ * Logo øverst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.gif) no-repeat 1px 5px;
+  height:125px;
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

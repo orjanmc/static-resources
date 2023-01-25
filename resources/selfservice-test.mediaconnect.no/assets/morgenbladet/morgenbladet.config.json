@@ -1,0 +1,1007 @@
+{
+    "title": "Morgenbladet Selvbetjening",
+    "favicon": "assets/morgenbladet/morgenbladet.favicon.ico",
+    "styleUrl": "assets/morgenbladet/morgenbladet.style.css",
+    "headerUrl": "assets/morgenbladet/morgenbladet.header.html",
+    "footerUrl": "assets/morgenbladet/morgenbladet.footer.html",
+    "backUrl": "https://www.mb.no/",
+    "backIcon": "exit_to_app",
+    "contrastIcon": "remove_red_eye",
+    "paymentProvider": "PayEx",
+    "messageConfig": {
+        "language": "nb_NO",
+        "url": "assets/messages.json"
+    },
+    "scriptsUrls": [
+      "assets/morgenbladet/set_copyright_year.js"
+    ],
+    "products": {
+        "all": true,
+        "productCodes": [
+          "MB",
+          "MBE"
+        ],
+        "companyCodes": [
+            "MBLADE"
+        ]
+    },
+    "productImages": {
+        "imageUrlPattern": "https://connect.mediaconnect.no/selfservice/resources/114/{product}/cover.jpg",
+        "imageUrls": [
+            {
+                "product": "MB",
+                "url": "https://morgenbladet.no/sites/default/files/styles/large/public/mb_2018-08-17_1.jpg?itok=oeqFlJlL"
+            }
+        ]
+    },
+
+    "membershipCards": {
+        "urlPattern": "assets/{product}/member.card.html",
+        "textHeader": "Membership Card",
+        "textBlock": "description text",
+        "validTill": "year/date",
+        "cards": [
+            {
+                "product": "NAT",
+                "url": "assets/default.member.card.html",
+                "textHeader": "Membership Card",
+                "textBlock": "10% discount on cinema tickets",
+                "validTill": "2017"
+            }
+        ]
+    },
+    "cardTypes": [
+        {
+            "cardTypeName": "VISA",
+            "url": "assets/visa.png"
+        },
+        {
+            "cardTypeName": "MasterCard",
+            "url": "assets/master.png"
+        }
+    ],
+    "paymentMethods": [
+        {
+            "paymentMethod": "invoice",
+            "icon": "format_list_bulleted",
+            "description": "Faktura"
+        },
+        {
+            "paymentMethod": "eInvoice",
+            "icon": "get_app",
+            "description": "E-Faktura"
+        },
+        {
+            "paymentMethod": "autoGiro",
+            "icon": "payment",
+            "description": "Avtalegiro"
+        },
+        {
+            "paymentMethod": "recurringPayment",
+            "icon": "payment",
+            "description": "Gjentagende trekk"
+        }
+    ],
+    "invoicePaymentMethod": {
+        "A": "Fakturabetaling",
+        "B": "Avtalegiro",
+        "C": "Kreditkort",
+        "D": "E-Faktura",
+        "E": "Automatisk E-Faktura",
+        "F": "Gjentagende trekk kredittkort",
+        "G": "Gjentagende trekk SMS",
+        "H": "Gjentagende trekk Vipps",
+        "I": "Gjentagende trekk Klarna",
+        "J": "Gjentagende trekk Payex"
+      },
+    "messages": {
+        "default-message": {
+            "text": "En feil har oppstått i applikasjonen",
+            "color": "#d32f2f",
+            "duration": 0,
+            "button": null
+        },
+        "app-configHeaderError": {
+            "text": "En feil har oppstått ved lasting av topptekst",
+            "duration": 0
+        },
+        "app-cardAddError": {
+          "duration": 10,
+          "text": "%messages.app-cardAddError.text%"
+        },
+        "app-cardRemoveError": {
+          "duration": 10,
+          "text": "%messages.app-cardRemoveError.text%"
+        },
+        "app-paymentInvoiceErrorUrl": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceErrorUrl.text%"
+        },
+        "app-paymentInvoiceResultCancelled": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultCancelled.text%"
+        },
+        "app-paymentInvoiceResultError": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultError.text%"
+        },
+        "app-paymentInvoiceResultFailed": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultFailed.text%"
+        },
+        "app-paymentInvoiceResultFinished": {
+            "color": "#0097a7",
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultFinished.text%"
+        },
+        "app-paymentInvoiceResultInitiated": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultInitiated.text%"
+        },
+        "app-paymentInvoiceResultUnknown": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultUnknown.text%"
+        },
+        "app-configFooterError": {
+            "text": "En feil har oppstått ved lasting av bunntekst",
+            "duration": 0
+        },
+        "app-loginCustomerEmpty": {
+            "text": "Du er ikke tilknyttet en abonnent. Trykk på ikonet for å fullføre.",
+            "duration": 0
+        },
+        "proxyService-connectionError": {
+            "text": "En feil har oppstått ved tilkobling til serveren",
+            "duration": 0
+        },
+        "userService-emptyCustomerNumber": {
+            "text": "Manglende kundenummer !!!",
+            "duration": 0
+        },
+        "profile-saveSuccess": {
+            "text": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "app-contactMessageEmailEmpty": {
+                            "text": "Vennligst gå til 'MIN PROFIL' og registrer din e-post, vi trenger denne for å svare deg",
+                            "duration": 10
+                },
+        "address-saveSuccess": {
+            "text": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "address-deleteSuccess": {
+            "text": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "account_delete_success": {
+            "text": "Din forespørsel om å slette dine data ble akseptert.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "data_download_success": {
+            "text": "Din forespørsel om å laste ned dine data ble akseptert.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "app-changePasswordErrorUrl": {
+       "text": "Noe gikk galt, prøv igjen eller kontakt oss for hjelp",
+       "duration": 10
+        },
+        "app-changePasswordSuccessUrl": {
+       "text": "Passord er endret",
+       "color": "#0097a7",
+       "duration": 10
+        }
+    },
+    "dialogs": {
+        "send-message": {
+            "icon": "warning",
+            "textBold": "Vi du sende meldingen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "cancel-subscription": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil stoppe abonnementet?",
+            "textNormal": "Vi vil fortsette å belaste kortet ditt ut nåværende abonnementsperiode. Ditt abonnement vil bli avsluttet etter dette.",
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "save-temporary-address": {
+            "icon": "warning",
+            "textBold": "Lagre ny midlertidig adresse? Følgende utgaver blir levert på ny adresse",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "save-delivery-stop": {
+            "icon": "warning",
+            "textBold": "Lagre ny midlertidig stopp? Følgende utgaver blir stoppet",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "save-profile": {
+            "icon": "warning",
+            "textBold": "Vil du lagre endringene på profilen din?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-card": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil fjerne kortet?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "save-address": {
+            "icon": "warning",
+            "textBold": "Vil du lagre endringene på adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "save-email": {
+            "icon": "warning",
+            "textBold": "Vil du lagre epost-adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-address": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil fjerne adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-temporary-address": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil fjerne den midlertidige adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-temporary-stop": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil fjerne midliertidige stoppen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-email": {
+            "icon": "warning",
+            "textBold": "Er du sikker på at du vil fjerne epostadressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "delete-account": {
+            "icon": "warning",
+            "textBold": "Vil du slette dine data?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "download-data": {
+            "icon": "warning",
+            "textBold": "Vil du laste ned dine data?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEI"
+        },
+        "change-password": {
+         "icon": "warning",
+         "textBold": "Er du helt sikker på at du vil endre ditt passord?",
+         "textNormal": null,
+         "buttonTrue": "JA",
+         "buttonFalse": "NEI"
+       },
+       "send-complaint": {
+        "icon": "warning",
+        "textBold": "Er du helt sikker på at du vil sende klage?",
+        "textNormal": null,
+        "buttonTrue": "JA",
+        "buttonFalse": "NEI"
+      },
+      "restore-subscription": {
+        "icon": "warning",
+        "textBold": "Vil du gjenoppta abonnementet?",
+        "textNormal": null,
+        "buttonTrue": "JA",
+        "buttonFalse": "NEI"
+      }
+
+    },
+    "login": {
+        "customerUrl": "https://api-test.mediaconnect.no/login/register?clientId=selfservice.morgenbladet&errorUrl=https://selfservice-test.mediaconnect.no/&returnUrl=https://selfservice-test.mediaconnect.no/&abortUrl=https://selfservice-test.mediaconnect.no/",
+        "customerIcon": "account_box"
+    },
+    "menu": {
+
+      "customerNumberInfo": {
+          "label": "Kundenummer",
+          "separator": ":"
+      },
+      "logoutButton": {
+            "name": "LOGG UT",
+            "icon": "arrow_forward"
+        },
+        "home": {
+            "name": "HJEM",
+            "icon": "home",
+            "visible": true
+        },
+        "subscriptions": {
+            "name": "ABONNEMENT",
+            "icon": "import_contacts",
+            "visible": true
+        },
+        "account": {
+            "name": "MIN PROFIL",
+            "icon": "person_outline",
+            "visible": true
+        },
+        "cards": {
+            "name": "MINE KORT",
+            "icon": "credit_card",
+            "visible": true
+        },
+        "payments": {
+            "name": "FAKTURA",
+            "icon": "format_list_bulleted",
+            "visible": true
+        },
+        "privacy": {
+            "name": "PERSONVERN",
+            "icon": "lock_outline",
+            "visible": true
+        },
+        "contact": {
+            "name": "KONTAKT KUNDESENTER",
+            "icon": "chat_bubble_outline",
+            "visible": true
+          },
+          "complaint": {
+              "name": "REKLAMASJON",
+              "icon": "chat_bubble_outline",
+              "visible": true
+          },
+          "faq": {
+              "name": "SPØRSMÅL OG SVAR",
+              "icon": "help_outline",
+              "visible": true
+        }
+    },
+    "faq": {
+        "title": "Lurer du på noe? Her finner du de oftest stilte spørsmålene",
+        "sections": [
+            {
+                "name": "SPØRSMÅL OM BETINGELSER",
+                "files": [
+                    "assets/morgenbladet/faq1.json"
+                ]
+            },
+            {
+                "name": "ANDRE SPØRSMÅL",
+                "files": [
+                    "assets/morgenbladet/faq3.json"
+                ]
+            }
+        ]
+    },
+    "complaint": {
+        "title": "REGISTRER KLAGE",
+        "description": "Vennligst oppgi informasjon om din klage",
+        "productTitle": "Velg produkt",
+        "productRequired": "Produkt må velges",
+        "issueDateTitle": "Velg utgave",
+        "complaintReasonTitle": "Klageårsak",
+        "messageTitle": "Kommentar:",
+        "submitButton": "SEND INN",
+        "sentIcon": "done",
+        "issueDateRequired": "Utgave må velges%",
+        "complaintReasonRequired": "Klageårsak må velges",
+        "forwardIssueTitle": "Ettersend utgaven",
+        "sentTextBig": "Klage er sendt",
+        "sentTextSmall": "bla bla bla bla"
+      },
+    "account": {
+        "title": "Min profil",
+        "tabs": [
+            {
+                "id": "profileTab",
+                "title": "PROFIL",
+                "visible": true
+            },
+            {
+                "id": "addressesTab",
+                "title": "ADRESSER",
+                "visible": true
+            },
+            {
+                "id": "paymentMethodsTab",
+                "title": "BETALINGSMÅTER",
+                "visible": true
+            },
+            {
+                "id": "emailsTab",
+                "title": "EPOSTADRESSER",
+                "generalInformationText": "Legg til eller endre epostadressen på ditt kundekort.",
+                "visible": true
+            }
+        ],
+        "profile": {
+            "firstNameLabel": "Fornavn",
+            "middleNameLabel": "Mellomnavn",
+            "lastNameLabel": "Etternavn",
+            "homePhoneNumberLabel": "Telefonnummer",
+            "mobilePhoneNumberLabel": "Mobilnummer",
+            "saveButton": "LAGRE",
+            "cancelButton": "AVBRYT",
+            "lastNameRequired": "Etternavn er påkrevet",
+            "changePasswordButton": "ENDRE PASSORD"
+        },
+        "addresses": {
+            "editAddressTitle": "Endre adresse",
+            "cardCareOfAddressPrefix": "C/O: ",
+            "cardStreetAddressPrefix": "",
+            "cardEntrancePrefix": " ",
+            "cardFloorPrefix": " ",
+            "cardSuitePrefix": " / ",
+            "cardCountryCodePrefix": ", ",
+            "productPrefix": "Produkt: ",
+            "timeSepatator": " - ",
+            "timeFormat": "M/d/y",
+            "careOfAddressLabel": "C/O",
+            "streetAddressLabel": "Gatenavn",
+            "streetNumberLabel": "Gatenummer",
+            "entranceLabel": "Inngang",
+            "floorLabel": "Etasje",
+            "suiteLabel": "Leilighet",
+            "postalCodeLabel": "Postnummer",
+            "postalPlaceLabel": "Poststed",
+            "countryCodeLabel": "Landskode",
+            "startTimeLabel": "Startdato",
+            "startTimeRequired": "Startdato er påkrevet",
+            "startTimeMin": "Startdato må være senere enn dagens dato",
+            "endTimeLabel": "Stoppdato",
+            "endTimeRequired": "Stoppdato er påkrevet",
+            "endTimeMin": "Stoppdato må være senere enn dagens dato",
+            "editButton": "ENDRE",
+            "saveButton": "LAGRE",
+            "cancelButton": "AVBRYT",
+            "addButton": "LEGG TIL ADRESSE",
+            "deleteButton": "FJERN DENNE ADRESSEN",
+            "streetAddressRequired": "Gatenavn er påkrevet",
+            "streetNumberRequired": "Gatenummer er påkrevet",
+            "postalCodeRequired": "Postnummer er påkrevet",
+            "postalPlaceRequired": "Poststed er påkrevet",
+            "countryCodeRequired": "Landskode er påkrevet"
+        },
+        "emails": {
+            "emailLabel": "Epostadresser",
+            "primaryEmailLabel" : "Primær epostadresse",
+            "deleteButton": "FJERNE",
+            "addButton": "LEGG TIL EPOSTADRESSE",
+            "saveButton": "LAGRE",
+            "cancelButton": "AVBRYT",
+            "editButton": "ENDRE",
+            "emailRequired": "Epostadresse er påkrevet",
+
+            "emailPatternRequired": "Vennligst skriv inn en gyldig epostadresse",
+            "emailUniqueRequired": "Epostadresse finnes fra før"
+        }
+    },
+    "subscriptions": {
+        "title": "Abonnement",
+        "empty": "Ingen aktive abonnement finnes",
+        "showButton": "VIS DETALJER"
+    },
+    "subscription": {
+        "title": "Abonnement",
+        "activeStopDate": "Abonnement er stoppet",
+        "activePermanentStopDate": "Abonnement stoppes",
+        "activeTemporaryStopDate": "Abonnement har blitt midlertidig stoppet",
+        "deliveryAddressChangeButton": {
+            "name": "ENDRE",
+            "visible": true,
+            "productCodes": ["*"],
+            "productKind": "*"
+        },
+        "restoreSubscriptionButton": {
+            "name": "Kansellere stopp",
+            "visible": true,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetTempButton": {
+            "name": "MIDL. ADRESSE",
+            "visible": true,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetStopButton": {
+            "name": "MIDL. STOPP",
+            "visible": true,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodChangeButton": {
+            "name": "ENDRE",
+            "visible": true,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodViewHistButton": {
+            "name": "VIS BETALINGSHISTORIKK",
+            "visible": true,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "registerComplaintButton": {
+            "name": "REGISTRER KLAGE",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "cancelSubscriptionButton": {
+            "name": "STOPP ABONNEMENT",
+            "visible": false,
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*"
+        },
+        "temporaryAddressRemoveButton": {
+            "name": "FJERNE",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "temporaryStopRemoveButton": {
+            "name": "FJERNE",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "showMembershipCardButton": {
+            "name": "MEDLEMSKORT",
+            "visible": false,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSection": {
+            "title": "Leveringsadresse",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "temporaryAddressSection": {
+            "title": "Midlertidig leveringsadresse",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "temporaryStopSection": {
+            "title": "Midlertidig leveringsstopp",
+            "visible": true,
+            "productCodes": [
+                "MB"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodSection": {
+            "title": "Betalingsmetode",
+            "visible": true,
+            "productCodes": [
+                "MB", "MBE"
+            ],
+            "productKind": "*"
+        },
+        "billingAddressSection": {
+            "title": "Fakturaadresse",
+            "visible": true,
+            "productCodes": [
+                "MB", "MBE"
+            ],
+            "productKind": "*"
+        },
+        "subscribedFrom": "Abonnement fra",
+        "paidUntil": "periode til",
+        "cancelDate": "Stoppdato",
+        "tillNextIssue": "til neste utgave",
+        "day": "dag",
+        "days": "dager",
+        "validTill": "Gyldig til",
+        "creditCardIsNotSetUp": "Ditt kredittkort er ikke registrert",
+        "paymentHistory": {
+            "title": "Betalingshistorikk",
+            "closeButton": "LUKK"
+        },
+        "membershipCard": {
+            "title": "Fordeler",
+            "closeButton": "LUKK",
+            "printButton": "SKRIV UT"
+        },
+        "changePayment": {
+            "title": "Endre din betalingsmetode",
+            "validTill": "Gyldig til",
+            "submitButton": "SEND INN",
+            "cancelButton": "AVBRYT",
+            "creditCardIsNotSetUp": "Ditt kredittkort er ikke registrert",
+            "addCardButton": "LEGG TIL NYTT KORT",
+            "addIcon": "add"
+        },
+        "changeSubscription": {
+            "cancelButton": "%subscription.changeSubscription.cancelButton%",
+            "changePeriodTitle": "%subscription.changeSubscription.changePeriodTitle%",
+            "changeProductTitle": "%subscription.changeSubscription.changeProductTitle%",
+            "messageTitle": "%subscription.changeSubscription.messageTitle%",
+            "periodOptions": [
+                {
+                    "label": "1 måned 149kr/måned",
+                    "productCodes": [
+                        "MB"
+                    ],
+                    "value": "1M_149NOK/M",
+                    "visible": true
+                },
+                {
+                    "label": "3 måneder 559kr",
+                    "productCodes": [
+                        "MB"
+                    ],
+                    "value": "3M_559NOK/M",
+                    "visible": true
+                }
+            ],
+            "periodRequired": "%subscription.changeSubscription.periodRequired%",
+            "periodTitle": "%subscription.changeSubscription.periodTitle%",
+            "productOptions": [
+                {
+                    "label": "Morgenbladet Lørdag - kr.149/mnd",
+                    "productCodes": [
+                        "MB"
+                    ],
+                    "value": "MBE",
+                    "visible": true
+                },
+                {
+                    "label": "Morgenbladet på nett - kr.559/mnd",
+                    "productCodes": [
+                        "mb"
+                    ],
+                    "value": "MBE",
+                    "visible": true
+                }
+            ],
+            "productRequired": "%subscription.changeSubscription.productRequired%",
+            "productTitle": "%subscription.changeSubscription.productTitle%",
+            "sentButton": "%subscription.changeSubscription.sentButton%",
+            "sentIcon": "done",
+            "sentText": "%subscription.changeSubscription.sentText%",
+            "submitButton": "%subscription.changeSubscription.submitButton%",
+            "title": "%subscription.changeSubscription.title%"
+        },
+        "changeSubscriptionButton": {
+            "name": "%subscription.changeSubscriptionButton.name%",
+            "productCodes": [
+                "*"
+            ],
+            "productKind": "*",
+            "visible": true
+        },
+        "registerComplaint": {
+            "title": "Registrer klage",
+            "description": "Vennligst oppgi informasjon om din klage.",
+            "issueDateTitle": "Utgivelsesdato",
+            "complaintReasonTitle": "Klageårsak",
+            "messageTitle": "Din melding",
+            "submitButton": "SEND INN",
+            "cancelButton": "AVBRYT",
+            "sentIcon": "done",
+            "sentText": "Klagen er registrert",
+            "sentButton": "OK",
+            "issueDateRequired": "Utgivelsesdato er påkrevet",
+            "complaintReasonRequired": "Klageårsak er påkrevet",
+            "forwardIssueTitle": "Ettersend utgaven"
+        },
+        "changeDeliveryAddress": {
+            "title": "Endre leveringsadresse",
+            "streetAddressTitle": "Gatenavn",
+            "streetAddressRequired": "Gatenavn er påkrevet",
+            "streetNumberTitle": "Gatenummer",
+            "streetNumberRequired": "Gatenummer er påkrevet",
+            "postalCodeTitle": "Postnummer",
+            "postalCodeRequired": "Postnummer er påkrevet",
+            "postalPlaceTitle": "Poststed",
+            "postalPlaceRequired": "Poststed er påkrevet",
+            "careOfTitle": "C/O",
+            "entranceTitle": "Inngang",
+            "floorTitle": "Etasje",
+            "sentIcon": "done",
+            "sentText": "Adressen er oppdatert",
+            "submitButton": "SEND INN",
+            "cancelButton": "AVBRYT",
+            "sentButton": "OK"
+        },
+        "setTemporaryAddress": {
+            "title": "Registrer midlertidig adresse",
+            "newAddressOption": "Ny adresse",
+            "selectAddressTitle": "Velg adresse",
+            "streetAddressTitle": "Gatenavn",
+            "streetAddressRequired": "Gatenavn er påkrevet",
+            "streetNumberTitle": "Gatenummer",
+            "streetNumberRequired": "Gatenummer er påkrevet",
+            "postalCodeTitle": "Postnummer",
+            "postalCodeRequired": "Postnummer er påkrevet",
+            "postalPlaceTitle": "Poststed",
+            "postalPlaceRequired": "Poststed er påkrevet",
+            "careOfTitle": "C/O",
+            "entranceTitle": "Inngang",
+            "floorTitle": "Etasje",
+            "startTimeTitle": "Startdato",
+            "startTimeRequired": "Startdato er påkrevet",
+            "startTimeMin": "Startdato må være senere enn dagens dato",
+            "endTimeTitle": "Stoppdato",
+            "endTimeMin": "Stoppdato må være senere enn startdato",
+            "endTimeRequired": "Stoppdato er påkrevet",
+            "firstChangeDate": "Første mulige endringsdato",
+            "firstChangeIssue": "%subscription.setTemporaryAddress.firstChangeIssue%",
+            "addressExistsForPeriodError": "Midlertidig adresse finnes for denne perioden",
+            "issueNotExistsForPeriodError": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg",
+            "sentIcon": "done",
+            "sentText": "Adresse opprettet",
+            "submitButton": "SEND INN",
+            "cancelButton": "AVBRYT",
+            "sentButton": "OK"
+        },
+        "setTemporaryDeliveryStop": {
+            "title": "Registrer midlertidig stopp i levering",
+            "selectTypeTitle": "VELG STOPPTYPE",
+            "stopTypeOptions": [
+                {
+                    "value": "temporary",
+                    "label": "Midlertidig stopp av abonnement",
+                    "visible": false
+                },
+                {
+                    "value": "donation",
+                    "label": "Gi bort avisen til en institusjon",
+                    "visible": true
+                },
+                {
+                    "value": "noDelivery",
+                    "label": "Stopp, men behold digital tilgang",
+                    "visible": true
+                },
+                {
+                    "value": "storing",
+                    "label": "Oppsamling og ettersending av avisene ",
+                    "visible": true
+                }
+
+            ],
+            "stopTypeRequired": "Stopptype er påkrevet",
+            "startTimeTitle": "Start dato",
+            "startTimeRequired": "Start dato er påkrevet",
+            "startTimeMin": "Start dato må være etter dagens dato",
+            "endTimeTitle": "Til dato",
+            "endTimeMin": "Til dato må være etter start dato",
+            "endTimeRequired": "Til dato er påkrevet",
+            "firstChangeIssue": "Endring vil være aktiv for utgave",
+            "firstChangeDate": "Første mulige endringsdato",
+            "stopExistsForPeriodError": "Midlertidig stopp av levering finnes for denne perioden",
+            "issueNotExistsForPeriodError":"Utgaver i periode er allerede på vei til deg",
+            "sentIcon": "done",
+            "sentText": "Midlertidig stopp av levering er opprettet",
+            "submitButton": "SEND INN",
+            "cancelButton": "AVBRYT",
+            "sentButton": "OK"
+        }
+    },
+    "changeTemporaryAddress": {
+      "firstChangeDate": "Første mulig dato for endring",
+      "firstChangeIssue": "%subscription.changeTemporaryAddress.firstChangeIssue%"
+    },
+    "cards": {
+        "addButton": {
+            "name": "LEGG TIL KORT",
+            "visible": false
+        },
+        "deleteButton": {
+            "name": "TA BORT KORT",
+            "visible": true
+        },
+        "emptyCardList": "Ingen kredittkort registrert",
+        "product": "*",
+        "title": "Mine kort",
+        "validTill": "Gydlig til"
+        },
+    "payments": {
+        "title": "Faktura og betalinger",
+        "filterMessage": "Søk etter faktura...",
+        "invoiceIcon": "file_download",
+        "payButton": "%payments.payButton%",
+        "paymentIcon": "payment",
+        "productType": ["*"],
+        "period": "3Y"
+    },
+    "invoicePaymentStatus": {
+     "cancelled": "%invoicePaymentStatus.cancelled%",
+     "dunned": "%invoicePaymentStatus.dunned%",
+     "invoiced": "%invoicePaymentStatus.invoiced%",
+     "notInvoiced": "%invoicePaymentStatus.notInvoiced%",
+     "paid": "%invoicePaymentStatus.paid%"
+    },
+    "privacy": {
+        "title": "Personvern",
+        "issuer": "MB",
+        "languageCode": "nb_NO",
+        "infoIcon": "help_outline",
+        "subjectType": "CONNECT",
+        "source": "SELFSERVICE",
+        "childConsentBehaviour": "hide",
+        "mainTab": {
+            "title": "GENERELT",
+            "visible": true,
+            "generalInformationText": "Vennligst se personvernerklæring for Morgenbladet og tilknyttede digitale publikasjoner og tjenester på https://morgenbladet.no/personvern/personvernerklaering. På våre digitale løsninger bruker vi informasjonskapsler, såkalte cookies. For nærmere informasjon, se https://morgenbladet.no/personvern/informasjonskapsler.",
+            "downloadData": {
+                "visible": true,
+                "button": "LAST NED MINE DATA",
+                "text": "Your data stored in our service is available to you at any time. By clicking this button we will create an archive of our personal data as well as information we have on your subscription products."
+            },
+            "deleteAccount": {
+                "visible": true,
+                "button": "SLETT MINE DATA",
+                "text": "You have the option to be forgotten by us, and can at any time delete your account by clicking this button. Before we permanently delete your data, we will place your account in quarantine for 90 days. During this period, you may cancel the deletion and your data will be restored. You can not delete your account if you have any active subscriptions."
+              }
+          }
+      },
+      "consentGroups": [
+        {
+        "consentGroupId": 0,
+        "selectionOrder": 2
+        },
+        {
+        "consentGroupId": 1,
+        "selectionOrder": 0
+        },
+        {
+        "consentGroupId": 2,
+        "selectionOrder": 1
+        },
+        {
+        "consentGroupId": 3,
+        "selectionOrder": 3
+        },
+        {
+        "consentGroupId": 4,
+        "selectionOrder": 4
+        }
+      ],
+      "consentGroupsTabs": [
+        {
+        "consentGroupIds": [1,2],
+        "name": "MINE INNSTILLINGER"
+        }
+      ],
+    "contact": {
+        "title": "Kundesenter",
+        "message": {
+            "cardtitle": "Skriv en melding",
+            "productTitle": "Produkt",
+            "productRequired": "Produkt er påkrevet",
+            "generalMessageOption": "Generelt spørsmål",
+            "messageTitle": "Din melding",
+            "messageRequired": "Melding er påkrevet",
+            "sendButton": "SEND INN",
+            "sentIcon": "done",
+            "sentTextBig": "Takk for din forespørsel",
+            "sentTextSmall": "Vi vil sende deg svar til din epostadresse så raskt som mulig",
+            "subjectTitle": "%contact.message.subjectTitle%",
+           "subjectRequired": "%contact.message.subjectRequired%",
+           "subjectOptions": [
+               {
+                   "value": "payment",
+                   "label": "%contact.message.subjectOptions.payment.label%",
+                   "visible": false,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "leveranse",
+                   "label": "Leveranse",
+                   "visible": true,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "generell",
+                   "label": "Generell henvendelse",
+                   "visible": true,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "velkomstgave",
+                   "label": "Velkomstgave",
+                   "visible": true,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "complaint",
+                   "label": "%contact.message.subjectOptions.complaint.label%",
+                   "visible": false,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "oppsigelse",
+                   "label": "Oppsigelse",
+                   "visible": true,
+                   "productCodes": [
+                       "*"
+                   ]
+               },
+               {
+                   "value": "membershipCard",
+                   "label": "%contact.message.subjectOptions.membershipCard.label%",
+                   "visible": false,
+                   "productCodes": [
+                       "*"
+                   ]
+               }
+           ]
+        },
+        "support": {
+            "contactIcon": "people_outline",
+            "contactPhone": "23339180",
+            "contactText": "Ta kontakt med vårt kundesenter"
+          },
+          "imageUrl": {
+                "desktop": "assets/morgenbladet/img/typewriter.jpeg",
+                "mobile": "assets/morgenbladet/img/typewriter.jpeg"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+/* Subscribe */
+
+@import url('../../common/css/common.css');
+@import url('../../common/fonts/fonts.css');
+
+body, .heading, .floatingText a, .floatingText a:visited, .bodyFooter p#openMe {
+    color: #ffffff;
+}
+
+.page {
+    background: #fafaf7 url(../img/bg-home.jpg) no-repeat 0 bottom;
+}
+
+input{
+    border-color: #7f7f7f;
+    background: #ffffff;
+}
+
+.submitButton {
+    border: 1px solid #7f7f7f;
+    background: #bfc1c3;
+}
+
+.bodyHeader {
+    background: #e199b1 url(../img/logo.png) no-repeat center ;
+    background-size: 136px auto;
+}
+
+.bodyFooter {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-up.png) no-repeat 730px 20px;
+}
+
+.bodyFooter.open {
+    background: rgba(255, 255, 255, .5) url(../img/faq-arrow-down.png) no-repeat 730px 20px;
+}
+
+.floatingText { text-shadow: 0 0 3px #000; }
+

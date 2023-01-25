@@ -1,0 +1,4 @@
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(cover.jpg) no-repeat 1px 10px; padding-left:200px; }

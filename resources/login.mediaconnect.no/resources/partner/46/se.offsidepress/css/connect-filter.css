@@ -1,0 +1,528 @@
+/* Nya stilar fÃ¶r order-modulen */
+#sequence-login #state-1 .logoDiv,
+#sequence-login #state-4 .logoDiv,
+#sequence-login #state-5 .logoDiv,
+#sequence-login #state-6 .logoDiv,
+#sequence-login #state-23 .logoDiv,
+#sequence-resetPassword #state-4 .logoDiv,
+#sequence-resetPassword #state-5 .logoDiv,
+#sequence-resetPassword #state-6 .logoDiv,
+#sequence-resetPassword #state-23 .logoDiv,
+#sequence-confirmAccess .logoDiv  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  border-bottom: 2px solid #e1ab99;
+}
+
+#sequence-login #state-1 .logoDiv img.logo,
+#sequence-login #state-4 .logoDiv img.logo,
+#sequence-login #state-5 .logoDiv img.logo,
+#sequence-login #state-6 .logoDiv img.logo,
+#sequence-login #state-23 .logoDiv img.logo,
+#sequence-resetPassword #state-4 .logoDiv img.logo,
+#sequence-resetPassword #state-5 .logoDiv img.logo,
+#sequence-resetPassword #state-6 .logoDiv img.logo,
+#sequence-resetPassword #state-23 .logoDiv img.logo,
+#sequence-confirmAccess .logoDiv img.logo {
+  height: 100%;
+  max-height: 30px;
+  margin: 10px 0 0 0;
+}
+
+#sequence-login #state-1 .headingColumn,
+#sequence-login #state-4 .headingColumn,
+#sequence-login #state-5 .headingColumn,
+#sequence-login #state-6 .headingColumn,
+#sequence-login #state-23 .headingColumn,
+#sequence-resetPassword #state-4 .headingColumn,
+#sequence-resetPassword #state-5 .headingColumn,
+#sequence-resetPassword #state-6 .headingColumn,
+#sequence-resetPassword #state-23 .headingColumn {
+  border: none !important;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#sequence-login #state-1 .headingColumn .heading,
+#sequence-login #state-4 .headingColumn .heading,
+#sequence-login #state-5 .headingColumn .heading,
+#sequence-login #state-6 .headingColumn .heading,
+#sequence-login #state-23 .headingColumn .heading,
+#sequence-resetPassword #state-4 .headingColumn .heading,
+#sequence-resetPassword #state-5 .headingColumn .heading,
+#sequence-resetPassword #state-6 .headingColumn .heading,
+#sequence-resetPassword #state-23 .headingColumn .heading {
+  visibility: hidden;
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+
+#sequence-login #state-23 #setPasswordHeaderInfoDiv,
+#sequence-resetPassword #state-23 #setPasswordHeaderInfoDiv {
+  display: none;
+}
+
+#sequence-login #state-1 .headingColumn .heading::before,
+#sequence-login #state-1 .headingColumn .heading::after,
+#sequence-login #state-4 .headingColumn .heading::before,
+#sequence-login #state-4 .headingColumn .heading::after,
+#sequence-login #state-5 .headingColumn .heading::before,
+#sequence-login #state-5 .headingColumn .heading::after,
+#sequence-login #state-6 .headingColumn .heading::before,
+#sequence-login #state-6 .headingColumn .heading::after,
+#sequence-login #state-23 .headingColumn .heading::before,
+#sequence-login #state-23 .headingColumn .heading::after,
+#sequence-resetPassword #state-4 .headingColumn .heading::before,
+#sequence-resetPassword #state-4 .headingColumn .heading::after,
+#sequence-resetPassword #state-5 .headingColumn .heading::before,
+#sequence-resetPassword #state-5 .headingColumn .heading::after,
+#sequence-resetPassword #state-6 .headingColumn .heading::before,
+#sequence-resetPassword #state-6 .headingColumn .heading::after,
+#sequence-resetPassword #state-23 .headingColumn .heading::before,
+#sequence-resetPassword #state-23 .headingColumn .heading::after  {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  visibility: visible;
+  text-align: center;
+}
+
+#sequence-login #state-23 .headingColumn .heading::before,
+#sequence-resetPassword #state-23 .headingColumn .heading::before {
+  content: "Skapa ett nytt lÃ¶senord";
+}
+
+#sequence-login #state-5 .headingColumn .heading::before,
+#sequence-resetPassword #state-4 .headingColumn .heading::before,
+#sequence-resetPassword #state-5 .headingColumn .heading::before {
+  content: 'Verifiera din e-post';
+}
+
+#sequence-login #state-1 .headingColumn .heading::before,
+#sequence-login #state-6 .headingColumn .heading::before,
+#sequence-resetPassword #state-6 .headingColumn .heading::before {
+  content: 'Logga in med ditt konto';
+}
+
+#sequence-login #state-4 .headingColumn .heading::before {
+  content: 'Ã…terstÃ¤ll ditt lÃ¶senord';
+}
+
+#sequence-login #state-1 .headingColumn .heading::after,
+#sequence-login #state-4 .headingColumn .heading::after,
+#sequence-login #state-5 .headingColumn .heading::after,
+#sequence-login #state-6 .headingColumn .heading::after,
+#sequence-login #state-23 .headingColumn .heading::after,
+#sequence-resetPassword #state-4 .headingColumn .heading::after,
+#sequence-resetPassword #state-5 .headingColumn .heading::after,
+#sequence-resetPassword #state-6 .headingColumn .heading::after,
+#sequence-resetPassword #state-23 .headingColumn .heading::after {
+  font-size: 0.65em;
+  font-weight: 200;
+  color: #e5e5e5;
+}
+
+#sequence-login #state-4 .headingColumn .heading::after,
+#sequence-resetPassword #state-4 .headingColumn .heading::after {
+  content: "FÃ¶r att Ã¥terstÃ¤lla ditt lÃ¶senord behÃ¶ver du verifiera att det Ã¤r du som Ã¤r Ã¤gare till kontot. Ange din e-postadress nedan sÃ¥ skickar vi en engÃ¥ngskod till dig.";
+}
+
+#sequence-login #state-5 .headingColumn .heading::after,
+#sequence-resetPassword #state-5 .headingColumn .heading::after {
+  content: "Vi har skickat dig en engÃ¥ngskod via e-post. Koden skickas med avsÃ¤ndaren ConnectID och hamnar ibland bland skrÃ¤pposten.";
+}
+
+#sequence-login #state-23 .headingColumn .heading::after,
+#sequence-resetPassword #state-23 .headingColumn .heading::after {
+  content: "LÃ¶senordet bÃ¶r vara minst Ã¥tta tecken lÃ¥ngt och innehÃ¥lla bÃ¥de siffror samt stora- och smÃ¥ bokstÃ¤ver.";
+}
+
+#sequence-resetPassword #state-23 .loginInner > .lighter.column.ng-scope,
+#sequence-login #state-23 .loginInner > .lighter.column.ng-scope,
+#sequence-login #state-1 .loginInner > .lighter.column.ng-scope,
+#sequence-login #state-6 .loginInner > .lighter.column.ng-scope,
+#sequence-login #state-4 .loginInner > .lighter.column.ng-scope,
+#sequence-login #state-4 #resetPasswordHeaderInfoDiv,
+#sequence-login #state-5 #credentialFieldDiv,
+#sequence-resetPassword #state-4 #resetPasswordHeaderInfoDiv,
+#sequence-resetPassword #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-resetPassword #state-5 #credentialFieldDiv,
+#sequence-resetPassword #state-6 #loginHeaderInfoDiv,
+#sequence-resetPassword #state-6 #startRegistrationButtonDiv,
+#sequence-login #state-1 #loginHeaderInfoDiv,
+#sequence-login #state-1 #startRegistrationButtonDiv,
+#sequence-login #state-6 #loginHeaderInfoDiv,
+#sequence-login #state-6 #startRegistrationButtonDiv,
+#sequence-resetPassword #state-5 .lighter.column .par p,
+#sequence-login #state-5 .lighter.column .par p,
+#sequence-confirmAccess img.loader   {
+  display: none;
+}
+
+#sequence-resetPassword #state-4 #credentialFieldDiv {
+  margin: 0 auto;
+}
+
+#sequence-login #state-1 #credentialFieldDiv,
+#sequence-login #state-4 #credentialFieldDiv,
+#sequence-login #state-6 #credentialFieldDiv,
+#sequence-resetPassword #state-4 .lighter.column,
+#sequence-resetPassword #state-6 #credentialFieldDiv {
+  margin-top: 0;
+}
+
+#sequence-resetPassword #state-4 #sendVerificationCodeButtonDiv {
+  margin-top: 1.5em;
+}
+#sequence-login #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-resetPassword #state-4 #authenticateUsingPasswordLinkDiv {
+  text-align: center;
+}
+
+#sequence-login #state-1 .lighter.column,
+#sequence-login #state-4 .lighter.column,
+#sequence-login #state-5 .lighter.column,
+#sequence-login #state-6 .lighter.column,
+#sequence-login #state-23 .lighter.column,
+#sequence-resetPassword #state-4 .lighter.column,
+#sequence-resetPassword #state-5 .lighter.column,
+#sequence-resetPassword #state-6 .lighter.column,
+#sequence-resetPassword #state-23 .lighter.column,
+.lighter.column:last-child {
+    border: none !important;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#sequence-login #state-5 .lighter.column .par .parTight,
+#sequence-resetPassword #state-5 .lighter.column .par .parTight {
+  position:absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#sequence-login #state-5 .lighter.column .par .parTight a,
+#sequence-resetPassword #state-5 .lighter.column .par .parTight a {
+  padding: 0.5em 0 0 0;
+  margin: 0;
+}
+
+#sequence-resetPassword #state-5 .yellow {
+  background-color: #F35D67 !important;
+}
+
+#sequence-login #state-5 .lighter.column .par.animate-zoom,
+#sequence-login #state-23 .lighter.column .par.animate-zoom .par,
+#sequence-resetPassword #state-5 .lighter.column .par.animate-zoom,
+#sequence-resetPassword #state-23 .lighter.column .par.animate-zoom .par {
+  border: 2px solid #e1ab99;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fbfbfb;
+  margin-bottom: 4em;
+}
+
+#sequence-login #state-1 #enterPasswordFieldDiv,
+#sequence-login #state-1 #credentialFieldDiv,
+#sequence-login #state-4 #credentialFieldDiv,
+#sequence-login #state-6 #enterPasswordFieldDiv,
+#sequence-login #state-6 #credentialFieldDiv,
+#sequence-resetPassword #state-4 #credentialFieldDiv,
+#sequence-resetPassword #state-6 #enterPasswordFieldDiv,
+#sequence-resetPassword #state-6 #credentialFieldDiv {
+  border: 2px solid #e1ab99;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fbfbfb;
+}
+
+#sequence-login #state-1 #enterPasswordFieldDiv input,
+#sequence-login #state-1 #credentialFieldDiv div.label,
+#sequence-login #state-4 #credentialFieldDiv .par input,
+#sequence-login #state-4 #credentialFieldDiv .par div.label,
+#sequence-login #state-6 #enterPasswordFieldDiv input,
+#sequence-login #state-6 #credentialFieldDiv div.label,
+#sequence-resetPassword #state-4 #credentialFieldDiv .par input,
+#sequence-resetPassword #state-4 #credentialFieldDiv .par div.label,
+#sequence-resetPassword #state-6 #enterPasswordFieldDiv input,
+#sequence-resetPassword #state-6 #credentialFieldDiv div.label, {
+  background: transparent;
+  border-radius: 0;
+}
+
+#sequence-login #state-23 .lighter.column .par.animate-zoom .par,
+#sequence-resetPassword #state-23 .lighter.column .par.animate-zoom .par {
+  margin-bottom: 1.5em;
+}
+
+#sequence-login #state-5 .lighter.column .par input,
+#sequence-login #state-5 .lighter.column .par div.label,
+#sequence-resetPassword #state-5 .lighter.column .par input,
+#sequence-resetPassword #state-5 .lighter.column .par div.label {
+  background: transparent;
+  border-radius: 0;
+}
+
+#sequence-login #state-5 .lighter.column .par:not(.buttonPar):focus-within,
+#sequence-resetPassword #state-5 .lighter.column .par:not(.buttonPar):focus-within {
+  box-shadow: 0 0 1px 3px #e1ab99;
+  border-radius: 3px;
+}
+
+#sequence-login #state-5 .lighter.column:last-child,
+#sequence-resetPassword #state-5 .lighter.column:last-child {
+  display: none;
+}
+
+.lighter.column input.button  {
+  max-width: 260px !important;
+  margin: 0 auto !important;
+  display: block !important;
+  font-weight: 800 !important;
+  border-radius: 3px !important;
+}
+
+#sequence-resetPassword #state-6 .lighter.column input.button,
+#sequence-login #state-1 .lighter.column input.button,
+#sequence-login #state-6 .lighter.column input.button,
+#sequence-login #state-4 .lighter.column input.button {
+  margin-top: 1em !important;
+}
+
+#sequence-login #state-4 .lighter.column input.button {
+  margin-bottom: 1.5em !important;
+}
+
+#sequence-login #state-23 div.belowPassword.leftAndRight,
+#sequence-resetPassword #state-23 div.belowPassword.leftAndRight {
+  order: 4;
+  margin-top: 1.5em;
+}
+
+#sequence-login #state-23 div.belowPassword.leftAndRight .leftPart,
+#sequence-resetPassword #state-23 div.belowPassword.leftAndRight .leftPart {
+  float: none;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#sequence-login #state-23 #par3,
+#sequence-resetPassword #state-23 #par3 {
+  width: 100%;
+  order: 5;
+}
+
+#sequence-login #state-23 #par3 .par,
+#sequence-resetPassword #state-23 #par3 .par {
+  margin-top: 0;
+}
+
+#sequence-login #state-23 #par3 .par .error
+#sequence-resetPassword #state-23 #par3 .par .error {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+#sequence-login #state-23 #par3 .par .label,
+#sequence-resetPassword #state-23 #par3 .par .label {
+  display: none;
+}
+
+#sequence-login #state-23 #par3 .par input[disabled="disabled"].ng-dirty,
+#sequence-login #state-23 #par3 .par input[disabled="disabled"],
+#sequence-resetPassword #state-23 #par3 .par input[disabled="disabled"].ng-dirty,
+#sequence-resetPassword #state-23 #par3 .par input[disabled="disabled"] {
+  background: transparent !important;
+  padding: 0;
+  color: #6f6f6f !important;
+  background-size: 1px !important;
+  background-repeat: no-repeat !important;
+}
+
+#sequence-login #state-23 #par3 .par > div:not([class]) > span,
+#sequence-resetPassword #state-23 #par3 .par > div:not([class]) > span {
+  display: block;
+  padding: 1em;
+  border-left: 5px solid #5d5d5d;
+  background-color: #393939;
+  border-radius: 3px;
+  text-align: left;
+}
+
+#sequence-login #state-23 #par3 .par > div:not([class]) > span:before,
+#sequence-resetPassword #state-23 #par3 .par > div:not([class]) > span:before {
+  content: "Du loggar in med e-postadressen";
+  color: #6f6f6f;
+}
+
+#sequence-login #state-23 #acceptUserTermsLink,
+#sequence-resetPassword #state-23 #acceptUserTermsLink {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#sequence-login #state-23 #acceptTermsGuiDiv,
+#sequence-resetPassword #state-23 #acceptTermsGuiDiv {
+  margin-top: -0.5em;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+#sequence-login #state-23 #error_acceptTerms,
+#sequence-resetPassword #state-23 #error_acceptTerms {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+}
+
+#sequence-confirmAccess #headingColumn {
+  display: none;
+}
+
+#sequence-confirmAccess .lighter.column {
+  border: none;
+}
+
+#sequence-confirmAccess #waitRedirectInfo {
+  visibility: hidden;
+}
+
+#sequence-login .loginInner,
+#sequence-confirmAccess .loginInner,
+#sequence-resetPassword .loginInner {
+  text-align: center;
+}
+
+#sequence-confirmAccess .lighter.column.ng-hide:nth-child(5),
+#sequence-login #state-1 .loginInner > .lighter.column.ng-hide:nth-child(5),
+#sequence-login #state-6 .loginInner > .lighter.column.ng-hide:nth-child(5),
+#sequence-login #state-23 .loginInner > .lighter.column.ng-hide:nth-child(5),
+#sequence-resetPassword #state-6 .loginInner > .lighter.column.ng-hide:nth-child(5),
+#sequence-resetPassword #state-23 .loginInner > .lighter.column.ng-hide:nth-child(5) {
+  border: none;
+  display: inline-block !important;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
+#sequence-confirmAccess .lighter.column.ng-hide > *,
+#sequence-login .lighter.column.ng-hide > *,
+#sequence-resetPassword .lighter.column.ng-hide > * {
+  display: none !important;
+}
+
+#sequence-login .lighter.column.ng-hide #registerHeaderInfoDiv,
+#sequence-login .lighter.column.ng-hide #createUserHeaderInfoDiv,
+#sequence-login .lighter.column.ng-hide #buyAccessHeaderInfoDiv,
+#sequence-login .lighter.column.ng-hide #loginHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #registerHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #createUserHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #buyAccessHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #loginHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #registerHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #createUserHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #buyAccessHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #loginHeaderInfoDiv {
+  display: block !important;
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #e1ab99;
+  padding: 0 !important;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+#sequence-login .lighter.column.ng-hide #registerHeaderInfoDiv > *,
+#sequence-login .lighter.column.ng-hide #createUserHeaderInfoDiv > *,
+#sequence-login .lighter.column.ng-hide #buyAccessHeaderInfoDiv > *,
+#sequence-login .lighter.column.ng-hide #loginHeaderInfoDiv > *,
+#sequence-resetPassword .lighter.column.ng-hide #registerHeaderInfoDiv > *,
+#sequence-resetPassword .lighter.column.ng-hide #createUserHeaderInfoDiv > *,
+#sequence-resetPassword .lighter.column.ng-hide #buyAccessHeaderInfoDiv > *,
+#sequence-resetPassword .lighter.column.ng-hide #loginHeaderInfoDiv > *,
+#sequence-confirmAccess .lighter.column.ng-hide #registerHeaderInfoDiv > *,
+#sequence-confirmAccess .lighter.column.ng-hide #createUserHeaderInfoDiv > *,
+#sequence-confirmAccess .lighter.column.ng-hide #buyAccessHeaderInfoDiv > *,
+#sequence-confirmAccess .lighter.column.ng-hide #loginHeaderInfoDiv > * {
+  display: none !important;
+}
+
+#sequence-login .lighter.column.ng-hide #registerHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #registerHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #registerHeaderInfoDiv {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+#sequence-login .lighter.column.ng-hide #createUserHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #createUserHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #createUserHeaderInfoDiv  {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+#sequence-login .lighter.column.ng-hide #buyAccessHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #buyAccessHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #buyAccessHeaderInfoDiv {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+#sequence-login .lighter.column.ng-hide #loginHeaderInfoDiv,
+#sequence-resetPassword .lighter.column.ng-hide #loginHeaderInfoDiv,
+#sequence-confirmAccess .lighter.column.ng-hide #loginHeaderInfoDiv  {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.javascriptDisabledContent,
+.javascriptDisabledContent > * {
+  display: none;
+  visibility: none;
+  opacity: 0;
+}

@@ -1,0 +1,51 @@
+
+/*
+ * Logo ?verst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.jpeg) no-repeat 1px 5px;
+  height:65px;
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+ 
+
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Bestill, Logo ?verst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 74px;  background-size: 551px 126px; }
+
+
+ 
+
+
+
+/*
+ * Innlogget
+ */
+.logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px;
+} 
+/*
+ * Logo ?verst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 0px; padding-top: 150px;  background-size: 551px 126px; }
+
+
+
+.logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

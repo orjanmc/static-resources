@@ -1,0 +1,11 @@
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center absolute;
+	width: 100%;
+	top:0;
+	left:0;
+    background-repeat: no-repeat;
+    background-image: url(./graplatta.jpg);
+}
+

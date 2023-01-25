@@ -1,0 +1,15 @@
+/*
+ * Ikke Innlogget
+ */
+
+.not_logged_in .main { 
+  /*width:1000px; */
+  background: url(logo_gofo.png) no-repeat 0px 10px;
+  padding-left:190px;  
+  width:150px;
+} 
+
+
+.configurableText_LOGIN_CREDENTIAL_DESCRIPTION {
+	white-space:nowrap;
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'GTA';
+    src: url('fonts/GT-America-Condensed-Black.eot');
+    src: url('fonts/GT-America-Condensed-Black.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GT-America-Condensed-Black.woff') format('woff'),
+    url('fonts/GT-America-Condensed-Black.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lyon';
+    src: url('fonts/Lyon-Text-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lyon';
+    src: url('fonts/Lyon-Text-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lyon';
+    src: url('fonts/Lyon-Text-Regular-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lyon';
+    src: url('fonts/Lyon-Text-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.guiVersion2 body {
+    font-family: Lyon, serif;
+    font-weight: normal;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guiVersion2 .heading {
+    font-family: Lyon, serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.guiVersion2 .button {
+    font-family: GTA, sans-serif;
+    background-color: #ad1409 !important;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 120% !important;
+}
+
+.guiVersion2 #startRegistrationLink {
+    font-family: GTA, sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.guiVersion2 a {
+    color: #A80000;
+    text-decoration: none;
+}
+
+.guiVersion2 a:hover {
+    text-decoration: underline;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #880000 !important;
+}
+
+.guiVersion2 #loginHeaderInfoDiv {
+    text-align: center;
+}
+
+.guiVersion2 .error {
+    font-size: 0.9em;
+}
+
+.guiVersion2 #generalHelpInfoDiv {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.guiVersion2 .loginFrame {
+    border: 1px #939598 solid;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255,1)!important;
+}
+
+.guiVersion2 .belowPassword {
+    font-size: 1em;
+}

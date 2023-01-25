@@ -1,0 +1,122 @@
+[
+    {
+        "question": {
+            "en_US": "Question 3.1",
+            "nb_NO": "Hvorfor er det ikke velkomstgave med et gaveabonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Et gaveabonnement koster mer i drift enn et vanlig abonnement fordi betaler og mottaker ikke er samme person. Derfor er så og si alle våre gaveabonnement rene abonnement, uten gave."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.2",
+            "nb_NO": "Hvordan kan jeg stoppe mitt/mine abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Dette kan du ikke gjøre på MinSide. Vi må be deg ringe kundeservice på tlf 22585100 eller sende en epost, kontaktinformasjon finner du inne her på siden."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.3",
+            "nb_NO": "Hvordan kan jeg bestille et gaveabonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du kan bestille gaveabonnement på www.bladkiosken.no eller ringe Kundeservice på 22 58 51 00. PÅ gaveabonnement til utlandet gjelder egne priser, så ved bestilling av abonnement til utlandet må vi be deg ringe oss."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.4",
+            "nb_NO": "Jeg har ikke mottatt siste utgave. Hvordan kan jeg få tilsendt dette?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Dersom det er en utgave du mangler, kan du få tilsendt denne ved å trykke på flippen reklamasjon og velge den utgaven du mangler."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.5",
+            "nb_NO": "Kan jeg midlertidig stoppe mitt abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.5: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Ja, du kan stoppe ditt abonnement midlertidig ved å taste inn til og fra dato på flippen bestill feriestopp."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.6",
+            "nb_NO": "Når vil jeg motta min forventede gave/premie som ble lovet ved abonnementsbestillingen?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.6: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Gaven/premien vil du motta 2-4 uker etter at din bestilling er registrert."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.7",
+            "nb_NO": "Hvordan kan jeg endre navn på abonnementet mitt?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.7: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du kan selv endre adresse på ditt abonnement, ved navne-endring eller overføring til annen person/annet navn - må du kontakte Kundeservice direkte - slik at overføringer blir gjort riktig. Du kan kontakte Kundeservice på flippen som heter Kontakt Oss under din kontaktinformasjon eller ringe oss på 22 58 51 00."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.8",
+            "nb_NO": "Hvordan bestille Avtalegiro eller eFaktura på mine abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.8: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Avtaler kan du bestille på MinSide eller i nettbanken. På MinSide kan du logge inn med abonnementsnummeret ditt og gjøre endringer og bestillinger. MinSide finnes på webadresse: https://minside.bladkiosken.no/ Betalingsavtaler kan enkelt bestilles i nettbanken. De fleste nettbanker har en liste med forslag til avtaler som er relevant for deg. Denne ligger som oftest under Betaling og Betalingsavtaler. Det er de 13 første sifrene i KID-nummeret som er referansen på din efaktura/Avtalegiro. Har du har spørsmål knyttet til hvordan du oppretter e-Faktura eller AvtaleGiro, ta kontakt med banken din. På www.efaktura.no og www.avtalegiro.no kan du lese mer om fordelene."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.9",
+            "nb_NO": "Hva er referanse på eFaktura og Avtalegiro?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.9: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du bruker de første 13 sifre i KID-nummeret som referanse på eFaktura og Avtalegiro."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.10",
+            "nb_NO": "Hvorfor bruke Avtalegiro og/eller eFaktura?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.10: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Egmont Publishing as har mulighet for elektronisk fakturering. Du som abonnent kan du nå velge mellom å betale ditt abonnement ved hjelp av e-Faktura og/eller AvtaleGiro. Dette er enkle, kostnadsfrie og miljøvennlig betalingsmetoder. Vi vil i forbindelse med denne overgangen innføre et gebyr på 39,- kroner for papirfaktura, som skal dekke kostnadene til trykking og håndtering. Det vil være kostnadsfritt å benytte e-Faktura og avtalegiro. Du kan selvsagt fortsatt velge hvilken betalingsmetode du ønsker å benytte."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.11",
+            "nb_NO": "Når kan jeg forvente første blad etter bestillingen min?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.10: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "På noen av våre blader vil det noen ganger ta 2-4 uker før første blad mottas av deg - årsaken til dette er trykketid og transport tid av opplaget og frem til deg som ny abonnent."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.11",
+            "nb_NO": "Hvorfor får jeg ikke bladene mine på samme dag ved hver utgivelse?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.11: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Bladene distribueres med Posten. Derfor vil leveringsdagen variere litt fra utgave til utgave avhengig av om bladet ditt har med seg giro, samt ut ira Postens kapasitet. Uansett skal bladet komme frem til deg før det ligger til salg i butikken i de fleste tilfeller."
+        }
+    }
+]

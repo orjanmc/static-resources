@@ -1,0 +1,1 @@
+console.log("TESTED SCRIPT DEFAULT 1");

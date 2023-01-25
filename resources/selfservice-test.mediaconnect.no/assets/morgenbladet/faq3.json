@@ -1,0 +1,22 @@
+[
+    {
+        "question": {
+            "en_US": "Question 3.1",
+            "nb_NO": "Hvorfor er det ikke velkomstgave med et gaveabonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Et gaveabonnement koster mer i drift enn et vanlig abonnement fordi betaler og mottaker ikke er samme person. Derfor er så og si alle våre gaveabonnement rene abonnement, uten gave."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.2",
+            "nb_NO": "Hvorfor får jeg ikke bladene mine på samme dag ved hver utgivelse?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Bladene distribueres med Posten. Derfor vil leveringsdagen variere litt fra utgave til utgave avhengig av om bladet ditt har med seg giro, samt ut ira Postens kapasitet. Uansett skal bladet komme frem til deg før det ligger til salg i butikken i de fleste tilfeller."
+        }
+    }
+]

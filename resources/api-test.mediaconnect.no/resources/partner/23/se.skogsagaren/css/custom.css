@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Fira+Sans:400,700');
+
+a {
+	font-size: 13px;
+    color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+
+.guiVersion2 #loginForm{
+	margin: auto auto auto;
+	min-margin-top
+}
+
+.button {
+	text-transform: uppercase;
+}
+
+.loginMain {
+    padding: 0 0 30px 0 !important;
+	background-color: #fff !important;
+}
+ 
+.guiVersion2 body {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+/*	color: #34343b;*/
+	color: #93939c;
+}
+
+.guiVersion2 .label {
+    font-weight: normal;
+    margin-left: 0 !important;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 479px)  {
+    @-webkit-viewport { width: 320px ! important; }
+    @-moz-viewport { width: 320px ! important;  }
+    @-ms-viewport { width: 320px ! important; }
+    @-o-viewport { width: 320px ! important; }
+    @viewport { width: 320px ! important; }
+    .loginFrame {margin-top: auto !important; margin-bottom: auto !important; -webkit-box-shadow: none !important;
+	-moz-box-shadow:  none !important;	box-shadow:  none !important;}
+    .guiVersion2 .headingColumn { padding-left: 0 !important; padding-right: 0 !important; }
+    .guiVersion2 .par .orLoginWith { padding-left: 0  !important; width: 39% !important; }
+	.outerFrame { width: 320px !important; margin: auto !important; }
+	#facebookLink:after , #googleLink:after { margin-left: -70px !important;}
+}
+
+.loginFrame {
+	border-radius: 10px;
+	border-width: 0;
+	-webkit-box-shadow: 0px 0px 30px 5px #000;
+	-moz-box-shadow: 0px 0px 30px 5px #000;
+	box-shadow: 0px 0px 30px 5px #000;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background: -webkit-radial-gradient(#40404b, #111118) rgba(34,34,40,0.94) !important;
+    background: radial-gradient(#40404b, #111118) rgba(34,34,40,0.94) !important;
+}
+
+.guiVersion2 .heading {
+    border-width: 0;
+	border-bottom: 1px;
+    border-style: solid;
+	margin: 0;
+    color: #70747c !important;
+    padding-top; 20px;
+    font-weight: 300;
+}
+
+.guiVersion2 .headingColumn {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.outerFrame { width: 380px; margin: 22px auto; position:relative; }
+
+.column {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+ 
+.guiVersion2 .button,
+.guiVersion2 input {
+    font-family: 'Fira Sans', sans-serif;
+}
+ 
+.guiVersion2 .heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+	font-size: 1.1em;
+	color: rgba(0,0,0,0.87);
+}
+ 
+.guiVersion2 .label {
+    font-weight: normal;
+	margin-left: 18px;
+}
+ 
+.guiVersion2 .buttonPar {
+    font-weight: 400;
+}
+
+.guiVersion2 input[type=text],
+.guiVersion2 input[type=password],
+.guiVersion2 input[type=email],
+.guiVersion2 input[type=number],
+.guiVersion2 input[type=tel] {
+    border-radius: 5px;
+	background-color: #f1f1f1 !important;
+	color: #000 !important;
+	line-height: 14px;
+}
+ 
+.guiVersion2 input[type=submit] {
+    font-weight: 700;
+	border-radius: 5px;
+}
+
+.guiVersion2 .button {
+	background-color: #3ea535 !important;
+    color: #fff;
+	line-height: 26px;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #36922e !important;
+}
+
+#j_username {
+ border-radius: 5px;
+ background-image: none !important;
+}
+
+#facebookLink{
+	background-color: #3b5998;
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	line-height: 50px;
+	height: 50px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+#facebookLink > img, #googleLink > img{
+  border-radius: 50%;
+  float: left;
+  margin-left: 12px;
+  margin-top: 8px;
+  
+}
+
+#facebookLink  a, #googleLink  a{
+	 height: 70px;
+}
+
+#facebookLink:after {
+	margin-top: 15px;
+	content: 'LOGGA IN MED FACEBOOK';
+	color: #fff;
+	margin-left: -90px;
+}
+
+#googleLink:after {
+	margin-top: 15px;
+	color: #fff;
+	content: 'LOGGA IN MED GOOGLE';
+	margin-left: -90px;
+}
+
+#facebookLink:hover {
+ background-color: #293f6b !important;
+}
+
+#googleLink:hover {
+ background-color: #2e5eac !important;
+}
+
+#googleLink{
+	background-color: #4285f4;
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	line-height: 50px;
+	height: 50px;
+	word-wrap: normal;
+	display: inline-block;
+}
+
+.error {
+	margin-top: 5px;
+	padding: 12px 15px;
+	display: block;
+	border-radius: 3px;
+	border-color: #000;
+	font-size: 0.95em;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.6);
+	color: #ff0000;
+}
+
+#socialLinkSpace{
+    display: block;
+}
+
+.logoDiv, div.headingColumn {
+    text-align: center;
+}
+
+div.logoDiv.column {
+	background-color: #3ea535 !important;
+	height: 125px;
+}	
+
+img.logo{
+    margin-bottom: 0 !important;
+	display: inline !important;
+}
+
+.logo {
+	margin-top: 15px !important;
+	margin-bottom: 0 !important;
+	margin-right: -36px !important;
+}	
+
+div.logoDiv.column.logo {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #3ea535 !important;
+}	
+	
+div.logoDiv.column:after{
+	text-align:center; 
+	margin-top: 15px;
+	content: 'Skogsägaren';
+	color: #fff;
+	text-align:center; 
+	font-size: 1.5em;
+	font-weight: none;
+	letter-spacing: 1px;
+}
+
+.abortMark {
+    display: inline-block !important;
+	background-color: #ffffff !important;
+    border-radius: 50% !important;
+	color: #000 !important;
+	margin-top: 12px !important;
+	margin-right: 12px !important;
+	margin-bottom: 0 !important;
+	margin-bottom: 6px !important;
+}
+
+.abortMark:hover {
+	background-color: #ffffff !important;
+	color: #93939c !important;
+}
+
+.abortMark a {
+    color: #000 !important; 
+	font-size: 20px !important;
+	font-weight: normal !important;
+	margin-top: 1
+}
+.abortMark a:hover {
+    color: #93939c !important;
+	font-size: 20px !important;
+	font-weight: normal !important;	
+}
+
+#loginForm > div > div.loginFrame > div.loginMain > div.loginInner.javascriptEnabledContent > div:nth-child(8) > div > div:nth-child(1) > div:nth-child(3){
+	min-height: 130px;
+}

@@ -1,0 +1,14 @@
+.guiVersion2 #credentialFieldDiv .label::before {
+  content: 'E-post';
+}
+span#credentialDescriptionSocialDefault,
+span#credentialDescription,
+span#credentialDescriptionEmail,
+span#credentialDescriptionMobilePhone,
+span#credentialDescriptionSocial,
+span#userIdLabelEmail,
+span#userIdLabelCredentialDescription,
+span#userIdLabelMobilePhone,
+span#userIdLabelSocial {
+  display: none;
+}

@@ -1,0 +1,191 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Fira+Sans:400,700');
+ 
+.guiVersion2 body {
+    background-image: url(../img/bakgrundsbild.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+ 
+.guiVersion2 .button,
+.guiVersion2 input {
+    font-family: 'Fira Sans', sans-serif;
+}
+ 
+.guiVersion2 .heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+ 
+.guiVersion2 .label {
+    font-weight: normal;
+}
+ 
+.guiVersion2 .buttonPar {
+    font-weight: 400;
+}
+ 
+@media only screen and (min-width: 479px)  {
+    .loginFrame {
+        border-radius: 25px;
+        border-width: 0;
+        box-shadow: 10px 10px 25px grey;
+    }
+	/* this make centered */
+	.loginFrame {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	
+	.loginMain {
+		padding: 0 0 30px 0 !important;
+	}
+	
+	.guiVersion2 #loginForm{
+		margin: auto auto auto;
+	}
+	
+	.logo {
+		margin-left: 35px !important;
+		padding-top: 20px !important;
+	}
+	/* /this make centered */
+	
+	.VERIFICATION_CODE_INFO > span, .REGISTER_HEADER_INFO > span, .LOGIN_HEADER_INFO > span,
+	.CREATE_USER_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span{
+		font-size: 2.55em !important; line-height: 40px;
+	}
+	
+	.LOGIN_HEADER_INFO > span {
+	    margin-left: -11px;
+		margin-right: -16px;
+	}
+	
+	.guiVersion2 .par .orLoginWith, .guiVersion2 .par .orLoginWithSpan{
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 479px)  {
+
+	.logo {
+		max-width: 240px !important;
+		margin-left: 16px !important;
+	}
+
+	.VERIFICATION_CODE_INFO > span, .REGISTER_HEADER_INFO > span, .LOGIN_HEADER_INFO > span,
+	.CREATE_USER_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span{
+		font-size: 1.8em !important; line-height: 34px !important;
+	}
+	.LOGIN_HEADER_INFO > span {
+	    margin-left: -4px;
+		margin-right: -8px;
+	}
+	.guiVersion2 .par .orLoginWith {
+		padding-left: 75px !important;
+		width: auto !important;
+	}
+	
+	.guiVersion2 .par .orLoginWith, .guiVersion2 .par .orLoginWithSpan{
+		display: none !important;
+	}
+	
+
+}
+ 
+.guiVersion2 input[type=text],
+.guiVersion2 input[type=password],
+.guiVersion2 input[type=email],
+.guiVersion2 input[type=number],
+.guiVersion2 input[type=tel] {
+    border-radius: 6px;
+}
+ 
+.guiVersion2 input[type=submit] {
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.guiVersion2 .button {
+    background-color: #e5c1c0 ! important;
+    color: black;
+	font-size: 1.3em;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #eacccc !important;
+}
+
+.label { text-transform: uppercase !important; }
+.showPassword { text-transform: none !important; }
+
+.button  { text-transform: none !important; }
+
+.abortMark {
+    display: inline-block !important;
+    background-color: #58585a !important;
+    border-radius: 50% !important;
+    width: 24px !important;
+    margin: 12px 12px !important;
+}
+
+
+.abortMark:hover {
+    background-color: #7c7d7f !important;
+}
+
+/* .REGISTER_LINK_LABEL, #authenticateUsingPasswordLink { text-align: left !important; text-decoration: underline;} */
+
+/*
+#authenticateUsingPasswordLink { 
+ float: left;
+}
+.bottomRightLogo:before{
+content: 'Jag vill börja prenumerera. Läs mer om hur detta fungerar.';
+}
+*/
+
+a, a:hover {
+	 color: black;
+}
+
+.aHrefLink {
+ color: black !important;
+}
+
+.guiVersion2 .heading {
+    border-width: 0 !important;
+    border-style: none !important;
+    padding: 0 !important;
+	line-height: 40px;
+	font-size: 2.8em !important;
+}
+
+.column {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.guiVersion2 .headingColumn {padding-left: 5px !important; padding-right: 5px !important; }
+
+.headingColumn {
+	display: none !important;
+}
+
+#credentialDescriptionEmail, #credentialDescriptionMobilePhone, #userIdLabelCredentialDescription, #userIdLabelEmail, #userIdLabelMobilePhone{
+	display: none !important;
+}
+
+
+#j_username:disabled {
+   display: none !important;
+}
+
+a#authenticateUsingPasswordLinkHref {
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}

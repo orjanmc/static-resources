@@ -1,0 +1,10 @@
+.guiVersion2 .button {
+    background-color: #7e7e7f !important;
+}
+.guiVersion2 .button:hover {
+    background-color: #626264 !important;
+}
+
+.guiVersion2 body {
+    background-color: #f4f5f7  !important;
+}

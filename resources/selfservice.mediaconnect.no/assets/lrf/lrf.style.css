@@ -1,0 +1,10 @@
+@import url('/assets/default.theme.css');
+
+
+.mat-app-header {
+ color: white;
+ background-color: #9BBB59; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #9BBB59; }

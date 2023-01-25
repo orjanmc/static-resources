@@ -1,0 +1,4040 @@
+{
+  "title": {
+    "en_US": "CSS",
+    "nb_NO": "CSS",
+    "sv_SE": "CSS",
+    "fi_FI": "CSS",
+    "da_DK": "CSS",
+    "nn_NO": "CSS"
+  },
+  "paymentMethods": {
+    "invoice": {
+      "description": {
+        "en_US": "Invoice",
+        "nb_NO": "Faktura",
+        "sv_SE": "Faktura",
+        "fi_FI": "Lasku",
+        "da_DK": "Faktura",
+        "nn_NO": "Faktura"
+      }
+    },
+    "eInvoice": {
+      "description": {
+        "en_US": "E-Invoice",
+        "nb_NO": "E-Faktura",
+        "sv_SE": "E-Faktura",
+        "fi_FI": "E-lasku",
+        "da_DK": "E-Faktura",
+        "nn_NO": "E-Faktura"
+      }
+    },
+    "autoGiro": {
+      "description": {
+        "en_US": "AutoGiro",
+        "nb_NO": "Avtalegiro",
+        "sv_SE": "Autogiro",
+        "fi_FI": "Suoraveloitus",
+        "da_DK": "Autogiro",
+        "nn_NO": "Autogiro"
+      }
+    },
+    "recurringPayment": {
+      "description": {
+        "en_US": "Recurring payment",
+        "nb_NO": "Gjentagende trekk",
+        "sv_SE": "Återkommande kortbetalning",
+        "fi_FI": "Toistuva korttiveloitus",
+        "da_DK": "Gentagende betaling",
+        "nn_NO": "Gjentakande trekk"
+      }
+    },
+    "recurringSmsPayment": {
+      "description": {
+        "en_US": "Recurring payment (SMS)",
+        "nb_NO": "Gjentagende betaling (SMS)",
+        "sv_SE": "Återkommande kortbetalning (SMS)",
+        "fi_FI": "Toistuva korttiveloitus (SMS)",
+        "da_DK": "Gentagende betaling (SMS)",
+        "nn_NO": "Gjentakande trekk (SMS)"
+      }
+    },
+    "recurringVippsPayment": {
+      "description": {
+        "en_US": "Recurring payment (Vipps)",
+        "nb_NO": "Gjentagende betaling (Vipps)",
+        "sv_SE": "Återkommande kortbetalning (Vipps)",
+        "fi_FI": "Toistuva korttiveloitus (Vipps)",
+        "da_DK": "Gentagende betaling (Vipps)",
+        "nn_NO": "Gjentakande trekk (Vipps)"
+      }
+    },
+    "recurringKlarnaPayment": {
+      "description": {
+        "en_US": "Recurring payment (Klarna)",
+        "nb_NO": "Gjentagende betaling (Klarna)",
+        "sv_SE": "Återkommande kortbetalning (Klarna)",
+        "fi_FI": "Toistuva korttiveloitus (Klarna)",
+        "da_DK": "Gentagende betaling (Klarna)",
+        "nn_NO": "Gjentakande trekk (Klarna)"
+      }
+    },
+    "recurringPayExCardPayment": {
+      "description": {
+        "en_US": "Recurring payment (PayEx)",
+        "nb_NO": "Gjentagende betaling (PayEx)",
+        "sv_SE": "Återkommande kortbetalning (PayEx)",
+        "fi_FI": "Toistuva korttiveloitus (PayEx)",
+        "da_DK": "Gentagende betaling (PayEx)",
+        "nn_NO": "Gjentakande trekk (PayEx)"
+      }
+    }
+  },
+  "invoicePaymentMethod": {
+    "A": {
+      "en_US": "Normal payment",
+      "nb_NO": "Fakturabetaling",
+      "sv_SE": "Fakturabetalning",
+      "fi_FI": "Lasku",
+      "da_DK": "Fakturabetaling",
+      "nn_NO": "Fakturabetaling"
+    },
+    "B": {
+      "en_US": "Autodraw (auto giro)",
+      "nb_NO": "Avtalegiro",
+      "sv_SE": "Autogiro",
+      "fi_FI": "Suoraveloitus",
+      "da_DK": "Betalingsservice",
+      "nn_NO": "Avtalegiro"
+    },
+    "C": {
+      "en_US": "Credit card payment",
+      "nb_NO": "Kredittkort",
+      "sv_SE": "Kreditkort",
+      "fi_FI": "Luottokortti",
+      "da_DK": "Kreditkortbetaling",
+      "nn_NO": "Kredittkort"
+    },
+    "D": {
+      "en_US": "Einvoice",
+      "nb_NO": "E-Faktura",
+      "sv_SE": "E-Faktura",
+      "fi_FI": "E-lasku",
+      "da_DK": "E-Faktura",
+      "nn_NO": "E-Faktura"
+    },
+    "E": {
+      "en_US": "Autodraw einvoice",
+      "nb_NO": "Automatisk E-Faktura",
+      "sv_SE": "Automatisk E-faktura",
+      "fi_FI": "Automaattinen E-lasku",
+      "da_DK": "Automatisk E-faktura",
+      "nn_NO": "Automatisk E-Faktura"
+    },
+    "F": {
+      "en_US": "Recurring payment credit card",
+      "nb_NO": "Gjentagende trekk kredittkort",
+      "sv_SE": "Återkommande kortbetalning",
+      "fi_FI": "Toistuva korttiveloitus",
+      "da_DK": "Gentagende kreditkortbetaling",
+      "nn_NO": "Gjentakande trekk kredittkort"
+    },
+    "G": {
+      "en_US": "Recurring payment SMS",
+      "nb_NO": "Gjentagende trekk SMS",
+      "sv_SE": "Återkommande SMS-betalning",
+      "fi_FI": "Toistuva SMS-veloitus",
+      "da_DK": "Gentagende SMS-betaling",
+      "nn_NO": "Gjentakande trekk SMS"
+    },
+    "H": {
+      "en_US": "Recurring Vipps",
+      "nb_NO": "Gjentagende trekk Vipps",
+      "sv_SE": "Återkommande SMS-betalning",
+      "fi_FI": "Toistuva SMS-veloitus",
+      "da_DK": "Gentagende SMS-betaling",
+      "nn_NO": "Gjentakande trekk Vipps"
+    },
+    "I": {
+      "en_US": "Recurring Klarna",
+      "nb_NO": "Gjentagende trekk Klarna",
+      "sv_SE": "Återkommande Klarna",
+      "fi_FI": "Toistuva Klarna",
+      "da_DK": "Gentagende Klarna",
+      "nn_NO": "Gjentakande trekk Klarna"
+    },
+    "J": {
+      "en_US": "Recurring payment credit card PayEx",
+      "nb_NO": "Gjentagende trekk kredittkort PayEx",
+      "sv_SE": "Återkommande kortbetalning PayEx",
+      "fi_FI": "Toistuva PayEx",
+      "da_DK": "Gentagende PayEx",
+      "nn_NO": "Gjentakande trekk PayEx"
+    }
+  },
+  "invoicePaymentStatus": {
+    "notInvoiced": {
+      "en_US": "Not invoiced",
+      "nb_NO": "Ikke fakturert",
+      "sv_SE": "Ej fakturerad",
+      "fi_FI": "Ei laskutettu",
+      "da_DK": "Ikke faktureret",
+      "nn_NO": "Ikke fakturert"
+    },
+    "invoiced": {
+      "en_US": "Invoiced",
+      "nb_NO": "Fakturert",
+      "sv_SE": "Fakturering",
+      "fi_FI": "Laskutettu",
+      "da_DK": "Faktureret",
+      "nn_NO": "Fakturert"
+    },
+    "paid": {
+      "en_US": "Invoice paid",
+      "nb_NO": "Faktura betalt",
+      "sv_SE": "Betald faktura",
+      "fi_FI": "Lasku maksettu",
+      "da_DK": "Faktura betalt",
+      "nn_NO": "Faktura betalt"
+    },
+    "cancelled": {
+      "en_US": "Invoice cancelled",
+      "nb_NO": "Faktura kansellert",
+      "sv_SE": "Fakturan avbruten",
+      "fi_FI": "Lasku peruutettu",
+      "da_DK": "Faktura annulleret",
+      "nn_NO": "Avsluttet faktura"
+    },
+    "dunned": {
+      "en_US": "Invoice reminder",
+      "nb_NO": "Faktura påminnelse",
+      "sv_SE": "Fakturapåminnelse",
+      "fi_FI": "Laskutusmuistutus",
+      "da_DK": "Påmindelse om faktura",
+      "nn_NO": "Faktura påminning"
+    }
+  },
+  "messages": {
+    "default-message": {
+      "text": {
+        "en_US": "An error has occurred in the application",
+        "nb_NO": "En feil har oppstått i applikasjonen",
+        "sv_SE": "Ett fel har uppstått i applikationen",
+        "fi_FI": "Järjestelmävirhe",
+        "da_DK": "Der er opstået en fejl i applikationen",
+        "nn_NO": "Ein feil har oppstått i applikasjonen"
+      }
+    },
+    "app-configHeaderError": {
+      "text": {
+        "en_US": "An error occurred while loading client header",
+        "nb_NO": "En feil har oppstått ved lasting av topptekst",
+        "sv_SE": "Ett fel har uppstått vid laddning av topptext",
+        "fi_FI": "Virhe sivun lataamisessa",
+        "da_DK": "Der er opstået en fejl ved indlæsning af client header",
+        "nn_NO": "Ein feil har oppstått ved lasting av topptekst"
+      }
+    },
+    "app-cardRemoveError": {
+      "text": {
+        "en_US": "Removing card failed",
+        "nb_NO": "Fjerning av kort feilet",
+        "sv_SE": "Fel vid borttagning av kortreferens",
+        "fi_FI": "Poistaminen epäonnistui",
+        "da_DK": "Fejl ved annullering af sags-ID",
+        "nn_NO": "Fjerning av kort feilet"
+      }
+    },
+    "app-cardAddError": {
+      "text": {
+        "en_US": "Adding card failed",
+        "nb_NO": "Legg til kort feilet",
+        "sv_SE": "Fel vid lagring av kortreferens",
+        "fi_FI": "Tallentaminen epäonnistui",
+        "da_DK": "Fejl ved oprettelse af sags-ID",
+        "nn_NO": "Legg til kort feilet"
+      }
+    },
+    "app-configFooterError": {
+      "text": {
+        "en_US": "An error occurred while loading client footer",
+        "nb_NO": "En feil har oppstått ved lasting av bunntekst",
+        "sv_SE": "Ett fel har uppstått vid laddning av bottentext",
+        "fi_FI": "Virhe sivun lataamisessa",
+        "da_DK": "Der er opstået en fejl ved indlæsning af client footer",
+        "nn_NO": "Ein feil har oppstått ved lasting av botntekst"
+      }
+    },
+    "app-loginCustomerEmpty": {
+      "text": {
+        "en_US": "You are not connected to the customer. Press icon to complete the data.",
+        "nb_NO": "Du er ikke tilknyttet en abonnent. Trykk på ikonet for å fullføre.",
+        "sv_SE": "Du är inte kopplad till en prenumeration. Klicka på ikonen för att fullfölja.",
+        "fi_FI": "Sinulla ei ole voimassa olevaa kestotilausta. Klikkaa kuvaketta jatkaaksesi loppuun.",
+        "da_DK": "Du har ikke forbindelse til kunden. Tryk på ikonet for at fuldføre.",
+        "nn_NO": "Du er ikkje tilknytta ein abonnent. Trykk på ikonet for å fullføre."
+      }
+    },
+    "proxyService-connectionError": {
+      "text": {
+        "en_US": "An error occurred while connecting to the server",
+        "nb_NO": "En feil har oppstått ved tilkobling til serveren",
+        "sv_SE": "Ett fel har uppstått vid koppling till servern",
+        "fi_FI": "Virhe palvelimeen yhdistettäessä",
+        "da_DK": "Der er opstået en fejl i forbindelsen til serveren",
+        "nn_NO": "Ein feil har oppstått ved tilkopling til servaren"
+      }
+    },
+    "userService-emptyCustomerNumber": {
+      "text": {
+        "en_US": "Empty customer number!!!",
+        "nb_NO": "Manglende kundenummer!!!",
+        "sv_SE": "Kundnummer saknas!",
+        "fi_FI": "Asiakasnumero puuttuu!",
+        "da_DK": "Manglende kundenummer!",
+        "nn_NO": "Manglande kundenummer!"
+      }
+    },
+    "profile-saveSuccess": {
+      "text": {
+        "en_US": "Your change request was accepted, your data will be updated shortly.",
+        "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+        "sv_SE": "Ändringen godkänd, uppdatering sker.",
+        "fi_FI": "Muutokset on tallennettu, tietosi päivitetään.",
+        "da_DK": "Din ændringsanmodning blev accepteret, og dine data vil snarest blive opdateret.",
+        "nn_NO": "Endringa di vart akseptert, dataa dine vil verte oppdaterte."
+      }
+    },
+    "address-saveSuccess": {
+      "text": {
+        "en_US": "Your change request was accepted, your data will be updated shortly.",
+        "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+        "sv_SE": "Ändringen godkänd, uppdatering sker.",
+        "fi_FI": "Muutokset on tallennettu, tietosi päivitetään.",
+        "da_DK": "Din ændringsanmodning blev accepteret, og dine data vil snarest blive opdateret.",
+        "nn_NO": "Endringa di vart akseptert, dataa dine vil verte oppdaterte."
+      }
+    },
+    "address-deleteSuccess": {
+      "text": {
+        "en_US": "Your change request was accepted, your data will be updated shortly.",
+        "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert.",
+        "sv_SE": "Ändringen godkänd, uppdatering sker.",
+        "fi_FI": "Muutokset on tallennettu, tietosi päivitetään.",
+        "da_DK": "Din ændringsanmodning blev accepteret, og dine data vil snarest blive opdateret",
+        "nn_NO": "Endringa di vart akseptert, dataa dine vil verte oppdaterte."
+      }
+    },
+    "account_delete_success": {
+      "text": {
+        "en_US": "Your account deletion request was accepted.",
+        "nb_NO": "Din forespørsel om å slette dine data ble akseptert.",
+        "sv_SE": "Tack! Vi har mottagit din fråga och kommer att kontakta dig.",
+        "fi_FI": "Kiitos! Viestisi on vastaanotettu ja olemme sinuun yhteydessä.",
+        "da_DK": "Din anmodning om sletning af konto blev accepteret",
+        "nn_NO": "Førespurnaden din om å slette dataa dine vart akseptert."
+      }
+    },
+    "data_download_success": {
+      "text": {
+        "en_US": "Your data download request was accepted.",
+        "nb_NO": "Din forespørsel om å laste ned dine data ble akseptert.",
+        "sv_SE": "Tack! Vi har mottagit din fråga och kommer att kontakta dig.",
+        "fi_FI": "Kiitos! Viestisi on vastaanotettu ja olemme sinuun yhteydessä.",
+        "da_DK": "Din anmodning om download af data blev accepteret",
+        "nn_NO": "Førespurnaden din om å laste ned dataa dine vart akseptert."
+      }
+    },
+    "app-contactMessageEmailEmpty": {
+      "text": {
+        "en_US": "You can not send messages. Your email is empty.",
+        "nb_NO": "Du kan ikke sende meldinger, legg inn din epost-adresse først.",
+        "sv_SE": "Du kan inte skicka meddelande innan du har registrerat din e-post.",
+        "fi_FI": "Et voi lähettää viestiä, sillä et ole rekisteröinyt sähköpostiosoitettasi.",
+        "da_DK": "Du kan ikke sende beskeder. Indtast din mailadresse.",
+        "nn_NO": "Du kan ikkje sende meldinga, legg inn din epost-adresse først."
+      }
+    },
+    "complaint-duplicateKeyError": {
+      "text": {
+        "en_US": "It is not possible to register complaint on this issue. Contact Mediaconnect for support.",
+        "nb_NO": "Det er ikke mulig å registrere en klage på denne utgaven. Kontakt kundesenter for videre hjelp.",
+        "sv_SE": "Det är inte möjligt att registrera en reklamation på detta paket. Vänligen kontakta kundtjänst för vidare hjälp.",
+        "fi_FI": "Jos haluat tehdä reklamaation tästä paketista, otathan ystävällisesti yhteyttä asiakaspalveluumme.",
+        "da_DK": "Det er ikke muligt at oprette en klage i dette emne. Kontakt venligst vores supportcenter",
+        "nn_NO": "Det er ikkje mogleg å registrere ein klage på denne utgåva. Kontakt kundesenter for videre hjelp."
+      }
+    },
+    "app-paymentChangeErrorUrl": {
+      "text": {
+        "en_US": "Payment change failed",
+        "nb_NO": "Feil ved endring av betalingsmåte",
+        "sv_SE": "Fel vid ändring av betalsätt",
+        "fi_FI": "Maksutavan muuttaminen epäonnistui",
+        "da_DK": "Fejl ved ændring af betalingsmetode",
+        "nn_NO": "Feil ved endring av betalingsmetode"
+      }
+    },
+    "app-paymentChangeResultFinished": {
+      "text": {
+        "en_US": "Payment change succeeded",
+        "nb_NO": "Endring av betalingsmåte gjennomført",
+        "sv_SE": "Ändring av betalsätt genomförd",
+        "fi_FI": "Maksutapa on muutettu",
+        "da_DK": "Ændring af betalingsmetode gennemført",
+        "nn_NO": "Endring av betalingsmetode gjennomført"
+      }
+    },
+    "app-paymentChangeResultCancelled": {
+      "text": {
+        "en_US": "Payment change cancelled",
+        "nb_NO": "Endring av betalingsmåte kansellert",
+        "sv_SE": "Ändring av betalsätt avbruten",
+        "fi_FI": "Maksutavan muutos on peruttu",
+        "da_DK": "Ændring af betalingsmetode annulleret",
+        "nn_NO": "Endring av betalingsmetode kansellert"
+      }
+    },
+    "app-paymentChangeResultFailed": {
+      "text": {
+        "en_US": "Payment change failed",
+        "nb_NO": "Feil ved endring av betalingsmåte",
+        "sv_SE": "Fel vid ändring av betalsätt",
+        "fi_FI": "Maksutavan muuttaminen epäonnistui",
+        "da_DK": "Mislykket ændring af betalingsmetode",
+        "nn_NO": "Feil ved endring av betalingsmetode"
+      }
+    },
+    "app-paymentChangeResultUnknown": {
+      "text": {
+        "en_US": "Payment change result unknown",
+        "nb_NO": "Ukjent resultat ved endring av betalingsmåte",
+        "sv_SE": "Okänt resultat vid ändring av betalsätt",
+        "fi_FI": "Tunnistamaton virhe maksutapaa muuttaessa",
+        "da_DK": "Ukendt resultat ved ændring af betalingsmetode",
+        "nn_NO": "Ukjent resultat ved endring av betalingsmetode"
+      }
+    },
+    "app-paymentChangeResultInitiated": {
+      "text": {
+        "en_US": "Payment change initiated",
+        "nb_NO": "Endring av betalingsmåte initiert",
+        "sv_SE": "Ändring av betalsätt påbörjad",
+        "fi_FI": "Maksutavan muuttaminen käynnissä",
+        "da_DK": "Ændring af betalingsmetode påbegyndt",
+        "nn_NO": "Endring av betalingsmåte initiert"
+      }
+    },
+    "app-paymentChangeResultError": {
+      "text": {
+        "en_US": "Payment change error",
+        "nb_NO": "Feil ved endring av betalingsmåte",
+        "sv_SE": "Fel vid ändring av betalsätt",
+        "fi_FI": "Maksutavan muuttaminen epäonnistui",
+        "da_DK": "Fejl ved ændring af betalingsmetode",
+        "nn_NO": "Feil ved endring av betalingsmetode"
+      }
+    },
+    "app-changePasswordSuccessUrl": {
+      "text": {
+        "en_US": "Change password succeeded",
+        "nb_NO": "Endring av passord gjennomført",
+        "sv_SE": "Lösenord är ändrat",
+        "fi_FI": "Salasana on vaihdettu",
+        "da_DK": "Ændring af password gennemført",
+        "nn_NO": "Passord er endret"
+      }
+    },
+    "app-changePasswordErrorUrl": {
+      "text": {
+        "en_US": "Change password failed",
+        "nb_NO": "Feil ved endring av passord",
+        "sv_SE": "Fel vid ändring av lösenord",
+        "fi_FI": "Salasanan vaihtaminen epäonnistui",
+        "da_DK": "Mislykket ændring af password",
+        "nn_NO": "Feil ved endring av passord"
+      }
+    },
+    "app-addingCardResultFinished": {
+      "text": {
+        "en_US": "Adding card succeeded",
+        "nb_NO": "Lagring av kort gjennomført",
+        "sv_SE": "Lagring av kort är genomförd",
+        "fi_FI": "Kortin tiedot on tallennettu",
+        "da_DK": "Betalingskort tilføjet",
+        "nn_NO": "Lagring av kort gjennomført"
+      }
+    },
+    "app-addingCardResultCancelled": {
+      "text": {
+        "en_US": "Adding card cancelled",
+        "nb_NO": "Lagring av kort kansellert",
+        "sv_SE": "Lagring av kort är avbruten",
+        "fi_FI": "Kortin tiedot on poistettu",
+        "da_DK": "Tilføjelse af betalingskort annulleret",
+        "nn_NO": "Lagring av kort kansellert"
+      }
+    },
+    "app-addingCardResultFailed": {
+      "text": {
+        "en_US": "Adding card failed",
+        "nb_NO": "Feil ved lagring av kort",
+        "sv_SE": "Fel vid lagring av kort",
+        "fi_FI": "Kortin tallentaminen epäonnistui",
+        "da_DK": "Tilføjelse af betalingskort mislykket",
+        "nn_NO": "Feil ved lagring av kort"
+      }
+    },
+    "app-addingCardResultUnknown": {
+      "text": {
+        "en_US": "Adding card result unknown",
+        "nb_NO": "Ukjent resultat ved lagring av kort",
+        "sv_SE": "Okänt resultat vid lagring av kort",
+        "fi_FI": "Tunnistamaton virhe korttia tallennettaessa",
+        "da_DK": "Ukendt resultat ved tilføjelse af betalingskort",
+        "nn_NO": "Ukjent resultat ved lagring av kort"
+      }
+    },
+    "app-addingCardResultInitiated": {
+      "text": {
+        "en_US": "Adding card initiated",
+        "nb_NO": "Lagring av kort initiert",
+        "sv_SE": "Lagring av kort påbörjad",
+        "fi_FI": "Kortin tietojen tallentaminen käynnissä",
+        "da_DK": "Tilføjelse af betalingskort påbegyndt",
+        "nn_NO": "Lagring av kort initiert"
+      }
+    },
+    "app-addingCardResultError": {
+      "text": {
+        "en_US": "Adding card error",
+        "nb_NO": "Feil ved lagring av kort",
+        "sv_SE": "Fel vid lagring av kort",
+        "fi_FI": "Kortin tallentaminen epäonnistui",
+        "da_DK": "Fejl ved tilføjelse af betalingskort",
+        "nn_NO": "Feil ved lagring av kort"
+      }
+    },
+    "app-addingCardErrorUrl": {
+      "text": {
+        "en_US": "Adding card failed",
+        "nb_NO": "Feil ved lagring av kort",
+        "sv_SE": "Lagring av kort misslyckades",
+        "fi_FI": "Kortin tallentaminen epäonnistui",
+        "da_DK": "Mislykket tilføjelse af betalingskort",
+        "nn_NO": "Feil ved lagring av kort"
+      }
+    },
+    "app-changeCardResultFinished": {
+      "text": {
+        "en_US": "Change card succeeded",
+        "nb_NO": "Endring av kort gjennomført",
+        "sv_SE": "*** app-changeCardResultFinished ***",
+        "fi_FI": "*** app-changeCardResultFinished ***",
+        "da_DK": "*** app-changeCardResultFinished ***",
+        "nn_NO": "Kort er endret"
+      }
+    },
+    "app-changeCardResultCancelled": {
+      "text": {
+        "en_US": "Change card cancelled",
+        "nb_NO": "Endring av kort kansellert",
+        "sv_SE": "*** app-changeCardResultCancelled ***",
+        "fi_FI": "*** app-changeCardResultCancelled ***",
+        "da_DK": "*** app-changeCardResultCancelled ***",
+        "nn_NO": "Endring av kort kansellert"
+      }
+    },
+    "app-changeCardResultFailed": {
+      "text": {
+        "en_US": "Change card failed",
+        "nb_NO": "Feil ved endring av kort",
+        "sv_SE": "*** app-changeCardResultFailed ***",
+        "fi_FI": "*** app-changeCardResultFailed ***",
+        "da_DK": "*** app-changeCardResultFailed ***",
+        "nn_NO": "Feil ved endring av kort"
+      }
+    },
+    "app-changeCardResultUnknown": {
+      "text": {
+        "en_US": "Change card result unknown",
+        "nb_NO": "Ukjent resultat ved endring av kort",
+        "sv_SE": "*** app-changeCardResultUnknown ***",
+        "fi_FI": "*** app-changeCardResultUnknown ***",
+        "da_DK": "*** app-changeCardResultUnknown ***",
+        "nn_NO": "Ukjent resultat ved endring av kort"
+      }
+    },
+    "app-changeCardResultInitiated": {
+      "text": {
+        "en_US": "Change card initiated",
+        "nb_NO": "Endring av kort initiert",
+        "sv_SE": "*** app-changeCardResultInitiated ***",
+        "fi_FI": "*** app-changeCardResultInitiated ***",
+        "da_DK": "*** app-changeCardResultInitiated ***",
+        "nn_NO": "Endring av kort initiert"
+      }
+    },
+    "app-changeCardResultError": {
+      "text": {
+        "en_US": "Change card error",
+        "nb_NO": "Feil ved endring av kort",
+        "sv_SE": "*** app-changeCardResultError ***",
+        "fi_FI": "*** app-changeCardResultError ***",
+        "da_DK": "*** app-changeCardResultError ***",
+        "nn_NO": "Feil ved endring av kort"
+      }
+    },
+    "app-changeCardErrorUrl": {
+      "text": {
+        "en_US": "Change card failed",
+        "nb_NO": "Feil ved endring av kort",
+        "sv_SE": "*** app-changeCardErrorUrl ***",
+        "fi_FI": "*** app-changeCardErrorUrl ***",
+        "da_DK": "*** app-changeCardErrorUrl ***",
+        "nn_NO": "Feil ved endring av kort"
+      }
+    },
+    "app-paymentInvoiceResultFinished": {
+      "text": {
+        "en_US": "Payment succeeded",
+        "nb_NO": "Betalingen lyktes",
+        "sv_SE": "Betalningen lyckades",
+        "fi_FI": "Maksu onnistui",
+        "da_DK": "Betaling lykkedes",
+        "nn_NO": "Betalinga lyktes"
+      }
+    },
+    "app-paymentInvoiceResultCancelled": {
+      "text": {
+        "en_US": "Payment cancelled",
+        "nb_NO": "Betaling kansellert",
+        "sv_SE": "Betalningen avbruten",
+        "fi_FI": "Maksu peruutettu",
+        "da_DK": "Betaling annulleret",
+        "nn_NO": "Betalinga di vart kansellert"
+      }
+    },
+    "app-paymentInvoiceResultFailed": {
+      "text": {
+        "en_US": "Payment failed",
+        "nb_NO": "Betalingen feilet",
+        "sv_SE": "Betalning misslyckades",
+        "fi_FI": "Maksu epäonnistui",
+        "da_DK": "Betaling mislykkedes",
+        "nn_NO": "Betalinga di feilet"
+      }
+    },
+    "app-paymentInvoiceResultUnknown": {
+      "text": {
+        "en_US": "Payment result unknown",
+        "nb_NO": "Ukjent betalingsresultat",
+        "sv_SE": "Betalningsresultat okänt",
+        "fi_FI": "Maksutulos tuntematon",
+        "da_DK": "Ukendt betalingsresultat",
+        "nn_NO": "Ukjent betalingsresultat"
+      }
+    },
+    "app-paymentInvoiceResultInitiated": {
+      "text": {
+        "en_US": "Payment initiated",
+        "nb_NO": "Betalingen startet",
+        "sv_SE": "Betalning initierad",
+        "fi_FI": "Maksu aloitettu",
+        "da_DK": "Betaling startet",
+        "nn_NO": "Betalingen startet"
+      }
+    },
+    "app-paymentInvoiceResultError": {
+      "text": {
+        "en_US": "Payment error",
+        "nb_NO": "Betalingsfeil",
+        "sv_SE": "Betalningsfel",
+        "fi_FI": "Maksuvirhe",
+        "da_DK": "Betalingsfejl",
+        "nn_NO": "Betalingsfeil"
+      }
+    },
+    "app-paymentInvoiceErrorUrl": {
+      "text": {
+        "en_US": "Payment failed",
+        "nb_NO": "Betalingen feilet",
+        "sv_SE": "Betalning misslyckades",
+        "fi_FI": "Maksu epäonnistui",
+        "da_DK": "Betaling mislykkedes",
+        "nn_NO": "Betalinga di feilet"
+      }
+    }
+  },
+  "dialogs": {
+    "buttonTrue": {
+      "en_US": "YES",
+      "nb_NO": "JA",
+      "sv_SE": "JA",
+      "fi_FI": "KYLLÄ",
+      "da_DK": "JA",
+      "nn_NO": "JA"
+    },
+    "buttonFalse": {
+      "en_US": "NO",
+      "nb_NO": "NEI",
+      "sv_SE": "NEJ",
+      "fi_FI": "EI",
+      "da_DK": "NEJ",
+      "nn_NO": "NEI"
+    },
+    "buttonOk": {
+      "en_US": "OK",
+      "nb_NO": "OK",
+      "sv_SE": "OK",
+      "fi_FI": "OK",
+      "da_DK": "OK",
+      "nn_NO": "OK"
+    },
+    "buttonClose": {
+      "en_US": "CLOSE",
+      "nb_NO": "LUKK",
+      "sv_SE": "STÄNGA",
+      "fi_FI": "KIINNI",
+      "da_DK": "TÆT",
+      "nn_NO": "LAT AT"
+    },
+    "send-message": {
+      "textBold": {
+        "en_US": "Do you want to send message?",
+        "nb_NO": "Vil du sende meldingen?",
+        "sv_SE": "Vill du skicka meddelandet?",
+        "fi_FI": "Haluatko lähettää viestin?",
+        "da_DK": "Vil du sende beskeden?",
+        "nn_NO": "Vil du sende meldinga?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "send-complaint": {
+      "textBold": {
+        "en_US": "Do you want to send a complaint?",
+        "nb_NO": "Er du sikker på at du vil sende klagen?",
+        "sv_SE": "Vill du skicka en reklamation?",
+        "fi_FI": "Haluatko reklamoida?",
+        "da_DK": "Ønsker du at indsende en klage?",
+        "nn_NO": "Er du sikker på at du vil sende klagen?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "cancel-subscription": {
+      "textBold": {
+        "en_US": "Do you really want to cancel subscription?",
+        "nb_NO": "Er du sikker på at du vil stoppe abonnementet?",
+        "sv_SE": "Är du säker på att du vill stoppa prenumerationen?",
+        "fi_FI": "Haluatko varmasti keskeyttää kestotilauksen?",
+        "da_DK": "Er du sikker på, at du vil stoppe abonnementet?",
+        "nn_NO": "Er du sikker på at du vil stoppe abonnementet?"
+      },
+      "textNormal": {
+        "en_US": "The payment from your card will continue to be charged until the end of the accounting month. After this your subscription will be disabled.",
+        "nb_NO": "Vi vil fortsette å belaste kortet ditt ut nåværende abonnementsperiode. Ditt abonnement vil bli avsluttet etter dette.",
+        "sv_SE": "Vi kommer att fortsätta belasta ditt kort under din nuvarande prenumerationsperiod. Din prenumeration kommer därefter att avslutas.",
+        "fi_FI": "Maksu kuluvalta tilausjaksolta veloitetaan kortiltasi. Sen jälkeen kestotilauksesi katkeaa.",
+        "da_DK": "Betalingen fra dit kort vil fortsætte indtil aftaleperiodens udløb. Herefter vil dit abonnement ophøre.",
+        "nn_NO": "Vi vil halde fram med å belaste kortet ditt ut den noverande abonnementsperioden. Abonnementet vil verte avslutta etter dette."
+      }
+    },
+    "restore-subscription": {
+      "textBold": {
+        "en_US": "Do you really want to restore subscription?",
+        "nb_NO": "Vil du gjenoppta abonnementet?",
+        "sv_SE": "Vill du återta prenumerationen?",
+        "fi_FI": "Haluatko palauttaa aikaisemmat kestotilausasetukset?",
+        "da_DK": "Ønsker du at genoptage abonnementet?",
+        "nn_NO": "Vil du gjenoppta abonnementet?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "save-profile": {
+      "textBold": {
+        "en_US": "Do you want to save profile changes?",
+        "nb_NO": "Vil du lagre endringene på profilen din?",
+        "sv_SE": "Vill du spara ändringarna i din profil?",
+        "fi_FI": "Haluatko tallentaa tekemäsi muutokset?",
+        "da_DK": "Vil du gemme ændringerne i din profil?",
+        "nn_NO": "Vil du lagre endringane på profilen din?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-card": {
+      "textBold": {
+        "en_US": "Do you really want to delete card?",
+        "nb_NO": "Er du sikker på at du vil fjerne kortet?",
+        "sv_SE": "Är du säker på att du vill ta bort kortet?",
+        "fi_FI": "Haluatko varmasti poistaa kortin tiedot?",
+        "da_DK": "Er du sikker på, at du vil slette kortet?",
+        "nn_NO": "Er du sikker på at du vil fjerne kortet?"
+      },
+      "textNormal": {
+        "en_US": "Please note that a deletion of card is not regarded as a termination of any active subscription connected to it.",
+        "nb_NO": "Vær klar over at å fjerne ditt betalingskort ikke vil regnes som en oppsigelse av aktive abonnement som er knyttet til kortet.",
+        "sv_SE": "Vänligen observera att borttagning av kort inte betraktas som en uppsägning av aktiva prenumerationer som är knutna till kortet.",
+        "fi_FI": "Huomioithan ystävällisesti, että maksukortin tietojen poistaminen ei katkaise voimassaolevia kestotilauksiasi, joihin kortti on yhdistetty.",
+        "da_DK": "Vær venligst opmærksom på, at sletning af et kort ikke betragtes som en opsigelse af et eller flere abonnementer tilknyttet kortet",
+        "nn_NO": "Vær klar over at å fjerne ditt betalingskort ikke vil regnes som en oppsigelse av aktive abonnement som er knyttet til kortet."
+      }
+    },
+    "save-address": {
+      "textBold": {
+        "en_US": "Do you want to save address changes?",
+        "nb_NO": "Vil du lagre endringene på adressen?",
+        "sv_SE": "Vill du spara adressändringen?",
+        "fi_FI": "Haluatko tallentaa osoitteenmuutoksen?",
+        "da_DK": "Vil du gemme adresseændringerne?",
+        "nn_NO": "Vil du lagre endringane på adressa?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "save-email": {
+      "textBold": {
+        "en_US": "Do you want to save email?",
+        "nb_NO": "Vil du lagre epost-adressen?",
+        "sv_SE": "Vill du spara e-postadressen?",
+        "fi_FI": "Haluatko tallentaa sähköpostiosoitteen?",
+        "da_DK": "Vil du gemme mailadressen?",
+        "nn_NO": "Vil du lagre epost-adressa?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "save-phone": {
+      "textBold": {
+        "en_US": "Do you want to save phone number?",
+        "nb_NO": "Vil du lagre telefonnummer?",
+        "sv_SE": "Vill du spara telefonnumret?",
+        "fi_FI": "Haluatko tallentaa puhelinnumeron?",
+        "da_DK": "Vil du gemme telefonnummeret?",
+        "nn_NO": "Vil du lagre telefonnummer?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-address": {
+      "textBold": {
+        "en_US": "Do you want to delete address?",
+        "nb_NO": "Er du sikker på at du vil fjerne adressen?",
+        "sv_SE": "Är du säker på att du vill ta bort adressen?",
+        "fi_FI": "Haluatko varmasti poistaa osoitetiedon?",
+        "da_DK": "Er du sikker på, at du vil slette adressen?",
+        "nn_NO": "Er du sikker på at du vil fjerne adressa?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-temporary-address": {
+      "textBold": {
+        "en_US": "Do you want to delete temporary address?",
+        "nb_NO": "Er du sikker på at du vil fjerne den midlertidige adressen?",
+        "sv_SE": "Är du säker på att du vill ta bort den tillfälliga adressen?",
+        "fi_FI": "Haluatko varmasti poistaa väliaikaisen osoitetiedon?",
+        "da_DK": "Er du sikker på, at du vil slette den midlertidige adresse?",
+        "nn_NO": "Er du sikker på at du vil fjerne mellombels adressa?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-temporary-stop": {
+      "textBold": {
+        "en_US": "Do you want to delete temporary stop?",
+        "nb_NO": "Vil du slette midlertidig stopp?",
+        "sv_SE": "Vill du ta bort tillfälligt uppehåll?",
+        "fi_FI": "Haluatko peruuttaa väliaikaisen keskeytyksen?",
+        "da_DK": "Er du sikker på, at du vil annullere leveringspausen?",
+        "nn_NO": "Vil du slette mellombels stoppen?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-email": {
+      "textBold": {
+        "en_US": "Do you want to delete email?",
+        "nb_NO": "Er du sikker på at du vil fjerne epostadressen?",
+        "sv_SE": "Är du säker på att du vill ta bort e-postadressen?",
+        "fi_FI": "Haluatko varmasti poistaa sähköpostiosoitteen?",
+        "da_DK": "Er du sikker på, at du vil slette mailadressen?",
+        "nn_NO": "Er du sikker på at du vil fjerne epostadressa?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-phone": {
+      "textBold": {
+        "en_US": "Do you want to delete phone number?",
+        "nb_NO": "Er du sikker på at du vil fjerne telefonnummer?",
+        "sv_SE": "Är du säker på att du vill ta bort telefonnumret?",
+        "fi_FI": "Haluatko varmasti poistaa puhelinnumeron?",
+        "da_DK": "Er du sikker på, at du vil slette telefonnummeret?",
+        "nn_NO": "Er du sikker på at du vil fjerne telefonnummer?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "delete-account": {
+      "textBold": {
+        "en_US": "Do you want to delete account?",
+        "nb_NO": "Vil du slette dine data?",
+        "sv_SE": "Vill du radera din data?",
+        "fi_FI": "Haluatko poistaa käyttäjätilisi?",
+        "da_DK": "Vil du slette dine data?",
+        "nn_NO": "Vil du slette dataa dine?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "download-data": {
+      "textBold": {
+        "en_US": "Do you want to download data?",
+        "nb_NO": "Vil du laste ned dine data?",
+        "sv_SE": "Vill du spara ner din data?",
+        "fi_FI": "Haluatko tallentaa tietosi?",
+        "da_DK": "Vil du downloade dine data?",
+        "nn_NO": "Vil du laste ned dataa dine?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "change-password": {
+      "textBold": {
+        "en_US": "Do you want to change password?",
+        "nb_NO": "Vil du endre ditt passord?",
+        "sv_SE": "Vill du ändra ditt lösenord?",
+        "fi_FI": "Haluatko vaihtaa salasanasi?",
+        "da_DK": "Vil du ændre password?",
+        "nn_NO": "Vil du endre passordet ditt?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "save-temporary-address": {
+      "textBold": {
+        "en_US": "Do you want to save a temporary address for the following issues?",
+        "nb_NO": "Vil du lagre en midlertidig adresse for de følgende utgavene?",
+        "sv_SE": "Vill du spara en tillfällig adressändring för följande leveranser?",
+        "fi_FI": "Haluatko ilmoittaa väliaikaisen toimitusosoitteen seuraaville lähetyksille?",
+        "da_DK": "Vil du indtaste en midlertidig adresse på disse udgivelser?",
+        "nn_NO": "Vil du lagre en mellombels adresse for de følgende utgåvene?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "save-delivery-stop": {
+      "textBold": {
+        "en_US": "Do you want to save a delivery stop for the following issues?",
+        "nb_NO": "Vil du lagre en leveringsstopp for de følgende utgavene?",
+        "sv_SE": "Vill du spara ett leveransstopp för följande problem?",
+        "fi_FI": "Haluatko tallentaa toimituspysähdyksen seuraaviin ongelmiin?",
+        "da_DK": "Vil du gemme et leveringsstop til følgende problemer?",
+        "nn_NO": "Vil du lagre en leveringsstopp for de følgende utgåvene?"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    },
+    "change-payment-method": {
+      "textBold": {
+        "en_US": "Please change payment method for subscription",
+        "nb_NO": "Endre betalingsmåte for abonnement",
+        "sv_SE": "Ändra betalningsmetod för prenumeration",
+        "fi_FI": "Vaihda tilauksen maksutapa",
+        "da_DK": "Skift betalingsmetode for abonnement",
+        "nn_NO": "Endre din betalingsmetode"
+      },
+      "textNormal": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      }
+    }
+  },
+  "menu": {
+    "customerNumberInfo": {
+      "label": {
+        "en_US": "Customer number",
+        "nb_NO": "Kundenummer",
+        "sv_SE": "Kundnummer",
+        "fi_FI": "Asiakasnumero",
+        "da_DK": "Kundenummer",
+        "nn_NO": "Kundenummer"
+      },
+      "separator": {
+        "en_US": ":",
+        "nb_NO": ":",
+        "sv_SE": ":",
+        "fi_FI": ":",
+        "da_DK": ":",
+        "nn_NO": ":"
+      }
+    },
+    "logoutButton": {
+      "name": {
+        "en_US": "LOG OUT",
+        "nb_NO": "LOGG UT",
+        "sv_SE": "LOGGA UT",
+        "fi_FI": "KIRJAUDU ULOS",
+        "da_DK": "LOG UD",
+        "nn_NO": "LOGG UT"
+      }
+    },
+    "home": {
+      "name": {
+        "en_US": "HOME",
+        "nb_NO": "HJEM",
+        "sv_SE": "HEM",
+        "fi_FI": "ETUSIVU",
+        "da_DK": "HJEM",
+        "nn_NO": "HEIM"
+      }
+    },
+    "subscriptions": {
+      "name": {
+        "en_US": "SUBSCRIPTIONS",
+        "nb_NO": "ABONNEMENT",
+        "sv_SE": "PRENUMERATION",
+        "fi_FI": "KESTOTILAUS",
+        "da_DK": "ABONNEMENT",
+        "nn_NO": "ABONNEMENT"
+      }
+    },
+    "series": {
+      "name": {
+        "en_US": "BOOK SERIES",
+        "nb_NO": "BOKSERIE",
+        "sv_SE": "BOKSERIE",
+        "fi_FI": "KIRJASARJA",
+        "da_DK": "BOGSERIE",
+        "nn_NO": "BOKSERIE"
+      }
+    },
+    "singleOrders": {
+      "name": {
+        "en_US": "SINGLE ORDER",
+        "nb_NO": "ENKELTORDRE",
+        "sv_SE": "ENSTAKA ORDER",
+        "fi_FI": "YKSI TILAUS",
+        "da_DK": "ENKELTORDRE",
+        "nn_NO": "ENKELTORDRE"
+      }
+    },
+    "account": {
+      "name": {
+        "en_US": "MY ACCOUNT",
+        "nb_NO": "MIN PROFIL",
+        "sv_SE": "MIN PROFIL",
+        "fi_FI": "OMA PROFIILI",
+        "da_DK": "MIN PROFIL",
+        "nn_NO": "PROFILEN MIN"
+      }
+    },
+    "cards": {
+      "name": {
+        "en_US": "MY CARDS",
+        "nb_NO": "MINE KORT",
+        "sv_SE": "MINA KORT",
+        "fi_FI": "OMA KORTTI",
+        "da_DK": "MINE KORT",
+        "nn_NO": "KORTA MINE"
+      }
+    },
+    "payments": {
+      "name": {
+        "en_US": "INVOICES",
+        "nb_NO": "FAKTURAER",
+        "sv_SE": "BETALNINGAR",
+        "fi_FI": "MAKSUT",
+        "da_DK": "BETALINGER",
+        "nn_NO": "BETALINGAR"
+      }
+    },
+    "privacy": {
+      "name": {
+        "en_US": "PRIVACY",
+        "nb_NO": "PERSONVERN",
+        "sv_SE": "GDPR",
+        "fi_FI": "GDPR",
+        "da_DK": "PRIVATINDSTILLINGER",
+        "nn_NO": "PERSONVERN"
+      }
+    },
+    "contact": {
+      "name": {
+        "en_US": "CONTACT SUPPORT",
+        "nb_NO": "KONTAKT KUNDESERVICE",
+        "sv_SE": "KONTAKTA KUNDTJÄNST",
+        "fi_FI": "OTA YHTEYTTÄ ASIAKASPALVELUUN",
+        "da_DK": "KONTAKT KUNDESERVICE",
+        "nn_NO": "KONTAKT KUNDESERVICE"
+      }
+    },
+    "complaint": {
+      "name": {
+        "en_US": "COMPLAINT",
+        "nb_NO": "REKLAMASJON",
+        "sv_SE": "REKLAMATION",
+        "fi_FI": "REKLAMAATIO",
+        "da_DK": "KLAGE",
+        "nn_NO": "REKLAMASJON"
+      }
+    },
+    "faq": {
+      "name": {
+        "en_US": "FAQ",
+        "nb_NO": "FAQ",
+        "sv_SE": "FAQ",
+        "fi_FI": "FAQ",
+        "da_DK": "FAQ",
+        "nn_NO": "FAQ"
+      }
+    }
+  },
+  "account": {
+    "title": {
+      "en_US": "My account",
+      "nb_NO": "Min profil",
+      "sv_SE": "Min profil",
+      "fi_FI": "Oma profiili",
+      "da_DK": "Min profil",
+      "nn_NO": "Profilen min"
+    },
+    "tabs": {
+      "profileTab": {
+        "title": {
+          "en_US": "PROFILE",
+          "nb_NO": "PROFIL",
+          "sv_SE": "PROFIL",
+          "fi_FI": "PROFIILI",
+          "da_DK": "PROFIL",
+          "nn_NO": "PROFIL"
+        }
+      },
+      "addressesTab": {
+        "title": {
+          "en_US": "ADDRESSES",
+          "nb_NO": "ADRESSER",
+          "sv_SE": "ADRESSER",
+          "fi_FI": "OSOITETIEDOT",
+          "da_DK": "ADRESSER",
+          "nn_NO": "ADRESSER"
+        }
+      },
+      "paymentMethodsTab": {
+        "title": {
+          "en_US": "PAYMENT METHODS",
+          "nb_NO": "BETALINGSMÅTER",
+          "sv_SE": "BETALSÄTT",
+          "fi_FI": "MAKSUTAPA",
+          "da_DK": "BETALINGSMÅDER",
+          "nn_NO": "BETALINGSMETODER"
+        }
+      },
+      "emailsTab": {
+        "title": {
+          "en_US": "EMAILS",
+          "nb_NO": "EPOSTADRESSER",
+          "sv_SE": "E-POSTADRESSER",
+          "fi_FI": "SÄHKÖPOSTIOSOITE",
+          "da_DK": "E-MAIL",
+          "nn_NO": "EPOSTADRESSER"
+        }
+      },
+      "phonesTab": {
+        "title": {
+          "en_US": "PHONE NUMBERS",
+          "nb_NO": "TELEFONNUMMER",
+          "sv_SE": "TELEFONNUMMER",
+          "fi_FI": "PUHELINNUMERO",
+          "da_DK": "TELEFONNUMMER",
+          "nn_NO": "TELEFONNUMMER"
+        }
+      }
+    },
+    "profile": {
+      "companyNameLabel": {
+        "en_US": "Company name",
+        "nb_NO": "Firmanavn",
+        "sv_SE": "Företagsnamn",
+        "fi_FI": "Yrityksen nimi",
+        "da_DK": "Firmanavn",
+        "nn_NO": "Firmanavn"
+      },
+      "departmentNameLabel": {
+        "en_US": "Department name",
+        "nb_NO": "Avdeling",
+        "sv_SE": "Avdelning",
+        "fi_FI": "Osasto",
+        "da_DK": "Afdeling",
+        "nn_NO": "Avdeling"
+      },
+      "firstNameLabel": {
+        "en_US": "First name",
+        "nb_NO": "Fornavn",
+        "sv_SE": "Förnamn",
+        "fi_FI": "Etunimi",
+        "da_DK": "Fornavn",
+        "nn_NO": "Førenavn"
+      },
+      "middleNameLabel": {
+        "en_US": "Middle name",
+        "nb_NO": "Mellomnavn",
+        "sv_SE": "Mellannamn",
+        "fi_FI": "Toinen nimi",
+        "da_DK": "Mellemnavn",
+        "nn_NO": "Mellomnamn"
+      },
+      "lastNameLabel": {
+        "en_US": "Last name",
+        "nb_NO": "Etternavn",
+        "sv_SE": "Efternamn",
+        "fi_FI": "Sukunimi",
+        "da_DK": "Efternavn",
+        "nn_NO": "Etternamn"
+      },
+      "phoneNumberLabel": {
+        "en_US": "Phone number",
+        "nb_NO": "Telefonnummer",
+        "sv_SE": "Telefonnummer",
+        "fi_FI": "Puhelinnumero",
+        "da_DK": "Telefonnummer",
+        "nn_NO": "Telefonnummer"
+      },
+      "saveButton": {
+        "en_US": "SAVE",
+        "nb_NO": "LAGRE",
+        "sv_SE": "SPARA",
+        "fi_FI": "TALLENNA",
+        "da_DK": "GEM",
+        "nn_NO": "LAGRE"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "changePasswordButton": {
+        "en_US": "CHANGE PASSWORD",
+        "nb_NO": "ENDRE PASSORD",
+        "sv_SE": "ÄNDRA LÖSENORD",
+        "fi_FI": "VAIHDA SALASANA",
+        "da_DK": "ÆNDRE ADGANGSKODE",
+        "nn_NO": "ENDRE PASSORDET"
+      },
+      "lastNameOrCompanyNameRequired": {
+        "en_US": "Last name or company name is required",
+        "nb_NO": "Etternavn eller firmanavn er påkrevet",
+        "sv_SE": "Efternamn eller företagsnamn är obligatoriskt",
+        "fi_FI": "Sukunimi tai yrityksen nimi vaaditaan",
+        "da_DK": "Efternavn eller firmanavn er obligatorisk",
+        "nn_NO": "Etternamn eller firmanavn må vere med"
+      }
+    },
+    "addresses": {
+      "editAddressTitle": {
+        "en_US": "Edit address",
+        "nb_NO": "Endre adresse",
+        "sv_SE": "Ändra adress",
+        "fi_FI": "Vaihda osoitetieto",
+        "da_DK": "Ændre adresse",
+        "nn_NO": "Endre adresse"
+      },
+      "cardCareOfAddressPrefix": {
+        "en_US": "Care of: ",
+        "nb_NO": "C/O: ",
+        "sv_SE": "C/O: ",
+        "fi_FI": "C/O: ",
+        "da_DK": "C/O: ",
+        "nn_NO": "C/O: "
+      },
+      "cardStreetAddressPrefix": {
+        "en_US": "",
+        "nb_NO": "",
+        "sv_SE": "",
+        "fi_FI": "",
+        "da_DK": "",
+        "nn_NO": ""
+      },
+      "cardEntrancePrefix": {
+        "en_US": " ",
+        "nb_NO": " ",
+        "sv_SE": " ",
+        "fi_FI": " ",
+        "da_DK": " ",
+        "nn_NO": " "
+      },
+      "cardFloorPrefix": {
+        "en_US": " ",
+        "nb_NO": " ",
+        "sv_SE": " ",
+        "fi_FI": " ",
+        "da_DK": " ",
+        "nn_NO": " "
+      },
+      "cardSuitePrefix": {
+        "en_US": " / ",
+        "nb_NO": " / ",
+        "sv_SE": " / ",
+        "fi_FI": " / ",
+        "da_DK": " / ",
+        "nn_NO": " / "
+      },
+      "cardCountryCodePrefix": {
+        "en_US": ", ",
+        "nb_NO": ", ",
+        "sv_SE": ", ",
+        "fi_FI": ", ",
+        "da_DK": ", ",
+        "nn_NO": ", "
+      },
+      "cardPostalAddressPrefix": {
+        "en_US": "Post Office: ",
+        "nb_NO": "Postkontorets: ",
+        "sv_SE": "Postkontor: ",
+        "fi_FI": "Postitoimisto: ",
+        "da_DK": "Postkontor: ",
+        "nn_NO": "Postboks: "
+      },
+      "productPrefix": {
+        "en_US": "Product: ",
+        "nb_NO": "Produkt: ",
+        "sv_SE": "Produkt: ",
+        "fi_FI": "Tuote: ",
+        "da_DK": "Produkt: ",
+        "nn_NO": "Produkt: "
+      },
+      "timeSepatator": {
+        "en_US": " - ",
+        "nb_NO": " - ",
+        "sv_SE": " - ",
+        "fi_FI": " - ",
+        "da_DK": " - ",
+        "nn_NO": " - "
+      },
+      "careOfAddressLabel": {
+        "en_US": "Care of",
+        "nb_NO": "C/O: ",
+        "sv_SE": "C/O: ",
+        "fi_FI": "C/O: ",
+        "da_DK": "C/O: ",
+        "nn_NO": "C/O: "
+      },
+      "streetAddressLabel": {
+        "en_US": "Street name",
+        "nb_NO": "Gatenavn",
+        "sv_SE": "Gatunamn",
+        "fi_FI": "Kadunnimi",
+        "da_DK": "Gadenavn / Vejnavn",
+        "nn_NO": "Gatenamn"
+      },
+      "streetNumberLabel": {
+        "en_US": "Street number",
+        "nb_NO": "Gatenummer",
+        "sv_SE": "Gatunummer",
+        "fi_FI": "Osoitenumero",
+        "da_DK": "Husnummer",
+        "nn_NO": "Gatenummer"
+      },
+      "entranceLabel": {
+        "en_US": "Entrance",
+        "nb_NO": "Inngang",
+        "sv_SE": "Ingång",
+        "fi_FI": "Porraskäytävä",
+        "da_DK": "Indgang",
+        "nn_NO": "Oppgang"
+      },
+      "floorLabel": {
+        "en_US": "Floor",
+        "nb_NO": "Etasje",
+        "sv_SE": "Våning",
+        "fi_FI": "Kerros",
+        "da_DK": "Etage",
+        "nn_NO": "Etasje"
+      },
+      "suiteLabel": {
+        "en_US": "Suite",
+        "nb_NO": "Leilighet",
+        "sv_SE": "Lägenhet",
+        "fi_FI": "Asunto",
+        "da_DK": "Lejlighed",
+        "nn_NO": "Husvære"
+      },
+      "postalAddressLabel": {
+        "en_US": "Post Office address",
+        "nb_NO": "Postkontorets adresse",
+        "sv_SE": "Postkontorets adress",
+        "fi_FI": "Postiosoite",
+        "da_DK": "Posthus adresse",
+        "nn_NO": "Postboks adresse"
+      },
+      "postalAddressPostalCodeLabel": {
+        "en_US": "Post Office code",
+        "nb_NO": "Postkontorets kode",
+        "sv_SE": "Postkontor kod",
+        "fi_FI": "Postitoimiston koodi",
+        "da_DK": "Posthus kode",
+        "nn_NO": "Postnummer"
+      },
+      "postalAddressPostalPlaceLabel": {
+        "en_US": "Post Office place",
+        "nb_NO": "Postkontorets sted",
+        "sv_SE": "Postkontor plats",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "Posthus sted",
+        "nn_NO": "Poststad"
+      },
+      "addressExistsForPeriodError": {
+        "en_US": "Temporary address exists for this period",
+        "nb_NO": "Midlertidig adresse finnes for denne perioden",
+        "sv_SE": "Tillfällig adress finns för denna period",
+        "fi_FI": "Tälle ajalle on olemassa väliaikainen osoite",
+        "da_DK": "Midlertidig adresse findes i denne periode",
+        "nn_NO": "Mellombels adresse finst for denne perioden"
+      },
+      "issueNotExistsForPeriodError": {
+        "en_US": "Issue doesn't exist for this period",
+        "nb_NO": "Utgave finnes ikke for denne perioden",
+        "sv_SE": "Problemet finns inte den här perioden",
+        "fi_FI": "Numeroa ei ole olemassa tällä kaudella",
+        "da_DK": "Problemet findes ikke i denne periode",
+        "nn_NO": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg"
+      },
+      "postalCodeLabel": {
+        "en_US": "Postal code",
+        "nb_NO": "Postnummer",
+        "sv_SE": "Postnummer",
+        "fi_FI": "Postinumero",
+        "da_DK": "Postnummer",
+        "nn_NO": "Postnummer"
+      },
+      "postalPlaceLabel": {
+        "en_US": "Postal place",
+        "nb_NO": "Poststed",
+        "sv_SE": "Ort",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "By",
+        "nn_NO": "Poststad"
+      },
+      "startTimeLabel": {
+        "en_US": "Start date",
+        "nb_NO": "Startdato",
+        "sv_SE": "Startdatum",
+        "fi_FI": "Alkupvm",
+        "da_DK": "Startdato",
+        "nn_NO": "Startdato"
+      },
+      "startTimeRequired": {
+        "en_US": "Start date is required",
+        "nb_NO": "Startdato er påkrevet",
+        "sv_SE": "Startdatum är obligatoriskt",
+        "fi_FI": "Alkupvm vaaditaan",
+        "da_DK": "Startdato er obligatorisk",
+        "nn_NO": "Gjer vel og vel ein dato frå kalenderen"
+      },
+      "startTimeMin": {
+        "en_US": "Start date must be after today's date",
+        "nb_NO": "Startdato må være senere enn dagens dato",
+        "sv_SE": "Startdatum måste vara senare än dagens datum",
+        "fi_FI": "Alkamispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Startdato skal være senere end i dag",
+        "nn_NO": "Startdato må vere seinare enn dagens dato"
+      },
+      "endTimeLabel": {
+        "en_US": "End date",
+        "nb_NO": "Stoppdato",
+        "sv_SE": "Stoppdatum",
+        "fi_FI": "Loppupvm",
+        "da_DK": "Slutdato",
+        "nn_NO": "Stoppdato"
+      },
+      "endTimeRequired": {
+        "en_US": "End date is required",
+        "nb_NO": "Stoppdato er påkrevet",
+        "sv_SE": "Stoppdatum är obligatoriskt",
+        "fi_FI": "Loppupvm vaaditaan",
+        "da_DK": "Slutdato er obligatorisk",
+        "nn_NO": "Tildato må vere med"
+      },
+      "endTimeMin": {
+        "en_US": "End date must be after start date",
+        "nb_NO": "Stoppdato må være senere enn startdato",
+        "sv_SE": "Stoppdatum måste vara senare än dagens datum",
+        "fi_FI": "Loppumispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Slutdato skal være senere end startdato",
+        "nn_NO": "Tildato må vere etter startdato"
+      },
+      "editButton": {
+        "en_US": "EDIT",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      },
+      "saveButton": {
+        "en_US": "SAVE",
+        "nb_NO": "LAGRE",
+        "sv_SE": "SPARA",
+        "fi_FI": "TALLENNA",
+        "da_DK": "GEM",
+        "nn_NO": "LAGRE"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "addButton": {
+        "en_US": "ADD ADDRESS",
+        "nb_NO": "LEGG TIL ADRESSE",
+        "sv_SE": "LÄGG TILL ADRESS",
+        "fi_FI": "LISÄÄ OSOITE",
+        "da_DK": "TILFØJ ADRESSE",
+        "nn_NO": "LEGG TIL ADRESSE"
+      },
+      "deleteButton": {
+        "en_US": "DELETE THIS ADDRESS",
+        "nb_NO": "FJERN DENNE ADRESSEN",
+        "sv_SE": "TA BORT DEN HÄR ADRESSEN",
+        "fi_FI": "POISTA OSOITE",
+        "da_DK": "FJERN DENNE ADRESSE",
+        "nn_NO": "FJERN DENNE ADRESSA"
+      },
+      "streetAddressRequired": {
+        "en_US": "Street name is required",
+        "nb_NO": "Gatenavn er påkrevet",
+        "sv_SE": "Gatunamn är obligatoriskt",
+        "fi_FI": "Kadunnimi vaaditaan",
+        "da_DK": "Gadenavn er obligatorisk",
+        "nn_NO": "Gatenamn må vere med"
+      },
+      "streetNumberRequired": {
+        "en_US": "Street number is required",
+        "nb_NO": "Gatenummer er påkrevet",
+        "sv_SE": "Gatunummer är obligatoriskt",
+        "fi_FI": "Osoitenumero vaaditaan",
+        "da_DK": "Husnummer er obligatorisk",
+        "nn_NO": "Gatenummer må vere med"
+      },
+      "postalCodeRequired": {
+        "en_US": "Postal code is required",
+        "nb_NO": "Postnummer er påkrevet",
+        "sv_SE": "Postnummer är obligatoriskt",
+        "fi_FI": "Postinumero vaaditaan",
+        "da_DK": "Postnummer er obligatorisk",
+        "nn_NO": "Postnummer må vere med"
+      },
+      "postalPlaceRequired": {
+        "en_US": "Postal place is required",
+        "nb_NO": "Poststed er påkrevet",
+        "sv_SE": "Ort är obligatoriskt",
+        "fi_FI": "Postitoimipaikka vaaditaan",
+        "da_DK": "Bynavn er obligatorisk",
+        "nn_NO": "Poststad må vere med"
+      },
+      "countryCodeTitle": {
+        "en_US": "Country code",
+        "nb_NO": "Landskode",
+        "sv_SE": "Landskod",
+        "fi_FI": "Maatunnus",
+        "da_DK": "Landekode",
+        "nn_NO": "Landskode"
+      },
+      "countryCodeRequired": {
+        "en_US": "Country code is required",
+        "nb_NO": "Landskode er påkrevet",
+        "sv_SE": "Landskod är obligatoriskt",
+        "fi_FI": "Maakoodi vaaditaan",
+        "da_DK": "Landekode er påkrævet",
+        "nn_NO": "Landskode må vere med"
+      }
+    },
+    "emails": {
+      "emailLabel": {
+        "en_US": "Email",
+        "nb_NO": "Epostadresser",
+        "sv_SE": "E-postadresser",
+        "fi_FI": "Sähköpostiosoitteet",
+        "da_DK": "E-mail",
+        "nn_NO": "E-postadresser"
+      },
+      "primaryEmailLabel": {
+        "en_US": "Primary email",
+        "nb_NO": "Primær epostadresse",
+        "sv_SE": "Primär e-postadress",
+        "fi_FI": "Ensisijainen sähköpostiosoite",
+        "da_DK": "Primær e-mail",
+        "nn_NO": "Primær epostadresse"
+      },
+      "deleteButton": {
+        "en_US": "DELETE",
+        "nb_NO": "FJERNE",
+        "sv_SE": "TA BORT",
+        "fi_FI": "POISTA",
+        "da_DK": "SLET",
+        "nn_NO": "FJERNE"
+      },
+      "addButton": {
+        "en_US": "ADD EMAIL",
+        "nb_NO": "LEGG TIL EPOSTADRESSE",
+        "sv_SE": "LÄGG TILL E-POSTADRESS",
+        "fi_FI": "LISÄÄ SÄHKÖPOSTIOSOITE",
+        "da_DK": "TILFØJ E-MAIL",
+        "nn_NO": "LEGG TIL EPOSTADRESSE"
+      },
+      "saveButton": {
+        "en_US": "SAVE",
+        "nb_NO": "LAGRE",
+        "sv_SE": "SPARA",
+        "fi_FI": "TALLENNA",
+        "da_DK": "GEM",
+        "nn_NO": "LAGRE"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "editButton": {
+        "en_US": "EDIT",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      },
+      "emailRequired": {
+        "en_US": "Email is required",
+        "nb_NO": "Epostadresse er påkrevet",
+        "sv_SE": "E-postadress är obligatoriskt",
+        "fi_FI": "Sähköpostiosoite vaaditaan",
+        "da_DK": "E-mail er obligatorisk",
+        "nn_NO": "E-postadresse må vere med"
+      },
+      "emailPatternRequired": {
+        "en_US": "Please enter a valid email address",
+        "nb_NO": "Vennligst skriv inn en gyldig epostadresse",
+        "sv_SE": "Vänligen skriv en giltig e-postadress",
+        "fi_FI": "Ilmoitathan ystävällisesti vain käytössä olevan sähköpostiosoitteen",
+        "da_DK": "Venligt indtast en gyldig e-mailadresse",
+        "nn_NO": "Gjer vel og skriv inn ei gyldig e-postadresse"
+      },
+      "emailUniqueRequired": {
+        "en_US": "Email exists",
+        "nb_NO": "Epostadresse finnes fra før",
+        "sv_SE": "E-postadressen finns redan",
+        "fi_FI": "Sähköpostiosoite on jo tallennettu",
+        "da_DK": "E-mailadressen findes allerede",
+        "nn_NO": "E-postadressa finst frå før"
+      }
+    },
+    "phones": {
+      "phoneLabel": {
+        "en_US": "Phone number",
+        "nb_NO": "Telefonnummer",
+        "sv_SE": "Telefonnummer",
+        "fi_FI": "Puhelinnumero",
+        "da_DK": "Telefonnummer",
+        "nn_NO": "Telefonnummer"
+      },
+      "phoneTypeLabel": {
+        "en_US": "Phone type",
+        "nb_NO": "Telefontype",
+        "sv_SE": "Telefontyp",
+        "fi_FI": "Puhelintyyppi",
+        "da_DK": "Telefontype",
+        "nn_NO": "Telefontype"
+      },
+      "primaryPhoneLabel": {
+        "en_US": "Primary phone",
+        "nb_NO": "Primær telefon",
+        "sv_SE": "Primär telefon",
+        "fi_FI": "Ensisijainen puhelinnumero",
+        "da_DK": "Primær telefon",
+        "nn_NO": "Primær telefon"
+      },
+      "deleteButton": {
+        "en_US": "DELETE",
+        "nb_NO": "FJERNE",
+        "sv_SE": "TA BORT",
+        "fi_FI": "POISTA",
+        "da_DK": "SLET",
+        "nn_NO": "FJERNE"
+      },
+      "addButton": {
+        "en_US": "ADD PHONE NUMBER",
+        "nb_NO": "LEGG TIL TELEFONNUMMER",
+        "sv_SE": "LÄGG TILL TELEFONNUMMER",
+        "fi_FI": "LISÄÄ PUHELINNUMERO",
+        "da_DK": "TILFØJ TELEFONNUMMER",
+        "nn_NO": "LEGG TIL TELEFONNUMMER"
+      },
+      "saveButton": {
+        "en_US": "SAVE",
+        "nb_NO": "LAGRE",
+        "sv_SE": "SPARA",
+        "fi_FI": "TALLENNA",
+        "da_DK": "GEM",
+        "nn_NO": "LAGRE"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "editButton": {
+        "en_US": "EDIT",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      },
+      "phoneRequired": {
+        "en_US": "Phone number is required",
+        "nb_NO": "Telefonnummer er påkrevet",
+        "sv_SE": "Telefonnummer är obligatoriskt",
+        "fi_FI": "Puhelinnumero vaaditaan",
+        "da_DK": "Telefonnummer er påkrævet",
+        "nn_NO": "Telefonnummer må vere med"
+      },
+      "phoneUniqueRequired": {
+        "en_US": "Phone number exists",
+        "nb_NO": "Telefonnummer finnes fra før",
+        "sv_SE": "Telefonnummer finns redan",
+        "fi_FI": "Puhelinnumero on jo tallennettu",
+        "da_DK": "Telefonnummer findes allerede",
+        "nn_NO": "Telefonnummer finst frå før"
+      },
+      "phoneTypeOptions": {
+        "home": {
+          "label": {
+            "en_US": "Home number",
+            "nb_NO": "Hjem",
+            "sv_SE": "Hem",
+            "fi_FI": "Koti",
+            "da_DK": "Hjemme telefonnummer",
+            "nn_NO": "Hjem"
+          }
+        },
+        "mobile": {
+          "label": {
+            "en_US": "Mobile number",
+            "nb_NO": "Mobil",
+            "sv_SE": "Mobil",
+            "fi_FI": "Matkapuhelin",
+            "da_DK": "Mobilnummer",
+            "nn_NO": "Mobil"
+          }
+        },
+        "companyDirect": {
+          "label": {
+            "en_US": "Company number",
+            "nb_NO": "Arbeid",
+            "sv_SE": "Arbete",
+            "fi_FI": "Työ",
+            "da_DK": "Arbejds telefonnummer",
+            "nn_NO": "Arbeid"
+          }
+        },
+        "companyPbx": {
+          "label": {
+            "en_US": "Company number",
+            "nb_NO": "Arbeid",
+            "sv_SE": "Arbete",
+            "fi_FI": "Työ",
+            "da_DK": "Arbejds telefonnummer",
+            "nn_NO": "Arbeid"
+          }
+        },
+        "company": {
+          "label": {
+            "en_US": "Company number",
+            "nb_NO": "Arbeid",
+            "sv_SE": "Företagsnummer",
+            "fi_FI": "Yrityksen numero",
+            "da_DK": "Virksomhedsnummer",
+            "nn_NO": "Arbeid"
+          }
+        },
+        "personal": {
+          "label": {
+            "en_US": "Personal number",
+            "nb_NO": "Privat",
+            "sv_SE": "Privat",
+            "fi_FI": "Henkilökohtainen",
+            "da_DK": "Privat telefonnummer",
+            "nn_NO": "Privat"
+          }
+        },
+        "fax": {
+          "label": {
+            "en_US": "Fax",
+            "nb_NO": "Fax",
+            "sv_SE": "Fax",
+            "fi_FI": "Fax",
+            "da_DK": "Faxnummer",
+            "nn_NO": "Fax"
+          }
+        }
+      }
+    }
+  },
+  "subscriptions": {
+    "title": {
+      "en_US": "Subscriptions",
+      "nb_NO": "Abonnement",
+      "sv_SE": "Prenumerationer",
+      "fi_FI": "Kestotilaukset",
+      "da_DK": "Abonnement",
+      "nn_NO": "Abonnement"
+    },
+    "empty": {
+      "en_US": "List of subscriptions is empty",
+      "nb_NO": "Ingen aktive abonnement finnes",
+      "sv_SE": "Inga aktiva prenumerationer finns",
+      "fi_FI": "Voimassaolevia kestotilauksia ei löydy",
+      "da_DK": "Listen over abonnementer er tom",
+      "nn_NO": "Ingen aktive abonnement finst"
+    },
+    "showButton": {
+      "en_US": "SHOW DETAILS",
+      "nb_NO": "VIS DETALJER",
+      "sv_SE": "VISA DETALJER",
+      "fi_FI": "NÄYTÄ TIEDOT",
+      "da_DK": "VIS DETALJER",
+      "nn_NO": "VIS DETALJER"
+    }
+  },
+  "seriesListing": {
+    "title": {
+      "en_US": "Book series",
+      "nb_NO": "Bokserie",
+      "sv_SE": "Bokserie",
+      "fi_FI": "Kirjasarja",
+      "da_DK": "Bogserie",
+      "nn_NO": "Bokserie"
+    },
+    "empty": {
+      "en_US": "List of book series is empty",
+      "nb_NO": "Ingen aktive bokserie finnes",
+      "sv_SE": "Inga aktiva bokserie finns",
+      "fi_FI": "Luettelo kirjasarjoista on tyhjä",
+      "da_DK": "Liste over bogserier er tom",
+      "nn_NO": "Ingen aktive bokserie finnes"
+    },
+    "showButton": {
+      "en_US": "SHOW DETAILS",
+      "nb_NO": "VIS DETALJER",
+      "sv_SE": "VISA DETALJER",
+      "fi_FI": "NÄYTÄ YKSITYISKOHDAT",
+      "da_DK": "VIS DETALJER",
+      "nn_NO": "VIS DETALJER"
+    }
+  },
+  "inactiveSubscriptions": {
+    "title": {
+      "en_US": "Inactive subscriptions",
+      "nb_NO": "Passive abonnement",
+      "sv_SE": "Passiva prenumerationer",
+      "fi_FI": "Keskeytetyt kestotilaukset",
+      "da_DK": "Ikke-aktive abonnementer",
+      "nn_NO": "Passive abonnement"
+    },
+    "empty": {
+      "en_US": "List of inactive subscriptions is empty",
+      "nb_NO": "Ingen passive abonnement finnes",
+      "sv_SE": "Inga passiva prenumerationer finns",
+      "fi_FI": "Keskeytettyjä kestotilauksia ei löydy",
+      "da_DK": "Listen over ikke-aktiverede abonnementer er tom",
+      "nn_NO": "Ingen passive abonnement finst"
+    },
+    "orderButton": {
+      "en_US": "ORDER",
+      "nb_NO": "BESTILLE",
+      "sv_SE": "BESTÄLL",
+      "fi_FI": "TILAA",
+      "da_DK": "BESTIL",
+      "nn_NO": "BESTILLE"
+    }
+  },
+  "inactiveSeries": {
+    "title": {
+      "en_US": "Inactive book series",
+      "nb_NO": "Passive bokserier",
+      "sv_SE": "Passiva bokserie",
+      "fi_FI": "Passiivinen kirja-sarja",
+      "da_DK": "Inaktive bogserier",
+      "nn_NO": "Passive bokserier"
+    },
+    "empty": {
+      "en_US": "List of inactive book series is empty",
+      "nb_NO": "Ingen passive bokserie finnes",
+      "sv_SE": "Inga passiva bokserie finns",
+      "fi_FI": "Luettelo passiivisista kirjasarjoista on tyhjä",
+      "da_DK": "Listen over inaktive bogserier er tom",
+      "nn_NO": "Ingen passive bokserie finnes"
+    },
+    "orderButton": {
+      "en_US": "ORDER",
+      "nb_NO": "BESTILLE",
+      "sv_SE": "VISA DETALJER",
+      "fi_FI": "TILAUS",
+      "da_DK": "BESTILLE",
+      "nn_NO": "BESTILLE"
+    }
+  },
+  "subscription": {
+    "title": {
+      "en_US": "Subscription",
+      "nb_NO": "Abonnement",
+      "sv_SE": "Prenumeration",
+      "fi_FI": "Kestotilaus",
+      "da_DK": "Abonnement",
+      "nn_NO": "Abonnement"
+    },
+    "deliveryAddressChangeButton": {
+      "name": {
+        "en_US": "CHANGE",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      }
+    },
+    "deliveryAddressSetTempButton": {
+      "name": {
+        "en_US": "SET TEMPORARY DELIVERY ADDRESS",
+        "nb_NO": "REGISTRER MIDLERTIDIG LEVERINGSADRESSE",
+        "sv_SE": "REGISTRERA TILLFÄLLIG LEVERANSADRESS",
+        "fi_FI": "ILMOITA VÄLIAIKAINEN TOIMITUSOSOITE",
+        "da_DK": "ANGIV MIDLERTIDIG LEVERINGSADRESSE",
+        "nn_NO": "REGISTRER MELLOMBELS LEVERINGSADRESSE"
+      }
+    },
+    "deliveryAddressSetStopButton": {
+      "name": {
+        "en_US": "SET TEMPORARY DELIVERY STOP",
+        "nb_NO": "REGISTRER MIDLERTIDIG STOPP",
+        "sv_SE": "REGISTRERA TILLFÄLLIGT STOPP",
+        "fi_FI": "KESKEYTÄ LÄHETYKSET VÄLIAIKAISESTI",
+        "da_DK": "UDBED MIDLERTIDTG LEVERINGSPAUSE",
+        "nn_NO": "REGISTRER MELLOMBELS STOPP"
+      }
+    },
+    "paymentMethodChangeButton": {
+      "name": {
+        "en_US": "CHANGE",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      }
+    },
+    "paymentMethodViewHistButton": {
+      "name": {
+        "en_US": "VIEW PAYMENT HISTORY",
+        "nb_NO": "VIS BETALINGSHISTORIKK",
+        "sv_SE": "VISA BETALNINGSHISTORIK",
+        "fi_FI": "NÄYTÄ MAKSUHISTORIA",
+        "da_DK": "VIS BETALINGSHISTORIK",
+        "nn_NO": "VIS BETALINGSHISTORIKK"
+      }
+    },
+    "registerComplaintButton": {
+      "name": {
+        "en_US": "REGISTER COMPLAINT",
+        "nb_NO": "REGISTRER KLAGE",
+        "sv_SE": "REKLAMERA",
+        "fi_FI": "REKLAMOI",
+        "da_DK": "REGISTRER KLAGE",
+        "nn_NO": "REGISTRER KLAGE"
+      }
+    },
+    "cancelSubscriptionButton": {
+      "name": {
+        "en_US": "CANCEL SUBSCRIPTION",
+        "nb_NO": "STOPP ABONNEMENT",
+        "sv_SE": "STOPPA PRENUMERATION",
+        "fi_FI": "PERUUTA KESTOTILAUS",
+        "da_DK": "ANNULLER ABONNEMENT",
+        "nn_NO": "STOPP ABONNEMENT"
+      }
+    },
+    "restoreSubscriptionButton": {
+      "name": {
+        "en_US": "RESTORE SUBSCRIPTION",
+        "nb_NO": "GJENNOPPTA ABONNEMENT",
+        "sv_SE": "ÅTERUPPTA PRENUMERATION",
+        "fi_FI": "AKTIVOI KESTOTILAUS",
+        "da_DK": "GENOPTAG ABONNEMENT",
+        "nn_NO": "KANSELLERE STOPP"
+      }
+    },
+    "changeSubscriptionButton": {
+      "name": {
+        "en_US": "CHANGE SUBSCRIPTION",
+        "nb_NO": "ENDRE ABONNEMENT",
+        "sv_SE": "BYT PRENUMERATION",
+        "fi_FI": "MUUTA TILAUS",
+        "da_DK": "SKIFT TILMELDING",
+        "nn_NO": "ENDRE ABONNEMENT"
+      }
+    },
+    "temporaryAddressChangeButton": {
+      "name": {
+        "en_US": "CHANGE",
+        "nb_NO": "ENDRE",
+        "sv_SE": "ÄNDRA",
+        "fi_FI": "MUUTA",
+        "da_DK": "ÆNDRE",
+        "nn_NO": "ENDRE"
+      }
+    },
+    "temporaryAddressRemoveButton": {
+      "name": {
+        "en_US": "REMOVE",
+        "nb_NO": "FJERNE",
+        "sv_SE": "TA BORT",
+        "fi_FI": "POISTA",
+        "da_DK": "SLET",
+        "nn_NO": "FJERNE"
+      }
+    },
+    "temporaryStopRemoveButton": {
+      "name": {
+        "en_US": "REMOVE",
+        "nb_NO": "FJERNE",
+        "sv_SE": "TA BORT",
+        "fi_FI": "POISTA",
+        "da_DK": "SLET",
+        "nn_NO": "FJERNE"
+      }
+    },
+    "showMembershipCardButton": {
+      "name": {
+        "en_US": "SHOW MEMBERSHIP CARD",
+        "nb_NO": "VIS MEDLEMSKORT",
+        "sv_SE": "VISA MEDLEMSKORT",
+        "fi_FI": "NÄYTÄ JÄSENKORTTI",
+        "da_DK": "VIS MEDLEMSKORT",
+        "nn_NO": "VIS MEDLEMSKORT"
+      }
+    },
+    "deliveryAddressSection": {
+      "title": {
+        "en_US": "Delivery Address",
+        "nb_NO": "Leveringsadresse",
+        "sv_SE": "Leveransadress",
+        "fi_FI": "Toimitusosoite",
+        "da_DK": "Leveringsadresse",
+        "nn_NO": "Leveringsadresse"
+      }
+    },
+    "temporaryAddressSection": {
+      "title": {
+        "en_US": "Temporary Delivery Address",
+        "nb_NO": "Midlertidig leveringsadresse",
+        "sv_SE": "Tillfällig Leveransadress",
+        "fi_FI": "Väliaikainen toimitusosoite",
+        "da_DK": "Midlertidig leveringsadresse",
+        "nn_NO": "Mellombels leveringsadresse"
+      }
+    },
+    "temporaryStopSection": {
+      "title": {
+        "en_US": "Temporary Delivery Stop",
+        "nb_NO": "Midlertidig leveringsstopp",
+        "sv_SE": "Tillfälligt uppehåll",
+        "fi_FI": "Väliaikainen lähetysten keskeytys",
+        "da_DK": "Midlertidig leveringspause",
+        "nn_NO": "Mellombels leveringsstopp"
+      }
+    },
+    "paymentMethodSection": {
+      "title": {
+        "en_US": "Payment Method",
+        "nb_NO": "Betalingsmetode",
+        "sv_SE": "Betalsätt",
+        "fi_FI": "Maksutapa",
+        "da_DK": "Betalingsmetode",
+        "nn_NO": "Betalingsmetode"
+      }
+    },
+    "billingAddressSection": {
+      "title": {
+        "en_US": "Billing Address",
+        "nb_NO": "Fakturaadresse",
+        "sv_SE": "Fakturaadress",
+        "fi_FI": "Laskutusosoite",
+        "da_DK": "Fakturaadresse",
+        "nn_NO": "Fakturaadresse"
+      }
+    },
+    "seriesDeliverySection": {
+      "title": {
+        "en_US": "Delivered books:",
+        "nb_NO": "Leverte bøker:",
+        "sv_SE": "Levererade böcker:",
+        "fi_FI": "Toimitetut kirjat:",
+        "da_DK": "Leverede bøger:",
+        "nn_NO": "Leverte bøker:"
+      }
+    },
+    "activePermanentStopDate": {
+      "en_US": "Subscription has been stopped",
+      "nb_NO": "Abonnement har blitt stoppet",
+      "sv_SE": "Prenumerationen har blivit stoppad",
+      "fi_FI": "Kestotilauksesi on lopetettu",
+      "da_DK": "Abonnementet er stoppet",
+      "nn_NO": "Abonnement har blitt stoppet"
+    },
+    "activeTemporaryStopDate": {
+      "en_US": "Subscription has been temporarily stopped",
+      "nb_NO": "Abonnement har blitt midlertidig stoppet",
+      "sv_SE": "Prenumerationen har blivit tillfälligt stoppad",
+      "fi_FI": "Kestotilauksesi on väliaikaisesti keskeytetty",
+      "da_DK": "Abonnemntet er midlertidigt stoppet",
+      "nn_NO": "Mellombels leveringsstopp"
+    },
+    "subscribedFrom": {
+      "en_US": "Subscribed from",
+      "nb_NO": "Abonnement fra",
+      "sv_SE": "Prenumeration från",
+      "fi_FI": "Kestotilaus alkanut",
+      "da_DK": "Abonnement fra",
+      "nn_NO": "Abonnement frå"
+    },
+    "postalAddressPrefix": {
+      "en_US": "Post Office: ",
+      "nb_NO": "Postkontorets: ",
+      "sv_SE": "Postkontor: ",
+      "fi_FI": "Postitoimisto: ",
+      "da_DK": "Postkontor: ",
+      "nn_NO": "Postkontor:"
+    },
+    "entrancePrefix": {
+      "en_US": " ",
+      "nb_NO": " ",
+      "sv_SE": " ",
+      "fi_FI": " ",
+      "da_DK": " ",
+      "nn_NO": " "
+    },
+    "floorPrefix": {
+      "en_US": " ",
+      "nb_NO": " ",
+      "sv_SE": " ",
+      "fi_FI": " ",
+      "da_DK": " ",
+      "nn_NO": " "
+    },
+    "suitePrefix": {
+      "en_US": " / ",
+      "nb_NO": " / ",
+      "sv_SE": " / ",
+      "fi_FI": " / ",
+      "da_DK": " / ",
+      "nn_NO": " / "
+    },
+    "careOfPrefix": {
+      "en_US": "Care of: ",
+      "nb_NO": "C/O: ",
+      "sv_SE": "C/O: ",
+      "fi_FI": "C/O: ",
+      "da_DK": "C/O: ",
+      "nn_NO": "C/O: "
+    },
+    "paidUntil": {
+      "en_US": "paid until",
+      "nb_NO": "betalt til",
+      "sv_SE": "betalt till",
+      "fi_FI": "Maksettu laskutusjakso päättyy",
+      "da_DK": "Betalt indtil",
+      "nn_NO": "betalt til"
+    },
+    "cancelDate": {
+      "en_US": "Cancel date",
+      "nb_NO": "Stoppdato",
+      "sv_SE": "Stoppdatum",
+      "fi_FI": "Kestotilaus lopetettu",
+      "da_DK": "Slutdato",
+      "nn_NO": "Stoppdato"
+    },
+    "tillNextIssue": {
+      "en_US": "till next issue",
+      "nb_NO": "til neste leverans",
+      "sv_SE": "till nästa leverans",
+      "fi_FI": "seuraavaan toimitukseen",
+      "da_DK": "indtil næste udgivelse",
+      "nn_NO": "til neste utgåve"
+    },
+    "day": {
+      "en_US": "day",
+      "nb_NO": "dag",
+      "sv_SE": "dag",
+      "fi_FI": "päivä",
+      "da_DK": "dag",
+      "nn_NO": "dag"
+    },
+    "days": {
+      "en_US": "days",
+      "nb_NO": "dager",
+      "sv_SE": "dagar",
+      "fi_FI": "päivää",
+      "da_DK": "dage",
+      "nn_NO": "dager"
+    },
+    "validTill": {
+      "en_US": "Valid till",
+      "nb_NO": "Gyldig til",
+      "sv_SE": "Giltig tom",
+      "fi_FI": "Voimassaolo päättyy",
+      "da_DK": "Gyldig indtil",
+      "nn_NO": "Gyldig til"
+    },
+    "creditCardIsNotSetUp": {
+      "en_US": "Your credit card is not set up",
+      "nb_NO": "Ditt kredittkort er ikke registrert",
+      "sv_SE": "Ditt kreditkort är inte registrerat",
+      "fi_FI": "Luottokorttiasi ei ole rekisteröity",
+      "da_DK": "Kreditkortoplysninger er ikke indtastede",
+      "nn_NO": "Kredittkortet ditt er ikkje registrert"
+    },
+    "paymentHistory": {
+      "title": {
+        "en_US": "Payment History",
+        "nb_NO": "Betalingshistorikk",
+        "sv_SE": "Betalningshistorik",
+        "fi_FI": "Maksuhistoria",
+        "da_DK": "Betalingshistorik",
+        "nn_NO": "Betalingshistorikk"
+      },
+      "closeButton": {
+        "en_US": "CLOSE",
+        "nb_NO": "LUKK",
+        "sv_SE": "STÄNG",
+        "fi_FI": "SULJE",
+        "da_DK": "LUK",
+        "nn_NO": "LAT AT"
+      }
+    },
+    "membershipCard": {
+      "title": {
+        "en_US": "Benefits",
+        "nb_NO": "Fordeler",
+        "sv_SE": "Förmåner",
+        "fi_FI": "Edut",
+        "da_DK": "Fordele",
+        "nn_NO": "Fordelar"
+      },
+      "closeButton": {
+        "en_US": "CLOSE",
+        "nb_NO": "LUKK",
+        "sv_SE": "STÄNG",
+        "fi_FI": "SULJE",
+        "da_DK": "LUK",
+        "nn_NO": "LAT AT"
+      },
+      "printButton": {
+        "en_US": "PRINT",
+        "nb_NO": "SKRIV UT",
+        "sv_SE": "SKRIV UT",
+        "fi_FI": "TULOSTA",
+        "da_DK": "UDSKRIV",
+        "nn_NO": "SKRIV UT"
+      }
+    },
+    "changePayment": {
+      "title": {
+        "en_US": "Change your payment method",
+        "nb_NO": "Endre din betalingsmetode",
+        "sv_SE": "Ändra betalsätt",
+        "fi_FI": "Muuta maksutapaa",
+        "da_DK": "Ændre betalingsmetode",
+        "nn_NO": "Endre din betalingsmetode"
+      },
+      "validTill": {
+        "en_US": "Valid till",
+        "nb_NO": "Gyldig til",
+        "sv_SE": "Giltig tom",
+        "fi_FI": "Voimassaolo päättyy",
+        "da_DK": "Gyldig indtil",
+        "nn_NO": "Gyldig til"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "creditCardIsNotSetUp": {
+        "en_US": "Your credit card is not set up",
+        "nb_NO": "Ditt kredittkort er ikke registrert",
+        "sv_SE": "Ditt kreditkort är inte registrerat",
+        "fi_FI": "Luottokorttiasi ei ole rekisteröity",
+        "da_DK": "Kreditkortoplysninger er ikke indtastede",
+        "nn_NO": "Kredittkortet ditt er ikkje registrert"
+      },
+      "addCardButton": {
+        "en_US": "ADD NEW CARD",
+        "nb_NO": "LEGG TIL NYTT KORT",
+        "sv_SE": "LÄGG TILL NYTT KORT",
+        "fi_FI": "LISÄÄ UUSI KORTTI",
+        "da_DK": "TILFØJ NYT KREDITKORT",
+        "nn_NO": "LEGG TIL NYTT KORT"
+      }
+    },
+    "registerComplaint": {
+      "title": {
+        "en_US": "Register complaint",
+        "nb_NO": "Registrer klage",
+        "sv_SE": "Reklamera",
+        "fi_FI": "Reklamoi",
+        "da_DK": "Registrer klage",
+        "nn_NO": "Registrer klage"
+      },
+      "description": {
+        "en_US": "Please give us some information on your complaint.",
+        "nb_NO": "Vennligst oppgi informasjon om din klage.",
+        "sv_SE": "Vänligen ange information om din reklamation.",
+        "fi_FI": "Ilmoitathan ystävällisesti reklamaatiosi syyn.",
+        "da_DK": "Tilføj venligst nogle oplysninger om din klage",
+        "nn_NO": "Gjer vel og fortel oss kva klagen din går ut på."
+      },
+      "issueDateTitle": {
+        "en_US": "Issue date",
+        "nb_NO": "Utgivelsesdato",
+        "sv_SE": "Utgivningsdatum",
+        "fi_FI": "Julkaisupvm",
+        "da_DK": "Udgivelsesdato",
+        "nn_NO": "Utgjevingsdato"
+      },
+      "complaintReasonTitle": {
+        "en_US": "Complaint reason",
+        "nb_NO": "Klageårsak",
+        "sv_SE": "Orsak till reklamation",
+        "fi_FI": "Reklamaation syy",
+        "da_DK": "Årsag til klage",
+        "nn_NO": "Klageårsak"
+      },
+      "messageTitle": {
+        "en_US": "Your message",
+        "nb_NO": "Din melding",
+        "sv_SE": "Ditt meddelande",
+        "fi_FI": "Viestisi",
+        "da_DK": "Din besked",
+        "nn_NO": "Meldinga di"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentText": {
+        "en_US": "Complaint registered",
+        "nb_NO": "Klagen er registrert",
+        "sv_SE": "Reklamationen är registrerad",
+        "fi_FI": "Reklamaatio on vastaanotettu",
+        "da_DK": "Din klage er registreret",
+        "nn_NO": "Klagen er registrert"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      },
+      "issueDateRequired": {
+        "en_US": "Issue date is required",
+        "nb_NO": "Utgivelsesdato er påkrevet",
+        "sv_SE": "Utgivningsdatum är obligatoriskt",
+        "fi_FI": "Julkaisupvm vaaditaan",
+        "da_DK": "Udgivelsesdato er obligatorsk",
+        "nn_NO": "Utgjevingsdato må vere med"
+      },
+      "complaintReasonRequired": {
+        "en_US": "Complaint reason is required",
+        "nb_NO": "Klageårsak er påkrevet",
+        "sv_SE": "Orsak till reklamation är obligatoriskt",
+        "fi_FI": "Reklamaation syy vaaditaan",
+        "da_DK": "Klageårsag er obligatorisk",
+        "nn_NO": "Klageårsak må vere med"
+      },
+      "forwardIssueTitle": {
+        "en_US": "Forward the issue",
+        "nb_NO": "Ettersend utgaven",
+        "sv_SE": "Eftersänd utgåvan",
+        "fi_FI": "Palauta kirjalähetys",
+        "da_DK": "Eftersend udgivelsen",
+        "nn_NO": "Ettersend utgåva"
+      }
+    },
+    "changeSubscription": {
+      "title": {
+        "en_US": "Change subscription",
+        "nb_NO": "Endre abonnement",
+        "sv_SE": "Ändra prenumeration",
+        "fi_FI": "Muuta tilausta",
+        "da_DK": "Skift abonnement",
+        "nn_NO": "Endre abonnement"
+      },
+      "productTitle": {
+        "en_US": "Product",
+        "nb_NO": "Produkt",
+        "sv_SE": "Produkt",
+        "fi_FI": "Tuote",
+        "da_DK": "Produkt",
+        "nn_NO": "Produkt"
+      },
+      "periodTitle": {
+        "en_US": "Period",
+        "nb_NO": "Periode",
+        "sv_SE": "Period",
+        "fi_FI": "Aika",
+        "da_DK": "Periode",
+        "nn_NO": "Periode"
+      },
+      "changeProductTitle": {
+        "en_US": "Change product",
+        "nb_NO": "Endre produkt",
+        "sv_SE": "Byt produkt",
+        "fi_FI": "Vaihda tuotetta",
+        "da_DK": "Skift produkt",
+        "nn_NO": "Endre produkt"
+      },
+      "changePeriodTitle": {
+        "en_US": "Change period",
+        "nb_NO": "Endre periode",
+        "sv_SE": "Ändra period",
+        "fi_FI": "Vaihda ajanjakso",
+        "da_DK": "Skift periode",
+        "nn_NO": "Endre periode"
+      },
+      "messageTitle": {
+        "en_US": "Your message",
+        "nb_NO": "Din melding",
+        "sv_SE": "Ditt meddelande",
+        "fi_FI": "Viestisi",
+        "da_DK": "Din besked",
+        "nn_NO": "Meldinga di"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentText": {
+        "en_US": "Change registered",
+        "nb_NO": "Endring registrert",
+        "sv_SE": "Ändring registrerad",
+        "fi_FI": "Muutos rekisteröity",
+        "da_DK": "Ændring registreret",
+        "nn_NO": "Endring registrert"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      },
+      "productRequired": {
+        "en_US": "Product is required",
+        "nb_NO": "Produkt er påkrevet",
+        "sv_SE": "Produkten krävs",
+        "fi_FI": "Tuote vaaditaan",
+        "da_DK": "Produkt er påkrævet",
+        "nn_NO": "Produkt må velges"
+      },
+      "periodRequired": {
+        "en_US": "Period is required",
+        "nb_NO": "Periode er påkrevet",
+        "sv_SE": "Period krävs",
+        "fi_FI": "Aika vaaditaan",
+        "da_DK": "Periode er påkrævet",
+        "nn_NO": "Periode må velges"
+      }
+    },
+    "changeDeliveryAddress": {
+      "title": {
+        "en_US": "Change delivery address",
+        "nb_NO": "Endre leveringsadresse",
+        "sv_SE": "Ändra leveransadress",
+        "fi_FI": "Muuta toimitusosoitetta",
+        "da_DK": "Ændre leveringsadresse",
+        "nn_NO": "Endre leveringsadresse"
+      },
+      "streetAddressTitle": {
+        "en_US": "Street name",
+        "nb_NO": "Gatenavn",
+        "sv_SE": "Gatunamn",
+        "fi_FI": "Kadunnimi",
+        "da_DK": "Gadenavn",
+        "nn_NO": "Gatenamn"
+      },
+      "streetAddressRequired": {
+        "en_US": "Street address is required",
+        "nb_NO": "Gatenavn er påkrevet",
+        "sv_SE": "Gatunamn är obligatoriskt",
+        "fi_FI": "Kadunnimi vaaditaan",
+        "da_DK": "Gadenavn er obligatorisk",
+        "nn_NO": "Gatenamn må velges"
+      },
+      "streetNumberTitle": {
+        "en_US": "Street number",
+        "nb_NO": "Gatenummer",
+        "sv_SE": "Gatunummer",
+        "fi_FI": "Osoitenumero",
+        "da_DK": "Husnummer",
+        "nn_NO": "Gatenummer"
+      },
+      "streetNumberRequired": {
+        "en_US": "Street number is required",
+        "nb_NO": "Gatenummer er påkrevet",
+        "sv_SE": "Gatunummer är obligatoriskt",
+        "fi_FI": "Osoitenumero vaaditaan",
+        "da_DK": "Husnummer er obligatorisk",
+        "nn_NO": "Gatenummer må velges"
+      },
+      "postalCodeTitle": {
+        "en_US": "Postal code",
+        "nb_NO": "Postnummer",
+        "sv_SE": "Postnummer",
+        "fi_FI": "Postinumero",
+        "da_DK": "Postnummer",
+        "nn_NO": "Postnummer"
+      },
+      "postalCodeRequired": {
+        "en_US": "Postal code is required",
+        "nb_NO": "Postnummer er påkrevet",
+        "sv_SE": "Postnummer är obligatoriskt",
+        "fi_FI": "Postinumero vaaditaan",
+        "da_DK": "Postnummer er obligatorisk",
+        "nn_NO": "Postnummer må velges"
+      },
+      "postalPlaceTitle": {
+        "en_US": "Postal place",
+        "nb_NO": "Poststed",
+        "sv_SE": "Ort",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "By",
+        "nn_NO": "Poststad"
+      },
+      "postalPlaceRequired": {
+        "en_US": "Postal place is required",
+        "nb_NO": "Poststed er påkrevet",
+        "sv_SE": "Ort är obligatoriskt",
+        "fi_FI": "Postitoimipaikka vaaditaan",
+        "da_DK": "By er obligatorisk",
+        "nn_NO": "Poststad må velges"
+      },
+      "suiteTitle": {
+        "en_US": "Suite",
+        "nb_NO": "Leilighet",
+        "sv_SE": "Lägenhet",
+        "fi_FI": "Asunto",
+        "da_DK": "Lejlighed",
+        "nn_NO": "Husvære"
+      },
+      "careOfTitle": {
+        "en_US": "Care of",
+        "nb_NO": "C/O",
+        "sv_SE": "C/O",
+        "fi_FI": "C/O",
+        "da_DK": "C/O",
+        "nn_NO": "C/O"
+      },
+      "entranceTitle": {
+        "en_US": "Entrance",
+        "nb_NO": "Inngang",
+        "sv_SE": "Ingång",
+        "fi_FI": "Porraskäytävä",
+        "da_DK": "Indgang",
+        "nn_NO": "Oppgang"
+      },
+      "floorTitle": {
+        "en_US": "Floor",
+        "nb_NO": "Etasje",
+        "sv_SE": "Våning",
+        "fi_FI": "Kerros",
+        "da_DK": "Etage",
+        "nn_NO": "Etasje"
+      },
+      "postalAddressTitle": {
+        "en_US": "Post Office address",
+        "nb_NO": "Postkontorets adresse",
+        "sv_SE": "Postkontorets adress",
+        "fi_FI": "Postiosoite",
+        "da_DK": "Posthus adresse",
+        "nn_NO": "Postboks adresse"
+      },
+      "postalAddressPostalCodeTitle": {
+        "en_US": "Post Office code",
+        "nb_NO": "Postkontorets kode",
+        "sv_SE": "Postkontor kod",
+        "fi_FI": "Postitoimiston koodi",
+        "da_DK": "Posthus kode",
+        "nn_NO": "Postboks nummer"
+      },
+      "postalAddressPostalPlaceTitle": {
+        "en_US": "Post Office place",
+        "nb_NO": "Postkontorets sted",
+        "sv_SE": "Postkontor plats",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "Posthus sted",
+        "nn_NO": "Postboks stad"
+      },
+      "countryCodeTitle": {
+        "en_US": "Country code",
+        "nb_NO": "Landskode",
+        "sv_SE": "Landskod",
+        "fi_FI": "Maatunnus",
+        "da_DK": "Landekode",
+        "nn_NO": "Landskode"
+      },
+      "countryCodeRequired": {
+        "en_US": "Country code is required",
+        "nb_NO": "Landskode er påkrevet",
+        "sv_SE": "Landskod är obligatoriskt",
+        "fi_FI": "Maakoodi vaaditaan",
+        "da_DK": "andekode er påkrævet",
+        "nn_NO": "Landskode må vere med"
+      },
+      "firstChangeDate": {
+        "en_US": "First possible change date",
+        "nb_NO": "Første mulige endringsdato",
+        "sv_SE": "Första möjliga ändringsdatum",
+        "fi_FI": "Ensimmäinen mahdollinen muutospvm",
+        "da_DK": "Første mulige ændringsdato",
+        "nn_NO": "Første mulige dato for endring"
+      },
+      "firstChangeIssue": {
+        "en_US": "Changes will be active on issue: ",
+        "nb_NO": "Endringer vil være aktive for utgave: ",
+        "sv_SE": "Ändringar kommer att vara aktiva för utgåva: ",
+        "fi_FI": "Muutokset astuvat voimaan seuraavasta toimituksesta: ",
+        "da_DK": "Ændringerne vil være aktive fra udgivelse: ",
+        "nn_NO": "Endring vil være aktiv for utgave:"
+      },
+      "sentText": {
+        "en_US": "Address updated",
+        "nb_NO": "Adressen er opppdatert",
+        "sv_SE": "Adressen är uppdaterad",
+        "fi_FI": "Osoite on päivitetty",
+        "da_DK": "Adresse opdateret",
+        "nn_NO": "Adressa er opppdatert"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      }
+    },
+    "setTemporaryAddress": {
+      "title": {
+        "en_US": "Set temporary address",
+        "nb_NO": "Registrer midlertidig adresse",
+        "sv_SE": "Registrera tillfällig adress",
+        "fi_FI": "Tallenna väliaikainen osoite",
+        "da_DK": "Indtast midlertidig adresse",
+        "nn_NO": "Registrer mellombels adresse"
+      },
+      "newAddressOption": {
+        "en_US": "New address",
+        "nb_NO": "Ny adresse",
+        "sv_SE": "Ny adress",
+        "fi_FI": "Uusi osoite",
+        "da_DK": "Ny adresse",
+        "nn_NO": "Ny adresse"
+      },
+      "selectAddressTitle": {
+        "en_US": "Select address",
+        "nb_NO": "Velg adresse",
+        "sv_SE": "Välj adress",
+        "fi_FI": "Valitse osoite",
+        "da_DK": "Vælg adresse",
+        "nn_NO": "Velg adresse"
+      },
+      "streetAddressTitle": {
+        "en_US": "Street name",
+        "nb_NO": "Gatenavn",
+        "sv_SE": "Gatunamn",
+        "fi_FI": "Kadunnimi",
+        "da_DK": "Gadenavn",
+        "nn_NO": "Gatenamn"
+      },
+      "streetAddressRequired": {
+        "en_US": "Street address is required",
+        "nb_NO": "Gatenavn er påkrevet",
+        "sv_SE": "Gatunamn är obligatoriskt",
+        "fi_FI": "Kadunnimi vaaditaan",
+        "da_DK": "Gadenavn er obligatorisk",
+        "nn_NO": "Gatenamn må velges"
+      },
+      "streetNumberTitle": {
+        "en_US": "Street number",
+        "nb_NO": "Gatenummer",
+        "sv_SE": "Gatunummer",
+        "fi_FI": "Osoitenumero",
+        "da_DK": "Husnummer",
+        "nn_NO": "Gatenummer"
+      },
+      "streetNumberRequired": {
+        "en_US": "Street number is required",
+        "nb_NO": "Gatenummer er påkrevet",
+        "sv_SE": "Gatunummer är obligatoriskt",
+        "fi_FI": "Osoitenumero vaaditaan",
+        "da_DK": "Husnummer er obligatorisk",
+        "nn_NO": "Gatenummermå velges"
+      },
+      "postalCodeTitle": {
+        "en_US": "Postal code",
+        "nb_NO": "Postnummer",
+        "sv_SE": "Postnummer",
+        "fi_FI": "Postinumero",
+        "da_DK": "Postnummer",
+        "nn_NO": "Postnummer"
+      },
+      "postalCodeRequired": {
+        "en_US": "Postal code is required",
+        "nb_NO": "Postnummer er påkrevet",
+        "sv_SE": "Postnummer är obligatoriskt",
+        "fi_FI": "Postinumero vaaditaan",
+        "da_DK": "Postnummer er obligatorisk",
+        "nn_NO": "Postnummer må velges"
+      },
+      "postalPlaceTitle": {
+        "en_US": "Postal place",
+        "nb_NO": "Poststed",
+        "sv_SE": "Ort",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "By",
+        "nn_NO": "Poststad"
+      },
+      "postalPlaceRequired": {
+        "en_US": "Postal place is required",
+        "nb_NO": "Poststed er påkrevet",
+        "sv_SE": "Ort är obligatoriskt",
+        "fi_FI": "Postitoimipaikka vaaditaan",
+        "da_DK": "By er obligatorisk",
+        "nn_NO": "Poststad må velges"
+      },
+      "suiteTitle": {
+        "en_US": "Suite",
+        "nb_NO": "Leilighet",
+        "sv_SE": "Lägenhet",
+        "fi_FI": "Asunto",
+        "da_DK": "Lejlighed",
+        "nn_NO": "Husvære"
+      },
+      "careOfTitle": {
+        "en_US": "Care of",
+        "nb_NO": "C/O",
+        "sv_SE": "C/O",
+        "fi_FI": "C/O",
+        "da_DK": "C/O",
+        "nn_NO": "C/O"
+      },
+      "entranceTitle": {
+        "en_US": "Entrance",
+        "nb_NO": "Inngang",
+        "sv_SE": "Ingång",
+        "fi_FI": "Porraskäytävä",
+        "da_DK": "Indgang",
+        "nn_NO": "Oppgang"
+      },
+      "floorTitle": {
+        "en_US": "Floor",
+        "nb_NO": "Etasje",
+        "sv_SE": "Våning",
+        "fi_FI": "Kerros",
+        "da_DK": "Etage",
+        "nn_NO": "Etasje"
+      },
+      "postalAddressTitle": {
+        "en_US": "Post Office address",
+        "nb_NO": "Postkontorets adresse",
+        "sv_SE": "Postkontorets adress",
+        "fi_FI": "Postiosoite",
+        "da_DK": "Posthus adresse",
+        "nn_NO": "Postboks adresse"
+      },
+      "postalAddressPostalCodeTitle": {
+        "en_US": "Post Office code",
+        "nb_NO": "Postkontorets kode",
+        "sv_SE": "Postkontor kod",
+        "fi_FI": "Postitoimiston koodi",
+        "da_DK": "Posthus kode",
+        "nn_NO": "Postnummer"
+      },
+      "postalAddressPostalPlaceTitle": {
+        "en_US": "Post Office place",
+        "nb_NO": "Postkontorets sted",
+        "sv_SE": "Postkontor plats",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "Posthus sted",
+        "nn_NO": "Poststad"
+      },
+      "countryCodeTitle": {
+        "en_US": "Country code",
+        "nb_NO": "Landskode",
+        "sv_SE": "Landskod",
+        "fi_FI": "Maatunnus",
+        "da_DK": "Landekode",
+        "nn_NO": "Landskode"
+      },
+      "countryCodeRequired": {
+        "en_US": "Country code is required",
+        "nb_NO": "Landskode er påkrevet",
+        "sv_SE": "Landskod är obligatoriskt",
+        "fi_FI": "Maakoodi vaaditaan",
+        "da_DK": "andekode er påkrævet",
+        "nn_NO": "Landskode må vere med"
+      },
+      "startTimeTitle": {
+        "en_US": "Start date",
+        "nb_NO": "Startdato",
+        "sv_SE": "Startdatum",
+        "fi_FI": "Alkupvm",
+        "da_DK": "Startdato",
+        "nn_NO": "Startdato"
+      },
+      "startTimeRequired": {
+        "en_US": "Start date is required",
+        "nb_NO": "Startdato er påkrevet",
+        "sv_SE": "Startdatum är obligatoriskt",
+        "fi_FI": "Alkupvm vaaditaan",
+        "da_DK": "Startdato er obligatorisk",
+        "nn_NO": "Startdato må vere med"
+      },
+      "startTimeMin": {
+        "en_US": "Start date must be after today's date",
+        "nb_NO": "Startdato må være senere enn dagens dato",
+        "sv_SE": "Startdatum måste vara senare än dagens datum",
+        "fi_FI": "Alkamispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Startdato skal være senere end i dag",
+        "nn_NO": "Startdato må vere etter dagens dato"
+      },
+      "endTimeTitle": {
+        "en_US": "End date",
+        "nb_NO": "Stoppdato",
+        "sv_SE": "Slutdatum",
+        "fi_FI": "Loppupvm",
+        "da_DK": "Slutdato",
+        "nn_NO": "Tildato"
+      },
+      "endTimeMin": {
+        "en_US": "End date must be after start date",
+        "nb_NO": "Stoppdato må være senere enn startdato",
+        "sv_SE": "Stoppdatum måste vara senare än dagens datum",
+        "fi_FI": "Loppumispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Slutdato skal være senere end startdato",
+        "nn_NO": "Tildato må vere etter startdato"
+      },
+      "endTimeRequired": {
+        "en_US": "End date is required",
+        "nb_NO": "Stoppdato er påkrevet",
+        "sv_SE": "Stoppdatum är obligatoriskt",
+        "fi_FI": "Loppupvm vaaditaan",
+        "da_DK": "Slutdato er obligatorisk",
+        "nn_NO": "Tildato må vere med"
+      },
+      "addressExistsForPeriodError": {
+        "en_US": "Temporary address exists for this period",
+        "nb_NO": "Midlertidig adresse finnes for denne perioden",
+        "sv_SE": "Tillfällig adress finns for denna period",
+        "fi_FI": "Väliaikainen osoite tälle ajanjaksolle",
+        "da_DK": "Midlertidig adresse findes allerede for denne periode",
+        "nn_NO": "Mellombels stopp av levering finst for denne perioden"
+      },
+      "issueNotExistsForPeriodError": {
+        "en_US": "Issue doesn't exist for this period",
+        "nb_NO": "Leveranse finnes ikke for denne perioden",
+        "sv_SE": "Leverans saknas för denna perioden",
+        "fi_FI": "Tälle ajanjaksolle ei löydy lähetyksiä",
+        "da_DK": "Der er ikke udgivelser i denne periode",
+        "nn_NO": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg"
+      },
+      "firstChangeDate": {
+        "en_US": "First possible change date",
+        "nb_NO": "Første mulige endringsdato",
+        "sv_SE": "Första möjljga ändringsdatum",
+        "fi_FI": "Ensimmäinen mahdollinen muutospvm",
+        "da_DK": "Første mulige ændringsdato",
+        "nn_NO": "Første mulige dato for endring"
+      },
+      "firstChangeIssue": {
+        "en_US": "Changes will be active on issue: ",
+        "nb_NO": "Endringer vil være aktive for leveranse: ",
+        "sv_SE": "Ändringar kommer vara aktiva för leverans: ",
+        "fi_FI": "Muutokset astuvat voimaan seuraavasta toimituksesta: ",
+        "da_DK": "Ændringerne vil være aktive fra udgivelse: ",
+        "nn_NO": "Endringer vil være aktive for leveranse:"
+      },
+      "sentText": {
+        "en_US": "Address created",
+        "nb_NO": "Adressen er opprettet",
+        "sv_SE": "Adressen sparad",
+        "fi_FI": "Osoite tallennettu",
+        "da_DK": "Adressen er oprettet",
+        "nn_NO": "Adresse oppretta"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      }
+    },
+    "changeTemporaryAddress": {
+      "title": {
+        "en_US": "Change temporary address",
+        "nb_NO": "Endre midlertidig adresse",
+        "sv_SE": "Ändra tillfällig adress",
+        "fi_FI": "Muuta väliaikaista osoitetta",
+        "da_DK": "Ændre midlertidig adresse",
+        "nn_NO": "Endre mellombels adresse"
+      },
+      "streetAddressTitle": {
+        "en_US": "Street name",
+        "nb_NO": "Gatenavn",
+        "sv_SE": "Gatunamn",
+        "fi_FI": "Kadunnimi",
+        "da_DK": "Gadenavn",
+        "nn_NO": "Gatenamn"
+      },
+      "streetAddressRequired": {
+        "en_US": "Street address is required",
+        "nb_NO": "Gatenavn er påkrevet",
+        "sv_SE": "Gatunamn är obligatoriskt",
+        "fi_FI": "Kadunnimi vaaditaan",
+        "da_DK": "Gadenavn er obligatorisk",
+        "nn_NO": "Gatenamn må vere med"
+      },
+      "streetNumberTitle": {
+        "en_US": "Street number",
+        "nb_NO": "Gatenummer",
+        "sv_SE": "Gatunummer",
+        "fi_FI": "Osoitenumero",
+        "da_DK": "Husnummer",
+        "nn_NO": "Gatenummer"
+      },
+      "streetNumberRequired": {
+        "en_US": "Street number is required",
+        "nb_NO": "Gatenummer er påkrevet",
+        "sv_SE": "Gatunummer är obligatoriskt",
+        "fi_FI": "Osoitenumero vaaditaan",
+        "da_DK": "Husnummer er obligatorisk",
+        "nn_NO": "Gatenummer må vere med"
+      },
+      "postalCodeTitle": {
+        "en_US": "Postal code",
+        "nb_NO": "Postnummer",
+        "sv_SE": "Postnummer",
+        "fi_FI": "Postinumero",
+        "da_DK": "Postnummer",
+        "nn_NO": "Postnummer"
+      },
+      "postalCodeRequired": {
+        "en_US": "Postal code is required",
+        "nb_NO": "Postnummer er påkrevet",
+        "sv_SE": "Postnummer är obligatoriskt",
+        "fi_FI": "Postinumero vaaditaan",
+        "da_DK": "Postnummer er obligatorisk",
+        "nn_NO": "Postnummer må vere med"
+      },
+      "postalPlaceTitle": {
+        "en_US": "Postal place",
+        "nb_NO": "Poststed",
+        "sv_SE": "Ort",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "By",
+        "nn_NO": "Poststad"
+      },
+      "postalPlaceRequired": {
+        "en_US": "Postal place is required",
+        "nb_NO": "Poststed er påkrevet",
+        "sv_SE": "Ort är obligatoriskt",
+        "fi_FI": "Postitoimipaikka vaaditaan",
+        "da_DK": "By er obligatorisk",
+        "nn_NO": "Poststad må vere med"
+      },
+      "suiteTitle": {
+        "en_US": "Suite",
+        "nb_NO": "Leilighet",
+        "sv_SE": "Lägenhet",
+        "fi_FI": "Asunto",
+        "da_DK": "Lejlighed",
+        "nn_NO": "Husvære"
+      },
+      "careOfTitle": {
+        "en_US": "Care of",
+        "nb_NO": "C/O",
+        "sv_SE": "C/O",
+        "fi_FI": "C/O",
+        "da_DK": "C/O",
+        "nn_NO": "C/O"
+      },
+      "entranceTitle": {
+        "en_US": "Entrance",
+        "nb_NO": "Inngang",
+        "sv_SE": "Ingång",
+        "fi_FI": "Porraskäytävä",
+        "da_DK": "Indgang",
+        "nn_NO": "Oppgang"
+      },
+      "floorTitle": {
+        "en_US": "Floor",
+        "nb_NO": "Etasje",
+        "sv_SE": "Våning",
+        "fi_FI": "Kerros",
+        "da_DK": "Etage",
+        "nn_NO": "Etasje"
+      },
+      "postalAddressTitle": {
+        "en_US": "Post Office address",
+        "nb_NO": "Postkontorets adresse",
+        "sv_SE": "Postkontorets adress",
+        "fi_FI": "Postiosoite",
+        "da_DK": "Posthus adresse",
+        "nn_NO": "Postadresse"
+      },
+      "postalAddressPostalCodeTitle": {
+        "en_US": "Post Office code",
+        "nb_NO": "Postkontorets kode",
+        "sv_SE": "Postkontor kod",
+        "fi_FI": "Postitoimiston koodi",
+        "da_DK": "Posthus kode",
+        "nn_NO": "Postnummer"
+      },
+      "postalAddressPostalPlaceTitle": {
+        "en_US": "Post Office place",
+        "nb_NO": "Postkontorets sted",
+        "sv_SE": "Postkontor plats",
+        "fi_FI": "Postitoimipaikka",
+        "da_DK": "Posthus sted",
+        "nn_NO": "Poststad"
+      },
+      "countryCodeTitle": {
+        "en_US": "Country code",
+        "nb_NO": "Landskode",
+        "sv_SE": "Landskod",
+        "fi_FI": "Maatunnus",
+        "da_DK": "Landekode",
+        "nn_NO": "Landskode"
+      },
+      "countryCodeRequired": {
+        "en_US": "Country code is required",
+        "nb_NO": "Landskode er påkrevet",
+        "sv_SE": "Landskod är obligatoriskt",
+        "fi_FI": "Maakoodi vaaditaan",
+        "da_DK": "andekode er påkrævet",
+        "nn_NO": "Landskode må vere med"
+      },
+      "startTimeTitle": {
+        "en_US": "Start date",
+        "nb_NO": "Startdato",
+        "sv_SE": "Startdatum",
+        "fi_FI": "Alkupvm",
+        "da_DK": "Startdato",
+        "nn_NO": "Startdato"
+      },
+      "startTimeRequired": {
+        "en_US": "Start date is required",
+        "nb_NO": "Startdato er påkrevet",
+        "sv_SE": "Startdatum är obligatoriskt",
+        "fi_FI": "Alkupvm vaaditaan",
+        "da_DK": "Startdato er obligatorisk",
+        "nn_NO": "Startdato må vere med"
+      },
+      "startTimeMin": {
+        "en_US": "Start date must be after today's date",
+        "nb_NO": "Startdato må være senere enn dagens dato",
+        "sv_SE": "Startdatum måste vara senare än dagens datum",
+        "fi_FI": "Alkamispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Startdato skal være senere end i dag",
+        "nn_NO": "Startdato må vere seinare enn dagens dato"
+      },
+      "endTimeTitle": {
+        "en_US": "End date",
+        "nb_NO": "Stoppdato",
+        "sv_SE": "Slutdatum",
+        "fi_FI": "Loppupvm",
+        "da_DK": "Slutdato",
+        "nn_NO": "Stoppdato"
+      },
+      "endTimeMin": {
+        "en_US": "End date must be after start date",
+        "nb_NO": "Stoppdato må være senere enn startdato",
+        "sv_SE": "Stoppdatum måste vara senare än dagens datum",
+        "fi_FI": "Loppumispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Slutdato skal være senere end startdato",
+        "nn_NO": "Stoppdato må vere seinare enn startdato"
+      },
+      "endTimeRequired": {
+        "en_US": "End date is required",
+        "nb_NO": "Stoppdato er påkrevet",
+        "sv_SE": "Stoppdatum är obligatoriskt",
+        "fi_FI": "Loppupvm vaaditaan",
+        "da_DK": "Slutdato er obligatorisk",
+        "nn_NO": "Stoppdato må vere med"
+      },
+      "addressExistsForPeriodError": {
+        "en_US": "Temporary address exists for this period",
+        "nb_NO": "Midlertidig adresse finnes for denne perioden",
+        "sv_SE": "Tillfällig adress finns for denna period",
+        "fi_FI": "Väliaikainen osoite tälle ajanjaksolle",
+        "da_DK": "Midlertidig adresse findes allerede for denne periode",
+        "nn_NO": "Mellombels adresse finst for denne perioden"
+      },
+      "issueNotExistsForPeriodError": {
+        "en_US": "Issue doesn't exist for this period",
+        "nb_NO": "Leveranse finnes ikke for denne perioden",
+        "sv_SE": "Leverans saknas för denna perioden",
+        "fi_FI": "Tälle ajanjaksolle ei löydy lähetyksiä",
+        "da_DK": "Der er ikke udgivelser i denne periode",
+        "nn_NO": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg"
+      },
+      "firstChangeDate": {
+        "en_US": "First possible change date",
+        "nb_NO": "Første mulige endringsdato",
+        "sv_SE": "Första möjljga ändringsdatum",
+        "fi_FI": "Ensimmäinen mahdollinen muutospvm",
+        "da_DK": "Første mulige ændringsdato",
+        "nn_NO": "Første mulige dato for endring"
+      },
+      "firstChangeIssue": {
+        "en_US": "Changes will be active on issue: ",
+        "nb_NO": "Endringer vil være aktive for leveranse: ",
+        "sv_SE": "Ändringar kommer vara aktiva för leverans: ",
+        "fi_FI": "Muutokset astuvat voimaan seuraavasta toimituksesta: ",
+        "da_DK": "Ændringerne vil være aktive fra udgivelse: ",
+        "nn_NO": "Endring vil være aktiv for utgave: "
+      },
+      "sentText": {
+        "en_US": "Address updated",
+        "nb_NO": "Adressen er oppdatert",
+        "sv_SE": "Adressen är uppdaterad",
+        "fi_FI": "Osoite on päivitetty",
+        "da_DK": "Adressen er opdateret",
+        "nn_NO": "Adressa er oppdatert"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      }
+    },
+    "setTemporaryDeliveryStop": {
+      "title": {
+        "en_US": "Set temporary delivery stop",
+        "nb_NO": "Registrer midlertidig stopp",
+        "sv_SE": "Registrera tillfälligt stopp",
+        "fi_FI": "Keskeytä lähetykset väliaikaisesti",
+        "da_DK": "Registrer midlertidigt stop for leverance",
+        "nn_NO": "Registrer mellombels stopp"
+      },
+      "selectTypeTitle": {
+        "en_US": "Select type",
+        "nb_NO": "Velg type",
+        "sv_SE": "Välj typ",
+        "fi_FI": "Valitse tyyppi",
+        "da_DK": "Vælg type",
+        "nn_NO": "Vel stopptype"
+      },
+      "stopTypeOptions": {
+        "temporary": {
+          "label": {
+            "en_US": "Temporary",
+            "nb_NO": "Midlertidig",
+            "sv_SE": "Tillfälligt stopp",
+            "fi_FI": "Temporary",
+            "da_DK": "Temporary",
+            "nn_NO": "Mellombels stopp"
+          }
+        },
+        "donation": {
+          "label": {
+            "en_US": "Donation",
+            "nb_NO": "Donering",
+            "sv_SE": "Donation",
+            "fi_FI": "Lahjoitus",
+            "da_DK": "Donation",
+            "nn_NO": "Gje bort avisa til ein institusjon"
+          }
+        },
+        "noDelivery": {
+          "label": {
+            "en_US": "No delivery",
+            "nb_NO": "Ingen leveranse",
+            "sv_SE": "Ingen leverans",
+            "fi_FI": "Ei toimituksia",
+            "da_DK": "Ingen leverance",
+            "nn_NO": "Mellombels stopp med digital tilgang"
+          }
+        }
+      },
+      "stopTypeRequired": {
+        "en_US": "Stop type is required",
+        "nb_NO": "Stopptype er påkrevet",
+        "sv_SE": "Stopptyp krävs",
+        "fi_FI": "Keskeytystyyppi vaaditaan",
+        "da_DK": "Stopårsag er obligatorisk",
+        "nn_NO": "Stopptype må vere med"
+      },
+      "startTimeTitle": {
+        "en_US": "Start date",
+        "nb_NO": "Startdato",
+        "sv_SE": "Startdatum",
+        "fi_FI": "Alkupvm",
+        "da_DK": "Startdato",
+        "nn_NO": "Startdato"
+      },
+      "startTimeRequired": {
+        "en_US": "Start date is required",
+        "nb_NO": "Startdato er påkrevet",
+        "sv_SE": "Startdatum är obligatoriskt",
+        "fi_FI": "Alkupvm vaaditaan",
+        "da_DK": "Startdato er obligatorisk",
+        "nn_NO": "Startdato må vere med"
+      },
+      "startTimeMin": {
+        "en_US": "Start date must be after today's date",
+        "nb_NO": "Startdato må være senere enn dagens dato",
+        "sv_SE": "Startdatum måste vara senare än dagens datum",
+        "fi_FI": "Alkamispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Startdato skal være senere end i dag",
+        "nn_NO": "Startdato må vere seinare enn dagens dato"
+      },
+      "endTimeTitle": {
+        "en_US": "End date",
+        "nb_NO": "Stoppdato",
+        "sv_SE": "Slutdatum",
+        "fi_FI": "Loppupvm",
+        "da_DK": "Slutdato",
+        "nn_NO": "Stoppdato"
+      },
+      "endTimeMin": {
+        "en_US": "End date must be after start date",
+        "nb_NO": "Stoppdato må være senere enn startdato",
+        "sv_SE": "Stoppdatum måste vara senare än dagens datum",
+        "fi_FI": "Loppumispäivä voi olla aikaisintaan kuluva päivä",
+        "da_DK": "Slutdato skal være senere end startdato",
+        "nn_NO": "Stoppdato må vere seinare enn startdato"
+      },
+      "endTimeRequired": {
+        "en_US": "End date is required",
+        "nb_NO": "Stoppdato er påkrevet",
+        "sv_SE": "Stoppdatum är obligatoriskt",
+        "fi_FI": "Loppupvm vaaditaan",
+        "da_DK": "Slutdato er obligatorisk",
+        "nn_NO": "Stoppdato må vere med"
+      },
+      "stopExistsForPeriodError": {
+        "en_US": "Temporary delivery stop exists for this period",
+        "nb_NO": "Midlertidig leveringsstopp finnes allerede for denne perioden",
+        "sv_SE": "Temporärt leveransstopp finns redan för denna period",
+        "fi_FI": "Väliaikainen keskeytys on jo aktivoitu tälle ajanjaksolle",
+        "da_DK": "Midlertidigt leverancestop findes allerede for perioden",
+        "nn_NO": "Mellombels stopp av levering finst for denne perioden"
+      },
+      "issueNotExistsForPeriodError": {
+        "en_US": "Issue doesn't exist for this period",
+        "nb_NO": "Leveranse finnes ikke for denne perioden",
+        "sv_SE": "Leverans saknas för denna perioden",
+        "fi_FI": "Tälle ajanjaksolle ei löydy lähetyksiä",
+        "da_DK": "Der er ikke udgivelser i denne periode",
+        "nn_NO": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg"
+      },
+      "firstChangeDate": {
+        "en_US": "First possible change date",
+        "nb_NO": "Første mulige endringsdato",
+        "sv_SE": "Första möjljga ändringsdatum",
+        "fi_FI": "Ensimmäinen mahdollinen muutospvm",
+        "da_DK": "Første mulige ændringsdato",
+        "nn_NO": "Første mulige dato for endring"
+      },
+      "firstChangeIssue": {
+        "en_US": "Changes will be active on issue: ",
+        "nb_NO": "Endringer vil være aktive for leveranse: ",
+        "sv_SE": "Ändringar kommer vara aktiva för leverans: ",
+        "fi_FI": "Muutokset astuvat voimaan seuraavasta toimituksesta: ",
+        "da_DK": "Ændringerne vil være aktive fra udgivelse: ",
+        "nn_NO": "Endring vil være aktiv for utgåve: "
+      },
+      "sentText": {
+        "en_US": "Temporary delivery stop created",
+        "nb_NO": "Midlertidig leveringsstopp registrert",
+        "sv_SE": "Temporärt stopp är registrerat",
+        "fi_FI": "Väliaikainen keskeytys on tallennettu",
+        "da_DK": "Midlertidigt leverancestop registreret",
+        "nn_NO": "Mellombels stopp av levering er registrert"
+      },
+      "submitButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "cancelButton": {
+        "en_US": "CANCEL",
+        "nb_NO": "AVBRYT",
+        "sv_SE": "AVBRYT",
+        "fi_FI": "PERUUTA",
+        "da_DK": "ANNULLER",
+        "nn_NO": "AVBRYT"
+      },
+      "sentButton": {
+        "en_US": "OK",
+        "nb_NO": "OK",
+        "sv_SE": "OK",
+        "fi_FI": "OK",
+        "da_DK": "OK",
+        "nn_NO": "OK"
+      }
+    }
+  },
+  "seriesContent": {
+    "title": {
+      "en_US": "Book series",
+      "nb_NO": "Bokserie",
+      "sv_SE": "Bokserie",
+      "fi_FI": "Kirjasarja",
+      "da_DK": "Bogserie",
+      "nn_NO": "Bokserie"
+    }
+  },
+  "cards": {
+    "title": {
+      "en_US": "My Cards",
+      "nb_NO": "Mine kort",
+      "sv_SE": "Mina kort",
+      "fi_FI": "Omat kortit",
+      "da_DK": "Mine kort",
+      "nn_NO": "Korta mine"
+    },
+    "validTill": {
+      "en_US": "Valid till",
+      "nb_NO": "Gyldig til",
+      "sv_SE": "Giltig tom",
+      "fi_FI": "Voimassaolo päättyy",
+      "da_DK": "Gyldig indtil",
+      "nn_NO": "Gyldig til"
+    },
+    "product": {
+      "en_US": "Product",
+      "nb_NO": "Produkt",
+      "sv_SE": "Produkt",
+      "fi_FI": "Tuote",
+      "da_DK": "Produkt",
+      "nn_NO": "Produkt"
+    },
+    "deleteButton": {
+      "name": {
+        "en_US": "DELETE",
+        "nb_NO": "FJERN",
+        "sv_SE": "TA BORT",
+        "fi_FI": "POISTA",
+        "da_DK": "SLET",
+        "nn_NO": "FJERNE"
+      }
+    },
+    "addButton": {
+      "name": {
+        "en_US": "ADD CARD",
+        "nb_NO": "LEGG TIL KORT",
+        "sv_SE": "LÄGG TILL KORT",
+        "fi_FI": "LISÄÄ KORTTI",
+        "da_DK": "TILFØJ KORT",
+        "nn_NO": "LEGG TIL KORT"
+      }
+    },
+    "changeButton": {
+      "name": {
+        "en_US": "CHANGE CARD",
+        "nb_NO": "ENDRE KORT",
+        "sv_SE": "BYT KORT",
+        "fi_FI": "SKIFT KORT",
+        "da_DK": "VAIHDA KORTTI",
+        "nn_NO": "ENDRE KORT"
+      }
+    },
+    "emptyCardList": {
+      "en_US": "You don't have credit cards",
+      "nb_NO": "Ingen kredittkort registrert",
+      "sv_SE": "Inget kreditkort registrerat",
+      "fi_FI": "Ei yhtään tallennettua luottokorttia",
+      "da_DK": "Ingen registrerede kreditkort",
+      "nn_NO": "Ingen kredittkort er registrert"
+    }
+  },
+  "payments": {
+    "title": {
+      "en_US": "Payments",
+      "nb_NO": "Betalinger",
+      "sv_SE": "Betalningar",
+      "fi_FI": "Maksut",
+      "da_DK": "Betalinger",
+      "nn_NO": "Betalingar"
+    },
+    "filterMessage": {
+      "en_US": "Search from payment ...",
+      "nb_NO": "Søk etter betaling...",
+      "sv_SE": "Sök efter betalning...",
+      "fi_FI": "Etsi maksuja…",
+      "da_DK": "Søg efter betaling...",
+      "nn_NO": "Søk etter betaling..."
+    },
+    "invoiceOfferCountLabel": {
+      "en_US": "Number of offers: ",
+      "nb_NO": "Antall tilbud: ",
+      "sv_SE": "Antal erbjudanden: ",
+      "fi_FI": "Tarjousten määrä: ",
+      "da_DK": "Antal tilbud: ",
+      "nn_NO": "Antall tilbod: "
+    }
+  },
+  "singleOrders": {
+    "title": {
+      "en_US": "Single Order",
+      "nb_NO": "Enkeltordre",
+      "sv_SE": "Enstaka Order",
+      "fi_FI": "Yksi tilaus",
+      "da_DK": "Enkeltordre",
+      "nn_NO": "Enkeltordre"
+    },
+    "filterMessage": {
+      "en_US": "Search from order...",
+      "nb_NO": "Søk fra ordre...",
+      "sv_SE": "Sök från order...",
+      "fi_FI": "Hae tilauksesta ...",
+      "da_DK": "Søg fra ordre ...",
+      "nn_NO": "Søk fra ordre..."
+    },
+    "columns": {
+      "date": {
+        "en_US": "Date",
+        "nb_NO": "Dato",
+        "sv_SE": "Datum",
+        "fi_FI": "Päivämäärä",
+        "da_DK": "Dato",
+        "nn_NO": "Dato"
+      },
+      "description":{
+        "en_US": "Description",
+        "nb_NO": "Beskrivelse",
+        "sv_SE": "Beskrivning",
+        "fi_FI": "Kuvaus",
+        "da_DK": "Beskrivelse",
+        "nn_NO": "Beskrivelse"
+      },
+      "orderNumber": {
+        "en_US": "Order number",
+        "nb_NO": "Ordrenummer",
+        "sv_SE": "Ordernummer",
+        "fi_FI": "Tilausnumero",
+        "da_DK": "Ordrenummer",
+        "nn_NO": "Ordrenummer"
+      },
+      "invoiceNumber": {
+        "en_US": "Invoice number",
+        "nb_NO": "Fakturanummer",
+        "sv_SE": "Fakturanummer",
+        "fi_FI": "Laskun numero",
+        "da_DK": "Fakturanummer",
+        "nn_NO": "Fakturanummer"
+      },
+      "status": {
+        "en_US": "Status",
+        "nb_NO": "Status",
+        "sv_SE": "Status",
+        "fi_FI": "Tila",
+        "da_DK": "Status",
+        "nn_NO": "Status"
+      },
+      "amount": {
+        "en_US": "Amount",
+        "nb_NO": "Beløp",
+        "sv_SE": "Belopp",
+        "fi_FI": "Määrä",
+        "da_DK": "Beløb",
+        "nn_NO": "Beløp"
+      },
+      "order": {
+        "en_US": "Order",
+        "nb_NO": "Ordre",
+        "sv_SE": "Order",
+        "fi_FI": "Tilaus",
+        "da_DK": "Bestilling",
+        "nn_NO": "Ordre"
+      },
+      "invoice": {
+        "en_US": "Invoice",
+        "nb_NO": "Faktura",
+        "sv_SE": "Faktura",
+        "fi_FI": "Lasku",
+        "da_DK": "Faktura",
+        "nn_NO": "Faktura"
+      }
+    }
+  },
+  "privacy": {
+    "title": {
+      "en_US": "Privacy",
+      "nb_NO": "Personvern",
+      "sv_SE": "GDPR",
+      "fi_FI": "GDPR",
+      "da_DK": "Personbeskyttelse",
+      "nn_NO": "Personvern"
+    },
+    "mainTab": {
+      "title": {
+        "en_US": "GENERAL",
+        "nb_NO": "GENERELT",
+        "sv_SE": "GENERELLT",
+        "fi_FI": "YLEISTÄ",
+        "da_DK": "GENERELT",
+        "nn_NO": "GENERELT"
+      },
+      "generalInformationText": {
+        "en_US": "",
+        "nb_NO": "",
+        "sv_SE": "",
+        "fi_FI": "",
+        "da_DK": "",
+        "nn_NO": ""
+      },
+      "downloadData": {
+        "button": {
+          "en_US": "DOWNLOAD MY DATA",
+          "nb_NO": "LAST NED MINE DATA",
+          "sv_SE": "HÄMTA MIN DATA",
+          "fi_FI": "LATAA TIETONI",
+          "da_DK": "HENT MINE DATA",
+          "nn_NO": "LAST NED DATAA MINE"
+        },
+        "text": {
+          "en_US": "Your data stored in our service is available to you at any time. By clicking this button we will create an archive of our personal data as well as information we have on your subscription products.",
+          "nb_NO": "Dine data som er lagret i vår tjeneste er tilgjengelig for deg til enhver tid. Ved å klikke denne knappen, vil vi lage et filarkiv med dine personlige data og i tillegg all informasjon vi har om dine abonementsprodukter.",
+          "sv_SE": "Dina uppgifter som lagras i vår tjänst är tillgängliga för dig när som helst. Genom att klicka på den här knappen skapar vi ett arkiv med våra personuppgifter samt information vi har om dina prenumerationsprodukter.",
+          "fi_FI": "Palveluumme tallennetut tiedot ovat käytettävissäsi milloin tahansa. Napsauttamalla tätä painiketta luomme arkiston henkilökohtaisista tiedoistamme sekä tilaustuotteistamme.",
+          "da_DK": "Dine data, der er gemt i vores service, er tilgængelige for dig når som helst. Ved at klikke på denne knap opretter vi et arkiv med vores personlige data samt oplysninger, vi har om dine abonnementsprodukter.",
+          "nn_NO": "Ved å klikke på denne knappen sender du automatisk ein førespurnad til kundesenteret vårt om å få tilgang til dataa dine. Vi vil ta kontakt med deg så snart vi kan og seinast innan tre yrkedagar. Ver merksam på at du kan bli beden om å hente dataa dine i lokala våre og vil då bli beden om å vise gyldig legitimasjon."
+        }
+      },
+      "deleteAccount": {
+        "button": {
+          "en_US": "DELETE MY ACCOUNT",
+          "nb_NO": "SLETT MINE DATA",
+          "sv_SE": "RADERA MIN DATA",
+          "fi_FI": "POISTA TIETONI",
+          "da_DK": "SLET MINE DATA",
+          "nn_NO": "SLETT DATAA MINE"
+        },
+        "text": {
+          "en_US": "You have the option to be forgotten by us, and can at any time delete your account by clicking this button. Before we permanently delete your data, we will place your account in quarantine for 90 days. During this period, you may cancel the deletion and your data will be restored. You can not delete your account if you have any active subscriptions.",
+          "nb_NO": "Du har rett til å bli glemt av oss, og kan til enhver tid slette din konto ved å klikke denne knappen. Før vi permanent sletter dine data, vil vi sette din konto i karantene i 90 dager. I løpet av denne perioden kan du kansellere sletting og dine data vil bli gjenopprettet. Du kan ikke slette din konto dersom du har noen aktive abonnement.",
+          "sv_SE": "Du har möjlighet att glömmas bort av oss och kan när som helst radera ditt konto genom att klicka på den här knappen. Innan vi tar bort dina uppgifter permanent lägger vi ditt konto i karantän i 90 dagar. Under denna period kan du avbryta raderingen och dina data kommer att återställas. Du kan inte ta bort ditt konto om du har några aktiva prenumerationer.",
+          "fi_FI": "Sinulla on mahdollisuus unohtaa meidät ja voit milloin tahansa poistaa tilisi napsauttamalla tätä painiketta. Ennen kuin poistamme tietosi pysyvästi, asetamme tilisi karanteeniin 90 päiväksi. Tänä aikana voit peruuttaa poistamisen ja tietosi palautetaan. Et voi poistaa tiliäsi, jos sinulla on aktiivisia tilauksia.",
+          "da_DK": "Du har mulighed for at blive glemt af os og kan når som helst slette din konto ved at klikke på denne knap. Før vi sletter dine data permanent, placerer vi din konto i karantæne i 90 dage. I denne periode kan du muligvis annullere sletningen, og dine data gendannes. Du kan ikke slette din konto, hvis du har aktive abonnementer.",
+          "nn_NO": "Ved å klikke på  denne knappen sender du automatisk ein førespurnad til kundesenteret vårt om å slette dataa dine. Vi vil ta kontakt med deg så snart vi kan. Før vi slettar alle dataa dine permanent vil vi setje kundekontoen din i karantene i 90 dagar. Du kan ikkje slette kundekontoen din dersom du har og framleis ønskjer å ha eit abonnement Dag og Tid."
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": {
+      "en_US": "Support",
+      "nb_NO": "Kundeservice",
+      "sv_SE": "Kundtjänst",
+      "fi_FI": "Asiakaspalvelu",
+      "da_DK": "Kundeservice",
+      "nn_NO": "Kundeservice"
+    },
+    "message": {
+      "cardtitle": {
+        "en_US": "Write a message",
+        "nb_NO": "Skriv en melding",
+        "sv_SE": "Skriv ett meddelande",
+        "fi_FI": "Kirjoita viesti",
+        "da_DK": "Indtast besked",
+        "nn_NO": "Skriv ei melding"
+      },
+      "productTitle": {
+        "en_US": "Product",
+        "nb_NO": "Produkt",
+        "sv_SE": "Produkt",
+        "fi_FI": "Tuote",
+        "da_DK": "Produkt",
+        "nn_NO": "Produkt"
+      },
+      "productRequired": {
+        "en_US": "Product is required",
+        "nb_NO": "Produkt er påkrevet",
+        "sv_SE": "Produkt är obligatoriskt",
+        "fi_FI": "Tuote vaaditaan",
+        "da_DK": "Produkt er obligatorisk",
+        "nn_NO": "Produkt må vere med"
+      },
+      "generalMessageOption": {
+        "en_US": "General message",
+        "nb_NO": "Generelt spørsmål",
+        "sv_SE": "Generellt meddelande",
+        "fi_FI": "Yleinen viesti",
+        "da_DK": "Generelt spørgmål",
+        "nn_NO": "Generelt spørsmål"
+      },
+      "messageTitle": {
+        "en_US": "Your message",
+        "nb_NO": "Din melding",
+        "sv_SE": "Ditt meddelande",
+        "fi_FI": "Viestisi",
+        "da_DK": "Din besked",
+        "nn_NO": "Meldinga di"
+      },
+      "messageRequired": {
+        "en_US": "Message is required",
+        "nb_NO": "Melding er påkrevet",
+        "sv_SE": "Meddelande är obligatoriskt",
+        "fi_FI": "Viesti vaaditaan",
+        "da_DK": "Besked er obligatorisk",
+        "nn_NO": "Melding må vere med"
+      },
+      "subjectTitle": {
+        "en_US": "Subject",
+        "nb_NO": "Velg type henvendelse",
+        "sv_SE": "Välj ärende",
+        "fi_FI": "Valitse aihe",
+        "da_DK": "Emne",
+        "nn_NO": "Velg type henvendelse"
+      },
+      "subjectRequired": {
+        "en_US": "Subject is required",
+        "nb_NO": "Type henvendelse er påkrevet",
+        "sv_SE": "Ärende är obligatoriskt",
+        "fi_FI": "Aihe vaaditaan",
+        "da_DK": "Emne er obligatorisk",
+        "nn_NO": "Type henvendelse må vere med"
+      },
+      "sendButton": {
+        "en_US": "SUBMIT",
+        "nb_NO": "SEND INN",
+        "sv_SE": "SKICKA",
+        "fi_FI": "LÄHETÄ",
+        "da_DK": "INDSEND",
+        "nn_NO": "SEND INN"
+      },
+      "sentTextBig": {
+        "en_US": "Thanks for your inquiry",
+        "nb_NO": "Takk for din forespørsel",
+        "sv_SE": "Tack för ditt meddelande",
+        "fi_FI": "Kiitos viestistäsi",
+        "da_DK": "Tak for din henvendelse",
+        "nn_NO": "Takk for førespurnaden din"
+      },
+      "sentTextSmall": {
+        "en_US": "We will reply to your email address as soon ass possible",
+        "nb_NO": "Vi vil sende deg svar til din epostadresse så raskt som mulig",
+        "sv_SE": "Vi svarar dig så snart vi kan",
+        "fi_FI": "Olemme sinuun yhteydessä mahdollisimman pian",
+        "da_DK": "Vi vil besvare til din e-mailadresse hurtigst muligt",
+        "nn_NO": "Vi vil sende svar til deg på e-post så raskt som mogleg"
+      }
+    },
+    "support": {
+      "contactPhone": {
+        "en_US": null,
+        "nb_NO": null,
+        "sv_SE": null,
+        "fi_FI": null,
+        "da_DK": null,
+        "nn_NO": null
+      },
+      "contactText": {
+        "en_US": "Contact our call-center",
+        "nb_NO": "Ta kontakt med vårt kundeservice",
+        "sv_SE": "Kontakta vår kundtjänst",
+        "fi_FI": "Ota yhteyttä asiakaspalveluumme",
+        "da_DK": "Kontakt kundesenter",
+        "nn_NO": "Ta kontakt med kundesenteret vårt"
+      }
+    }
+  },
+  "complaint": {
+    "title": {
+      "en_US": "Complaint",
+      "nb_NO": "Klage",
+      "sv_SE": "Reklamation",
+      "fi_FI": "Reklamaatio",
+      "da_DK": "Klage",
+      "nn_NO": "Registrer klage"
+    },
+    "description": {
+      "en_US": "Write a complaint",
+      "nb_NO": "Skriv en klage",
+      "sv_SE": "Gör en reklamation",
+      "fi_FI": "Reklamoi",
+      "da_DK": "Indsend klage",
+      "nn_NO": "Gjer vel og fortel oss kva klagen din går ut på"
+    },
+    "productTitle": {
+      "en_US": "Product",
+      "nb_NO": "Produkt",
+      "sv_SE": "Produkt",
+      "fi_FI": "Tuote",
+      "da_DK": "Produkt",
+      "nn_NO": "Produkt"
+    },
+    "productRequired": {
+      "en_US": "Product is required",
+      "nb_NO": "Produkt er påkrevet",
+      "sv_SE": "Produkt är obligatoriskt",
+      "fi_FI": "Tuote vaaditaan",
+      "da_DK": "Produkt er obligatorisk",
+      "nn_NO": "Produkt må vere med"
+    },
+    "issueDateTitle": {
+      "en_US": "Issue date",
+      "nb_NO": "Utgivelsesdato",
+      "sv_SE": "Utgivningsdatum",
+      "fi_FI": "Julkaisupvm",
+      "da_DK": "Udgivelsesdato",
+      "nn_NO": "Utgjevingsdato"
+    },
+    "complaintReasonTitle": {
+      "en_US": "Complaint reason",
+      "nb_NO": "Klageårsak",
+      "sv_SE": "Reklamationsorsak",
+      "fi_FI": "Reklamaation syy",
+      "da_DK": "Årsag til klage",
+      "nn_NO": "Klageårsak"
+    },
+    "messageTitle": {
+      "en_US": "Your message",
+      "nb_NO": "Din melding",
+      "sv_SE": "Ditt meddelande",
+      "fi_FI": "Viestisi",
+      "da_DK": "Din besked",
+      "nn_NO": "Meldinga di"
+    },
+    "submitButton": {
+      "en_US": "SEND",
+      "nb_NO": "SEND INN",
+      "sv_SE": "SKICKA",
+      "fi_FI": "LÄHETÄ",
+      "da_DK": "INDSEND",
+      "nn_NO": "SEND INN"
+    },
+    "issueDateRequired": {
+      "en_US": "Issue date is required",
+      "nb_NO": "Utgivelsesdato er påkrevet",
+      "sv_SE": "Utgivningsdatum är obligatoriskt",
+      "fi_FI": "Julkaisupvm vaaditaan",
+      "da_DK": "Udgivelsesdato er obligatorsk",
+      "nn_NO": "Utgjevingsdato må vere med"
+    },
+    "complaintReasonRequired": {
+      "en_US": "Complaint reason is required",
+      "nb_NO": "Klageårsak er påkrevet",
+      "sv_SE": "Reklamationsorsak är obligatoriskt",
+      "fi_FI": "Reklamaation syy vaaditaan",
+      "da_DK": "Årsag til klage obligatorisk",
+      "nn_NO": "Klageårsak må vere med"
+    },
+    "forwardIssueTitle": {
+      "en_US": "Forward the issue",
+      "nb_NO": "Ettersend leveransen",
+      "sv_SE": "Eftersänd leveransen",
+      "fi_FI": "Palauta kirjalähetys",
+      "da_DK": "Eftersend leveringen",
+      "nn_NO": "Ettersend utgåva"
+    },
+    "sentTextBig": {
+      "en_US": "Thanks for your notification",
+      "nb_NO": "Takk for din beskjed",
+      "sv_SE": "Tack för ditt meddelande",
+      "fi_FI": "Kiitos viestistäsi",
+      "da_DK": "Tak for din besked",
+      "nn_NO": "Takk for meldinga di"
+    },
+    "sentTextSmall": {
+      "en_US": "Notification has been submitted",
+      "nb_NO": "Beskjed har blitt sendt",
+      "sv_SE": "Ditt meddelande har skickats",
+      "fi_FI": "Viestisi on lähetetty",
+      "da_DK": "Beskeden er blevet sendt",
+      "nn_NO": "Meldinga har blitt sendt"
+    }
+  },
+  "faq": {
+    "title": {
+      "en_US": "FAQ",
+      "nb_NO": "FAQ",
+      "sv_SE": "FAQ",
+      "fi_FI": "FAQ",
+      "da_DK": "FAQ",
+      "nn_NO": "FAQ"
+    }
+  },
+  "address": {
+    "countryCodeOptions": {
+      "NO": {
+        "label": {
+          "en_US": "NO - Norway",
+          "nb_NO": "NO - Norge",
+          "sv_SE": "NO - Norge",
+          "fi_FI": "NO - Norge",
+          "da_DK": "NO - Norja",
+          "nn_NO": "NO - Norge"
+        }
+      },
+      "SE": {
+        "label": {
+          "en_US": "SE - Sweden",
+          "nb_NO": "SE - Sverige",
+          "sv_SE": "SE - Sverige",
+          "fi_FI": "SE - Ruotsi",
+          "da_DK": "SE - Sverige",
+          "nn_NO": "SE - Sverige"
+        }
+      },
+      "DK": {
+        "label": {
+          "en_US": "DK - Denmark",
+          "nb_NO": "DK - Danmark",
+          "sv_SE": "DK - Danmark",
+          "fi_FI": "DK - Tanska",
+          "da_DK": "DK - Danmark",
+          "nn_NO": "DK - Danmark"
+        }
+      },
+      "FI": {
+        "label": {
+          "en_US": "FI - Finland",
+          "nb_NO": "FI - Finland",
+          "sv_SE": "FI - Finland",
+          "fi_FI": "FI - Suomi",
+          "da_DK": "FI - Finland",
+          "nn_NO": "FI - Finland"
+        }
+      }
+    }
+  }
+}

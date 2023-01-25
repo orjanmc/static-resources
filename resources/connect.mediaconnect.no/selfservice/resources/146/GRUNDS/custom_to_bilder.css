@@ -1,0 +1,16 @@
+.login .main { 
+  /*width:1000px; */
+  background: url(cover2.jpg) no-repeat 1px 10px;
+  padding-left:170px;  
+} 
+/*
+ * Logo øverst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.gif) no-repeat 165px 5px;
+  height:130px;
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

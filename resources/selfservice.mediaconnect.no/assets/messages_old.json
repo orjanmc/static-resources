@@ -1,0 +1,1534 @@
+{
+    "title": {
+        "en_US": "CSS",
+        "nb_NO": "CSS"
+    },
+    "membershipCards": {
+        "textHeader": {
+            "en_US": "Membership Card",
+            "nb_NO": "Medlemskort"
+        },
+        "textBlock": {
+            "en_US": "10% discount on cinema tickets",
+            "nb_NO": "10% rabatt på kinobilletter"
+        },
+        "validTill": {
+            "en_US": "2017",
+            "nb_NO": "2017"
+        },
+        "cards": {
+            "al": {
+                "textHeader": {
+                    "en_US": "Membership Card",
+                    "nb_NO": "Medlemskort"
+                },
+                "textBlock": {
+                    "en_US": "10% discount on cinema tickets",
+                    "nb_NO": "10% rabatt på kinobilletter"
+                },
+                "validTill": {
+                    "en_US": "2017",
+                    "nb_NO": "2017"
+                }
+            },
+            "nat": {
+                "textHeader": {
+                    "en_US": "Membership Card",
+                    "nb_NO": "Medlemskort"
+                },
+                "textBlock": {
+                    "en_US": "10% discount on cinema tickets",
+                    "nb_NO": "10% rabatt på kinobilletter"
+                },
+                "validTill": {
+                    "en_US": "2017",
+                    "nb_NO": "2017"
+                }
+            }
+        }
+    },
+    "paymentMethods": {
+        "invoice": {
+            "description": {
+                "en_US": "Invoice",
+                "nb_NO": "Faktura"
+            }
+        },
+        "eInvoice": {
+            "description": {
+                "en_US": "E-Invoice",
+                "nb_NO": "E-Faktura"
+            }
+        },
+        "autoGiro": {
+            "description": {
+                "en_US": "AutoGiro",
+                "nb_NO": "Autogiro"
+            }
+        },
+        "recurringPayment": {
+            "description": {
+                "en_US": "RecurringPayment",
+                "nb_NO": "Gjentagende trekk"
+            }
+        }
+    },
+    "invoicePaymentMethod": {
+        "A": {
+            "en_US": "Normal payment",
+            "nb_NO": "Fakturabetaling"
+        },
+        "B": {
+            "en_US": "Autodraw (auto giro)",
+            "nb_NO": "Avtalegiro"
+        },
+        "C": {
+            "en_US": "Credit card payment",
+            "nb_NO": "Kredittkort"
+        },
+        "D": {
+            "en_US": "Einvoice",
+            "nb_NO": "E-Faktura"
+        },
+        "E": {
+            "en_US": "Autodraw einvoice",
+            "nb_NO": "Automatisk E-Faktura"
+        },
+        "F": {
+            "en_US": "Recurring payment credit card",
+            "nb_NO": "Gjentagende trekk kredittkort"
+        },
+        "G": {
+            "en_US": "Recurring payment SMS",
+            "nb_NO": "Gjentagende trekk SMS"
+        }
+    },
+    "invoicePaymentStatus": {
+        "less0": {
+            "en_US": "Status less 0 EN",
+            "nb_NO": "Status less 0 NO"
+        },
+        "equal0": {
+            "en_US": "Status equal 0 EN",
+            "nb_NO": "Status equal 0 NO"
+        },
+        "more0": {
+            "en_US": "Status more 0 EN",
+            "nb_NO": "Status more 0 NO"
+        }
+    },
+    "messages": {
+        "default-message": {
+            "text": {
+                "en_US": "An error has occurred in the application",
+                "nb_NO": "En feil har oppstått i applikasjonen"
+            }
+        },
+        "app-configHeaderError": {
+            "text": {
+                "en_US": "An error occurred while loading client header",
+                "nb_NO": "En feil har oppstått ved lasting av topptekst"
+            }
+        },
+        "app-configFooterError": {
+            "text": {
+                "en_US": "An error occurred while loading client footer",
+                "nb_NO": "En feil har oppstått ved lasting av bunntekst"
+            }
+        },
+        "app-loginCustomerEmpty": {
+            "text": {
+                "en_US": "You are not connected to the customer. Press icon to complete the data.",
+                "nb_NO": "Du er ikke tilknyttet en abonnent. Trykk på ikonet for å fullføre."
+            }
+        },
+        "proxyService-connectionError": {
+            "text": {
+                "en_US": "An error occurred while connecting to the server",
+                "nb_NO": "En feil har oppstått ved tilkobling til serveren"
+            }
+        },
+        "userService-emptyCustomerNumber": {
+            "text": {
+                "en_US": "Empty customer number!!!",
+                "nb_NO": "Manglende kundenummer!!!"
+            }
+        },
+        "profile-saveSuccess": {
+            "text": {
+                "en_US": "Your change request was accepted, your data will be updated shortly.",
+                "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert."
+            }
+        },
+        "address-saveSuccess": {
+            "text": {
+                "en_US": "Your change request was accepted, your data will be updated shortly.",
+                "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert."
+            }
+        },
+        "address-deleteSuccess": {
+            "text": {
+                "en_US": "Your change request was accepted, your data will be updated shortly.",
+                "nb_NO": "Endringen din ble akseptert, dine data vil bli oppdatert."
+            }
+        },
+        "account_delete_success": {
+            "text": {
+                "en_US": "Your account deletion request was accepted.",
+                "nb_NO": "Din forespørsel om å slette dine data ble akseptert."
+            }
+        },
+        "data_download_success": {
+            "text": {
+                "en_US": "Your data download request was accepted.",
+                "nb_NO": "Din forespørsel om å laste ned dine data ble akseptert."
+            }
+        },
+        "app-contactMessageEmailEmpty": {
+            "text": {
+                "en_US": "You can not send messages. Your email is empty.",
+                "nb_NO": "Du kan ikke sende meldinger, legg inn din epost-adresse først."
+            }
+        },
+        "complaint-duplicateKeyError": {
+            "text": {
+                "en_US": "It is not possible to register complaint on this issue. Contact Mediaconnect for support.",
+                "nb_NO": "Det er ikke mulig å registrere en klage på denne utgaven. Kontakt kundesenter for videre hjelp."
+            }
+        }
+    },
+    "dialogs": {
+        "buttonTrue": {
+            "en_US": "YES",
+            "nb_NO": "JA"
+        },
+        "buttonFalse": {
+            "en_US": "NO",
+            "nb_NO": "NEI"
+      },
+      "send-message": {
+            "textBold": {
+                "en_US": "Do you want to send message?",
+                "nb_NO": "Vil du sende meldingen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "send-complaint": {
+            "textBold": {
+                "en_US": "Do you want to send a complaint?",
+                "nb_NO": "Er du sikker på at du vil sende klagen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "cancel-subscription": {
+            "textBold": {
+                "en_US": "Do you really want to cancel subscription?",
+                "nb_NO": "Er du sikker på at du vil stoppe abonnementet?"
+            },
+            "textNormal": {
+                "en_US": "The payment from your card will continue to be charged until the end of the accounting month. After this your subscription will be disabled.",
+                "nb_NO": "Vi vil fortsette å belaste kortet ditt ut nåværende abonnementsperiode. Ditt abonnement vil bli avsluttet etter dette."
+            }
+        },
+        "restore-subscription": {
+            "textBold": {
+                "en_US": "Do you really want to restore subscription?",
+                "nb_NO": "Vil du gjenoppta abonnementet?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "save-profile": {
+            "textBold": {
+                "en_US": "Do you want to save profile changes?",
+                "nb_NO": "Vil du lagre endringene på profilen din?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-card": {
+            "textBold": {
+                "en_US": "Do you really want to delete card?",
+                "nb_NO": "Er du sikker på at du vil fjerne kortet?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "save-address": {
+            "textBold": {
+                "en_US": "Do you want to save address changes?",
+                "nb_NO": "Vil du lagre endringene på adressen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "save-email": {
+            "textBold": {
+                "en_US": "Do you want to save email?",
+                "nb_NO": "Vil du lagre epost-adressen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-address": {
+            "textBold": {
+                "en_US": "Do you want to delete address?",
+                "nb_NO": "Er du sikker på at du vil fjerne adressen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-temporary-address": {
+            "textBold": {
+                "en_US": "Do you want to delete temporary address?",
+                "nb_NO": "Er du sikker på at du vil fjerne den midlertidige adressen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-temporary-stop": {
+            "textBold": {
+                "en_US": "Do you want to delete temporary stop?",
+                "nb_NO": "Vil du slette midlertidig stopp?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-email": {
+            "textBold": {
+                "en_US": "Do you want to delete email?",
+                "nb_NO": "Er du sikker på at du vil fjerne epostadressen?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "delete-account": {
+            "textBold": {
+                "en_US": "Do you want to delete account?",
+                "nb_NO": "Vil du slette dine data?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "download-data": {
+            "textBold": {
+                "en_US": "Do you want to download data?",
+                "nb_NO": "Vil du laste ned dine data?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "change-password": {
+            "textBold": {
+                "en_US": "Do you want to change password?",
+                "nb_NO": "Vil du endre ditt passord?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "save-temporary-address": {
+            "textBold": {
+                "en_US": "Do you want to save a temporary address for the following issues?",
+                "nb_NO": "Vil du lagre en midlertidig adresse for de følgende utgavene?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        },
+        "save-delivery-stop": {
+            "textBold": {
+                "en_US": "Do you want to save a delivery stop for the following issues?",
+                "nb_NO": "Vil du lagre en leveringsstopp for de følgende utgavene?"
+            },
+            "textNormal": {
+                "en_US": null,
+                "nb_NO": null
+            }
+        }
+    },
+    "menu": {
+        "customerNumberInfo": {
+            "label": {
+                "en_US": "Customer number",
+                "nb_NO": "Kundenummer"
+            },
+            "separator": {
+                "en_US": ":",
+                "nb_NO": ":"
+            }
+        },
+        "logoutButton": {
+            "name": {
+                "en_US": "LOG OUT",
+                "nb_NO": "LOGG UT"
+            }
+        },
+        "home": {
+            "name": {
+                "en_US": "HOME",
+                "nb_NO": "HJEM"
+            }
+        },
+        "subscriptions": {
+            "name": {
+                "en_US": "SUBSCRIPTIONS",
+                "nb_NO": "ABONNEMENT"
+            }
+        },
+        "account": {
+            "name": {
+                "en_US": "MY ACCOUNT",
+                "nb_NO": "MIN PROFIL"
+            }
+        },
+        "cards": {
+            "name": {
+                "en_US": "MY CARDS",
+                "nb_NO": "MINE KORT"
+            }
+        },
+        "payments": {
+            "name": {
+                "en_US": "PAYMENTS",
+                "nb_NO": "BETALINGER"
+            }
+        },
+        "privacy": {
+            "name": {
+                "en_US": "PRIVACY",
+                "nb_NO": "PERSONVERN"
+            }
+        },
+        "contact": {
+            "name": {
+                "en_US": "CONTACT SUPPORT",
+                "nb_NO": "KONTAKT KUNDESENTER"
+            }
+        },
+        "complaint": {
+            "name": {
+                "en_US": "COMPLAINT",
+                "nb_NO": "KLAGE"
+            }
+        },
+        "faq": {
+            "name": {
+                "en_US": "FAQ",
+                "nb_NO": "FAQ"
+            }
+        }
+    },
+    "account": {
+        "title": {
+            "en_US": "My account",
+            "nb_NO": "Min profil"
+        },
+        "tabs": {
+            "profileTab": {
+                "title": {
+                    "en_US": "PROFILE",
+                    "nb_NO": "PROFIL"
+                }
+            },
+            "addressesTab": {
+                "title": {
+                    "en_US": "ADDRESSES",
+                    "nb_NO": "ADRESSER"
+                }
+            },
+            "paymentMethodsTab": {
+                "title": {
+                    "en_US": "PAYMENT METHODS",
+                    "nb_NO": "BETALINGSMÅTER"
+                }
+            },
+            "emailsTab": {
+                "title": {
+                    "en_US": "EMAILS",
+                    "nb_NO": "EPOSTADRESSER"
+                }
+            }
+        },
+        "profile": {
+            "firstNameLabel": {
+                "en_US": "First name",
+                "nb_NO": "Fornavn"
+            },
+            "middleNameLabel": {
+                "en_US": "Middle name",
+                "nb_NO": "Mellomnavn"
+            },
+            "lastNameLabel": {
+                "en_US": "Last name",
+                "nb_NO": "Etternavn"
+            },
+            "phoneNumberLabel": {
+                "en_US": "Phone number",
+                "nb_NO": "Telefonnummer"
+            },
+            "saveButton": {
+                "en_US": "SAVE",
+                "nb_NO": "LAGRE"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "changePasswordButton": {
+                "en_US": "CHANGE PASSWORD",
+                "nb_NO": "ENDRE PASSORD"
+            },
+            "lastNameRequired": {
+                "en_US": "Last name is required",
+                "nb_NO": "Etternavn er påkrevet"
+            }
+        },
+        "addresses": {
+            "editAddressTitle": {
+                "en_US": "Edit address",
+                "nb_NO": "Endre adresse"
+            },
+            "cardCareOfAddressPrefix": {
+                "en_US": "Care of: ",
+                "nb_NO": "C/O: "
+            },
+            "cardStreetAddressPrefix": {
+                "en_US": "",
+                "nb_NO": ""
+            },
+            "cardEntrancePrefix": {
+                "en_US": " ",
+                "nb_NO": " "
+            },
+            "cardFloorPrefix": {
+                "en_US": " ",
+                "nb_NO": " "
+            },
+            "cardSuitePrefix": {
+                "en_US": " / ",
+                "nb_NO": " / "
+            },
+            "cardCountryCodePrefix": {
+                "en_US": ", ",
+                "nb_NO": ", "
+            },
+            "productPrefix": {
+                "en_US": "Product: ",
+                "nb_NO": "Produkt: "
+            },
+            "timeSepatator": {
+                "en_US": " - ",
+                "nb_NO": " - "
+            },
+            "careOfAddressLabel": {
+                "en_US": "Care of",
+                "nb_NO": "C/O"
+            },
+            "streetAddressLabel": {
+                "en_US": "Street name",
+                "nb_NO": "Gatenavn"
+            },
+            "streetNumberLabel": {
+                "en_US": "Street number",
+                "nb_NO": "Gatenummer"
+            },
+            "entranceLabel": {
+                "en_US": "Entrance",
+                "nb_NO": "Inngang"
+            },
+            "floorLabel": {
+                "en_US": "Floor",
+                "nb_NO": "Etasje"
+            },
+            "suiteLabel": {
+                "en_US": "Suite",
+                "nb_NO": "Leilighet"
+            },
+            "postalCodeLabel": {
+                "en_US": "Postal code",
+                "nb_NO": "Postnummer"
+            },
+            "postalPlaceLabel": {
+                "en_US": "Postal place",
+                "nb_NO": "Poststed"
+            },
+            "startTimeLabel": {
+                "en_US": "Start date",
+                "nb_NO": "Startdato"
+            },
+            "startTimeRequired": {
+                "en_US": "Start date is required",
+                "nb_NO": "Startdato er påkrevet"
+            },
+            "startTimeMin": {
+                "en_US": "Start date must be after today's date",
+                "nb_NO": "Startdato må være senere enn dagens dato"
+            },
+            "endTimeLabel": {
+                "en_US": "End date",
+                "nb_NO": "Stoppdato"
+            },
+            "endTimeRequired": {
+                "en_US": "End date is required",
+                "nb_NO": "Stoppdato er påkrevet"
+            },
+            "endTimeMin": {
+                "en_US": "End date must be after start date",
+                "nb_NO": "Stoppdato må være senere enn startdato"
+            },
+            "editButton": {
+                "en_US": "EDIT",
+                "nb_NO": "ENDRE"
+            },
+            "saveButton": {
+                "en_US": "SAVE",
+                "nb_NO": "LAGRE"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "addButton": {
+                "en_US": "ADD ADDRESS",
+                "nb_NO": "LEFF TIL ADRESSE"
+            },
+            "deleteButton": {
+                "en_US": "DELETE THIS ADDRESS",
+                "nb_NO": "FJERN DENNE ADRESSEN"
+            },
+            "streetAddressRequired": {
+                "en_US": "Street name is required",
+                "nb_NO": "Gatenavn er påkrevet"
+            },
+            "streetNumberRequired": {
+                "en_US": "Street number is required",
+                "nb_NO": "Gatenummer er påkrevet"
+            },
+            "postalCodeRequired": {
+                "en_US": "Postal code is required",
+                "nb_NO": "Postnummer er påkrevet"
+            },
+            "postalPlaceRequired": {
+                "en_US": "Postal place is required",
+                "nb_NO": "Poststed er påkrevet"
+            }
+        },
+        "emails": {
+            "emailLabel": {
+                "en_US": "Email",
+                "nb_NO": "Epostadresser"
+            },
+            "primaryEmailLabel": {
+                "en_US": "Primary email",
+                "nb_NO": "Primær epostadresse"
+            },
+            "deleteButton": {
+                "en_US": "DELETE",
+                "nb_NO": "FJERNE"
+            },
+            "addButton": {
+                "en_US": "ADD EMAIL",
+                "nb_NO": "LEGG TIL EPOSTADRESSE"
+            },
+            "saveButton": {
+                "en_US": "SAVE",
+                "nb_NO": "LAGRE"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "editButton": {
+                "en_US": "EDIT",
+                "nb_NO": "ENDRE"
+            },
+            "emailRequired": {
+                "en_US": "Email is required",
+                "nb_NO": "Epostadresse er påkrevet"
+            },
+            "emailPatternRequired": {
+                "en_US": "Please enter a valid email address",
+                "nb_NO": "Vennligst skriv inn en gyldig epostadresse"
+            },
+            "emailUniqueRequired": {
+                "en_US": "Email exists",
+                "nb_NO": "Epostadresse finnes fra før"
+            }
+        }
+    },
+    "subscriptions": {
+        "title": {
+            "en_US": "Subscriptions",
+            "nb_NO": "Abonnement"
+        },
+        "empty": {
+            "en_US": "List of subscriptions is empty",
+            "nb_NO": "Ingen aktive abonnement finnes"
+        },
+        "showButton": {
+            "en_US": "SHOW DETAILS",
+            "nb_NO": "VIS DETALJER"
+        }
+    },
+    "subscription": {
+        "title": {
+            "en_US": "Subscription",
+            "nb_NO": "Abonnement"
+        },
+        "deliveryAddressChangeButton": {
+            "name": {
+                "en_US": "CHANGE",
+                "nb_NO": "ENDRE"
+            }
+        },
+        "deliveryAddressSetTempButton": {
+            "name": {
+                "en_US": "SET TEMPORARY DELIVERY ADDRESS",
+                "nb_NO": "REGISTRER MIDLERTIDIG LEVERINGSADRESSE"
+            }
+        },
+        "deliveryAddressSetStopButton": {
+            "name": {
+                "en_US": "SET TEMPORARY DELIVERY STOP",
+                "nb_NO": "REGISTRER MIDLERTIDIG STOPP"
+            }
+        },
+        "paymentMethodChangeButton": {
+            "name": {
+                "en_US": "CHANGE",
+                "nb_NO": "ENDRE"
+            }
+        },
+        "paymentMethodViewHistButton": {
+            "name": {
+                "en_US": "VIEW PAYMENT HISTORY",
+                "nb_NO": "VIS BETALINGSHISTORIKK"
+            }
+        },
+        "registerComplaintButton": {
+            "name": {
+                "en_US": "REGISTER COMPLAINT",
+                "nb_NO": "REGISTRER KLAGE"
+            }
+        },
+        "cancelSubscriptionButton": {
+            "name": {
+                "en_US": "CANCEL SUBSCRIPTION",
+                "nb_NO": "STOPP ABONNEMENT"
+            }
+        },
+        "restoreSubscriptionButton": {
+            "name": {
+                "en_US": "RESTORE SUBSCRIPTION",
+                "nb_NO": "GJENNOPPTA ABONNEMENT"
+            }
+        },
+        "temporaryAddressChangeButton": {
+            "name": {
+                "en_US": "CHANGE",
+                "nb_NO": "ENDRE"
+            }
+        },
+        "temporaryAddressRemoveButton": {
+            "name": {
+                "en_US": "REMOVE",
+                "nb_NO": "FJERNE"
+            }
+        },
+        "temporaryStopRemoveButton": {
+            "name": {
+                "en_US": "REMOVE",
+                "nb_NO": "FJERNE"
+            }
+        },
+        "showMembershipCardButton": {
+            "name": {
+                "en_US": "SHOW MEMBERSHIP CARD",
+                "nb_NO": "VIS MEDLEMSKORT"
+            }
+        },
+        "deliveryAddressSection": {
+            "title": {
+                "en_US": "Delivery Address",
+                "nb_NO": "Leveringsadresse"
+            }
+        },
+        "temporaryAddressSection": {
+            "title": {
+                "en_US": "Temporary Delivery Address",
+                "nb_NO": "Midlertidig leveringsadresse"
+            }
+        },
+        "temporaryStopSection": {
+            "title": {
+                "en_US": "Temporary Delivery Stop",
+                "nb_NO": "Midlertidig leveringsstopp"
+            }
+        },
+        "paymentMethodSection": {
+            "title": {
+                "en_US": "Payment Method",
+                "nb_NO": "Betalingsmetode"
+            }
+        },
+        "billingAddressSection": {
+            "title": {
+                "en_US": "Billing Address",
+                "nb_NO": "Fakturaadresse"
+            }
+        },
+        "activeStopDate": {
+            "en_US": "Subscription has been cancelled",
+            "nb_NO": "Abonnement har blitt kansellert"
+        },
+        "subscribedFrom": {
+            "en_US": "Subscribed from",
+            "nb_NO": "Abonnement fra"
+        },
+        "paidUntil": {
+            "en_US": "paid until",
+            "nb_NO": "betalt til"
+        },
+        "cancelDate": {
+            "en_US": "Cancel date",
+            "nb_NO": "Stoppdato"
+        },
+        "tillNextIssue": {
+            "en_US": "till next issue",
+            "nb_NO": "til neste utgave"
+        },
+        "day": {
+            "en_US": "day",
+            "nb_NO": "dag"
+        },
+        "days": {
+            "en_US": "days",
+            "nb_NO": "dager"
+        },
+        "validTill": {
+            "en_US": "Valid till",
+            "nb_NO": "Gyldig til"
+        },
+        "creditCardIsNotSetUp": {
+            "en_US": "Your credit card is not set up",
+            "nb_NO": "Ditt kredittkort er ikke registrert"
+        },
+        "paymentHistory": {
+            "title": {
+                "en_US": "Payment History",
+                "nb_NO": "Betalingshistorikk"
+            },
+            "closeButton": {
+                "en_US": "CLOSE",
+                "nb_NO": "LUKK"
+            }
+        },
+        "membershipCard": {
+            "title": {
+                "en_US": "Benefits",
+                "nb_NO": "Fordeler"
+            },
+            "closeButton": {
+                "en_US": "CLOSE",
+                "nb_NO": "LUKK"
+            },
+            "printButton": {
+                "en_US": "PRINT",
+                "nb_NO": "SKRIV UT"
+            }
+        },
+        "changePayment": {
+            "title": {
+                "en_US": "Change your payment method",
+                "nb_NO": "Endre din betalingsmetode"
+            },
+            "validTill": {
+                "en_US": "Valid till",
+                "nb_NO": "Gyldig til"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "creditCardIsNotSetUp": {
+                "en_US": "Your credit card is not set up",
+                "nb_NO": "Ditt kredittkort er ikke registrert"
+            },
+            "addCardButton": {
+                "en_US": "ADD NEW CARD",
+                "nb_NO": "LEGG TIL NYTT KORT"
+            }
+        },
+        "registerComplaint": {
+            "title": {
+                "en_US": "Register complaint",
+                "nb_NO": "Registrer klage"
+            },
+            "description": {
+                "en_US": "Please give us some information on your complaint.",
+                "nb_NO": "Vennligst oppgi informasjon om din klage."
+            },
+            "issueDateTitle": {
+                "en_US": "Issue date",
+                "nb_NO": "Utgivelsesdato"
+            },
+            "complaintReasonTitle": {
+                "en_US": "Complaint reason",
+                "nb_NO": "Klageårsak"
+            },
+            "messageTitle": {
+                "en_US": "Your message",
+                "nb_NO": "Din melding"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "sentText": {
+                "en_US": "Complaint registered",
+                "nb_NO": "Klagen er registrert"
+            },
+            "sentButton": {
+                "en_US": "OK",
+                "nb_NO": "OK"
+            },
+            "issueDateRequired": {
+                "en_US": "Issue date is required",
+                "nb_NO": "Utgivelsesdato er påkrevet"
+            },
+            "complaintReasonRequired": {
+                "en_US": "Complaint reason is required",
+                "nb_NO": "Klageårsak er påkrevet"
+            },
+            "forwardIssueTitle": {
+                "en_US": "Forward the issue",
+                "nb_NO": "Ettersend utgaven"
+            }
+        },
+        "changeDeliveryAddress": {
+            "title": {
+                "en_US": "Change delivery address",
+                "nb_NO": "Endre leveringsadresse"
+            },
+            "streetAddressTitle": {
+                "en_US": "Street name",
+                "nb_NO": "Gatenavn"
+            },
+            "streetAddressRequired": {
+                "en_US": "Street address is required",
+                "nb_NO": "Gatenavn er påkrevet"
+            },
+            "streetNumberTitle": {
+                "en_US": "Street number",
+                "nb_NO": "Gatenummer"
+            },
+            "streetNumberRequired": {
+                "en_US": "Street number is required",
+                "nb_NO": "Gatenummer er påkrevet"
+            },
+            "postalCodeTitle": {
+                "en_US": "Postal code",
+                "nb_NO": "Postnummer"
+            },
+            "postalCodeRequired": {
+                "en_US": "Postal code is required",
+                "nb_NO": "Postnummer er påkrevet"
+            },
+            "postalPlaceTitle": {
+                "en_US": "Postal place",
+                "nb_NO": "Poststed"
+            },
+            "postalPlaceRequired": {
+                "en_US": "Postal place is required",
+                "nb_NO": "Poststed er påkrevet"
+            },
+            "careOfTitle": {
+                "en_US": "Care of",
+                "nb_NO": "C/O"
+            },
+            "entranceTitle": {
+                "en_US": "Entrance",
+                "nb_NO": "Inngang"
+            },
+            "floorTitle": {
+                "en_US": "Floor",
+                "nb_NO": "Etasje"
+            },
+            "sentText": {
+                "en_US": "Address updated",
+                "nb_NO": "Adressen er opppdatert"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "sentButton": {
+                "en_US": "OK",
+                "nb_NO": "OK"
+            }
+        },
+        "setTemporaryAddress": {
+            "title": {
+                "en_US": "Set temporary address",
+                "nb_NO": "Registrer midlertidig adresse"
+            },
+            "newAddressOption": {
+                "en_US": "New address",
+                "nb_NO": "Ny adresse"
+            },
+            "selectAddressTitle": {
+                "en_US": "Select address",
+                "nb_NO": "Velg adresse"
+            },
+            "streetAddressTitle": {
+                "en_US": "Street name",
+                "nb_NO": "Gatenavn"
+            },
+            "streetAddressRequired": {
+                "en_US": "Street address is required",
+                "nb_NO": "Gatenavn er påkrevet"
+            },
+            "streetNumberTitle": {
+                "en_US": "Street number",
+                "nb_NO": "Gatenummer"
+            },
+            "streetNumberRequired": {
+                "en_US": "Street number is required",
+                "nb_NO": "Gatenummer er påkrevet"
+            },
+            "postalCodeTitle": {
+                "en_US": "Postal code",
+                "nb_NO": "Postnummer"
+            },
+            "postalCodeRequired": {
+                "en_US": "Postal code is required",
+                "nb_NO": "Postnummer er påkrevet"
+            },
+            "postalPlaceTitle": {
+                "en_US": "Postal place",
+                "nb_NO": "Poststed"
+            },
+            "postalPlaceRequired": {
+                "en_US": "Postal place is required",
+                "nb_NO": "Poststed er påkrevet"
+            },
+            "careOfTitle": {
+                "en_US": "Care of",
+                "nb_NO": "C/O"
+            },
+            "entranceTitle": {
+                "en_US": "Entrance",
+                "nb_NO": "Inngang"
+            },
+            "floorTitle": {
+                "en_US": "Floor",
+                "nb_NO": "Etasje"
+            },
+            "startTimeTitle": {
+                "en_US": "Start date",
+                "nb_NO": "Startdato"
+            },
+            "startTimeRequired": {
+                "en_US": "Start date is required",
+                "nb_NO": "Startdato er påkrevet"
+            },
+            "startTimeMin": {
+                "en_US": "Start date must be after today's date",
+                "nb_NO": "Startdato må være senere enn dagens dato"
+            },
+            "endTimeTitle": {
+                "en_US": "End date",
+                "nb_NO": "Stoppdato"
+            },
+            "endTimeMin": {
+                "en_US": "End date must be after start date",
+                "nb_NO": "Stoppdato må være senere enn startdato"
+            },
+            "endTimeRequired": {
+                "en_US": "End date is required",
+                "nb_NO": "Stoppdato er påkrevet"
+            },
+            "addressExistsForPeriodError": {
+                "en_US": "Temporary address exists for this period",
+                "nb_NO": "Midlertidig adresse finnes for denne perioden"
+            },
+            "issueNotExistsForPeriodError": {
+                "en_US": "Issue doesn't exist for this period",
+                "nb_NO": "Utgave finnes ikke for denne perioden"
+            },
+            "firstChangeDate": {
+                "en_US": "First possible change date",
+                "nb_NO": "Første mulige endringsdato"
+            },
+            "sentText": {
+                "en_US": "Address created",
+                "nb_NO": "Adressen er opprettet"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "sentButton": {
+                "en_US": "OK",
+                "nb_NO": "OK"
+            }
+        },
+        "changeTemporaryAddress": {
+            "title": {
+                "en_US": "Change temporary address",
+                "nb_NO": "Endre midlertidig adresse"
+            },
+            "streetAddressTitle": {
+                "en_US": "Street name",
+                "nb_NO": "Gatenavn"
+            },
+            "streetAddressRequired": {
+                "en_US": "Street address is required",
+                "nb_NO": "Gatenavn er påkrevet"
+            },
+            "streetNumberTitle": {
+                "en_US": "Street number",
+                "nb_NO": "Gatenummer"
+            },
+            "streetNumberRequired": {
+                "en_US": "Street number is required",
+                "nb_NO": "Gatenummer er påkrevet"
+            },
+            "postalCodeTitle": {
+                "en_US": "Postal code",
+                "nb_NO": "Postnummer"
+            },
+            "postalCodeRequired": {
+                "en_US": "Postal code is required",
+                "nb_NO": "Postnummer er påkrevet"
+            },
+            "postalPlaceTitle": {
+                "en_US": "Postal place",
+                "nb_NO": "Poststed"
+            },
+            "postalPlaceRequired": {
+                "en_US": "Postal place is required",
+                "nb_NO": "Poststed er påkrevet"
+            },
+            "careOfTitle": {
+                "en_US": "Care of",
+                "nb_NO": "C/O"
+            },
+            "entranceTitle": {
+                "en_US": "Entrance",
+                "nb_NO": "Inngang"
+            },
+            "floorTitle": {
+                "en_US": "Floor",
+                "nb_NO": "Etasje"
+            },
+            "startTimeTitle": {
+                "en_US": "Start date",
+                "nb_NO": "Startdato"
+            },
+            "startTimeRequired": {
+                "en_US": "Start date is required",
+                "nb_NO": "Startdato er påkrevet"
+            },
+            "startTimeMin": {
+                "en_US": "Start date must be after today's date",
+                "nb_NO": "Startdato må være senere enn dagens dato"
+            },
+            "endTimeTitle": {
+                "en_US": "End date",
+                "nb_NO": "Stoppdato"
+            },
+            "endTimeMin": {
+                "en_US": "End date must be after start date",
+                "nb_NO": "Stoppdato må være senere enn startdato"
+            },
+            "endTimeRequired": {
+                "en_US": "End date is required",
+                "nb_NO": "Stoppdato er påkrevet"
+            },
+            "addressExistsForPeriodError": {
+                "en_US": "Temporary address exists for this period",
+                "nb_NO": "Midlertidig adresse finnes for denne perioden"
+            },
+            "issueNotExistsForPeriodError": {
+                "en_US": "Issue doesn't exist for this period",
+                "nb_NO": "Utgave finnes ikke for denne perioden"
+            },
+            "firstChangeDate": {
+                "en_US": "First possible change date",
+                "nb_NO": "Første mulige endringsdato"
+            },
+            "sentText": {
+                "en_US": "Address updated",
+                "nb_NO": "Adressen er oppdatert"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "sentButton": {
+                "en_US": "OK",
+                "nb_NO": "OK"
+            }
+        },
+        "setTemporaryDeliveryStop": {
+            "title": {
+                "en_US": "Set temporary delivery stop",
+                "nb_NO": "Registrer midlertidig stopp"
+            },
+            "selectTypeTitle": {
+                "en_US": "Select type",
+                "nb_NO": "Velg type"
+            },
+            "stopTypeOptions": {
+                "temporary": {
+                    "label": {
+                        "en_US": "Temporary",
+                        "nb_NO": "Midlertidig"
+                    }
+                },
+                "donation": {
+                    "label": {
+                        "en_US": "Donation",
+                        "nb_NO": "Donering"
+                    }
+                },
+                "noDelivery": {
+                    "label": {
+                        "en_US": "No delivery",
+                        "nb_NO": "Ingen leveranse"
+                    }
+                }
+            },
+            "stopTypeRequired": {
+                "en_US": "Stop type is required",
+                "nb_NO": "Stopptype er påkrevet"
+            },
+            "startTimeTitle": {
+                "en_US": "Start date",
+                "nb_NO": "Startdato"
+            },
+            "startTimeRequired": {
+                "en_US": "Start date is required",
+                "nb_NO": "Startdato er påkrevet"
+            },
+            "startTimeMin": {
+                "en_US": "Start date must be after today's date",
+                "nb_NO": "Startdato må være etter dagens dato"
+            },
+            "endTimeTitle": {
+                "en_US": "End date",
+                "nb_NO": "Stoppdato"
+            },
+            "endTimeMin": {
+                "en_US": "End date must be after start date",
+                "nb_NO": "Stoppdato må være etter startdato"
+            },
+            "endTimeRequired": {
+                "en_US": "End date is required",
+                "nb_NO": "Stoppdato er påkrevet"
+            },
+            "stopExistsForPeriodError": {
+                "en_US": "Temporary delivery stop exists for this period",
+                "nb_NO": "Midlertidig leveringsstopp finnes for denne perioden"
+            },
+            "issueNotExistsForPeriodError": {
+               "en_US": "Issue doesn't exist for this period",
+               "nb_NO": "Utgave finnes ikke for denne perioden"
+            },
+            "firstChangeDate": {
+                "en_US": "First possible change date",
+                "nb_NO": "Første mulige endringsdato"
+            },
+            "sentText": {
+                "en_US": "Temporary delivery stop created",
+                "nb_NO": "Midlertidig leveringsstopp registrert"
+            },
+            "submitButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "cancelButton": {
+                "en_US": "CANCEL",
+                "nb_NO": "AVBRYT"
+            },
+            "sentButton": {
+                "en_US": "OK",
+                "nb_NO": "OK"
+            }
+        }
+    },
+    "cards": {
+        "title": {
+            "en_US": "My Cards",
+            "nb_NO": "Mine kort"
+        },
+        "validTill": {
+            "en_US": "Valid till",
+            "nb_NO": "Gyldig til"
+        },
+        "deleteButton": {
+            "en_US": "DELETE",
+            "nb_NO": "FJERN"
+        },
+        "addButton": {
+            "en_US": "ADD CARD",
+            "nb_NO": "LEGG TIL KORT"
+        },
+        "emptyCardList": {
+            "en_US": "You don't have credit cards",
+            "nb_NO": "Ingen kredittkort registrert"
+        }
+    },
+    "payments": {
+        "title": {
+            "en_US": "Payments",
+            "nb_NO": "Betalinger"
+        },
+        "filterMessage": {
+            "en_US": "Search from payment ...",
+            "nb_NO": "Søk etter betaling..."
+        },
+        "invoiceIcon": {
+            "en_US": "file_download",
+            "nb_NO": "file_download"
+        }
+    },
+    "privacy": {
+        "title": {
+            "en_US": "Privacy",
+            "nb_NO": "Personvern"
+        },
+        "mainTab": {
+            "title": {
+                "en_US": "GENERAL",
+                "nb_NO": "GENERELT"
+            },
+            "generalInformationText": {
+                "en_US": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "nb_NO": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "downloadData": {
+                "button": {
+                    "en_US": "DOWNLOAD MY DATA",
+                    "nb_NO": "LAST NED MINE DATA"
+                },
+                "text": {
+                    "en_US": "Your data stored in our service is available to you at any time. By clicking this button we will create an archive of our personal data as well as information we have on your subscription products.",
+                    "nb_NO": "Dine data som er lagret i vår tjeneste er tilgjengelig for deg til enhver tid. Ved å klikke denne knappen, vil vi lage et filarkiv med dine personlige data og i tillegg all informasjon vi har om dine abonementsprodukter."
+                }
+            },
+            "deleteAccount": {
+                "button": {
+                    "en_US": "DELETE MY ACCOUNT",
+                    "nb_NO": "SLETT MINE DATA"
+                },
+                "text": {
+                    "en_US": "You have the option to be forgotten by us, and can at any time delete your account by clicking this button. Before we permanently delete your data, we will place your account in quarantine for 90 days. During this period, you may cancel the deletion and your data will be restored. You can not delete your account if you have any active subscriptions.",
+                    "nb_NO": "Du har rett til å bli glemt av oss, og kan til enhver tid slette din konto ved å klikke denne knappen. Før vi permanent sletter dine data, vil vi sette din konto i karantene i 90 dager. I løpet av denne perioden kan du kansellere sletting og dine data vil bli gjenopprettet. Du kan ikke slette din konto dersom du har noen aktive abonnement."
+                }
+            }
+        }
+    },
+    "consentGroupsTabs": {
+        "0": {
+            "name": {
+                "en_US": "Complex Tab",
+                "nb_NO": "Kompleks gruppe"
+            }
+        }
+    },
+    "contact": {
+        "title": {
+            "en_US": "Support",
+            "nb_NO": "Kundesenter"
+        },
+        "message": {
+            "cardtitle": {
+                "en_US": "Write a message",
+                "nb_NO": "Skriv en melding"
+            },
+            "productTitle": {
+                "en_US": "Product",
+                "nb_NO": "Produkt"
+            },
+            "productRequired": {
+                "en_US": "Product is required",
+                "nb_NO": "Produkt er påkrevet"
+            },
+            "generalMessageOption": {
+                "en_US": "General message",
+                "nb_NO": "Generelt spørsmål"
+            },
+            "messageTitle": {
+                "en_US": "Your message",
+                "nb_NO": "Din melding"
+            },
+            "messageRequired": {
+                "en_US": "Message is required",
+                "nb_NO": "Melding er påkrevet"
+            },
+            "subjectTitle": {
+                "en_US": "Subject",
+                "nb_NO": "Emne"
+            },
+            "subjectRequired": {
+                "en_US": "Subject is required",
+                "nb_NO": "Emne er påkrevet"
+            },
+            "sendButton": {
+                "en_US": "SUBMIT",
+                "nb_NO": "SEND INN"
+            },
+            "sentTextBig": {
+                "en_US": "Thanks for your inquiry",
+                "nb_NO": "Takk for din forespørsel"
+            },
+            "sentTextSmall": {
+                "en_US": "We will reply to your email address as soon ass possible",
+                "nb_NO": "Vi vil sende deg svar til din epostadresse så raskt som mulig"
+            },
+            "subjectOptions": {
+                "payment": {
+                    "label": {
+                        "en_US": "Payment",
+                        "nb_NO": "Betaling"
+                    }
+                },
+                "delivery": {
+                    "label": {
+                        "en_US": "Delivery",
+                        "nb_NO": "Leveranse"
+                    }
+                },
+                "membershipCard": {
+                    "label": {
+                        "en_US": "Membership card",
+                        "nb_NO": "Medlemskort"
+                    }
+                }
+            }
+        },
+        "support": {
+            "contactPhone": {
+                "en_US": null,
+                "nb_NO": null
+            },
+            "contactText": {
+                "en_US": "Contact our call-center",
+                "nb_NO": "Ta kontakt med vårt kundesenter"
+            }
+        }
+    },
+    "complaint": {
+        "title": {
+            "en_US": "Complaint",
+            "nb_NO": "Klage"
+        },
+        "description": {
+            "en_US": "Write a complaint",
+            "nb_NO": "Skriv en klage"
+        },
+        "productTitle": {
+            "en_US": "Product",
+            "nb_NO": "Produkt"
+        },
+        "productRequired": {
+            "en_US": "Product is required",
+            "nb_NO": "Produkt er påkrevet"
+        },
+        "issueDateTitle": {
+            "en_US": "Issue date",
+            "nb_NO": "Utgavedato"
+        },
+        "complaintReasonTitle": {
+            "en_US": "Complaint reason",
+            "nb_NO": "Klageårsak"
+        },
+        "messageTitle": {
+            "en_US": "Your message",
+            "nb_NO": "Din melding"
+        },
+        "submitButton": {
+            "en_US": "SEND",
+            "nb_NO": "SEND"
+        },
+        "issueDateRequired": {
+            "en_US": "Issue date is required",
+            "nb_NO": "Utgavedato er påkrevet"
+        },
+        "complaintReasonRequired": {
+            "en_US": "Complaint reason is required",
+            "nb_NO": "Klageårsak er påkrevet"
+        },
+        "forwardIssueTitle": {
+            "en_US": "Forward the issue",
+            "nb_NO": "Ettersend utgaven"
+        },
+        "sentTextBig": {
+            "en_US": "Thanks for your notification",
+            "nb_NO": "Takk for din beskjed"
+        },
+        "sentTextSmall": {
+            "en_US": "Notification has been submitted",
+            "nb_NO": "Beskjed har blitt sendt"
+        }
+    },
+    "faq": {
+        "title": {
+            "en_US": "FAQ",
+            "nb_NO": "FAQ"
+        }
+    }
+}

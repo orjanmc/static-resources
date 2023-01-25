@@ -1,0 +1,54 @@
+<style scoped>
+
+.header {
+    height: 120px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.header-logo {
+    width: 270px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.header-back {
+    color: black;
+    float: left;
+    margin-top: 50px;
+    margin-right: -200px;
+}
+.header-back a, .header-back a:visited, .header-back a:active {
+color: #0072b7;
+}
+.header-back a:hover {
+color: #333;
+}
+/* mobile */
+@media (max-width: 870px) {
+    .header {
+      height: 60px;
+    }
+
+    .header-logo {
+      width: 135px;
+      margin-top: 15px;
+    }
+
+    .header-back {
+      float: left;
+      margin-top: 17px;
+      max-width: 50px;
+      overflow: hidden;
+      max-height: 20px;
+      margin-right: -40px;
+      font-size: 10px;
+      margin-left: 0px;
+    }
+}
+</style>
+
+<div class="header">
+    <div class="header-back"><a href="https://www.dagen.se/">&laquo; Tillbaka till framsidan</a></div>
+    <a href="https://www.dagen.se/"><img class="header-logo" src="assets/dagen/dagen-logo.svg" alt="Dagen" border="0"></a>
+</div>

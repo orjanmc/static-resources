@@ -1,0 +1,11 @@
+.guiVersion2 .button {
+    background-color: #004974 !important;
+}
+.guiVersion2 .button:hover {
+    background-color: #a82128 !important;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f2f2f2 !important;
+}

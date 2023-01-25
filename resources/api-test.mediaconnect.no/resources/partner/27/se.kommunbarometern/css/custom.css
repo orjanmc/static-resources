@@ -1,0 +1,212 @@
+.guiVersion2 body {
+  background-color: #f8f7f5 !important;
+}
+
+.guiVersion2 .column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.guiVersion2 .par {
+  margin-top: 10px !important;
+}
+
+.guiVersion2 #loginFrame > div.loginMain > div.loginInner.javascriptEnabledContent > div.logoDiv.column {
+  background-color: #fff !important;
+}
+
+.guiVersion2 .loginInner {
+  max-width: 365px;
+  margin: auto;
+}
+
+.guiVersion2 #resetPasswordHeaderInfo h1 {
+  font-size: 16px;
+  text-align: center;
+  display: none;
+}
+
+.guiVersion2 #resetPasswordHeaderInfo span {
+  text-align: center;
+  display: inline-block;
+}
+
+.guiVersion2 #headingColumn {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.guiVersion2 #heading {
+  border: 0 !important;
+  color: #000 !important;
+  font-size: 1.3em !important;
+  font-weight: 400 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  line-height: 1 !important;
+}
+
+.guiVersion2 #loginHeaderInfoDiv,
+.guiVersion2 #registerHeaderInfoDiv,
+.guiVersion2 #createUserHeaderInfoDiv {
+  margin-left: -30px !important;
+  margin-right: -30px !important;
+}
+
+.guiVersion2 #loginHeaderInfoDiv h1,
+.guiVersion2 #registerHeaderInfoDiv h1,
+.guiVersion2 #createUserHeaderInfoDiv h1,
+.guiVersion2 #findSubscriberFieldsDiv h1 {
+  display: none !important;
+}
+
+.guiVersion2 #loginHeaderInfoDiv span,
+.guiVersion2 #registerHeaderInfoDiv span,
+.guiVersion2 #createUserHeaderInfoDiv span,
+.guiVersion2 #findSubscriberInfo,
+.guiVersion2 #createHAUserInfo,
+.guiVersion2 #createHAUserMessageDiv {
+  color: #403f3f !important;
+  display: block !important;
+  text-align: center !important;
+  font-size: 0.93em !important;
+  font-weight: 400 !important;
+}
+
+.guiVersion2 #createHAUserInfo {
+  font-size: 1em !important;
+}
+
+.guiVersion2 #verificationCodeInfo {
+  color: #403f3f !important;
+  font-size: 0.93em !important;
+  font-weight: 400 !important;
+}
+
+.guiVersion2 .loginFrame {
+  box-shadow: none !important;
+  border-color: #ddd !important;
+  padding: 15px !important;
+}
+
+.guiVersion2 .outerFrame {
+  max-width: 540px;
+  min-width: 540px;
+  width: 100%;
+}
+
+.guiVersion2 #bottomRightLogo img {
+  margin-right: 0 !important;
+}
+
+.guiVersion2 .label {
+  color: #333 !important;
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+}
+
+.guiVersion2 #credentialFieldDiv .label::before {
+  content: 'E-post';
+}
+.guiVersion2 #credentialFieldDiv .label span#credentialDescription,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
+  display: none;
+}
+
+.guiVersion2 #enterPasswordFieldDiv {
+  margin-bottom: 15px !important;
+}
+
+.guiVersion2 .par .ng-scope {
+  margin-bottom: 15px !important;
+}
+
+.guiVersion2 .buttonPar input.loginButton,
+.guiVersion2 .buttonPar input#prepareCreateHAUserButton {
+  margin-top: 10px !important;
+  color: #fff !important;
+  background-color: #358ed7 !important;
+  background-image: none;
+  border-color: #358ed7 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  user-select: none !important;
+  border: 1px solid transparent !important;
+  padding: .657rem 1.5rem !important;
+  font-size: .875rem !important;
+  line-height: 1.5 !important;
+  border-radius: 3px !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: none;
+}
+
+.guiVersion2 .buttonPar input.loginButton:hover,
+.guiVersion2 .buttonPar input#prepareCreateHAUserButton:hover {
+  color: #fff !important;
+  background-color: #267ac0 !important;
+  border-color: #2474b5 !important;
+}
+
+.guiVersion2 #rememberMeLabel,
+.guiVersion2 #resetPasswordLink,
+.guiVersion2 #startRegistrationButtonDiv a,
+.guiVersion2 #authenticateUsingPasswordLinkHref,
+.guiVersion2 #authenticateUsingVerificationCodeLinkHref,
+.guiVersion2 #sendVerificationCodeAgainLinkHref,
+.guiVersion2 .showPassword {
+  color: #333 !important;
+  font-size: 0.95em !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+}
+
+.guiVersion2 #resetPasswordLink,
+.guiVersion2 #startRegistrationButtonDiv a,
+.guiVersion2 #authenticateUsingPasswordLinkHref,
+.guiVersion2 #authenticateUsingVerificationCodeLinkHref,
+.guiVersion2 #sendVerificationCodeAgainLinkHref {
+  color: #007bff !important;
+}
+
+.guiVersion2 #resetPasswordLink:hover,
+.guiVersion2 #startRegistrationButtonDiv a:hover,
+.guiVersion2 #authenticateUsingPasswordLinkHref:hover,
+.guiVersion2 #authenticateUsingVerificationCodeLinkHref:hover,
+.guiVersion2 #sendVerificationCodeAgainLinkHref:hover {
+  color: #333 !important;
+  text-decoration: underline !important;
+}
+
+.aHrefLink {
+ color: #333 !important;
+}
+
+.guiVersion2 .par .orLoginWith,
+.guiVersion2 .par .orLoginWithSpan {
+  display: none !important;
+}
+
+@media only screen and (max-width: 479px) {
+  html {
+    background-color: #fff !important;
+  }
+  .guiVersion2 .outerFrame {
+    max-width: 320px;
+    min-width: 300px;
+    width: 100%;
+  }
+
+  .guiVersion2 .loginFrame {
+    background-color: #fff !important;
+  }
+
+  .guiVersion2 #loginHeaderInfoDiv,
+  .guiVersion2 #createUserHeaderInfoDiv {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

@@ -1,0 +1,19 @@
+/*
+ * Custom CSS
+ */
+
+.abortMark {
+	display: inline-block !important;
+}
+
+@media only screen and (max-width: 479px){
+	.logo {
+		margin-left: 16px !important;
+	}
+}
+
+@media only screen and (min-width: 479px){
+	.logo {
+		margin-left: 36px !important;
+	}
+}

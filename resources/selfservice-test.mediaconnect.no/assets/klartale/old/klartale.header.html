@@ -1,0 +1,48 @@
+<style scoped>
+
+.header {
+    height: 110px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.header-logo {
+    height: 75px;
+    max-width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.header-back {
+    color: black;
+    float: left;
+    margin-top: 50px;
+    margin-right: -200px;
+}
+/* mobile */
+@media (max-width: 870px) {
+    .header {
+      height: 60px;
+    }
+
+    .header-logo {
+      height: 45px;
+      margin-top: 10px;
+    }
+
+    .header-back {
+      float: left;
+      margin-top: 17px;
+      max-width: 40px;
+      overflow: hidden;
+      max-height: 20px;
+      margin-right: -40px;
+      font-size: 10px;
+      margin-left: -20px;
+    }
+}
+</style>
+
+<div class="header">
+    <div class="back">&laquo; Tilbake til forsiden</div>
+    <a href="https://www.klartale.no/"><img src="assets/klartale/klartale-logo.svg" alt="Klar Tale" border="0"></a>
+</div>

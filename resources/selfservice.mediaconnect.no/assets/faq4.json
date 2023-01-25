@@ -1,0 +1,83 @@
+[
+
+    {
+        "question": {
+            "en_US": "Question 3.1",
+            "nb_NO": "Hvordan kan jeg stoppe mitt/mine abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Dette kan du ikke gjøre på MinSide. Vi må be deg ringe kundeservice på tlf eller sende en epost, kontaktinformasjon finner du inne her på siden."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.2",
+            "nb_NO": "Hvordan kan jeg bestille et gaveabonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du kan bestille gaveabonnement på www.budstikka.no eller kontakte kundeservice på mail eller telefon. "
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.3",
+            "nb_NO": "Jeg har ikke mottatt siste utgave. Hvordan kan jeg få tilsendt dette?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Dersom det er en utgave du mangler kan du få tilsendt dette ved å trykke på flippen reklamsjon og velge den utgaven du mangler."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.4",
+            "nb_NO": "Kan jeg midlertidig stoppe mitt abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Ja, du kan stoppe ditt abonnement midlertidig ved å taste inn til og fra dato på flippen bestill feriestopp."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.5",
+            "nb_NO": "Hvordan kan jeg endre navn på abonnementet mitt?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.5: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du kan selv endre adresse på ditt abonnement, ved navne-endring eller overføring til annen person/annet navn - må du kontakte Kundeservice direkte - slik at overføringer blir gjort riktig. Du kan kontakte Kundeservice på flippen som heter Kontakt Oss under din kontaktinformasjon eller kontakte vår kundeservice"
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.6",
+            "nb_NO": "Hvordan bestille Avtalegiro eller eFaktura på mine abonnement?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.6: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Avtaler kan du bestille på MinSide eller i nettbanken. På MinSide kan du logge inn med abonnementsnummeret ditt og gjøre endringer og bestillinger. Betalingsavtaler kan enkelt bestilles i nettbanken. De fleste nettbanker har en liste med forslag til avtaler som er relevant for deg. Denne ligger som oftest under Betaling og Betalingsavtaler. Det er de 8 første sifrene i KID-nummeret som er referansen på din efaktura/Avtalegiro. Har du har spørsmål knyttet til hvordan du oppretter e-Faktura eller AvtaleGiro, ta kontakt med banken din. På www.efaktura.no og www.avtalegiro.no kan du lese mer om fordelene."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.7",
+            "nb_NO": "Hva er referanse på eFaktura og Avtalegiro?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.7: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du bruker de første 8 sifre i KID-nummeret som referanse på eFaktura og Avtalegiro."
+        }
+    },
+    {
+        "question": {
+            "en_US": "Question 3.8",
+            "nb_NO": "Hvorfor bruke avtalegiro og/eller e-faktura?"
+        },
+        "answer": {
+            "en_US":  "Answer 3.8: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "nb_NO": "Du som abonnent kan nå velge mellom å betale ditt abonnement ved hjelp av e-Faktura og/eller avtalegiro. Dette er enkle, kostnadsfrie og miljøvennlig betalingsmetoder. Det vil være kostnadsfritt å benytte e-faktura og avtalegiro. Du kan selvsagt fortsatt velge hvilken betalingsmetode du ønsker å benytte."
+        }
+    }
+]

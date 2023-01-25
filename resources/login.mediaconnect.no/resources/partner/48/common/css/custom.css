@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+.acceptTermsLabel INPUT { margin-left:30px; }
+
+.customerNumberExplanation { margin: 1em 0; }
+.customerNumberExplanationImage { height:50px; width: 150px;
+    background-color: #ddd; border: 2px #888 dashed; display:block; }
+
+.guiVersion2 body {
+	background: none;
+    background-color: #EEEEEE; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	
+}
+
+.guiVersion2 .loginFrame{
+	background-color: #FAFAFA;
+	border-style: none;
+	-webkit-box-shadow: 0px 0px 30px 11px rgba(229,229,229,1);
+	-moz-box-shadow: 0px 0px 30px 11px rgba(229,229,229,1);
+	box-shadow: 0px 0px 30px 11px rgba(229,229,229,1);
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.guiVersion2 .loginMain{
+	padding-top: 0;
+}
+.guiVersion2 .heading{
+	border-style: none;
+	font-size: 1.3em;
+	padding: 5px 0px;
+	/*Typsnittstil för eventuell text!*/
+}
+.logoDiv{
+	background-color: #fe0000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#logoUrl{
+	border-style: none;
+	text-decoration: none;
+}
+#logoUrl .logo{
+	max-width: 290px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.guiVersion2 .label{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.guiVersion2 .bottomRightLogo{
+	border-top: solid 1px #ececec;
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+.guiVersion2 .bottomRightLogo a{
+	border-style: none;	
+}
+.guiVersion2 body a{
+	color: #333;
+	text-decoration: none;
+	border-bottom: solid 1px #408bf9;
+	display: inline;	
+}
+.guiVersion2 #startRegistrationLink{
+	display: inline-block;
+}
+.guiVersion2 body a:hover{
+	color: #408bf9;
+}
+.guiVersion2 body #showSocialLoginButtonsDiv a{
+	border-style: none;
+}
+.guiVersion2 .button{
+	background-color: #5bb421 !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: none;
+	border-radius: 8px;
+	font-weight: 700;
+}
+.guiVersion2 .button:hover{
+	background-color: #4b9821 !important;
+}
+
+

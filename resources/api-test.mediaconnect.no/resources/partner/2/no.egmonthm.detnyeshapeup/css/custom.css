@@ -1,0 +1,61 @@
+/* Subscribe */
+
+@import url('../../common/css/common.css');
+@import url('../../common/fonts/fonts.css');
+
+body {
+    font-family: 'Helvetica Neue Light';
+}
+
+input, .submitButton {
+    font-family: 'Helvetica Neue Con Bold';
+}
+
+.heading {
+    margin-left: 0;
+    text-align: center;
+}
+
+.page {
+    background: #fafaf7 url('../img/bg-home.jpg') no-repeat 0 0;
+    background-size: auto 836px;
+}
+
+.main {
+    padding-top: 10px;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.60);
+}
+
+input {
+    border-color: #939598;
+    background: #ffffff;
+}
+
+.submitButton {
+    text-transform: uppercase;
+    background: #f37e7a;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+}
+
+.bodyHeader {
+    background: #f1f1f2 url('../img/logo-large.png') no-repeat center center;
+    background-size: 150px auto;
+}
+
+.bodyFooter {
+    background: rgba(255, 255, 255, .5) url('../img/faq-arrow-up.png') no-repeat 730px 20px;
+}
+
+.bodyFooter.open {
+    background: rgba(255, 255, 255, .5) url('../img/faq-arrow-down.png') no-repeat 730px 20px;
+}
+
+.bodyFooter p#openMe {
+    color: #e63135;
+}
+
+.floatingText { text-shadow: 0 0 3px #fff; }
+

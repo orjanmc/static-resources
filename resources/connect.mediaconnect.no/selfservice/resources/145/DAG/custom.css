@@ -1,0 +1,12 @@
+
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .toppBanner {
+  background: url(logo.png) no-repeat 1px 5px;
+  height:100px;
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

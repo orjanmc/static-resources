@@ -1,0 +1,803 @@
+{
+    "title": "Min Side - Dagen",
+    "favicon": "assets/dagen/favicon.ico",
+    "styleUrl": "assets/dagen/dagen.style.css",
+    "headerUrl": "assets/dagen/dagen.header.html",
+    "footerUrl": "assets/dagen/dagen.footer.html",
+    "paymentProvider": "PayEx",
+    "messageConfig": {
+        "language": "nb_NO",
+        "url": "assets/messages.json"
+    },
+    "scriptsUrls": [
+        "assets/default.1.js"
+    ],
+    "products": {
+            "all": true,
+            "productCodes": ["DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "companyCodes": ["DAGEN"
+            ]
+        },
+        "productImages": {
+        "imageUrlPattern": "https://connect.mediaconnect.no/selfservice/resources/145/{product}/cover.jpg",
+        "imageUrls": [
+            {
+                "product": "DAG",
+                "url": "assets/dagen/Komplett.png"
+            },
+            {
+                "product": "EKO",
+                "url": "assets/dagen/Mellan.png"
+            },
+            {
+                "product": "WEB",
+                "url": "assets/dagen/Digital.png"
+            },
+            {
+                "product": "TAL",
+                "url": "assets/dagen/Taltidning2.png"
+            },
+            {
+                "product": "NOD",
+                "url": "assets/dagen/NODtidningar.png"
+            }
+        ]
+    },
+
+    "membershipCards": {
+        "urlPattern": "assets/{product}/member.card.html",
+        "textHeader": "Membership Card",
+        "textBlock": "description text",
+        "validTill": "year/date",
+        "cards": [
+            {
+                "product": "NAT",
+                "url": "assets/default.member.card.html",
+                "textHeader": "Membership Card",
+                "textBlock": "10% discount on cinema tickets",
+                "validTill": "2017"
+            }
+        ]
+    },
+    "cardTypes": [
+        {
+            "cardTypeName": "VISA",
+            "url": "assets/visa.png"
+        },
+        {
+            "cardTypeName": "MasterCard",
+            "url": "assets/master.png"
+        }
+    ],
+    "paymentMethods": [
+        {
+            "paymentMethod": "invoice",
+            "icon": "format_list_bulleted",
+            "description": "Faktura"
+        },
+        {
+            "paymentMethod": "eInvoice",
+            "icon": "get_app",
+            "description": "E-Faktura"
+        },
+        {
+            "paymentMethod": "recurringPayExCardPayment",
+            "icon": "payment",
+            "description": "%paymentMethods.recurringPayExCardPayment.description%"
+        }
+        
+    ],
+    "invoicePaymentMethod": {
+        "A": "Fakturabetalning",
+        "C": "Kreditkort",
+        "D": "E-Faktura",
+        "E": "Automatisk E-Faktura",
+        "F": "Återkommande kortbetalning",
+        "G": "Gjentagende trekk SMS",
+        "H": "Gjentagende trekk Vipps",
+        "I": "Gjentagende trekk Klarna",
+        "J": "Gjentagende trekk Payex"
+    },
+    "messages": {
+        "default-message": {
+            "text": "Ett fel har uppstått i applikationen",
+            "color": "#d32f2f",
+            "duration": 0,
+            "button": null
+        },
+        "app-configHeaderError": {
+            "text": "Ett fel har uppstått vid laddning av topptext",
+            "duration": 0
+        },
+        "app-configFooterError": {
+            "text": "Ett fel har uppstått vid laddning av bottentext",
+            "duration": 0
+        },
+        "app-loginCustomerEmpty": {
+            "text": "Du är inte kopplad till en prenumeration. Klicka på ikonen för att fullfölja.",
+            "duration": 0
+        },
+        "app-cardRemoveError": {
+           "text": "%messages.app-cardRemoveError.text%",
+           "duration": 10
+       },
+       "app-cardAddError": {
+           "text": "%messages.app-cardAddError.text%",
+           "duration": 10
+       },
+        "proxyService-connectionError": {
+            "text": "Ett fel har uppstått vid koppling till servern",
+            "duration": 0
+        },
+        "userService-emptyCustomerNumber": {
+            "text": "Kundnummer saknas!",
+            "duration": 0
+        },
+        "app-paymentInvoiceErrorUrl": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceErrorUrl.text%"
+        },
+        "app-paymentInvoiceResultCancelled": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultCancelled.text%"
+        },
+        "app-paymentInvoiceResultError": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultError.text%"
+        },
+        "app-paymentInvoiceResultFailed": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultFailed.text%"
+        },
+        "app-paymentInvoiceResultFinished": {
+            "color": "#0097a7",
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultFinished.text%"
+        },
+        "app-paymentInvoiceResultInitiated": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultInitiated.text%"
+        },
+        "app-paymentInvoiceResultUnknown": {
+            "duration": 10,
+            "text": "%messages.app-paymentInvoiceResultUnknown.text%"
+        },
+        "profile-saveSuccess": {
+            "text": "Ändringen godkänd, uppdatering sker.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "app-contactMessageEmailEmpty": {
+                            "text": "Vennligst gå til 'MIN PROFIL' og registrer din e-post, vi trenger denne for å svare deg",
+                            "duration": 10
+                },
+      "address-saveSuccess": {
+            "text": "Ändringen godkänd, uppdatering sker.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "address-deleteSuccess": {
+            "text": "Ändringen godkänd, uppdatering sker.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "account_delete_success": {
+            "text": "Tack! Vi har mottagit din fråga och kommer att kontakta dig.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+        },
+        "data_download_success": {
+            "text": "Tack! Vi har mottagit din fråga och kommer att kontakta dig.",
+            "color": "#0097a7",
+            "duration": 10,
+            "button": null
+          },
+          "app-changePasswordErrorUrl": {
+         "text": "Noe gikk galt, prøv igjen eller kontakt oss for hjelp",
+         "duration": 10
+          },
+          "app-changePasswordSuccessUrl": {
+         "text": "Passord er endret",
+         "color": "#0097a7",
+         "duration": 10
+          }
+    },
+    "dialogs": {
+        "send-message": {
+            "icon": "warning",
+            "textBold": "Vill du skicka meddelandet?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "cancel-subscription": {
+            "icon": "warning",
+            "textBold": "Är du säker på att du vill stoppa prenumerationen?",
+            "textNormal": "Vi vil fortsette å belaste kortet ditt ut nåværende abonnementsperiode. Ditt abonnement vil bli avsluttet etter dette.",
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "save-temporary-address": {
+            "icon": "warning",
+            "textBold": "Spara ny tillfällig adress? Följande utgåvor blir levererade på dessa datum till den tillfälliga adressen",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+		"save-delivery-stop": {
+            "icon": "warning",
+            "textBold": "Spara ny tillfällig stopp? Följande utgåvor blir stoppade",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "save-profile": {
+            "icon": "warning",
+            "textBold": "Vill du spara ändringen av din profil?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-card": {
+            "icon": "warning",
+            "textBold": "Är du säker på att du vill ta bort kortet?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "save-address": {
+            "icon": "warning",
+            "textBold": "Vill du spara ändringen av adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "save-email": {
+            "icon": "warning",
+            "textBold": "Vill du spara ändringen av e-post adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-address": {
+            "icon": "warning",
+            "textBold": "Är du säker på att du vill ta bort adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-temporary-address": {
+            "icon": "warning",
+            "textBold": "Är du säker på att du vill ta bort den tillfälliga adressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-temporary-stop": {
+            "icon": "warning",
+            "textBold": "Vill du ta bort tillfälligt uppehåll?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-email": {
+            "icon": "warning",
+            "textBold": "Är du säker på att du vill ta bort e-postadressen?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "delete-account": {
+            "icon": "warning",
+            "textBold": "Vill du radera din data?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "download-data": {
+            "icon": "warning",
+            "textBold": "Vill du ha tillgång till din data?",
+            "textNormal": null,
+            "buttonTrue": "JA",
+            "buttonFalse": "NEJ"
+        },
+        "change-password": {
+         "icon": "warning",
+         "textBold": "Är du helt säker på att du vill ändra ditt lösenord?",
+         "textNormal": null,
+         "buttonTrue": "JA",
+         "buttonFalse": "NEJ"
+       },
+       "send-complaint": {
+        "icon": "warning",
+        "textBold": "Är du säker på att du vill sende klage?",
+        "textNormal": null,
+        "buttonTrue": "JA",
+        "buttonFalse": "NEJ"
+      },
+      "restore-subscription": {
+        "icon": "warning",
+        "textBold": "Vil du gjenoppta abonnementet?",
+        "textNormal": null,
+        "buttonTrue": "JA",
+        "buttonFalse": "NEJ"
+      }
+    },
+    "login": {
+        "customerUrl":"https://connectid.no/user/register?clientId=selfservice.dagen&errorUrl=https://selfservice.mediaconnect.no/&returnUrl=https://selfservice.mediaconnect.no/&abortUrl=https://selfservice.mediaconnect.no/" ,
+        "customerIcon": "account_box"
+    },
+    "menu": {
+        "customerNumberInfo": {
+            "label": "Kundnr",
+            "separator": ":"
+        },
+        "logoutButton": {
+            "name": "LOGGA UT",
+            "icon": "arrow_forward"
+        },
+        "home": {
+            "name": "HEM",
+            "icon": "home",
+            "visible": true
+        },
+        "subscriptions": {
+            "name": "PRENUMERATION",
+            "icon": "import_contacts",
+            "visible": true
+        },
+        "account": {
+            "name": "MIN PROFIL",
+            "icon": "person_outline",
+            "visible": true
+        },
+        "cards": {
+            "name": "MINA KORT",
+            "icon": "credit_card",
+            "visible": true
+        },
+        "payments": {
+            "name": "BETALNINGAR",
+            "icon": "format_list_bulleted",
+            "visible": true
+        },
+        "privacy": {
+            "name": "GDPR",
+            "icon": "lock_outline",
+            "visible": true
+        },
+        "contact": {
+            "name": "KONTAKTA KUNDCENTER",
+            "icon": "chat_bubble_outline",
+            "visible": true
+          },
+          "complaint": {
+              "name": "REKLAMASJON",
+              "icon": "chat_bubble_outline",
+              "visible": false
+          },
+          "faq": {
+              "name": "SPØRSMÅL OG SVAR",
+              "icon": "help_outline",
+              "visible": false
+        }
+    },
+    "account": {
+        "title": "Min profil",
+        "tabs": [
+            {
+                "id": "profileTab",
+                "title": "PROFIL",
+                "visible": true
+            },
+            {
+                "id": "addressesTab",
+                "title": "ADRESSER",
+                "visible": true
+            },
+            {
+                "id": "paymentMethodsTab",
+                "title": "BETALSÄTT",
+                "visible": true
+            },
+            {
+                "id": "emailsTab",
+                "title": "E-POSTADRESSER",
+                "visible": true
+            }
+        ],
+        "profile": {
+            "firstNameLabel": "Förnamn",
+            "middleNameLabel": "Mellannamnn",
+            "lastNameLabel": "Efternamn",
+            "homePhoneNumberLabel": "Telefonnummer",
+            "mobilePhoneNumberLabel": "Mobilnummer",
+            "saveButton": "SPARA",
+            "cancelButton": "AVBRYT",
+            "lastNameRequired": "Efternamn är obligatoriskt!",
+			"changePasswordButton": "ÄNDRA LÖSENORD"
+        },
+        "addresses": {
+            "editAddressTitle": "Ändra adress",
+            "cardCareOfAddressPrefix": "C/O: ",
+            "cardStreetAddressPrefix": "",
+            "cardEntrancePrefix": " ",
+            "cardFloorPrefix": " ",
+            "cardSuitePrefix": " / ",
+            "cardCountryCodePrefix": ", ",
+            "productPrefix": "Produkt: ",
+            "timeSepatator": " - ",
+            "timeFormat": "M/d/y",
+            "careOfAddressLabel": "C/O",
+            "streetAddressLabel": "Gatunamn",
+            "streetNumberLabel": "Gatunummer",
+            "entranceLabel": "Ingång",
+            "floorLabel": "Våning",
+            "suiteLabel": "Lägenhet",
+            "postalCodeLabel": "Postnummer",
+            "postalPlaceLabel": "Ort",
+            "countryCodeLabel": "Landkod",
+            "startTimeLabel": "Startdatum",
+            "startTimeRequired": "Startdatum är obligatoriskt",
+            "startTimeMin": "Startdatum måste vara senare än dagens datum",
+            "endTimeLabel": "Stoppdatum",
+            "endTimeRequired": "Stoppdatum är obligatoriskt",
+            "endTimeMin": "Stoppdatum måste vara senare än dagens datum",
+            "editButton": "ÄNDRA",
+            "saveButton": "SPARA",
+            "cancelButton": "AVBRYT",
+            "addButton": "LÄGG TILL ADRESS",
+            "deleteButton": "TA BORT DEN HÄR ADRESSEN",
+            "streetAddressRequired": "Gatunamn är obligatoriskt",
+            "streetNumberRequired": "Gatunummer är obligatoriskt",
+            "postalCodeRequired": "Postnummer är obligatoriskt",
+            "postalPlaceRequired": "Ort är obligatoriskt",
+            "countryCodeRequired": "Landkod är obligatoriskt"
+        },
+        "emails": {
+            "emailLabel": "E-postadresser",
+            "deleteButton": "TA BORT",
+            "addButton": "LÄGG TILL E-POSTADRESS",
+            "saveButton": "SPARA",
+            "cancelButton": "AVBRYT",
+            "editButton": "ÄNDRA",
+            "emailRequired": "E-postadresse är obligatoriskt",
+            "primaryEmailLabel" : "Primär e-postadress",
+            "emailPatternRequired": "Vänligen skriv en giltig e-postadress",
+            "emailUniqueRequired": "E-postadressen finns redan"
+        }
+    },
+    "subscriptions": {
+        "title": "Prenumeration",
+        "empty": "Inga aktiva prenumerationer finns",
+        "showButton": "VISA DETALJER"
+    },
+    "subscription": {
+        "title": "Prenumeration",
+        "deliveryAddressChangeButton": {
+            "name": "ÄNDRA",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "restoreSubscriptionButton": {
+            "name": "Kansellere stopp",
+            "visible": true,
+            "productCodes": [
+              "*"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetTempButton": {
+            "name": "REGISTRERA TILLFÄLLIG LEVERANSADRESS",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSetStopButton": {
+            "name": "REGISTRERA TILLFÄLLIGT STOPP",
+            "visible": false,
+            "productCodes": [
+                "DAG", "EKO", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodChangeButton": {
+            "name": "ÄNDRA",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodViewHistButton": {
+            "name": "VISA BETALNINGSHISTORIK",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "registerComplaintButton": {
+            "name": "REKLAMERA TIDNING",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "cancelSubscriptionButton": {
+            "name": "STOPPA PRENUMERATION",
+            "visible": false,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "temporaryAddressRemoveButton": {
+            "name": "TA BORT",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "temporaryStopRemoveButton": {
+            "name": "Ta bort",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "showMembershipCardButton": {
+            "name": "SHOW MEMBERSHIP CARD",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "deliveryAddressSection": {
+            "title": "Leveransadress",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "temporaryAddressSection": {
+            "title": "Tillfällig Leveransadress",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "temporaryStopSection": {
+            "title": "Tillfällig uppehåll",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "paymentMethodSection": {
+            "title": "Betalningsmetod",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "billingAddressSection": {
+            "title": "Fakturaadress",
+            "visible": true,
+            "productCodes": [
+                "DAG", "EKO", "WEB", "TAL", "NOD"
+            ],
+            "productKind": "*"
+        },
+        "subscribedFrom": "Prenumeration från",
+        "paidUntil": "betalt till",
+        "cancelDate": "Stoppdatum",
+        "tillNextIssue": "till nästa utgåva",
+        "day": "dag",
+        "days": "dagar",
+        "validTill": "Giltig tom",
+        "creditCardIsNotSetUp": "Giltig tom",
+        "paymentHistory": {
+            "title": "Betalningshistorik",
+            "closeButton": "STÄNG"
+        },
+        "membershipCard": {
+            "title": "Fordeler",
+            "closeButton": "CLOSE",
+            "printButton": "PRINT"
+        },
+        "changePayment": {
+            "title": "Ändra din betalningsmetod",
+            "validTill": "Giltig tom",
+            "submitButton": "SKICKA",
+            "cancelButton": "AVBRYT",
+            "creditCardIsNotSetUp": "Ditt kreditkort är inte registrerat",
+            "addCardButton": "LÄGG TILL NYTT KORT",
+            "addIcon": "add"
+        },
+        "registerComplaint": {
+            "title": "Reklamera tidning",
+            "description": "Vänligen ange information om din reklamation.",
+            "issueDateTitle": "Utgivningsdatum",
+            "complaintReasonTitle": "Orsak till reklamationen",
+            "messageTitle": "Ditt meddelande",
+            "submitButton": "SKICKA",
+            "cancelButton": "AVBRYT",
+            "sentIcon": "done",
+            "sentText": "Reklamationen är registrerad",
+            "sentButton": "OK",
+            "issueDateRequired": "Reklamationen är registrerad",
+            "complaintReasonRequired": "Orsaken till reklamationen är obligatoriskt",
+            "forwardIssueTitle": "Eftersänd utgåvan"
+        },
+        "changeDeliveryAddress": {
+            "title": "Ändra leveransadress",
+            "streetAddressTitle": "Gatunamn",
+            "streetAddressRequired": "Gatunamn är obligatoriskt",
+            "streetNumberTitle": "Gatunummer",
+            "streetNumberRequired": "Gatunummer är obligatoriskt",
+            "postalCodeTitle": "Postnummer",
+            "postalCodeRequired": "Postnummer är obligatoriskt",
+            "postalPlaceTitle": "Ort",
+            "postalPlaceRequired": "Ort är obligatoriskt",
+            "careOfTitle": "C/O",
+            "entranceTitle": "Ingång",
+            "floorTitle": "Våning",
+            "sentIcon": "done",
+            "sentText": "Adressen är uppdaterad",
+            "submitButton": "SKICKA",
+            "cancelButton": "AVBRYT",
+            "sentButton": "OK"
+        },
+        "setTemporaryAddress": {
+            "title": "Registrera tillfällig adress",
+            "newAddressOption": "Ny adress",
+            "selectAddressTitle": "Välj adress",
+            "streetAddressTitle": "Gatunamn",
+            "streetAddressRequired": "Gatunamn är obligatoriskt",
+            "streetNumberTitle": "Gatunummer",
+            "streetNumberRequired": "Gatunummer är obligatoriskt",
+            "postalCodeTitle": "Postnummer",
+            "postalCodeRequired": "Postnummer är obligatoriskt",
+            "postalPlaceTitle": "Ort",
+            "postalPlaceRequired": "Ort är obligatoriskt",
+            "careOfTitle": "C/O",
+            "entranceTitle": "Ingång",
+            "floorTitle": "Våning",
+            "startTimeTitle": "FRÅN",
+            "startTimeRequired": "Startdatum är obligatoriskt",
+            "startTimeMin": "Startdatum måste vara senare än dagens datum",
+            "endTimeTitle": "TILL",
+            "endTimeMin": "Stoppdatum måste vara senare än dagens datum",
+            "endTimeRequired": "Stoppdatum är obligatoriskt",
+            "addressExistsForPeriodError": "Tillfällig adress finns for denna periode",
+            "issueNotExistsForPeriodError": "Kan ikke endre adresse for utgaver i perioden da de allerede er på vei til deg",
+            "sentIcon": "done",
+            "sentText": "Adressen sparad",
+            "submitButton": "SKICKA",
+            "cancelButton": "AVBRYT",
+            "sentButton": "OK"
+        },
+"setTemporaryDeliveryStop": {
+           "title": "Registrera tillfälligt stopp",
+           "selectTypeTitle": "Välj typ",
+           "stopTypeOptions": [
+               {
+                   "value": "temporary",
+                   "label": "Ingen Leverans",
+                   "visible": true
+               },
+               {
+                   "value": "donation",
+                   "label": "donation",
+                   "visible": false
+               },
+               {
+                   "value": "noDelivery",
+                   "label": "ingen leverans",
+                   "visible": false
+               }
+           ],
+           "stopTypeRequired": "Stopptyp krävs",
+           "startTimeTitle": "Start datum",
+           "startTimeRequired": "Start datum krävs",
+           "startTimeMin": "Start datum måste vara efter dagens datum",
+           "endTimeTitle": "Tidningen åter",
+           "endTimeMin": "Tidningen åter måste vara efter startdatum",
+           "endTimeRequired": "Tidningen åter datum krävs",
+           "stopExistsForPeriodError": "temporär leverans stopp existerar redan  för denna period",
+           "sentIcon": "Klar",
+           "sentText": "Temporärt stopp är registrerat",
+           "submitButton": "REGISTRERA",
+           "cancelButton": "AVBRYT",
+           "sentButton": "OK"
+        }
+    },
+    "cards": {
+        "title": "Mina  kort",
+        "validTill": "Giltig tom",
+        "deleteButton": "TA BORT",
+        "addButton": "LÄGG TILL KORT",
+        "emptyCardList": "Inget kreditkort registrerat"
+  },
+    "payments": {
+    "filterMessage": "Sök efter betalning...",
+    "invoiceIcon": "file_download",
+    "payButton": "%payments.payButton%",
+    "paymentIcon": "payment",
+    "period": "2Y",
+    "productType": [
+    "*"
+    ],
+    "title": "Betalningar"
+    },
+    "invoicePaymentStatus": {
+         "cancelled": "%invoicePaymentStatus.cancelled%",
+         "dunned": "%invoicePaymentStatus.dunned%",
+         "invoiced": "%invoicePaymentStatus.invoiced%",
+         "notInvoiced": "%invoicePaymentStatus.notInvoiced%",
+         "paid": "%invoicePaymentStatus.paid%"
+     },
+    "privacy": {
+        "title": "GDPR",
+        "issuer": "DAGEN",
+        "languageCode": "en_US",
+        "infoIcon": "help_outline",
+        "subjectType": "CONNECT",
+        "source": "SELFSERVICE",
+        "childConsentBehaviour": "hide",
+        "mainTab": {
+            "title": "GENERELLT",
+            "visible": true,
+            "generalInformationText": "För att kunna erbjuda dig den tjänsten som du har beställt så samlar vi på en del data (information) Informationen vi inhämtar är ordentligt skyddad och vi kommer inte sälja den vidare. Sekretesspolicyn förklarar vilken typ av personupplysningar vi inhämtar, antingen från dig eller andra. Den förklarar också i vilka syften vi använder informationen. Personupplysningar är all information som kan identifiera dig eller som kan kopplas till dig. Du kan också be om att få se vilken information vi lagrar och du kan be om att vi ska radera informationen om dig.  ",
+            "downloadData": {
+                "visible": true,
+                "button": "HÄMTA MIN DATA",
+                "text": "Om du klickar på den här knappen skickar du en förfrågan om att få tillgång till din data som är kopplad till ditt kundförhållande till oss. Informationen innehåller data från nätsidan och tjänsten som är kopplad till ditt kundförhållande. En kundkonsulent kommer att ta kontakt med dig och hjälpa dig att få tillgång till översikten över dina dataupplysningar. "
+            },
+            "deleteAccount": {
+                "visible": true,
+                "button": "RADERA MIN DATA",
+                "text": "Om du klickar på den här knappen skickar du en förfrågan till vårt kundcenter om att radera ditt konto och informationen om dig.  Om du raderar ditt konto kommer alla tjänster och all information bli raderad. Notera att viss information behålls för redovisningsändamål. Vi kan inte radera ditt konto om du har ett aktivt abonnemang hos oss. Du måste avsluta abonnemanget innan vi kan radera ditt konto. Om du har innestående skulder eller betalningar, är du fortfarande förpliktigad att betala dessa. Om du väljer att radera ditt konto under tiden du väntar på tillgång till din data, kan vi inte fullföra din förfrågan och informationen blir raderad. "
+            }
+        }
+    },
+    "contact": {
+        "title": "Kundcenter",
+        "message": {
+            "cardtitle": "Skriv ett meddelande",
+            "productTitle": "Produkt",
+            "productRequired": "Produkt är obligatoriskt",
+            "generalMessageOption": "Generellt meddelande",
+            "messageTitle": "Ditt meddelande",
+            "messageRequired": "Meddelande är obligatoriskt",
+            "sendButton": "SKICKA",
+            "sentIcon": "done",
+            "sentTextBig": "Tack för ditt meddelande",
+            "sentTextSmall": "Vi svarar så snart vi kan"
+        },
+        "support": {
+            "contactIcon": "people_outline",
+            "contactPhone": "08 - 619 24 20",
+            "contactText": "Kontakta vårt kundcenter"
+        }
+    }
+}

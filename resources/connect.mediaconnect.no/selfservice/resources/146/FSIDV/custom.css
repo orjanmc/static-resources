@@ -1,0 +1,83 @@
+
+/*
+ * Logo øverst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.gif) no-repeat 1px 5px;
+  height:65px;
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Ikke Innlogget
+ */
+
+.not_logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px;
+} 
+
+
+.configurableText_LOGIN_CREDENTIAL_DESCRIPTION {
+	white-space:nowrap;
+}
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .toppBanner {
+  background: url(logo.gif) no-repeat 1px 5px;
+  height:65px;
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Bestill
+ */
+.not_logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 25px;
+  padding-left:170px;  
+  width:150px;
+} 
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .toppBanner {
+  background: url(logo.gif) no-repeat 1px 5px;
+  height:65px;
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+/*
+ * Innlogget
+ */
+.logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px;
+} 
+/*
+ * Logo øverst til venstre
+ */
+.logged_in .toppBanner {
+  background: url(logo.gif) no-repeat 1px 5px;
+  height:65px;
+}
+
+.logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

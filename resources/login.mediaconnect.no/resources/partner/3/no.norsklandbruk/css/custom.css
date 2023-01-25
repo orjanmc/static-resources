@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+    font-family:  'Titillium Web', 'Helvetica';
+}
+
+
+.guiVersion2 .button {
+}
+
+
+.guiVersion2 .button {
+   background-color: #345c77 !important;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #233e50 !important;
+}
+
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/bakgrunn.jpg);
+}
+
+.loginFrame {
+    border: 0px #939598 solid;
+}

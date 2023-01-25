@@ -1,0 +1,130 @@
+@import url('/assets/default.theme.css');
+
+.mat-app-header {
+  color: black;
+  background-color: #f8f7f5; }
+
+.mat-app-footer {
+  color: #212121;
+  background-color: #eeddee; }
+
+.mat-primary .mat-option.mat-selected {
+  color: #275e91;
+}
+
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: #275e91;
+}
+
+.mat-app-background-primary {
+  background-color: #275e91;
+}
+
+.mat-app-color-primary {
+  color: #275e91;
+}
+
+.mat-button.mat-primary, .mat-icon-button.mat-primary {
+  color: #275e91;
+}
+
+.mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color: #275e91;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #275e91;
+}
+
+.mat-chip.mat-chip-selected.mat-primary {
+  background-color: #275e91;
+}
+
+.mat-calendar-body-selected {
+  background-color: #275e91;
+}
+
+.mat-focused .mat-form-field-placeholder {
+  color: #275e91;
+}
+
+.mat-form-field-ripple {
+  background-color: #275e91;
+}
+
+.mat-icon.mat-primary {
+  color: #275e91;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #275e91;
+}
+
+.mat-progress-spinner path, .mat-spinner path {
+  stroke: #275e91;
+}
+
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #275e91;
+}
+
+.mat-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #275e91;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger,
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+  color: #275e91;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+  background-color: #275e91;
+}
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+  background-color: #275e91;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #275e91;
+}
+
+.mat-tab-group.mat-background-primary .mat-tab-header,
+.mat-tab-group.mat-background-primary .mat-tab-links,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-header,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-links {
+  background-color: #275e91;
+}
+
+.mat-toolbar.mat-primary {
+  background: #275e91;
+}
+
+.app-wcag-button {
+    fill: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+
+.app-menu-button {
+    fill: #275e91 !important;
+}
+
+.mat-app-footer {
+    color: #212121;
+    background-color: #f8f7f5;
+}
+
+.mat-app-footer a {
+    color: #212121;
+    decoration: underline;
+}

@@ -1,0 +1,108 @@
+@import url('/assets/default.theme.css');
+
+.mat-app-header {
+  color: #212121;
+  background-color: #e8f0f7;
+}
+
+.mat-app-footer {
+  color: #212121;
+  background-color: #e8f0f7;
+}
+
+.mat-primary .mat-option.mat-selected {
+  color: #358ed7;
+}
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: #BC021C;
+}
+
+.mat-app-background-primary {
+  background-color: #BC021C;
+}
+
+.mat-app-color-primary {
+  color: #BC021C;
+}
+
+.mat-button.mat-primary, .mat-icon-button.mat-primary {
+  color: #BC021C;
+}
+
+.mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color: #BC021C;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #BC021C;
+}
+
+.mat-chip.mat-chip-selected.mat-primary {
+  background-color: #BC021C;
+}
+
+.mat-calendar-body-selected {
+  background-color: #BC021C;
+}
+
+.mat-focused .mat-form-field-placeholder {
+  color: #BC021C;
+}
+
+.mat-form-field-ripple {
+  background-color: #BC021C;
+}
+
+.mat-icon.mat-primary {
+  color: #BC021C;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #BC021C;
+}
+
+.mat-progress-spinner path, .mat-spinner path {
+  stroke: #BC021C;
+}
+
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #BC021C;
+}
+
+.mat-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #BC021C;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger,
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+  color: #BC021C;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+  background-color: #BC021C;
+}
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+  background-color: #BC021C;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #BC021C;
+}
+
+.mat-tab-group.mat-background-primary .mat-tab-header,
+.mat-tab-group.mat-background-primary .mat-tab-links,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-header,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-links {
+  background-color: #BC021C;
+}
+
+.mat-toolbar.mat-primary {
+  background: #BC021C;
+}

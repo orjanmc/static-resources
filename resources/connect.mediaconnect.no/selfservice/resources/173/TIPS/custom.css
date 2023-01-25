@@ -1,0 +1,96 @@
+
+/*
+ * Logo ?verst til venstre
+ */
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+.login {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(background.jpg);
+    /*background-size: 1500px 1019px; */
+
+}
+
+.login BODY {
+    background-color: transparent;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 10px 0px 0px;
+    
+
+
+}
+
+
+
+.login .main .content {
+	background-color: white;
+	padding:40px;
+	opacity:0.9;
+}
+
+
+.login .main .heading {
+    background-color:white;
+    opacity:0.9;
+    filter: alpha(opacity = 70);
+    padding:0px 0px 0px 40px;
+    margin: center;
+   
+}
+
+
+
+
+
+/*
+ * Logo ?verst til venstre
+ */
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Bestill
+ */
+.not_logged_in .main { 
+  height:75px; background-size: 231px 70px; 
+}
+ 
+/*
+ *Logo ?verst til venstre
+ */
+.order .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+/* Innlogget */
+.logged_in .main { 
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px; background-size: 231px 70px; 
+} 
+
+/* Logo øverst til venstre */
+.logged_in .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+.logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

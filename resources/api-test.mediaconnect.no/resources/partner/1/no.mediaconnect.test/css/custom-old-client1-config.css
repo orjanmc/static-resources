@@ -1,0 +1,24 @@
+
+@font-face
+{
+font-family: adellesans_regular;
+src:url(adellesans_regular-webfont.eot);
+}
+
+body {
+    font-family:  'adellesans_regular', 'Helvetica';
+}
+
+.error { color: #f00; display: block; }
+.errorField { border: #f88 solid 2px; }
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+.acceptTermsLabel INPUT { margin-left:30px; }
+
+.heading { font-weight: bold; font-size:120%; width: 10em; margin-bottom: 1em; }
+label, input  { display:block; }
+
+.customerNumberExplanation { margin: 1em 0; }
+.customerNumberExplanationImage { height:50px; width: 150px;
+    background-color: #ddd; border: 2px #888 dashed; display:block; }

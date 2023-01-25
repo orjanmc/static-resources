@@ -1,0 +1,4 @@
+/*
+ * Logo øverst til venstre
+ */
+.login .main { background: url(logo.gif) no-repeat 1px 10px; padding-left:170px; padding-top: 100px; }

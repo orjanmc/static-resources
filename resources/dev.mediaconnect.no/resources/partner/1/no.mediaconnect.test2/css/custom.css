@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Fira+Sans:400,700');
+
+
+@media only screen and (max-width: 479px)  {
+    @-webkit-viewport { width: 320px ! important; }
+    @-moz-viewport { width: 320px ! important;  }
+    @-ms-viewport { width: 320px ! important; }
+    @-o-viewport { width: 320px ! important; }
+    @viewport { width: 320px ! important; }
+    HTML, BODY, #loginForm, .outerFrame {
+        width: 320px; margin: 0 !important; padding: 0; background-image: url(../img/background.jpg) !important; background-color: transparent !important;
+		 background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+    body { }
+    .loginFrame { border: none; }
+    .loginMain { padding: 20px 0; }
+    .loginMain, .mcBanner, input, button { font-size: 120%; }
+    .bottom { font-size: 100% ! important; }
+    .column { padding-left: 20px; padding-right: 20px; }
+    .logo { max-width: 280px; }
+    .mcBanner { padding-top: 10px; padding-bottom: 5px; }
+    .belowPassword { font-size:90%; }
+    .guiVersion2 .loginFrame { background-color: transparent !important; }
+    .guiVersion2 body { background-image: url(../img/background.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+	color: #fff; min-height: inherit !important; }
+    #tooltip-content { width: 240px ! important }
+    .questionMark { vertical-align: middle ! important;}
+    .loginMain, .mcBanner, input, button {
+        font-size: 100%;
+    }
+    .guiVersion2 .headingColumn { padding-left: 20px  !important; padding-right: 20px  !important; }
+    .guiVersion2 .par .orLoginWith { padding-left: 79px  !important; width: auto !important; }
+}
+
+a {
+    color: #e1161b;
+	text-decoration: none;
+} 
+
+.button {
+	text-transform: none;
+}
+
+.outerFrame { width: 450px; margin: 50px auto; position:relative; }
+
+.loginMain {
+    padding: 0px 0 30px 0 !important;
+}
+
+.guiVersion2 .loginFrame { background-color: transparent !important; }	
+ 
+.guiVersion2 body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+	color: #fff;
+}
+
+.loginFrame { border: none; width:100%; box-sizing: border-box;
+    background-color: transparent !important; box-shadow: none !important; }
+
+.guiVersion2 .heading {
+	content: '';
+    text-align:center; font-size: 2.6em;
+    border-width: 0;
+    border-style: none;
+    color: #fff;
+    padding: 6px 0px;
+    font-weight: 300;
+	line-height: 36px;
+}
+ 
+.guiVersion2 .button,
+.guiVersion2 input {
+    font-family: 'Fira Sans', sans-serif;
+}
+ 
+.guiVersion2 .heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+ 
+.guiVersion2 .label {
+    font-weight: normal;
+	margin-left: 18px;
+}
+ 
+.guiVersion2 .buttonPar {
+    font-weight: 400;
+}
+/* 
+@media only screen and (min-width: 479px)  {
+    .loginFrame {
+    }
+}
+*/
+
+.guiVersion2 .loginFrame { background-color: transparent !important; }
+
+.loginFrame { border:none !important; box-shadow:0 !important; }
+ 
+.guiVersion2 input[type=text],
+.guiVersion2 input[type=password],
+.guiVersion2 input[type=email],
+.guiVersion2 input[type=number],
+.guiVersion2 input[type=tel] {
+    border-radius: 20px;
+	background-color: #8b858f !important;
+	color: #ffffff !important;
+	opacity: 0.85 !important;
+	line-height: 14px;
+}
+ 
+.guiVersion2 input[type=submit] {
+    font-weight: 700;
+	border-radius: 25px;
+}
+
+.guiVersion2 .button {
+    background-color: #70b0a6 ! important;
+    color: #fff;
+	line-height: 26px;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #0e777a !important;
+}
+
+.guiVersion2 .par .orLoginWith {
+    border-bottom: 1px solid #93939c !important;
+}
+
+#j_username {
+ border-radius: 50px;
+ background-image: none !important;
+}
+
+#facebookLink{
+	background-color: #3b5998;
+	width: 100%;
+	float: left;
+	border-radius: 25px;
+	line-height: 50px;
+	height: 50px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+#facebookLink > img, #googleLink > img{
+  border-radius: 50%;
+  float: left;
+  margin-left: 12px;
+  margin-top: 8px;
+  
+}
+
+#facebookLink  a, #googleLink  a{
+	 height: 70px;
+}
+
+#facebookLink:after {
+	margin-top: 15px;
+	content: 'Login med facebook';
+	color: #fff;
+}
+
+#googleLink:after {
+	margin-top: 15px;
+	color: #fff;
+	content: 'Login med Google';
+}
+
+#googleLink:hover, #facebookLink:hover {
+ background-color: #0e777a !important;
+}
+
+#googleLink{
+	background-color: #4285f4;
+	width: 100%;
+	float: left;
+	border-radius: 25px;
+	line-height: 50px;
+	height: 50px;
+	word-wrap: normal;
+	display: inline-block;
+}
+
+.error {
+	border-radius: 0%;
+	margin-top: 2px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+#socialLinkSpace{
+    display: block;
+}
+
+.guiVersion2 .bottomRightLogo img { height:25px; margin-right: 20px; 
+height:20px; background-color: #fff; padding: 8px;
+    border-radius: 20px;}
+
+.logoDiv, div.headingColumn {
+    text-align: center;
+}
+	
+div.logoDiv.column:after{
+	text-align:center; 
+	margin-top: 15px;
+	content: 'I FEIL FORHOLD';
+	color: #93939c;
+	text-align:center; 
+	font-size: 1.3em;
+	font-weight: normal;
+	opacity: 0.85 !important;
+	letter-spacing: 1px;
+}	
+	
+div.heading:after{
+/*div.headingColumn:before {*/
+	text-align:center; 
+    border-width: 0;
+    border-style: none;
+    padding: 6px 0px;
+    font-weight: 300;
+	line-height: 36px;
+	margin-top: 5px;
+	content: 'Pass opp hvis dere ikke prioriterer hverandre';
+	color: #fff;
+	/*text-align:center; font-size: 2.6em;*/
+}
+
+div.headingColumn:after{
+text-align:center; 
+	margin-top: 5px;
+	content: 'Åtte tegn på at kjæresten ikke er den rette.';
+	color: #93939c;
+	font-size: 1em;
+	font-weight: normal;
+	opacity: 0.85 !important;
+}
+	
+/*	
+div.label{
+display: none;
+}
+*/

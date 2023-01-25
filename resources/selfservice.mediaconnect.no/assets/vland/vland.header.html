@@ -1,0 +1,54 @@
+<style scoped>
+
+.header {
+    height: 120px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.header-logo {
+    width: 366px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.header-back {
+    color: black;
+    float: left;
+    margin-top: 50px;
+    margin-right: -200px;
+}
+.header-back a, .header-back a:visited, .header-back a:active {
+color: black;
+}
+.header-back a:hover {
+color: grey;
+}
+/* mobile */
+@media (max-width: 870px) {
+    .header {
+      height: 50px;
+    }
+
+    .header-logo {
+      width: 152px;
+      margin-top: 10px;
+    }
+
+    .header-back {
+      float: left;
+      margin-top: 17px;
+      max-width: 40px;
+      overflow: hidden;
+      max-height: 20px;
+      margin-right: -40px;
+      font-size: 10px;
+      margin-left: -20px;
+    }
+}
+</style>
+
+<div class="header">
+    <div class="header-back"><a href="https://www.vl.no/">&laquo; Tilbake til forsiden</a></div>
+    <a href="https://www.vl.no/"><img class="header-logo" src="assets/vland/vl-logo.svg" alt="Vårt Land" border="0"></a>
+</div>

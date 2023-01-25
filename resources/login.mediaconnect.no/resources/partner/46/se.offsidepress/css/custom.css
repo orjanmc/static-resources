@@ -1,0 +1,378 @@
+/*
+Sekvenser
+#sequence-createUser = skapa ny användare flöde
+#sequence-login = loginflödet
+
+States
+1 = login,
+4 = register och changePass,
+5 = verify with code,
+13 = foundUser,
+16 = enterSubscription,
+23 = setpass
+28 = skapa användare med dubbla fält
+*/
+
+html.guiVersion2.ng-scope {
+    transform: none !important;
+    transform-origin: unset !important;
+}
+
+#showSocialLoginButtonsDiv {
+  display: none;
+}
+
+#sequence-createUser #state-4 #headingColumn div.heading,
+#sequence-createUser #state-23 #headingColumn div.heading,
+#sequence-login #state-4 #headingColumn div.heading  {
+  visibility: hidden;
+  position: relative;
+}
+
+#sequence-createUser #state-4 #headingColumn div.heading:after,
+#sequence-createUser #state-23 #headingColumn div.heading:after,
+#sequence-login #state-4 #headingColumn div.heading:after {
+  padding: 16px 0px;
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+#sequence-createUser #state-4 #headingColumn div.heading:after {
+  content: "Ange din e-postadress";
+}
+#sequence-login #state-4 #headingColumn div.heading:after {
+  content: "Återställ lösenord";
+}
+#sequence-createUser #state-23 #headingColumn div.heading:after {
+  content: "Skapa lösenord";
+}
+
+#credentialFieldDiv {
+  margin-top: 1.5em;
+}
+
+#state-5 #par3.par #credentialFieldDiv .label,
+#state-13 #par3.par #credentialFieldDiv .label,
+#state-16 #par3.par #credentialFieldDiv .label,
+#state-23 #par3.par #credentialFieldDiv .label {
+  background-color: #5d5d5d !important;
+  color: #4a4a4a;
+}
+
+#state-5 #par3.par #credentialFieldDiv input[disabled="disabled"].ng-dirty,
+#state-13 #par3.par #credentialFieldDiv input[disabled="disabled"].ng-dirty,
+#state-16 #par3.par #credentialFieldDiv input[disabled="disabled"].ng-dirty,
+#state-23 #par3.par #credentialFieldDiv input[disabled="disabled"].ng-dirty {
+  color: #999898;
+}
+
+#state-5 #par3.par #credentialFieldDiv,
+#state-13 #par3.par #credentialFieldDiv,
+#state-16 #par3.par #credentialFieldDiv {
+  margin-top: 0;
+  padding-top: 1.5em;
+}
+
+#state-28 #repeatCredentialFieldDiv {
+  margin-bottom: 1.25em;
+}
+
+:focus, :focus-within {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  border: solid 1px #63b953;
+  margin-right: 0.25em;
+  position: relative;
+  top: 5px;
+}
+
+#endGuiDiv label,
+#acceptTermsGuiDiv label {
+  cursor: pointer;
+}
+
+#endGuiDiv #resetPasswordLinkDiv {
+  position: relative;
+  top: 5px;
+}
+
+[type=checkbox]:checked::before {
+  content: "X";
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  background-color: #63b953;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#credentialFieldDiv:focus-within,
+#findSubscriberFieldsDiv div.ng-scope:focus-within,
+#enterPasswordFieldDiv:focus-within,
+#setPasswordFieldsDiv > div.par:focus-within {
+  box-shadow: 0 0 1px 3px #63b953;
+  border-radius: 3px;
+}
+
+.guiVersion2 #loginHeaderInfoDiv span a {
+  margin-bottom: 0;
+}
+
+#enterPasswordFieldDiv {
+  margin-bottom: 1.5em;
+}
+
+#enterPasswordFieldDiv label.showPassword {
+  display: none;
+}
+
+#setPasswordFieldsDiv > div.par:first-child {
+  margin-bottom: 1.5em;
+}
+
+.guiVersion2 .label {
+  background-color: #fbfbfb;
+  color: #63b953;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  font-size: 0.65em;
+  padding: 0.2em 0.5em 0.2em 0.75em;
+  border-radius: 3px 3px 0 0;
+  border: none;
+  margin-bottom: -3px;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.guiVersion2 .logo {
+  margin-bottom: 2.5em;
+}
+
+.guiVersion2 .loginFrame {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.guiVersion2 .heading {
+  border: none;
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.guiVersion2 .par {
+  margin: 0;
+}
+
+.guiVersion2 .par .par {
+  margin-bottom: 1em;
+}
+
+.guiVersion2 .lighter.column .par a {
+  padding-top: 1.5em;
+  display: inline-block;
+  margin-bottom: 1.5em;
+}
+
+.guiVersion2 .par .REGISTER_HEADER_INFO,
+.guiVersion2 .par .SET_PASSWORD_HEADER_INFO,
+.guiVersion2 .par .CREATE_USER_HEADER_INFO {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #5d5d5d;
+  letter-spacing: 1.2pt;
+  padding-bottom: 0.75em;
+  display: inline-block;
+  font-weight: 600;
+}
+
+#bottomRightLogo, .footerContent, .guiVersion2 .par .orLoginWith, .guiVersion2 .par .orLoginWithSpan {
+  display: none;
+}
+
+.guiVersion2 .headingColumn {
+  border-left: 2px solid #63b953;
+  border-right: 2px solid #63b953;
+  border-top: 2px solid #63b953;
+  padding: 1.5em 40px 0 40px;
+  border-radius: 3px 3px 0 0;
+  margin-bottom: -0.5em;
+}
+
+.lighter.column {
+  border-left: 2px solid #63b953;
+  border-right: 2px solid #63b953;
+  padding: 0 40px 1.5em 40px;
+}
+
+.lighter.column:last-child {
+  border-bottom: 2px solid #63b953;
+  margin-top: -1.2em;
+  border-radius: 0 0 3px 3px;
+}
+
+.guiVersion2 .button {
+    background-color: #63b953 !important;
+    border-radius: 3px;
+    padding: 1.1em 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.guiVersion2 .button:hover {
+  background-color: #1a1a1a !important;
+  border-color: #63b953 !important;
+}
+
+.guiVersion2 input[type="text"].textField,
+.guiVersion2 input[type="password"].textField,
+.guiVersion2 input[type="tel"].textField,
+.guiVersion2 input[type="number"].textField {
+  padding: 0.2em 0.92em 0.92em 0.5em;
+  background-size: 0;
+  background-color: #fbfbfb;
+  border: none;
+  margin-top: 0;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.guiVersion2 .belowPassword {
+  padding-bottom: 1.5em;
+  color: #cecece;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #63b953;
+}
+
+a:hover {
+  color: #63b953;
+}
+
+.guiVersion2 .buttonPar {
+  text-align: left;
+}
+
+.guiVersion2 #resetPasswordHeaderInfoDiv, .guiVersion2 #loginHeaderInfoDiv {
+  padding: 1em 0;
+  color: #cecece;
+}
+
+.guiVersion2 #resetPasswordHeaderInfoDiv {
+  padding-bottom: 0.5em;
+}
+
+.guiVersion2 #startRegistrationButtonDiv {
+  margin-top: -0.5em;
+}
+
+.guiVersion2 #existingSubscriberFoundMessageDiv {
+  padding: 1em;
+  background-color: #adc1aa;
+  color: #1a1a1a;
+}
+
+.guiVersion2 #notMeLinkButton a {
+  padding-top: 0.5em;
+}
+
+.guiVersion2 #registrationSuccessMessageDiv, .guiVersion2 #passwordAlreadySetMessageDiv {
+  padding: 0.75em 0;
+}
+
+.guiVersion2 #passwordAlreadySetMessageDiv {
+  padding-bottom: 1.5em;
+}
+
+.guiVersion2 #findSubscriberFieldsDiv {
+  padding-top: 0.5em;
+}
+
+.guiVersion2 span#findSubscriberInfo {
+  display: inline-block;
+  padding-bottom: 1.25em;
+}
+
+.guiVersion2 #findSubscriberFieldsDiv > div.animate-zoom > div {
+  margin-bottom: 1em;
+}
+
+.guiVersion2 input[disabled="disabled"].ng-dirty {
+  background-color: #5d5d5d !important;
+  border-color: #5d5d5d;
+  color: #fff;
+}
+
+.guiVersion2 #setPasswordFieldsDiv .par {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 479px)  {
+@-webkit-viewport { width: auto ! important; }
+@-moz-viewport { width: auto ! important;  }
+@-ms-viewport { width: auto ! important; }
+@-o-viewport { width: auto ! important; }
+@viewport { width: 320px ! important; }
+
+HTML, BODY, #loginForm, .outerFrame {
+    width: auto; margin: 0 auto ! important; background-color: #1a1a1a;
+}
+
+#loginForm {
+  max-width: 95%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.guiVersion2 .loginFrame { background-color: #1a1a1a !important; }
+.guiVersion2 body { background-color: #1a1a1a; min-height: inherit ! important; }
+
+.loginMain, .mcBanner, input, button {
+    font-size: 1em;
+}
+
+.guiVersion2 .headingColumn {
+  padding: 1em 1em 0 1em !important;
+}
+
+.guiVersion2 .lighter.column {
+  padding: 0 1em 1em 1em;
+}
+
+.logo {
+  max-width: 180px;
+  padding-top: 0.5em;
+}
+
+.guiVersion2 a#acceptUserTermsLink {
+  padding: 0;
+}
+[type=checkbox]:checked::before {
+  font-size: 0.75em;
+}
+
+}

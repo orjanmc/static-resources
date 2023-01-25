@@ -1,0 +1,17 @@
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/background.jpg);
+}
+
+.guiVersion2 .heading {
+    text-align:center; font-size:150%;
+    border-color: #F36B2A;
+    border-width: 1px 0;
+    border-style: solid;
+    color: #F36B2A;
+    padding: 16px 0;
+    font-weight: normal;
+}

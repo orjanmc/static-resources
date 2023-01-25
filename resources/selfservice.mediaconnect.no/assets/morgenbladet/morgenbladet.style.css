@@ -1,0 +1,19 @@
+@import url('/assets/default.theme.css');
+
+.mat-app-header {
+ color: white;
+ background-color: #ffffff; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #ffffff;
+ justify-content: left !important;
+ }
+
+ .copyright {
+   float: right !important;
+ }
+
+ .app-menu-button {
+     fill: #000000 !important;
+ }

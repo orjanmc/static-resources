@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PF Centro Slab Pro light';
+    src: url('pfcentroslabpro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Centro Slab Pro regular';
+    src: url('pfcentroslabpro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,118 @@
+
+/*
+ * Logo ?verst til venstre
+ */
+.login .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*Bakgrunnsbilde*/
+
+
+.not_logged_in BODY { 
+background: url(background.jpg) ;
+background-size:1500px 1019px; 
+background-color:transparent;
+background-repeat:no-repeat;
+background-position: top top;
+background-attachment: fixed;
+
+
+
+}
+
+
+
+
+/*Bestillingsrute*/
+
+.not_logged_in .main .content { 
+background-color:white; 
+padding:10px 0px 10px 100px; 
+position: top center;
+width:650px; 
+opacity:0.9; 
+
+}
+
+
+.not_logged_in .main .heading { background-color:white; opacity:0.9; filter: alpha(opacity = 70); padding:0px 10px 10px 100px; margin-top:110px; 	
+
+
+}
+
+
+/*
+ * Ikke Innlogget
+ */
+
+/*
+*.not_logged_in .main { 
+*  /*width:1000px; */
+*  background: url(cover.jpg) no-repeat 0px 10px;   
+	
+*  padding-left:170px;  
+*  width:150px;
+}*/
+ 
+/*
+ * Logo ?verst til venstre
+ */
+.not_logged_in .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+
+/*
+ * Bestill
+ 
+.not_logged_in .main { 
+  /*width:1000px; */
+  /*background: url(cover.jpg) no-repeat 1px 5px;*/
+  height:75px; background-size: 231px 70px; 
+}
+ 
+/*
+ *Logo ?verst til venstre
+ */
+
+.not_logged_in .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+.not_logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}
+
+/*
+ * Innlogget
+ */
+.logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px; background-size: 231px 70px; 
+} 
+/*
+ * Logo ?verst til venstre
+ */
+.logged_in .toppBanner {
+  background: url(logo.jpg) no-repeat 1px 5px;
+  height:75px; background-size: 231px 70px; 
+}
+
+.logged_in table.VelgAbonnementFieldset tbody tr td span {
+	line-height: 1.6em;
+}

@@ -1,0 +1,175 @@
+
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+
+.main {
+    margin-top: 24px;
+    margin-left: 180px;
+    width: 400px;
+}
+
+.customerNumberExplanationImage {
+    display: block;
+    margin: 25px 0 0 22px;
+    width: 323px;
+    height: 115px;
+    border: 1px #c1c1c1 solid;
+    border-radius: 4px;
+    background: #ffffff url(../img/kontonummer.png) no-repeat left center;
+}
+
+.labelAndField {
+    display:block;
+    padding: 20px 0 0 22px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    overflow: hidden;
+    width: 768px;
+    position: relative;
+    height: 916px;
+    font-family: 'SourceSansProRegular';
+}
+
+.heading {
+    margin: 80px 0 20px 180px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.page {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    width: 768px;
+    height: 836px;
+}
+
+label { display: none; }
+
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 1);
+}
+
+.customerNumberExplanation {
+    margin: 16px 0 5px 0;
+}
+
+.emailExplanation {
+    margin: 25px 0 0;
+}
+
+.explanationText {
+    margin: 25px 0;
+}
+
+
+#helpContent {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    overflow: hidden;
+    width: 768px;
+    height: 50px;
+    /*background: rgba(255, 255, 255, .5);*/
+}
+
+#helpContent p {
+    padding: 0 0 0 15px;
+    color: #232423;
+    font-size: 14px;
+}
+
+a, a:visited {
+    color: #000;
+}
+
+#helpContent a, #helpContent a:visited {
+    text-decoration: none;
+}
+
+.labelAndField input:not([type='checkbox']) {
+    border: 1px solid #7f7f7f;
+    width: 325px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.submitButton {
+    margin: 20px 0 20px 22px;
+    width: 325px;
+    height: 77px;
+    border-width: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 0;
+    -webkit-appearance:none;
+}
+
+.otherButton {
+    margin-left: 120px;
+    padding-left: 8px;
+    width: 210px;
+    height: 33px;
+    border: none;
+    border-radius: 3px;
+    background: #e30023;
+    box-shadow: 0 0 2px 1px rgba(235, 31, 46, .5);
+    color: #fff;
+    font-size: 12px;
+    -webkit-appearance:none;
+}
+
+.bodyHeader {
+    position: relative;
+    z-index: 2;
+    height: 80px;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bodyFooter {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    padding: 20px 0 0 15px;
+    width: 768px;
+    height: 50px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.bodyFooter p#openMe {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
+.bodyFooter.open {
+    display: block;
+    height: 90px;
+}
+
+.error {
+    color: #000;
+    display: block;
+    border: 1px #f00 solid;
+    width: 325px;
+    background-color: #f99;
+    padding: 1px 10px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+.errorField { border: #f00 solid 1px ! important; }

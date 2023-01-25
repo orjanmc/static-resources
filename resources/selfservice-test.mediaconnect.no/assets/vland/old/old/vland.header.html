@@ -1,0 +1,30 @@
+<style scoped>
+/* 0 to 869 */
+.header {
+    height: 120px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.header-logo {
+    width: 366px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+/* 300 to X */
+@media (max-width: 870px) {
+    .header {
+      height: 50px;
+    }
+
+    .header-logo {
+      width: 152px;
+      margin-top: 10px;
+    }
+}
+</style>
+
+<div class="header">
+    <img class="header-logo" src="assets/vland/vl-logo.svg" alt="Vårt Land">
+</div>

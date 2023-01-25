@@ -1,0 +1,16 @@
+
+/*
+ * Logo øverst til venstre
+ */
+.not_logged_in .main { background: url(logo.jpg) no-repeat 1px 10px; padding-top: 74px;  background-size: 350px 74px; }
+
+
+/*
+ * Innlogget
+ */
+.logged_in .main { 
+  /*width:1000px; */
+  background: url(cover.jpg) no-repeat 0px 10px;
+  padding-left:170px;  
+  width:150px;
+} 

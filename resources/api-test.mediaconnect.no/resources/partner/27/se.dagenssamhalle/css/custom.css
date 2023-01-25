@@ -1,0 +1,12 @@
+.guiVersion2 body {
+  background-color: #ADACAB !important;
+}
+
+.guiVersion2 #credentialFieldDiv .label::before {
+  content: 'Ange din e-post eller mobil med landsprefix t. ex +46';
+}
+.guiVersion2 #credentialFieldDiv .label span#credentialDescription,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
+  display: none;
+}

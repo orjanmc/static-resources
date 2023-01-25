@@ -1,0 +1,123 @@
+@import url('/assets/default.theme.css');
+
+svg.app-menu-button {
+    fill: #000 !important;
+}
+
+svg.app-wcag-button {
+    fill: #000 !important;
+}
+
+.app-back-button {
+    color: #212121 !important;
+}
+
+.mat-app-header {
+ color: #212121;
+ background-color: #ffffff; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #ffffff; }
+
+.mat-primary .mat-option.mat-selected {
+    color: #C00D0E;
+  }
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+     background: #C00D0E;
+   }
+
+.mat-app-background-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-app-color-primary {
+    color: #C00D0E;
+  }
+
+.mat-button.mat-primary,
+.mat-icon-button.mat-primary {
+    color: #C00D0E;
+  }
+
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+    background-color: #C00D0E;
+  }
+
+.mat-chip.mat-chip-selected.mat-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-calendar-body-selected {
+    background-color: #C00D0E;
+  }
+
+.mat-focused .mat-form-field-placeholder {
+    color: #C00D0E;
+  }
+
+.mat-form-field-ripple {
+    background-color: #C00D0E;
+  }
+
+.mat-icon.mat-primary {
+    color: #C00D0E;
+  }
+
+.mat-progress-bar-fill::after {
+    background-color: #C00D0E; }
+
+.mat-progress-spinner path, .mat-spinner path {
+    stroke: #C00D0E;
+  }
+
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #C00D0E;
+  }
+
+.mat-radio-button.mat-primary .mat-radio-inner-circle {
+    background-color: #C00D0E;
+  }
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger,
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+    color: #C00D0E;
+  }
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+    background-color: #C00D0E;
+  }
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+    background-color: #C00D0E;
+  }
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #C00D0E;
+  }
+
+.mat-tab-group.mat-background-primary .mat-tab-header,
+.mat-tab-group.mat-background-primary .mat-tab-links,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-header,
+.mat-tab-nav-bar.mat-background-primary .mat-tab-links {
+    background-color: #C00D0E;
+  }
+
+.mat-toolbar.mat-primary {
+    background: #C00D0E;
+  }
+
+.app-card-add-container.mat-elevation-z1.mat-app-support-card {
+    display: none;
+}

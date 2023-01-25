@@ -1,0 +1,220 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-2.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta content="Mediaconnect AS" name="author" />
+<title>PDF faktura</title>
+<link href="./print.css" media="all" rel="stylesheet" type="text/css" />
+<style type="text/css">
+@font-face {
+	font-family: "Code 128";
+	src: url(./Code128.ttf);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Første konvolutt vindu - Logo og returadresse --> 
+<div id="window-frame-1">
+	<table>
+		<tr>
+			<td>
+			<img id="logo" alt="Dagsavisen Moss Dagblad" src="./dk.png" />
+			</td>
+			<td >Returadresse:<br />
+			Postboks 1183<br />
+			0107 Oslo
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+<!-- Andre konvolutt vindu - Adresse til regningsbetaler -->
+<div id="window-frame-2">
+	<div th:each="addressLabelPayer : ${addressLabelsPayer}" th:text="${addressLabelPayer}">
+		Jens Junit<br />
+		Testgata 1<br />
+		0123 Oslo<br />
+		Norge 
+	</div>
+</div>
+
+<!-- Faktura overskrift -->
+<div id="invoice-header">
+	<div th:each="headerLine : ${headerLines}" th:text="${headerLine + '&nbsp;'}">
+	</div>
+</div>
+
+<!-- Faktura informasjon -->
+<table id="invoice-header-info">
+	<tr>
+		<th>Fakturadato</th>
+		<th>Kundenr/Efaktura.ref</th>
+	</tr>
+	<tr>
+		<td mc:convert="${printableInvoice.invoice.invoiceDate}">
+		2011-10-20</td>
+		<td th:text="${printableInvoice.invoice.customerNumber}">
+		1024</td>
+	</tr>
+	<tr>
+		<th>Forfall</th>
+		<th>Fakturanummer</th>
+	</tr>
+	<tr>
+		<td mc:convert="${printableInvoice.invoice.dueDate}">2011-11-01</td>
+		<td th:text="${printableInvoice.invoice.invoiceNumber}">
+		123456789</td>
+	</tr>
+
+</table>
+
+
+<!-- Kundeservice informasjon -->
+<table id="customerservice-info">
+	<tr>
+		<th class="stor" colspan="2">Kundeservice</th>
+	</tr>
+	<tr>
+		<td>Tlf: 
+		</td>
+		<td th:text="${printableInvoice.orderTypeEntity.companyPhone}">
+		22 33 44 55</td>
+	</tr>
+
+
+</table>
+<!-- Fakturatekst -->
+<div id="customer-data">
+	<div th:each="customLine : ${customLines}" th:text="${customLine + '&nbsp;'}">Faktura tekst
+	</div>
+</div>
+
+<!-- Fakturaspesifikasjon -->
+<table id="invoice-lines">
+	<tr>
+		<th>Spesifikasjon</th>
+		<th>Antall</th>
+		<th>Pris</th>
+     	        <th>Mva grunnlag</th>
+		<th>Mva</th>		
+		<th>Sum</th>
+	</tr>
+	<tr th:each="invoiceLine : ${invoiceLines}">
+		<td mc:convert="${invoiceLine.productDescription}">Beskrivelse</td>
+		<td style="text-align:center;">
+		<span th:if="${invoiceLine.recurringProduct}" th:text="${invoiceLine.recurringProduct.numberOfCopies}">
+		1</span></td>
+		<td mc:convert="${invoiceLine.invoiceLine.productPrice}" style="text-align:right;">100.00</td>
+                <td mc:convert="${invoiceLine.invoiceLine.vat/0.25}" style="text-align:right;">25.00</td>
+                <!-- Momsbeløpet 0,25 er hardkodet i htmlkoden -->
+		<td mc:convert="${invoiceLine.invoiceLine.vat}" style="text-align:right;">25.00</td>
+		<td mc:convert="${invoiceLine.invoiceLine.productPriceIncludingVat}" style="text-align:right;">
+		125.00</td>
+	</tr>
+</table>
+
+<!-- Informasjon på det gule feltet -->
+<!-- "Innbetalt til konto" er forhåndstrykt i det gule feltet, vi legger til kontonr -->
+<div id="yellow1">
+	<div class="til_konto" th:text="${printableInvoice.orderTypeEntity.bankAccountNumber}">1234 5678 9012 3456
+	</div>
+</div>
+
+<!-- Informasjon til utland abonnentene dvs SWIFT og IBAN nummer -->
+<div id="yellow2">
+	<table class="utlandsbetaling">
+		<tr>
+			<td>SWIFT:
+			</td>
+			<td th:text="${printableInvoice.orderTypeEntity.BankIdentifierCode}">NDEANOKK
+			</td>
+		</tr>
+		<tr>
+			<td>IBAN:
+			</td>
+			<td th:text="${printableInvoice.orderTypeEntity.BankIBANCode}">NO123456789
+			</td>
+		</tr>
+		<tr>
+			<td>ORG. NR:
+			</td>
+			<td th:text="${printableInvoice.companyEntity.companyRegistrationNumber}">NO 123 456 789 MVA
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!-- Totalt fakturabeløp inne i det gule feltet-->
+<div id="invoice-amount" mc:convert="${invoiceAmount}">125.00
+</div>
+
+<!--Betalingsfrist -->
+<div id="invoice-due-date" mc:convert="${printableInvoice.invoice.dueDate}">2011-11-01
+</div>
+
+<!-- Betaltingsinformasjon -->
+<div id="invoice-payment-info">
+	<table>
+		<tr>
+			<td><b>Kundenr/Efaktura.ref</b></td>
+			<td th:text="${printableInvoice.invoice.customerNumber}">1024</td>
+		</tr>
+		<tr>
+			<td><b>Fakturanummer</b></td>
+			<td th:text="${printableInvoice.invoice.invoiceNumber}">123456789</td>
+		</tr>
+		<tr>
+			<td><b>Fakturadato</b></td>
+			<td mc:convert="${printableInvoice.invoice.invoiceDate}">2011-10-20</td>
+		</tr>
+		<tr th:each="invoiceLine : ${invoiceLines}">
+		        <td><b>Ref.Nr:</b></td>
+		        <td>
+		        <span th:if="${invoiceLine.recurringProduct}" th:text="${invoiceLine.recurringProduct.customerReference}">
+		         1</span></td>
+		</tr>
+	</table>
+</div>
+
+<!-- Betalt av feltet -->
+<div id="invoice-payment-payer">
+	<div th:each="addressLabelPayer : ${addressLabelsPayer}" th:text="${addressLabelPayer}">
+		Jens Junit<br />
+		Testgata 1<br />
+		0123 Oslo<br />
+		Norge </div>
+</div>
+
+<!-- Betalt til feltet -->
+<div id="invoice-payment-receiver">
+	<div th:text="${printableInvoice.companyEntity.companyName}">
+		Mediaconnect AS</div>
+	<div th:text="${printableInvoice.companyEntity.address1}">
+		Mediaconnect AS</div>
+	<div th:text="${printableInvoice.companyEntity.address2}">
+		Stålfjæra 26</div>
+	<div th:text="${printableInvoice.companyEntity.address3}">
+		0975 Oslo</div>
+	<div th:text="${printableInvoice.companyEntity.address4}">
+		Norge</div>
+</div>
+
+<!-- Feltene neders på giroen dvs KID, beløp og kontonummer -->
+<div id="invoice-cid" th:text="${cid}">
+	01234567890123456789</div>
+<div id="invoice-amount-1" th:text="${invoiceAmount1}">
+	125</div>
+<div id="invoice-amount-2" th:text="${#numbers.formatDecimal(invoiceAmount2,2,0)}">
+	0</div>
+<div id="invoice-checkdigit" th:text="${checkdigit}">
+	5</div>
+<div id="invoice-to-account" th:text="${printableInvoice.orderTypeEntity.bankAccountNumber}">
+	1234 5678 9012 3456</div>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+
+
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+.acceptTermsLabel INPUT { margin-left:30px; }
+
+.customerNumberExplanation { margin: 1em 0; }
+.customerNumberExplanationImage { height:50px; width: 150px;
+    background-color: #ddd; border: 2px #888 dashed; display:block; }
+
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(./graplatta.jpg);
+}
+
+
+.guiVersion2 .heading {
+
+    text-align:center; font-size:150%;
+    border-color: #406618;
+    border-width: 1px 0;
+    border-style: solid;
+    color: #406618;
+    padding: 16px 0;
+    font-weight: normal;
+}
+
+.guiVersion2 .button {
+    background-color: #406618 ! important;
+    padding: 12px 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: none;
+}

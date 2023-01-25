@@ -1,0 +1,6 @@
+.redButton { background-color: #406618; }
+.redButton:hover { background-color: #305507; }
+.redButton:active { background-color: #204406; }
+.loginButton { background-color: #406618;}
+.loginButton:hover { background-color: #305507;}
+.loginButton:active { background-color: #204406; }

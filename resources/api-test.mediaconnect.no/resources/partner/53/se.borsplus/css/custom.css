@@ -1,0 +1,22 @@
+body {
+    background-color: #f7ede3! important;
+}
+
+.guiVersion2 .button {
+    background-color: #0c9e39! important;
+    padding: 12px 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: none;
+    border: none;
+    border-radius: 10rem !important;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #52b56b !important;
+}
+
+a {
+    color: #b10000 !important;
+}
+
