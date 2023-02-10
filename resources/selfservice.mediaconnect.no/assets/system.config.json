@@ -36,6 +36,7 @@
     "selfservice.berlingmedia": "api/client/config?clientId=selfservice.berlingmedia",
     "selfservice.gothiakompetens": "api/client/config?clientId=selfservice.gothiakompetens",
     "selfservice.grundskoletidningen": "api/client/config?clientId=selfservice.grundskoletidningen",
+    "selfservice.kyrkanstidning": "api/client/config?clientId=selfservice.kyrkanstidning",
     "selfservice.dinfritid": "api/client/config?clientId=selfservice.dinfritid",
     "selfservice.computerworld": "api/client/config?clientId=selfservice.computerworld",
     "selfservice.tcomrevy": "api/client/config?clientId=selfservice.tcomrevy"
