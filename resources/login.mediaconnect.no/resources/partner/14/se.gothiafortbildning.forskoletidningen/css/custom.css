@@ -10,7 +10,7 @@
     background-color: #ddd; border: 2px #888 dashed; display:block; }
 
 .guiVersion2 #registrationLimitMessage  {
-      content: 'Det finns redan en registrerad användare på denna prenumeration. För att uppdatera dina användaruppgifter vänliga kontakta kundservice på 08-462 26 70 eller via mejl forskoletidningen@gothiakompetens.se';
+      content: 'Det finns redan en registrerad användare på denna prenumeration. För att uppdatera dina användaruppgifter vänliga kontakta kundservice på 08-462 26 70 eller via mejl forskoletidningen@gothiakompetens.se' !important;
     }
 
 .guiVersion2 #credentialFieldDiv .label::before {
