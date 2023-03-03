@@ -23,22 +23,23 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: #d9e3ef !important;
     background-image: url(../img/graplatta.jpg);
 }
 
 .guiVersion2 .heading {
 
     text-align:center; font-size:150%;
-    border-color: #489d73;
+    border-color: #005989;
     border-width: 1px 0;
     border-style: solid;
-    color: #489d73;
+    color: #005989;
     padding: 16px 0;
     font-weight: normal;
 }
 
 .guiVersion2 .button {
-    background-color: #489d73 ! important;
+    background-color: #005989 ! important;
     padding: 12px 30px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -46,11 +47,11 @@
 }
 
 .guiVersion2 .button:hover {
-    background-color: #489d73 !important;
+    background-color: #005989 !important;
 }
 /* delingsoppsett */
 button.btn.btn-accept {
-    background-color: #489d73 !important;
+    background-color: #005989 !important;
 }
 
 button.btn.btn-decline {
@@ -58,13 +59,14 @@ button.btn.btn-decline {
 }
 
 button.btn.btn-return {
-    background-color: #489d73 !important;
+    background-color: #005989 !important;
 }
 
 body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: #d9e3ef !important;
     background-image: url(../img/graplatta.jpg);
     min-height: 100vh;
 }
