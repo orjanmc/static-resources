@@ -24,7 +24,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #d9e3ef !important;
-    background-image: url(../img/graplatta.jpg);
+    /* background-image: url(../img/graplatta.jpg); */
 }
 
 .guiVersion2 .heading {
@@ -67,7 +67,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #d9e3ef !important;
-    background-image: url(../img/graplatta.jpg);
+   /* background-image: url(../img/graplatta.jpg); */
     min-height: 100vh;
 }
 
