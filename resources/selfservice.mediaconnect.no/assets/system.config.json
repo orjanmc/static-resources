@@ -39,7 +39,9 @@
     "selfservice.kyrkanstidning": "api/client/config?clientId=selfservice.kyrkanstidning",
     "selfservice.dinfritid": "api/client/config?clientId=selfservice.dinfritid",
     "selfservice.computerworld": "api/client/config?clientId=selfservice.computerworld",
-    "selfservice.tcomrevy": "api/client/config?clientId=selfservice.tcomrevy"
+    "selfservice.tcomrevy": "api/client/config?clientId=selfservice.tcomrevy",
+    "selfservice.vartoslo": "api/client/config?clientId=selfservice.vartoslo",
+    "selfservice.medium": "api/client/config?clientId=selfservice.medium"
   },
   "messages": {
     "default-message": {
