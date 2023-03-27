@@ -1,3 +1,8 @@
-.guiVersion2 #credentialDescription .label::before {
+.guiVersion2 #credentialFieldDiv .label::before {
   content: 'E-post';
+}
+.guiVersion2 #credentialFieldDiv .label span#credentialDescription,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
+  display: none;
 }
