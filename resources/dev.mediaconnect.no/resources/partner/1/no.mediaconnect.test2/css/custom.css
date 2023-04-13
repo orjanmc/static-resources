@@ -141,6 +141,7 @@ a {
     border-bottom: 1px solid #93939c !important;
 }
 
+#username,
 #j_username {
  border-radius: 50px;
  background-image: none !important;

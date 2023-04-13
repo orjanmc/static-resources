@@ -176,6 +176,7 @@ a, a:hover {
 }
 
 
+#username:disabled,
 #j_username:disabled {
    display: none !important;
 }

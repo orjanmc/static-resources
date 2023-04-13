@@ -137,6 +137,7 @@ body {
     background-color: #36922e !important;
 }
 
+#username,
 #j_username {
  border-radius: 5px;
  background-image: none !important;

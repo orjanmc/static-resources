@@ -1,6 +1,8 @@
+label[for="username"],
 label[for="j_username"]
 {     visibility: hidden;     position: relative; }
 
+label[for="username"]:after,
 label[for="j_username"]:after
 {     visibility: visible;
 	content:'Fyll i e-post';
