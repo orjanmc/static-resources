@@ -42,6 +42,7 @@
     "selfservice.tcomrevy": "api/client/config?clientId=selfservice.tcomrevy",
     "selfservice.vartoslo": "api/client/config?clientId=selfservice.vartoslo",
     "selfservice.helsemagasinet": "api/client/config?clientId=selfservice.helsemagasinet",
+    "selfservice.bilforlaget": "api/client/config?clientId=selfservice.bilforlaget",
     "selfservice.medium": "api/client/config?clientId=selfservice.medium"
   },
   "messages": {
