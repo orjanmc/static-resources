@@ -44,7 +44,8 @@
     "selfservice.helsemagasinet": "api/client/config?clientId=selfservice.helsemagasinet",
     "selfservice.bilforlaget": "api/client/config?clientId=selfservice.bilforlaget",
     "selfservice.medium": "api/client/config?clientId=selfservice.medium",
-    "selfservice.nyetroms": "api/client/config?clientId=selfservice.nyetroms"
+    "selfservice.nyetroms": "api/client/config?clientId=selfservice.nyetroms",
+    "selfservice.norskmaritimtforlag": "api/client/config?clientId=selfservice.norskmaritimtforlag"
   },
   "messages": {
     "default-message": {
