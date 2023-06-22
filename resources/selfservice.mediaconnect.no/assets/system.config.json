@@ -47,7 +47,8 @@
     "selfservice.nyetroms": "api/client/config?clientId=selfservice.nyetroms",
     "selfservice.norskmaritimtforlag": "api/client/config?clientId=selfservice.norskmaritimtforlag",
     "selfservice.seilmagasinet": "api/client/config?clientId=selfservice.seilmagasinet",
-    "selfservice.batmagasinet": "api/client/config?clientId=selfservice.batmagasinet"
+    "selfservice.batmagasinet": "api/client/config?clientId=selfservice.batmagasinet",
+    "selfservice.ledernytt": "api/client/config?clientId=selfservice.ledernytt"
   },
   "messages": {
     "default-message": {
