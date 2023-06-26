@@ -121,3 +121,11 @@ svg.app-wcag-button {
 .app-card-add-container.mat-elevation-z1.mat-app-support-card {
     display: none;
 }
+
+.msg-error {
+    background-color: #d32f2f;
+}
+
+.msg-success {
+    background-color: #C00D0E;
+}
