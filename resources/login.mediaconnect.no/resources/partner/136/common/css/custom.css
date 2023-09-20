@@ -2,34 +2,12 @@
  * Custom CSS
  */
 
-.abortMark {
-	display: inline-block !important;
-}
-
-@media only screen and (max-width: 479px){
-	HTML, BODY, #loginForm, .outerFrame {
-        width: 320px; margin: 0 ! important; padding: 0; background-color: #fbfbfb;
-		width: 100%;
+.guiVersion2 #credentialFieldDiv .label::before {
+      content: 'Brukernavn (e-post)';
     }
-	.guiVersion2 .par .orLoginWith {
-		    padding-left: 28% !important;
-	}
-}
-
-@media only screen and (min-width: 479px){
-	.logo {
-		margin-left: 0px !important;
-	}
-
-
-
-	.guiVersion2 #credentialFieldDiv .label::before {
-  content: 'E-post';
-}
 .guiVersion2 #credentialFieldDiv .label span#credentialDescription,
 .guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabel,
 .guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
-  display: none;
-}
-
-}
+      display: none;
+    }
