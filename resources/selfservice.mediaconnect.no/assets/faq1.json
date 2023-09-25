@@ -12,11 +12,11 @@
     {
         "question": {
             "en_US": "Question 1.2",
-            "nb_NO": "Hvorfor mottar jeg purring på en faktura jeg har betalt?"
+            "nb_NO": "Hvorfor mottar jeg betalingspåminnelse på en faktura jeg har betalt?"
         },
         "answer": {
             "en_US":  "Answer 1.2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "nb_NO": "Det hender vi ikke mottar beskjed om innbetalt beløp før etter at vi har purret. Har du betalt den første giroen vi sendte deg, kan du bare kaste purringen du har mottatt."
+            "nb_NO": "Det hender vi ikke mottar beskjed om innbetalt beløp før etter at vi har sendt betalingspåminnelse. Har du betalt den første giroen vi sendte deg, kan du bare kaste betalingspåminnelsen du har mottatt."
         }
     }
 ]
