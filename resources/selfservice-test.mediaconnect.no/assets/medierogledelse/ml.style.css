@@ -135,3 +135,10 @@
     decoration: underline;
 }
 
+.msg-error {
+    background-color: #339fff;
+}
+
+.msg-success {
+    background-color: #339fff;
+}

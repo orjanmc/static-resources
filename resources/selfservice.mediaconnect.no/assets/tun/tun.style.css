@@ -144,3 +144,10 @@
     margin-right: auto;
 }
 
+.msg-error {
+    background-color: #d32f2f;
+}
+
+.msg-success {
+    background-color: #8CC63F;
+}

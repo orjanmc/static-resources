@@ -2316,3 +2316,11 @@ mat-form-field .mat-form-field-underline {
 
 mat-form-field .mat-form-field-subscript-wrapper {
   position: static; }
+
+.msg-error {
+  background-color: #d32f2f;
+}
+
+.msg-success {
+  background-color: #0097a7;
+}
