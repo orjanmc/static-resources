@@ -49,7 +49,8 @@
     "selfservice.seilmagasinet": "api/client/config?clientId=selfservice.seilmagasinet",
     "selfservice.batmagasinet": "api/client/config?clientId=selfservice.batmagasinet",
     "selfservice.ledernytt": "api/client/config?clientId=selfservice.ledernytt",
-    "selfservice.ytringen": "api/client/config?clientId=selfservice.ytringen"
+    "selfservice.ytringen": "api/client/config?clientId=selfservice.ytringen",
+    "selfservice.lydogbilde": "api/client/config?clientId=selfservice.lydogbilde"
   },
   "messages": {
     "default-message": {
