@@ -51,7 +51,9 @@
     "selfservice.ledernytt": "api/client/config?clientId=selfservice.ledernytt",
     "selfservice.ytringen": "api/client/config?clientId=selfservice.ytringen",
     "selfservice.lydogbilde": "api/client/config?clientId=selfservice.lydogbilde",
-    "selfservice.ljudochbild": "api/client/config?clientId=selfservice.ljudochbild"
+    "selfservice.ljudochbild": "api/client/config?clientId=selfservice.ljudochbild",
+    "selfservice.lydogbillede": "api/client/config?clientId=selfservice.lydogbillede",
+    "selfservice.aanijakuva": "api/client/config?clientId=selfservice.aanijakuva"
   },
   "messages": {
     "default-message": {
