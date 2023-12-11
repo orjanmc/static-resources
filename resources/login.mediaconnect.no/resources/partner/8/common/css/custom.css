@@ -178,3 +178,8 @@ a, a:hover {
 #j_username:disabled {
    display: none !important;
 }
+
+#sequence-confirmAutoLogin #username:disabled,
+#sequence-confirmAutoLogin #j_username:disabled {
+   display: block !important;
+}
