@@ -26,3 +26,8 @@
 .REGISTER_LINK_LABEL {
 	color: red;
 }
+
+.ng-scope {
+    color: red;
+    font-weight: bold;
+}
