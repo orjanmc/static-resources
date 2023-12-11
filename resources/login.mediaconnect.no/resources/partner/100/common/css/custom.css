@@ -17,3 +17,12 @@
 .guiVersion2 .button:hover {
     background-color: #D3EAE2 !important;
 }
+
+.LOGIN_HEADER_INFO {
+    color: red;
+    font-weight: bold;
+}
+
+.REGISTER_LINK_LABEL {
+	color: red;
+}
