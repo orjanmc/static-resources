@@ -173,8 +173,14 @@ a, a:hover {
    display: none !important;
 }
 
+#sequence-confirmAutoLogin #username:disabled,
+#sequence-confirmAutoLogin #j_username:disabled {
+   display: block !important;
+}
+
 a#authenticateUsingPasswordLinkHref {
     text-decoration: none;
     pointer-events: none;
     cursor: default;
 }
+
