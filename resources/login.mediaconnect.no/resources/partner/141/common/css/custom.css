@@ -24,7 +24,7 @@
 
 
 	.guiVersion2 #credentialFieldDiv .label::before {
-  content: 'E-post';
+  content: 'Brukernavn (mobiltelefon)';
 }
 .guiVersion2 #credentialFieldDiv .label span#credentialDescription,
 .guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
