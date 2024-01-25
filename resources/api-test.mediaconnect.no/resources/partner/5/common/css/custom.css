@@ -101,3 +101,11 @@
 .guiVersion2 .belowPassword {
     font-size: 1em;
 }
+
+/* CSS selector and style to make the logo 50% smaller within an element with the class "container" */
+.container .logo {
+    display: none;
+    /*width: 200px;
+    /* Adjust the height accordingly to maintain aspect ratio */
+    /*height: 200px;*/
+}
