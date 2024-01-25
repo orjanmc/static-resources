@@ -105,7 +105,6 @@
    display: none;
 }
 .paymentChangeId {
-   display: none;
-   color: #AD1409;
+   opasity:0;
 
 }
