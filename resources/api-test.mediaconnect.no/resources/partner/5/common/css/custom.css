@@ -104,3 +104,6 @@
 .container .logo {
    display: none;
 }
+.container .paymentChangeId {
+   display: none;
+}
