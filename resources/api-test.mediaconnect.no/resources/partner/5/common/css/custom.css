@@ -53,7 +53,7 @@
 
 .guiVersion2 .button {
     font-family: GTA, sans-serif;
-    background-color: #ad1409 !important;
+    background-color: #AD1409 !important;
     border: none;
     border-radius: 15px;
     font-weight: 500;
@@ -67,7 +67,7 @@
 }
 
 .guiVersion2 a {
-    color: #A80000;
+    color: #AD1409;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .guiVersion2 .button:hover {
-    background-color: #880000 !important;
+    background-color: #AD1409 !important;
 }
 
 .guiVersion2 #loginHeaderInfoDiv {
