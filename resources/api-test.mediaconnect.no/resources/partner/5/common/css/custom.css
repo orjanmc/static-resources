@@ -42,6 +42,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+      line-height: 1.1;    
 }
 
 .guiVersion2 .heading {
@@ -53,7 +54,7 @@
 
 .guiVersion2 .button {
     font-family: GTA, sans-serif;
-    background-color: #ad1409 !important;
+    background-color: #AD1409 !important;
     border: none;
     border-radius: 15px;
     font-weight: 500;
@@ -67,7 +68,7 @@
 }
 
 .guiVersion2 a {
-    color: #A80000;
+    color: #AD1409;
     text-decoration: none;
 }
 
@@ -76,7 +77,7 @@
 }
 
 .guiVersion2 .button:hover {
-    background-color: #880000 !important;
+    background-color: #AD1409 !important;
 }
 
 .guiVersion2 #loginHeaderInfoDiv {
@@ -100,4 +101,11 @@
 
 .guiVersion2 .belowPassword {
     font-size: 1em;
+}
+.container .logo {
+   display: none;
+}
+.paymentChangeId {
+   opacity:0;
+
 }

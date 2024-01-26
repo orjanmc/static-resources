@@ -186,3 +186,7 @@ a#authenticateUsingPasswordLinkHref {
     pointer-events: none;
     cursor: default;
 }
+#sequence-confirmAutoLogin #username:disabled,
+#sequence-confirmAutoLogin #j_username:disabled {
+   display: block !important;
+}
