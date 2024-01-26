@@ -42,6 +42,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    line-height: 1.1;    
 }
 
 .guiVersion2 .heading {
@@ -100,4 +101,11 @@
 
 .guiVersion2 .belowPassword {
     font-size: 1em;
+}
+.container .logo {
+   display: none;
+}
+.paymentChangeId {
+   opacity:0;
+
 }
