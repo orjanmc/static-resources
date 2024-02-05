@@ -1,0 +1,110 @@
+@import url('/assets/theme/default.theme.modernized.css');
+@import url('/assets/theme/red_BC021C.theme.modernized.css');
+
+.mat-app-header {
+  color: #fff;
+  background-color: #F7F7F7;
+}
+
+.mat-app-footer {
+  color: #000;
+  background-color: #F7F7F7;
+}
+
+.mat-primary .mat-mdc-option.mat-mdc-selected {
+  color: #bc021c;
+}
+
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: transparent;
+}
+
+.mat-app-background-primary {
+  background-color: #BC021C;
+}
+
+.mat-app-color-primary {
+  color: #BC021C;
+}
+
+.mat-mdc-button.mat-primary, .mat-mdc-icon-button.mat-primary {
+  color: #BC021C;
+}
+
+.mat-mdc-raised-button.mat-primary, .mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+  background-color: #BC021C;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #BC021C;
+}
+
+.mat-mdc-chip.mat-chip-selected.mat-primary {
+  background-color: #BC021C;
+}
+
+.mat-calendar-body-selected {
+  background-color: #BC021C;
+}
+
+.mat-focused .mat-form-field-placeholder {
+  color: #BC021C;
+}
+
+.mat-form-field-ripple {
+  background-color: #BC021C;
+}
+
+.mat-icon.mat-primary {
+  color: #BC021C;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #BC021C;
+}
+
+.mat-mdc-progress-spinner path, .mat-mdc-progress-spinner path {
+  stroke: #BC021C;
+}
+
+.mat-mdc-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #BC021C;
+}
+
+.mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #BC021C;
+}
+
+.mat-mdc-select:focus:not(.mat-mdc-select-disabled).mat-primary .mat-mdc-select-trigger,
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+  color: #BC021C;
+}
+
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+  background-color: #BC021C;
+}
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+  background-color: #BC021C;
+}
+
+.mat-mdc-tab-group.mat-primary .mat-ink-bar,
+.mat-mdc-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #BC021C;
+}
+
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-links,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-links {
+  background-color: #BC021C;
+}
+
+.mat-toolbar.mat-primary {
+  background: #BC021C;
+}

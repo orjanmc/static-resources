@@ -1,0 +1,136 @@
+@import url('/assets/theme/default.theme.modernized.css');
+@import url('/assets/theme/red_C00D0E.theme.modernized.css');
+
+svg.app-menu-button {
+    fill: #000 !important;
+}
+
+svg.app-wcag-button {
+    fill: #000 !important;
+}
+
+.app-back-button {
+    color: #212121 !important;
+}
+
+.mat-app-header {
+ color: #212121;
+ background-color: #ffffff; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #ffffff; }
+
+.mat-primary .mat-mdc-option.mat-mdc-selected {
+    color: #C00D0E;
+  }
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+     background: transparent;
+   }
+
+.mat-app-background-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-app-color-primary {
+    color: #C00D0E;
+  }
+
+.mat-mdc-button.mat-primary,
+.mat-mdc-icon-button.mat-primary {
+    color: #C00D0E;
+  }
+
+.mat-mdc-raised-button.mat-primary,
+.mat-mdc-fab.mat-primary,
+.mat-mdc-mini-fab.mat-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+    background-color: #C00D0E;
+  }
+
+.mat-mdc-chip.mat-chip-selected.mat-primary {
+    background-color: #C00D0E;
+  }
+
+.mat-calendar-body-selected {
+    background-color: #C00D0E;
+  }
+
+.mat-focused .mat-form-field-placeholder {
+    color: #C00D0E;
+  }
+
+.mat-form-field-ripple {
+    background-color: #C00D0E;
+  }
+
+.mat-icon.mat-primary {
+    color: #C00D0E;
+  }
+
+.mat-progress-bar-fill::after {
+    background-color: #C00D0E; }
+
+.mat-mdc-progress-spinner path, .mat-mdc-progress-spinner path {
+    stroke: #C00D0E;
+  }
+
+.mat-mdc-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #C00D0E;
+  }
+
+.mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+    background-color: #C00D0E;
+  }
+
+.mat-mdc-select:focus:not(.mat-mdc-select-disabled).mat-primary .mat-mdc-select-trigger,
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+    color: #C00D0E;
+  }
+
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+    background-color: #C00D0E;
+  }
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+    background-color: #C00D0E;
+  }
+
+.mat-mdc-tab-group.mat-primary .mat-ink-bar, .mat-mdc-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #C00D0E;
+  }
+
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-links,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-links {
+    background-color: #C00D0E;
+  }
+
+.mat-toolbar.mat-primary {
+    background: #C00D0E;
+  }
+
+.app-card-add-container.mat-elevation-z1.mat-app-support-card {
+    display: none;
+}
+
+.msg-error,
+.msg-error.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+  background-color: #d32f2f;
+  --mdc-snackbar-container-color: #d32f2f;
+}
+
+.msg-success,
+.msg-success.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+  background-color: #C00D0E;
+  --mdc-snackbar-container-color: #C00D0E;
+}

@@ -1,0 +1,15 @@
+@import url('/assets/theme/default.theme.modernized.css');
+
+
+.mat-app-header {
+ color: white;
+ background-color: #9BBB59; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #9BBB59; }
+
+.label ng-binding {
+  color: #212121 !important;
+  background-color: #9BBB59 !important;
+  content: "Kundnummer" ;}

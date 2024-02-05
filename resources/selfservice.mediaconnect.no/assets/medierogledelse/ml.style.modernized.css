@@ -1,0 +1,151 @@
+@import url('/assets/theme/default.theme.modernized.css');
+@import url('/assets/theme/blue_339FFF.theme.modernized.css');
+@import url('/assets/theme/button_text_white_fff.css');
+@import url('/assets/theme/checkbox_checkmark_white_fff.css');
+
+.mat-app-header {
+  color: black;
+  background-color: #f8f7f5; }
+
+.mat-app-footer {
+  color: #212121;
+  background-color: #eeddee; }
+
+.mat-primary .mat-mdc-option.mat-mdc-selected {
+  color: #339fff;
+}
+
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: transparent;
+}
+
+.mat-app-background-primary {
+  background-color: #339fff;
+}
+
+.mat-app-color-primary {
+  color: #339fff;
+}
+
+.mat-mdc-button.mat-primary, .mat-mdc-icon-button.mat-primary {
+  color: #339fff;
+}
+
+.mat-mdc-raised-button.mat-primary, .mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+  background-color: #339fff;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #339fff;
+}
+
+.mat-mdc-chip.mat-chip-selected.mat-primary {
+  background-color: #339fff;
+}
+
+.mat-calendar-body-selected {
+  background-color: #339fff;
+}
+
+.mat-focused .mat-form-field-placeholder {
+  color: #339fff;
+}
+
+.mat-form-field-ripple {
+  background-color: #339fff;
+}
+
+.mat-icon.mat-primary {
+  color: #339fff;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #339fff;
+}
+
+.mat-mdc-progress-spinner path, .mat-mdc-progress-spinner path {
+  stroke: #339fff;
+}
+
+.mat-mdc-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #339fff;
+}
+
+.mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #339fff;
+}
+
+.mat-mdc-select:focus:not(.mat-mdc-select-disabled).mat-primary .mat-mdc-select-trigger,
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+  color: #339fff;
+}
+
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+  background-color: #339fff;
+}
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+  background-color: #339fff;
+}
+
+.mat-mdc-tab-group.mat-primary .mat-ink-bar,
+.mat-mdc-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #339fff;
+}
+
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-links,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-links {
+  background-color: #339fff;
+}
+
+.mat-toolbar.mat-primary {
+  background: #339fff;
+}
+
+
+.app-card-add-container {
+    display: none !important;
+}
+
+
+.app-wcag-button {
+    fill: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+
+.app-menu-button {
+    fill: #339fff !important;
+}
+
+.mat-app-footer {
+    color: #212121;
+    background-color: #f8f7f5;
+}
+
+.mat-app-footer a {
+    color: #212121;
+    decoration: underline;
+}
+
+.msg-error,
+.msg-error.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+    background-color: #339fff;
+    --mdc-snackbar-container-color: #339fff;
+}
+
+.msg-success,
+.msg-success.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+    background-color: #339fff;
+  --mdc-snackbar-container-color: #339fff;
+}

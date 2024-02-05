@@ -1,0 +1,158 @@
+@import url('/assets/theme/default.theme.modernized.css');
+@import url('/assets/theme/green_8CC63F.theme.modernized.css');
+
+.mat-app-header {
+  color: black;
+  background-color: #f8f7f5; }
+
+.mat-app-footer {
+  color: #212121;
+  background-color: #eeddee; }
+
+.mat-primary .mat-mdc-option.mat-mdc-selected {
+  color: #8CC63F;
+}
+
+
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: transparent;
+}
+
+.mat-app-background-primary {
+  background-color: #8CC63F;
+}
+
+.mat-app-color-primary {
+  color: #8CC63F;
+}
+
+.mat-mdc-button.mat-primary, .mat-mdc-icon-button.mat-primary {
+  color: #8CC63F;
+}
+
+.mat-mdc-raised-button.mat-primary, .mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+  background-color: #8CC63F;
+}
+
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #8CC63F;
+}
+
+.mat-mdc-chip.mat-chip-selected.mat-primary {
+  background-color: #8CC63F;
+}
+
+.mat-calendar-body-selected {
+  background-color: #8CC63F;
+}
+
+.mat-focused .mat-form-field-placeholder {
+  color: #8CC63F;
+}
+
+.mat-form-field-ripple {
+  background-color: #8CC63F;
+}
+
+.mat-icon.mat-primary {
+  color: #8CC63F;
+}
+
+.mat-progress-bar-fill::after {
+  background-color: #8CC63F;
+}
+
+.mat-mdc-progress-spinner path, .mat-mdc-progress-spinner path {
+  stroke: #8CC63F;
+}
+
+.mat-mdc-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #8CC63F;
+}
+
+.mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: #8CC63F;
+}
+
+.mat-mdc-select:focus:not(.mat-mdc-select-disabled).mat-primary .mat-mdc-select-trigger,
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+  color: #8CC63F;
+}
+
+.mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+  background-color: #8CC63F;
+}
+
+.mat-primary .mat-slider-track-fill,
+.mat-primary .mat-slider-thumb,
+.mat-primary .mat-slider-thumb-label {
+  background-color: #8CC63F;
+}
+
+.mat-mdc-tab-group.mat-primary .mat-ink-bar,
+.mat-mdc-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #8CC63F;
+}
+
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-links,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-header,
+.mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-links {
+  background-color: #8CC63F;
+}
+
+.mat-toolbar.mat-primary {
+  background: #8CC63F;
+}
+
+
+.app-card-add-container {
+    display: none !important;
+}
+
+
+.app-wcag-button {
+    fill: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+
+.app-menu-button {
+    fill: #8CC63F !important;
+}
+
+.mat-app-footer {
+    color: #212121;
+    background-color: #f8f7f5;
+}
+
+.mat-app-footer a {
+    color: #212121;
+    decoration: underline;
+}
+
+.app-header-content div {
+    width: 100%;
+}
+
+.app-header-content div table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msg-error,
+.msg-error.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+  background-color: #d32f2f;
+  --mdc-snackbar-container-color: #d32f2f;
+}
+
+.msg-success,
+.msg-success.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+  background-color: #8CC63F;
+  --mdc-snackbar-container-color: #8CC63F;
+}

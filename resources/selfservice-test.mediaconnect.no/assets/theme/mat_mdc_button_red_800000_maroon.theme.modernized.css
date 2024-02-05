@@ -1,0 +1,50 @@
+.mat-mdc-button.mat-unthemed {
+  --mdc-text-button-label-text-color: #000;
+}
+.mat-mdc-button.mat-primary {
+  --mdc-text-button-label-text-color: maroon;
+}
+.mat-mdc-button.mat-accent {
+  --mdc-text-button-label-text-color: #bdbdbd;
+}
+.mat-mdc-button.mat-warn {
+  --mdc-text-button-label-text-color: #d32f2f;
+}
+.mat-mdc-button[disabled][disabled] {
+  --mdc-text-button-disabled-label-text-color: rgba(0, 0, 0, 0.38);
+  --mdc-text-button-label-text-color: rgba(0, 0, 0, 0.38);
+}
+.mat-mdc-button, .mat-mdc-outlined-button {
+  --mat-mdc-button-persistent-ripple-color: #000;
+  --mat-mdc-button-ripple-color: rgba(0, 0, 0, 0.1);
+}
+.mat-mdc-button:hover .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button:hover .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.04;
+}
+.mat-mdc-button.cdk-program-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-button.cdk-keyboard-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button.cdk-program-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button.cdk-keyboard-focused .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.12;
+}
+.mat-mdc-button:active .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button:active .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.12;
+}
+.mat-mdc-button.mat-primary, .mat-mdc-outlined-button.mat-primary {
+  --mat-mdc-button-persistent-ripple-color: maroon;
+  --mat-mdc-button-ripple-color: rgba(128, 0, 0, 0.1);
+}
+.mat-mdc-button.mat-accent, .mat-mdc-outlined-button.mat-accent {
+  --mat-mdc-button-persistent-ripple-color: #bdbdbd;
+  --mat-mdc-button-ripple-color: rgba(189, 189, 189, 0.1);
+}
+.mat-mdc-button.mat-warn, .mat-mdc-outlined-button.mat-warn {
+  --mat-mdc-button-persistent-ripple-color: #d32f2f;
+  --mat-mdc-button-ripple-color: rgba(211, 47, 47, 0.1);
+}
+.mat-mdc-raised-button:hover .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button:hover .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.04;
+}
+.mat-mdc-raised-button.cdk-program-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-raised-button.cdk-keyboard-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button.cdk-program-focused .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button.cdk-keyboard-focused .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.12;
+}
+.mat-mdc-raised-button:active .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button:active .mat-mdc-button-persistent-ripple::before {
+  opacity: 0.12;
+}

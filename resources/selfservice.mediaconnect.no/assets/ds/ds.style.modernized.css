@@ -1,0 +1,173 @@
+@import url('/assets/theme/default.theme.modernized.css');
+@import url('/assets/theme/blue_358ED7.theme.modernized.css');
+
+svg.app-menu-button {
+    fill: #000 !important;
+}
+
+svg.app-wcag-button {
+    fill: #000 !important;
+}
+
+md-icon.app-menu-icon.mat-icon.material-icons {
+    color: #ff7a0a !important;
+}
+
+.mat-app-header {
+ color: white;
+ background-color: #f8f7f5; }
+
+.mat-app-footer {
+ color: #212121;
+ background-color: #f8f7f5; }
+
+
+ .mat-mdc-option {
+   color: rgba(0, 0, 0, 0.87); }
+   .mat-mdc-option:hover:not(.mat-mdc-option-disabled), .mat-mdc-option:focus:not(.mat-option-disabled) {
+     background: rgba(0, 0, 0, 0.04); }
+   .mat-primary .mat-mdc-option.mat-mdc-selected {
+     color: #358ed7; }
+   .mat-accent .mat-mdc-option.mat-mdc-selected {
+     color: #bdbdbd; }
+   .mat-warn .mat-mdc-option.mat-mdc-selected {
+     color: #d32f2f; }
+   .mat-mdc-option.mat-mdc-selected:not(.mat-mdc-option-multiple) {
+     background: rgba(0, 0, 0, 0.04); }
+   .mat-mdc-option.mat-active {
+     background: rgba(0, 0, 0, 0.04);
+     color: rgba(0, 0, 0, 0.87); }
+   .mat-mdc-option.mat-option-disabled {
+     color: rgba(0, 0, 0, 0.38); }
+
+
+ .mat-primary .mat-pseudo-checkbox-checked,
+ .mat-primary .mat-pseudo-checkbox-indeterminate {
+   background: transparent; }
+
+
+ .mat-app-background-primary {
+   background-color: #358ed7; }
+
+ .mat-app-color-primary {
+   color: #358ed7; }
+
+ .mat-mdc-button, .mat-mdc-icon-button {
+   background: transparent; }
+   .mat-mdc-button.mat-primary .mat-button-focus-overlay, .mat-mdc-icon-button.mat-primary .mat-button-focus-overlay {
+     background-color: rgba(0, 151, 167, 0.12); }
+   .mat-mdc-button.mat-accent .mat-button-focus-overlay, .mat-mdc-icon-button.mat-accent .mat-button-focus-overlay {
+     background-color: rgba(189, 189, 189, 0.12); }
+   .mat-mdc-button.mat-warn .mat-button-focus-overlay, .mat-mdc-icon-button.mat-warn .mat-button-focus-overlay {
+     background-color: rgba(211, 47, 47, 0.12); }
+   .mat-mdc-button[disabled] .mat-button-focus-overlay, .mat-mdc-icon-button[disabled] .mat-button-focus-overlay {
+     background-color: transparent; }
+   .mat-mdc-button.mat-primary, .mat-mdc-icon-button.mat-primary {
+     color: #358ed7; }
+   .mat-mdc-button.mat-accent, .mat-mdc-icon-button.mat-accent {
+     color: #bdbdbd; }
+   .mat-mdc-button.mat-warn, .mat-mdc-icon-button.mat-warn {
+     color: #d32f2f; }
+   .mat-mdc-button.mat-primary[disabled], .mat-mdc-button.mat-accent[disabled], .mat-mdc-button.mat-warn[disabled], .mat-mdc-button[disabled][disabled], .mat-mdc-icon-button.mat-primary[disabled], .mat-mdc-icon-button.mat-accent[disabled], .mat-mdc-icon-button.mat-warn[disabled], .mat-mdc-icon-button[disabled][disabled] {
+     color: rgba(0, 0, 0, 0.38); }
+
+ .mat-mdc-raised-button, .mat-mdc-fab, .mat-mdc-mini-fab {
+   color: rgba(0, 0, 0, 0.87);
+   background-color: white; }
+   .mat-mdc-raised-button.mat-primary, .mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+     color: white; }
+   .mat-mdc-raised-button.mat-accent, .mat-mdc-fab.mat-accent, .mat-mdc-mini-fab.mat-accent {
+     color: rgba(0, 0, 0, 0.87); }
+   .mat-mdc-raised-button.mat-warn, .mat-mdc-fab.mat-warn, .mat-mdc-mini-fab.mat-warn {
+     color: white; }
+   .mat-mdc-raised-button.mat-primary[disabled], .mat-mdc-raised-button.mat-accent[disabled], .mat-mdc-raised-button.mat-warn[disabled], .mat-mdc-raised-button[disabled][disabled], .mat-mdc-fab.mat-primary[disabled], .mat-mdc-fab.mat-accent[disabled], .mat-mdc-fab.mat-warn[disabled], .mat-mdc-fab[disabled][disabled], .mat-mdc-mini-fab.mat-primary[disabled], .mat-mdc-mini-fab.mat-accent[disabled], .mat-mdc-mini-fab.mat-warn[disabled], .mat-mdc-mini-fab[disabled][disabled] {
+     color: rgba(0, 0, 0, 0.38); }
+   .mat-mdc-raised-button.mat-primary, .mat-mdc-fab.mat-primary, .mat-mdc-mini-fab.mat-primary {
+     background-color: #358ed7; }
+   .mat-mdc-raised-button.mat-accent, .mat-mdc-fab.mat-accent, .mat-mdc-mini-fab.mat-accent {
+     background-color: #bdbdbd; }
+   .mat-mdc-raised-button.mat-warn, .mat-mdc-fab.mat-warn, .mat-mdc-mini-fab.mat-warn {
+     background-color: #d32f2f; }
+   .mat-mdc-raised-button.mat-primary[disabled], .mat-mdc-raised-button.mat-accent[disabled], .mat-mdc-raised-button.mat-warn[disabled], .mat-mdc-raised-button[disabled][disabled], .mat-mdc-fab.mat-primary[disabled], .mat-mdc-fab.mat-accent[disabled], .mat-mdc-fab.mat-warn[disabled], .mat-mdc-fab[disabled][disabled], .mat-mdc-mini-fab.mat-primary[disabled], .mat-mdc-mini-fab.mat-accent[disabled], .mat-mdc-mini-fab.mat-warn[disabled], .mat-mdc-mini-fab[disabled][disabled] {
+     background-color: rgba(0, 0, 0, 0.12); }
+   .mat-mdc-raised-button.mat-primary .mat-ripple-element, .mat-mdc-fab.mat-primary .mat-ripple-element, .mat-mdc-mini-fab.mat-primary .mat-ripple-element {
+     background-color: rgba(255, 255, 255, 0.2); }
+   .mat-mdc-raised-button.mat-accent .mat-ripple-element, .mat-mdc-fab.mat-accent .mat-ripple-element, .mat-mdc-mini-fab.mat-accent .mat-ripple-element {
+     background-color: rgba(0, 0, 0, 0.2); }
+   .mat-mdc-raised-button.mat-warn .mat-ripple-element, .mat-mdc-fab.mat-warn .mat-ripple-element, .mat-mdc-mini-fab.mat-warn .mat-ripple-element {
+     background-color: rgba(255, 255, 255, 0.2); }
+
+ .mat-checkbox-indeterminate.mat-primary .mat-checkbox-background, .mat-checkbox-checked.mat-primary .mat-checkbox-background {
+   background-color: #358ed7; }
+
+ .mat-mdc-chip.mat-chip-selected.mat-primary {
+   background-color: #358ed7;
+   color: white; }
+   .mat-mdc-chip.mat-chip-selected.mat-primary .mat-chip-remove {
+     color: white;
+     opacity: 0.4; }
+   .mat-mdc-chip.mat-chip-selected.mat-primary .mat-chip-remove:hover {
+     opacity: 0.54; }
+
+ .mat-calendar-body-selected {
+   background-color: #358ed7;
+   color: white; }
+
+ .mat-focused .mat-form-field-placeholder {
+   color: #358ed7; }
+   .mat-focused .mat-form-field-placeholder.mat-accent {
+     color: #bdbdbd; }
+   .mat-focused .mat-form-field-placeholder.mat-warn {
+     color: #d32f2f; }
+
+ .mat-form-field-ripple {
+   background-color: #358ed7; }
+   .mat-form-field-ripple.mat-accent {
+     background-color: #bdbdbd; }
+   .mat-form-field-ripple.mat-warn {
+     background-color: #d32f2f; }
+
+ .mat-icon.mat-primary {
+   color: #358ed7; }
+
+ .mat-progress-bar-fill::after {
+   background-color: #358ed7; }
+
+ .mat-mdc-progress-spinner path, .mat-mdc-progress-spinner path {
+   stroke: #358ed7; }
+
+ .mat-mdc-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+   border-color: #358ed7; }
+
+ .mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+   background-color: #358ed7; }
+
+ .mat-mdc-select:focus:not(.mat-mdc-select-disabled).mat-primary .mat-mdc-select-trigger, .mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-arrow {
+   color: #358ed7; }
+
+ .mat-mdc-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+   background-color: #358ed7; }
+
+ .mat-primary .mat-slider-track-fill,
+ .mat-primary .mat-slider-thumb,
+ .mat-primary .mat-slider-thumb-label {
+   background-color: #358ed7; }
+
+ .mat-mdc-tab-group.mat-primary .mat-ink-bar, .mat-mdc-tab-nav-bar.mat-primary .mat-ink-bar {
+   background-color: #358ed7; }
+
+ .mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-header, .mat-mdc-tab-group.mat-background-primary .mat-mdc-tab-links, .mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-header, .mat-mdc-tab-nav-bar.mat-background-primary .mat-mdc-tab-links {
+   background-color: #358ed7; }
+
+ .mat-toolbar {
+   background: whitesmoke;
+   color: rgba(0, 0, 0, 0.87); }
+   .mat-toolbar.mat-primary {
+     background: #358ed7;
+     color: white; }
+   .mat-toolbar.mat-accent {
+     background: #bdbdbd;
+     color: rgba(0, 0, 0, 0.87); }
+   .mat-toolbar.mat-warn {
+     background: #d32f2f;
+     color: white; }
