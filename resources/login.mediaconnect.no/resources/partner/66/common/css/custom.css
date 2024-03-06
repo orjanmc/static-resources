@@ -1,0 +1,10 @@
+.guiVersion2 #credentialFieldDiv .label::before {
+      content: 'Användarnamn (e-post)';
+    }
+
+.guiVersion2 #credentialFieldDiv .label span#credentialDescription,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabel,
+.guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
+          display: none;
+        }
