@@ -54,7 +54,8 @@
     "selfservice.ljudochbild": "api/client/config?clientId=selfservice.ljudochbild",
     "selfservice.lydogbillede": "api/client/config?clientId=selfservice.lydogbillede",
     "selfservice.aanijakuva": "api/client/config?clientId=selfservice.aanijakuva",
-    "selfservice.tumedia": "api/client/config?clientId=selfservice.tumedia"
+    "selfservice.tumedia": "api/client/config?clientId=selfservice.tumedia",
+    "selfservice.demo": "api/client/config?clientId=selfservice.demo"
   },
   "messages": {
     "default-message": {
