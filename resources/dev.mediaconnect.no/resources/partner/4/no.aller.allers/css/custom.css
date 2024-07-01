@@ -22,3 +22,16 @@
 #startRegistrationButtonDiv {
     display: none;
 }
+
+#par3 {
+    display: none;
+}
+
+#sendVerificationCodeButtonDiv {
+    display: none;
+}
+
+#authenticateUsingPasswordLinkHref {
+    display: none;
+
+}
