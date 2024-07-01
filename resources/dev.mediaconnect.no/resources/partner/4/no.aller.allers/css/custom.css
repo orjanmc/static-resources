@@ -1,0 +1,24 @@
+
+#loginFrame > div.loginMain.sections > div.loginInner.javascriptEnabledContent > div:nth-child(4) {
+    display: none;
+}
+
+.guiVersion2 .par .orLoginWith {
+    display: none;
+}
+
+.guiVersion2 .par .orLoginWithSpan {
+    display: none;
+}
+
+#socialLinkLabel {
+    display: none;
+}
+
+.guiVersion2 .par .orLoginWith span, .guiVersion2 .par .orLoginWithSpan span {
+    display: none;
+}
+
+#startRegistrationButtonDiv {
+    display: none;
+}
