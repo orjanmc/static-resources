@@ -20,7 +20,7 @@
   vertical-align: bottom
 }
 
-#sequence-confirmAutoLogin {
+#sequence-confirmAutoLogin, #loginForm {
   padding-top: 100px;
 
 }
