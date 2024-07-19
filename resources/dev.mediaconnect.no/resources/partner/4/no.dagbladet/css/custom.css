@@ -2,8 +2,18 @@
   background-color: #f4f4f4;
 }
 
-#loginButton, #createSubscriberButton {
+.guiVersion2 .button  {
   background-color: black !important;
+  cursor: pointer;
+}
+
+.guiVersion2 .button:hover {
+  background-color: black !important;
+}
+
+.guiVersion2 .outerFrame {
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .loginInner .logoDiv  {
@@ -51,4 +61,8 @@
 
 .loginMain {
   padding: 0;
+}
+
+.footerContent {
+  display: none;
 }
