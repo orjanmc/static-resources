@@ -25,3 +25,25 @@
   padding-top: 100px;
 
 }
+
+.loginFrame {
+  border: none;
+  box-shadow: none;
+}
+
+.guiVersion2 .headingColumn {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.guiVersion2 .heading {
+  border-top: 0;
+  border-width: 3px 0;
+  border-color: #f4f4f4;
+}
+
+.loginMain {
+  padding: 0;
+}
