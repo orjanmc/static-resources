@@ -34,13 +34,15 @@
 .guiVersion2 .headingColumn {
   width: 100%;
   box-sizing: border-box;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 .guiVersion2 .heading {
-  border-top: 0;
   border-width: 3px 0;
+  border-top: 0;
   border-color: #f4f4f4;
 }
 
