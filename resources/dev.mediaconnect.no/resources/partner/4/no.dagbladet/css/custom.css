@@ -80,3 +80,18 @@
 .footerContent {
   display: none;
 }
+
+@media only screen and (max-width: 479px) {
+  HTML, BODY, #loginForm, .outerFrame {
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .column {
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .guiVersion2 .headingColumn {
+  }
+}
