@@ -31,10 +31,9 @@
 .outerFrame:before{
   content: "";
   width: 180px;
-  height: 10px;
   margin-top: -20px;
   margin-left: 110px;
-  padding-left: 40px;
+  padding-left: 20px;
   padding-bottom: 60px;
   background:url("https://dev.mediaconnect.no/resources/partner/4/no.dagbladet/img/dagbladet-aller-logo.png") no-repeat;
   background-size: contain;
