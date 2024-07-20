@@ -102,13 +102,32 @@
 @media only screen and (max-width: 479px) {
   .outerFrame:before{
     content: "";
-    width: 180px;
-    margin-top: 24px;
-    margin-left: 60px;
+    width: 120px;
+    margin-top: -22px;
+    margin-left: 90px;
     padding-left: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background:url("https://dev.mediaconnect.no/resources/partner/4/no.dagbladet/img/dagbladet-aller-logo.png") no-repeat;
     background-size: contain;
     display: inline-block;
   }
+}
+
+@media only screen and (max-width: 479px) {
+  .loginInner .logoDiv  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    padding: 4px 4px;
+    border-bottom: 2px solid #D60000;
+    background-color: #D60000;
+    z-index: 9999;
+  }
+
+  .logoDiv img.logo {
+    padding: 0 60px;
+  }
+
 }
