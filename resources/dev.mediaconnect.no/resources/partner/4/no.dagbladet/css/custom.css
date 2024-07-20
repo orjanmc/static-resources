@@ -5,6 +5,7 @@
 .guiVersion2 .button  {
   background-color: black !important;
   cursor: pointer;
+  font-weight: 700 !important;
 }
 
 .guiVersion2 .button:hover {
