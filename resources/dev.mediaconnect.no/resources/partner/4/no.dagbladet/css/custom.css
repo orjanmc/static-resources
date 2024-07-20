@@ -82,16 +82,35 @@
 }
 
 @media only screen and (max-width: 479px) {
-  HTML, BODY, #loginForm, .outerFrame {
-  }
-}
-
-@media only screen and (max-width: 479px) {
   .column {
   }
 }
 
 @media only screen and (max-width: 479px) {
   .guiVersion2 .headingColumn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  HTML, BODY, #loginForm, .outerFrame {
+    width: 100%;
+    /* padding: 0; */
+    background-color: #f4f4f4;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .outerFrame:before{
+    content: "";
+    width: 180px;
+    margin-top: 24px;
+    margin-left: 96px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    background:url("https://dev.mediaconnect.no/resources/partner/4/no.dagbladet/img/dagbladet-aller-logo.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
   }
 }
