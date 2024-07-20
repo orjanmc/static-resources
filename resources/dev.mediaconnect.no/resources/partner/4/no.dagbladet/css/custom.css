@@ -98,7 +98,6 @@
   .outerFrame:before{
     content: "";
     width: 120px;
-    margin-top: -22px;
     margin-left: 90px;
     padding-left: 20px;
     padding-bottom: 40px;
@@ -112,7 +111,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 68px;
+    height: 62px;
     padding: 4px 4px;
     border-bottom: 2px solid #D60000;
     background-color: #D60000;
