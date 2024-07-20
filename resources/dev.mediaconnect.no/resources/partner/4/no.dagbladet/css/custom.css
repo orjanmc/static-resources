@@ -41,6 +41,7 @@
 }
 
 .logoDiv img.logo {
+  padding: 0 18px;
 }
 
 #loginForm {
