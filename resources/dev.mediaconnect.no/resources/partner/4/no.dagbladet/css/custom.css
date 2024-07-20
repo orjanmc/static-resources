@@ -64,7 +64,7 @@
 
 .guiVersion2 .heading {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .guiVersion2 .heading {
@@ -82,24 +82,19 @@
 }
 
 @media only screen and (max-width: 479px) {
+
   .column {
   }
-}
 
-@media only screen and (max-width: 479px) {
   .guiVersion2 .headingColumn {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-}
 
-@media only screen and (max-width: 479px) {
   HTML, BODY, #loginForm, .outerFrame {
     background-color: #f4f4f4;
   }
-}
 
-@media only screen and (max-width: 479px) {
   .outerFrame:before{
     content: "";
     width: 120px;
@@ -111,9 +106,7 @@
     background-size: contain;
     display: inline-block;
   }
-}
 
-@media only screen and (max-width: 479px) {
   .loginInner .logoDiv  {
     position: fixed;
     top: 0;
@@ -128,6 +121,11 @@
 
   .logoDiv img.logo {
     padding: 0 60px;
+  }
+
+  .guiVersion2 .heading {
+    font-weight: 700;
+    font-size: 1.2em;
   }
 
 }
