@@ -22,8 +22,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 111px;
-  padding: 12px 12px;
+  height: 116px;
+  padding: 10px 10px;
   border-bottom: 2px solid #D60000;
   background-color: #D60000;
   z-index: 9999;
@@ -32,7 +32,7 @@
 .outerFrame:before{
   content: "";
   width: 180px;
-  margin-top: -28px;
+  margin-top: -23px;
   margin-left: 110px;
   padding-left: 20px;
   padding-bottom: 60px;
