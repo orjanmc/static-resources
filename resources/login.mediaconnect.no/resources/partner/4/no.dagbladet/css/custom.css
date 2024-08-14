@@ -1,7 +1,130 @@
-body { background-image: url(../img/bkg-dbid.png); }
+.guiVersion2 body {
+  background-color: #f4f4f4;
+}
 
-.logo {
-  max-width: 170px;
-  max-height: 55px;
-  margin-bottom: 15px;
+.guiVersion2 .button  {
+  background-color: black !important;
+  cursor: pointer;
+  font-weight: 700 !important;
+}
+
+.guiVersion2 .button:hover {
+  background-color: black !important;
+}
+
+.guiVersion2 .outerFrame {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.loginInner .logoDiv  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 116px;
+  padding: 10px 10px;
+  border-bottom: 2px solid #D60000;
+  background-color: #D60000;
+  z-index: 9999;
+}
+
+.outerFrame:before{
+  content: "";
+  width: 180px;
+  margin-top: -23px;
+  margin-left: 110px;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  background:url("https://dev.mediaconnect.no/resources/partner/4/no.dagbladet/img/dagbladet-aller-logo.png") no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.logoDiv img.logo {
+  padding: 0 9px;
+}
+
+#loginForm {
+  padding-top: 100px;
+
+}
+
+.loginFrame {
+  border: none;
+  box-shadow: none;
+}
+
+.guiVersion2 .headingColumn {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.guiVersion2 .heading {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.guiVersion2 .heading {
+  border-width: 3px 0;
+  border-top: 0;
+  border-color: #f4f4f4;
+}
+
+.loginMain {
+  padding: 0;
+}
+
+.footerContent {
+  display: none;
+}
+
+@media only screen and (max-width: 479px) {
+
+  .column {
+  }
+
+  .guiVersion2 .headingColumn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  HTML, BODY, #loginForm, .outerFrame {
+    background-color: #f4f4f4;
+  }
+
+  .outerFrame:before{
+    content: "";
+    width: 120px;
+    margin-left: 90px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background:url("https://dev.mediaconnect.no/resources/partner/4/no.dagbladet/img/dagbladet-aller-logo.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+  }
+
+  .loginInner .logoDiv  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 62px;
+    padding: 4px 4px;
+    border-bottom: 2px solid #D60000;
+    background-color: #D60000;
+    z-index: 9999;
+  }
+
+  .logoDiv img.logo {
+    padding: 6px 73px;
+  }
+
+  .guiVersion2 .heading {
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
 }
