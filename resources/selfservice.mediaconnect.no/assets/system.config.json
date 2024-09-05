@@ -56,7 +56,8 @@
     "selfservice.aanijakuva": "api/client/config?clientId=selfservice.aanijakuva",
     "selfservice.tumedia": "api/client/config?clientId=selfservice.tumedia",
     "selfservice.demo": "api/client/config?clientId=selfservice.demo",
-    "selfservice.kyrkokalendern": "api/client/config?clientId=selfservice.kyrkokalendern"
+    "selfservice.kyrkokalendern": "api/client/config?clientId=selfservice.kyrkokalendern",
+    "selfservice.vtb": "api/client/config?clientId=selfservice.vtb"
   },
   "messages": {
     "default-message": {
