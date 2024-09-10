@@ -1,6 +1,6 @@
 
 .guiVersion2 #credentialFieldDiv .label::before {
-      content: 'Brukernavn (e-post).';
+      content: 'Brukernavn (e-post) ';
     }
 .guiVersion2 #credentialFieldDiv .label span#credentialDescription,
 .guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
