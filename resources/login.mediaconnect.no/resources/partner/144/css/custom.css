@@ -4,3 +4,9 @@
 .logoDiv{
 	display: none;
 }
+
+
+.guiVersion2 #credentialFieldDiv .label::before {
+	content: 'Brukernavn (e-post)';
+}
+
