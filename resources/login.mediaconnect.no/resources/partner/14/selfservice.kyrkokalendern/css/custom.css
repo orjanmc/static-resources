@@ -1,0 +1,85 @@
+
+
+.customerNumberExplanationLabel { font-weight: bold; }
+.customerNumberExplanationAnswer { margin-top:5px; display: block; }
+.acceptTermsLabel { display: inline; }
+.acceptTermsLabel INPUT { margin-left:30px; }
+
+.customerNumberExplanation { margin: 1em 0; }
+.customerNumberExplanationImage { height:50px; width: 150px;
+    background-color: #ddd; border: 2px #888 dashed; display:block; }
+
+.guiVersion2 #credentialFieldDiv .label::before {
+      content: 'Användarnamn (e-post)';
+    }
+
+
+.guiVersion2 #credentialFieldDiv .label span#credentialDescription,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabelEmail,
+.guiVersion2 #credentialFieldDiv .label span#userIdLabel,
+.guiVersion2 #credentialFieldDiv .label span#credentialDescriptionEmail {
+      display: none;
+    }
+
+.guiVersion2 body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/graplatta.jpg);
+}
+
+.guiVersion2 .heading {
+
+    text-align:center; font-size:150%;
+    border-color: #489d73;
+    border-width: 1px 0;
+    border-style: solid;
+    color: #489d73;
+    padding: 16px 0;
+    font-weight: normal;
+}
+
+.guiVersion2 .button {
+    background-color: #489d73 ! important;
+    padding: 12px 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #489d73 !important;
+}
+/* delingsoppsett */
+button.btn.btn-accept {
+    background-color: #489d73 !important;
+}
+
+button.btn.btn-decline {
+    background-color: #aa4f3b !important;
+}
+
+button.btn.btn-return {
+    background-color: #489d73 !important;
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/graplatta.jpg);
+    min-height: 100vh;
+}
+
+.main-form {
+    background: rgba(255,255,255, 0.8)
+}
+
+
+#startRegistrationButtonDiv {
+    display: none;
+}
+
+#authenticateUsingPasswordLinkDiv {
+    display: none;
+}
