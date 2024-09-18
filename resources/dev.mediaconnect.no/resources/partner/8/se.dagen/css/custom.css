@@ -67,7 +67,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 .loginFrame {
     border: none;
     box-shadow: none;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 .guiVersion2 .headingColumn {
@@ -142,7 +142,8 @@ input[type="text"]:focus, input[type="password"]:focus {
 
     #loginForm {
         padding-top: 100px;
-
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .loginFrame {
