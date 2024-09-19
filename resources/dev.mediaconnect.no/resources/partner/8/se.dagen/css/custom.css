@@ -7,7 +7,7 @@
     cursor: pointer;
     font-weight: 700 !important;
     border-radius: 25px;
-    max-width: 130px;
+    width: fit-content;
 }
 
 input[type="text"], input[type="password"] {
@@ -102,7 +102,7 @@ input[type="text"]:focus, input[type="password"]:focus {
         cursor: pointer;
         font-weight: 700 !important;
         border-radius: 25px;
-        max-width: 130px;
+        width: fit-content;
     }
 
     .guiVersion2 .button:
@@ -331,6 +331,7 @@ input[type="text"]:focus, input[type="password"]:focus {
         }
 
         .guiVersion2 .heading {
+            padding: 40px;
             font-weight: 700;
             font-size: 1.2em;
         }
