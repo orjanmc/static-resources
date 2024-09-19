@@ -29,7 +29,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 }
 
 .guiVersion2 .outerFrame {
-    margin-top: 300px;
+    margin-top: 250px;
     padding-bottom: 30px;
     border-radius: 25px;
     width: 100%;
@@ -84,6 +84,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 }
 
 .guiVersion2 .heading {
+    padding: 10px;
     border-width: 0 0;
     border-top: 0;
     border-color: #f4f4f4;
