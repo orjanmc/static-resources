@@ -58,7 +58,8 @@
     "selfservice.demo": "api/client/config?clientId=selfservice.demo",
     "selfservice.kyrkokalendern": "api/client/config?clientId=selfservice.kyrkokalendern",
     "selfservice.vtb": "api/client/config?clientId=selfservice.vtb",
-    "selfservice.saltenposten": "api/client/config?clientId=selfservice.saltenposten"
+    "selfservice.saltenposten": "api/client/config?clientId=selfservice.saltenposten",
+    "selfservice.osfusa": "api/client/config?clientId=selfservice.osfusa"
   },
   "messages": {
     "default-message": {
