@@ -39,22 +39,29 @@ input[type="text"], input[type="password"] {
 */
 
 .credentialComponent:focus-within {
-    outline: -webkit-focus-ring-color auto 0;
+    outline: none; /* Removes default focus outline */
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
 input:not(#j_username):focus {
-    border: 2px solid #ccc; /* Adjust border color as needed */
+    border: 2px solid #ccc; /* Custom border */
     border-radius: 5%; /* Rounds the corners */
-    padding: 10px; /* Adds some padding inside the input */
+    padding: 10px; /* Adds padding */
     font-size: 16px; /* Adjusts font size */
-    outline: none; /* Removes the default outline */
+    outline: none; /* Removes default focus outline */
     transition: border-color 0.3s; /* Smooth transition for focus */
 }
 
 input[type="text"]:not(#j_username):focus, input[type="password"]:focus {
-    border-color: gray; /* Change border color on focus */
+    border-color: gray; /* Custom border color */
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    outline: none; /* Removes the default browser outline */
+}
+
+@media (pointer: coarse) {
+    input:focus {
+        outline: none; /* Removes focus outline specifically for touch devices */
+    }
 }
 
 .guiVersion2 .button:hover {
