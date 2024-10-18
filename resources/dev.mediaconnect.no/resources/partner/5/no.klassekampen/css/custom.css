@@ -57,12 +57,6 @@ input[type="text"]:not(#j_username):focus, input[type="password"]:focus {
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
-@media (pointer: coarse) {
-    input:focus {
-        outline: none; /* Removes focus outline specifically for touch devices */
-    }
-}
-
 .guiVersion2 .button:hover {
     background-color: black !important;
 }
