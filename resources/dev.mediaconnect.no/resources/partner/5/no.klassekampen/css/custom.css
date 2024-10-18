@@ -38,7 +38,7 @@ input[type="text"], input[type="password"] {
 }
 */
 
-.loginComponent:focus-within {
+.credentialComponent:focus-within {
     outline: -webkit-focus-ring-color auto 0;
 }
 
