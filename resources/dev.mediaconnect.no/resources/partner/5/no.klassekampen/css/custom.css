@@ -40,7 +40,6 @@ input[type="text"], input[type="password"] {
 
 .credentialComponent:focus-within {
     outline: -webkit-focus-ring-color auto 0;
-    border-color: gray; /* Change border color on focus */
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
