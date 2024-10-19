@@ -39,7 +39,12 @@ input[type="text"], input[type="password"] {
 */
 
 .credentialComponent:focus-within {
-    outline: -webkit-focus-ring-color auto 0;
+    outline: none;
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+}
+
+.credentialComponent:focus {
+    border-color: gray;
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
