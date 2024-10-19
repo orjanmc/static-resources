@@ -40,6 +40,7 @@ input[type="text"], input[type="password"] {
 
 .credentialComponent:has(.textField.ng-invalid):not(:focus-within) {
     border: 1px solid #F35D67;
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
 .credentialComponent:focus-within {
@@ -61,7 +62,7 @@ input:not(#j_username):focus {
     transition: border-color 0.3s; /* Smooth transition for focus */
 }
 
-input[type="text"]:not(#j_username):focus, input[type="password"]:focus {
+input:not(#j_username):focus {
     border-color: gray; /* Change border color on focus */
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
