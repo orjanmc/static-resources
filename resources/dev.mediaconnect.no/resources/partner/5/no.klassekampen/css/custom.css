@@ -45,6 +45,7 @@ input[type="text"], input[type="password"] {
 
 .credentialComponent:focus-within {
     outline: none;
+    border: 2px solid gray;
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
