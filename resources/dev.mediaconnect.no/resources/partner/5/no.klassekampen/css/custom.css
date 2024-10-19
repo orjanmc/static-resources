@@ -38,6 +38,10 @@ input[type="text"], input[type="password"] {
 }
 */
 
+.credentialComponent:has(.textField.ng-invalid):not(:focus-within) {
+    border: 1px solid #F35D67;
+}
+
 .credentialComponent:focus-within {
     outline: none;
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */

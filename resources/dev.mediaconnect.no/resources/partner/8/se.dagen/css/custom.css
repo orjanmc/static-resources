@@ -34,6 +34,10 @@ input[type="text"]:focus, input[type="password"]:focus {
 }
 */
 
+.credentialComponent:has(.textField.ng-invalid):not(:focus-within) {
+    border: 1px solid #F35D67;
+}
+
 .credentialComponent:focus-within {
     outline: none;
     border-color: gray; /* Change border color on focus */
