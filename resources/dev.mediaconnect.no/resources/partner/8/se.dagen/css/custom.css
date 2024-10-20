@@ -217,6 +217,11 @@ input:not(#j_username):focus {
         white-space: nowrap; /* Ensure items are in a single line for horizontal scroll */
     }
 
+    .dd-selected {
+        padding: 10px;
+        text-align: right;
+    }
+
     /* Custom scrollbar styling for WebKit-based browsers */
     .dd-options::-webkit-scrollbar {
         width: 0px;  /* Width of the scrollbar */
