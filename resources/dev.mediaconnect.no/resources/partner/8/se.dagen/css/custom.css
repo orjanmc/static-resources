@@ -207,4 +207,8 @@ input:not(#j_username):focus {
         font-weight: 700;
         font-size: 1.2em;
     }
+
+    .dd-options {
+        box-shadow: 0 0 15px rgba(105, 105, 105, .8);
+    }
 }
