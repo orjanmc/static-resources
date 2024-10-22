@@ -59,7 +59,9 @@
     "selfservice.kyrkokalendern": "api/client/config?clientId=selfservice.kyrkokalendern",
     "selfservice.vtb": "api/client/config?clientId=selfservice.vtb",
     "selfservice.saltenposten": "api/client/config?clientId=selfservice.saltenposten",
-    "selfservice.osfusa": "api/client/config?clientId=selfservice.osfusa"
+    "selfservice.osfusa": "api/client/config?clientId=selfservice.osfusa",
+    "selfservice.suldalsposten": "api/client/config?clientId=selfservice.suldalsposten",
+    "selfservice.tysnesbladet": "api/client/config?clientId=selfservice.tysnesbladet"
   },
   "messages": {
     "default-message": {
