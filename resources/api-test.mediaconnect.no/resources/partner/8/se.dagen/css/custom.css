@@ -1,192 +1,215 @@
-﻿
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Fira+Sans:400,700');
- 
 .guiVersion2 body {
-    background-image: url(../img/bakgrundsbild.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 400;
-}
- 
-.guiVersion2 .button,
-.guiVersion2 input {
-    font-family: 'Fira Sans', sans-serif;
-}
- 
-.guiVersion2 .heading {
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-weight: 400;
-}
- 
-.guiVersion2 .label {
-    font-weight: normal;
-}
- 
-.guiVersion2 .buttonPar {
-    font-weight: 400;
-}
- 
-@media only screen and (min-width: 479px)  {
-    .loginFrame {
-        border-radius: 25px;
-        border-width: 0;
-        box-shadow: 10px 10px 25px grey;
-    }
-	/* this make centered */
-	.loginFrame {
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	
-	.loginMain {
-		padding: 0 0 30px 0 !important;
-	}
-	
-	.guiVersion2 #loginForm{
-		margin: auto auto auto;
-	}
-	
-	.logo {
-		margin-left: 35px !important;
-		padding-top: 20px !important;
-	}
-	/* /this make centered */
-	
-	.VERIFICATION_CODE_INFO > span, .REGISTER_HEADER_INFO > span, .LOGIN_HEADER_INFO > span,
-	.CREATE_USER_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span{
-		font-size: 2.55em !important; line-height: 40px;
-	}
-	
-	.LOGIN_HEADER_INFO > span {
-	    margin-left: -11px;
-		margin-right: -16px;
-	}
-	
-	.guiVersion2 .par .orLoginWith, .guiVersion2 .par .orLoginWithSpan{
-		display: none !important;
-	}
+    background-color: #f4f4f4;
 }
 
-@media only screen and (max-width: 479px)  {
-
-	.logo {
-		max-width: 240px !important;
-		margin-left: 16px !important;
-	}
-
-	.VERIFICATION_CODE_INFO > span, .REGISTER_HEADER_INFO > span, .LOGIN_HEADER_INFO > span,
-	.CREATE_USER_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span, .RESET_PASSWORD_HEADER_INFO> span{
-		font-size: 1.8em !important; line-height: 34px !important;
-	}
-	.LOGIN_HEADER_INFO > span {
-	    margin-left: -4px;
-		margin-right: -8px;
-	}
-	.guiVersion2 .par .orLoginWith {
-		padding-left: 75px !important;
-		width: auto !important;
-	}
-	
-	.guiVersion2 .par .orLoginWith, .guiVersion2 .par .orLoginWithSpan{
-		display: none !important;
-	}
-	
-
-}
- 
-.guiVersion2 input[type=text],
-.guiVersion2 input[type=password],
-.guiVersion2 input[type=email],
-.guiVersion2 input[type=number],
-.guiVersion2 input[type=tel] {
-    border-radius: 6px;
-}
- 
-.guiVersion2 input[type=submit] {
-    font-weight: 700;
-    border-radius: 8px;
+.socialLoginWide {
+    width: fit-content;
+    margin: 0 auto; /* This centers the element horizontally */
+    display: block; /* Ensure it's treated as a block-level element to be centered */
+    border-radius: 25px;
 }
 
-.guiVersion2 .button {
-    background-color: #e5c1c0 ! important;
-    color: black;
-	font-size: 1.3em;
+.socialLoginWide .vippsLink span {
+    margin-left: 4px;
 }
 
-.guiVersion2 .button:hover {
-    background-color: #eacccc !important;
+.socialLoginWide .vippsLink {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
 }
 
-.label { text-transform: uppercase !important; }
-.showPassword { text-transform: none !important; }
-
-.button  { text-transform: none !important; }
-
-.abortMark {
-    display: inline-block !important;
-    background-color: #58585a !important;
-    border-radius: 50% !important;
-    width: 24px !important;
-    margin: 12px 12px !important;
+.guiVersion2 .button  {
+    background-color: black !important;
+    cursor: pointer;
+    font-weight: 700 !important;
+    border-radius: 25px;
+    width: fit-content;
 }
-
-
-.abortMark:hover {
-    background-color: #7c7d7f !important;
-}
-
-/* .REGISTER_LINK_LABEL, #authenticateUsingPasswordLink { text-align: left !important; text-decoration: underline;} */
 
 /*
-#authenticateUsingPasswordLink { 
- float: left;
-}
-.bottomRightLogo:before{
-content: 'Jag vill börja prenumerera. Läs mer om hur detta fungerar.';
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: gray;
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8);
 }
 */
 
-a, a:hover {
-	 color: black;
+.credentialComponent:has(.textField.ng-invalid):not(:focus-within) {
+    border: 1px solid #F35D67;
 }
 
-.aHrefLink {
- color: black !important;
+.credentialComponent:focus-within {
+    outline: none;
+    border-color: gray; /* Change border color on focus */
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+}
+
+.credentialComponent:focus {
+    border-color: gray;
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+}
+
+input:not(#j_username):focus {
+    border-color: gray; /* Change border color on focus */
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+}
+
+.guiVersion2 .button:hover {
+    background-color: black !important;
+}
+
+.guiVersion2 .outerFrame {
+    margin-top: 250px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.guiVersion2 .loginFram {
+    margin: 0;
+    padding-bottom: 30px;
+    border-radius: 25px;
+
+}
+
+.loginInner .logoDiv  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(153 1 1);
+    background-color: #ffffff;
+    z-index: 9999;
+}
+
+.logoDiv img.logo {
+    padding: 0 9px;
+    max-height: 50px;
+}
+
+#loginForm {
+    padding-top: 100px;
+
+}
+
+.loginFrame {
+    width: 680px;
+
+    border: none;
+    box-shadow: none;
+    border-radius: 2%;
+}
+
+.guiVersion2 .headingColumn {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .guiVersion2 .heading {
-    border-width: 0 !important;
-    border-style: none !important;
-    padding: 0 !important;
-	line-height: 40px;
-	font-size: 2.8em !important;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
-.column {
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+.guiVersion2 .heading {
+    padding: 10px;
+    border-width: 0 0;
+    border-top: 0;
+    border-color: #f4f4f4;
 }
 
-.guiVersion2 .headingColumn {padding-left: 5px !important; padding-right: 5px !important; }
-
-.headingColumn {
-	display: none !important;
+.footerContent {
+    display: none;
 }
 
-#credentialDescriptionEmail, #credentialDescriptionMobilePhone, #userIdLabelCredentialDescription, #userIdLabelEmail, #userIdLabelMobilePhone{
-	display: none !important;
+@media only screen and (max-width: 680px) {
+
+    .column {
+    }
+
+    .guiVersion2 .headingColumn {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    HTML, BODY, #loginForm, .outerFrame {
+        background-color: #f4f4f4;
+    }
+
+    .loginFrame {
+        width: 420px;
+    }
+
+    .loginInner .logoDiv  {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 62px;
+        padding: 4px 4px;
+        border-bottom: 1px solid rgb(153 1 1);
+        background-color: #ffffff;
+        z-index: 9999;
+    }
+
+    .logoDiv img.logo {
+        padding: 6px 73px;
+    }
+
+    .guiVersion2 .heading {
+        padding: 30px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+    .column {
+    }
+
+    .guiVersion2 .headingColumn {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    HTML, BODY, #loginForm, .outerFrame {
+        background-color: #f4f4f4;
+    }
+
+    .loginFrame {
+        width: 100%;
+    }
+
+
+    .loginInner .logoDiv  {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 62px;
+        padding: 4px 4px;
+        border-bottom: 1px solid rgb(153 1 1);
+        background-color: #ffffff;
+        z-index: 9999;
+    }
+
+    .logoDiv img.logo {
+        padding: 6px 73px;
+    }
+
+    .guiVersion2 .heading {
+        padding: 30px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
 }
 
 
-#username:disabled,
-#j_username:disabled {
-   display: none !important;
-}
-
-a#authenticateUsingPasswordLinkHref {
-    text-decoration: none;
-    pointer-events: none;
-    cursor: default;
+.dd-options {
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8);
 }
