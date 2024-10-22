@@ -9,11 +9,17 @@
     border-radius: 25px;
 }
 
-.socialLoginWide .vippsLink span {
+.socialLoginWide .vippsLink span,
+.socialLoginWide .appleLink span,
+.socialLoginWide .facebookLink span,
+.socialLoginWide .googleLink span{
     margin-left: 4px;
 }
 
-.socialLoginWide .vippsLink {
+.socialLoginWide .vippsLink,
+.socialLoginWide .appleLink,
+.socialLoginWide .facebookLink,
+.socialLoginWide .googleLink{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
