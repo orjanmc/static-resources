@@ -268,3 +268,7 @@ input:not(#j_username):focus {
 .socialLoginWide a {
     transition: background 0.3s ease;
 }
+
+.guiVersion2 .heading {
+    padding: 0 0;
+}

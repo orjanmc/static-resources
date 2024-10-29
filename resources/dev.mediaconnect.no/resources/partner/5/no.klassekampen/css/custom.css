@@ -285,3 +285,7 @@ input:not(#j_username):focus {
 .socialLoginWide .vippsLink .label {
     display: none;
 }
+
+.guiVersion2 .heading {
+    padding: 0 0;
+}
