@@ -257,7 +257,7 @@ input:not(#j_username):focus {
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
-        width: 100%; /* Make each button full-width on small screens */
+        width: 22%; /* Make each button full-width on small screens */
     }
 }
 
