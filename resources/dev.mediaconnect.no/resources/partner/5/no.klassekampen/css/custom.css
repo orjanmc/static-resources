@@ -244,9 +244,9 @@ input:not(#j_username):focus {
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
-    width: 23%; /* Adjust width to fit two per row */
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 6%; /* Adjust width to fit two per row */
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 25px;
     box-sizing: border-box;
     justify-content: center;
