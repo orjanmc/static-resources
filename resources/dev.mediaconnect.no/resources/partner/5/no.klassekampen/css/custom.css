@@ -61,15 +61,6 @@ input[type="text"], input[type="password"] {
 }
 
 input:not(#j_username):focus {
-    border: 2px solid #ccc; /* Adjust border color as needed */
-    border-radius: 5%; /* Rounds the corners */
-    padding: 10px; /* Adds some padding inside the input */
-    font-size: 16px; /* Adjusts font size */
-    outline: none; /* Removes the default outline */
-    transition: border-color 0.3s; /* Smooth transition for focus */
-}
-
-input:not(#j_username):focus {
     border-color: gray; /* Change border color on focus */
     box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
