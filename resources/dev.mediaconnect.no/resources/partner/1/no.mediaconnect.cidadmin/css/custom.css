@@ -8,3 +8,57 @@
 .guiVersion2 body {
     background-color: #f4f5f7  !important;
 }
+
+
+.socialLoginWide {
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to multiple lines */
+    gap: 10px; /* Add some space between the buttons */
+    justify-content: center; /* Center the items in each row */
+}
+
+.socialLoginWide a {
+    display: inline-flex; /* Display buttons side by side */
+    width: 49%; /* Adjust width to fit two per row */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Optional: Style adjustments for smaller screens */
+@media only screen and (max-width: 680px) {
+    .socialLoginWide a {
+        width: 100%; /* Make each button full-width on small screens */
+    }
+}
+
+/* Hover styles for each social login button with a gradient overlay */
+.socialLoginWide .vippsLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #ff5b24; /* Vipps */
+}
+
+.socialLoginWide .facebookLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #4e75be; /* Facebook */
+}
+
+.socialLoginWide .googleLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
+.socialLoginWide .appleLink:hover{
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #474646; /* Apple */
+}
+
+/* Optional: transition for smooth gradient effect */
+.socialLoginWide a {
+    transition: background 0.3s ease;
+}
+.socialLoginWide .vippsLink .label {
+    display: none;
+}
