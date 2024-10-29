@@ -260,3 +260,25 @@ input:not(#j_username):focus {
         width: 100%; /* Make each button full-width on small screens */
     }
 }
+
+/* Hover styles for each social login button with a gradient overlay */
+.socialLoginWide .vippsLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #ff5b24; /* Vipps */
+}
+
+.socialLoginWide .facebookLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #4e75be; /* Facebook */
+}
+
+.socialLoginWide .googleLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
+.socialLoginWide .appleLink:hover{
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #474646; /* Apple */
+}
+
+/* Optional: transition for smooth gradient effect */
+.socialLoginWide a {
+    transition: background 0.3s ease;
+}
