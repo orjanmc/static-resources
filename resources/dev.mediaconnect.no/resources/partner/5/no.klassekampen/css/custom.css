@@ -282,3 +282,6 @@ input:not(#j_username):focus {
 .socialLoginWide a {
     transition: background 0.3s ease;
 }
+.socialLoginWide .vippsLink .label {
+    display: none;
+}
