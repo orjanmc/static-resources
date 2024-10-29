@@ -289,3 +289,32 @@ input:not(#j_username):focus {
 .guiVersion2 .heading {
     padding: 0 0;
 }
+
+/* custom klassekampen styles and colours */
+.guiVersion2 a {
+    color: #AD1409;
+    text-decoration: none;
+}
+
+.guiVersion2 a:hover {
+    text-decoration: underline;
+}
+
+.guiVersion2 .button:hover {
+    background-color: #AD1409 !important;
+}
+
+.guiVersion2 #loginHeaderInfoDiv {
+    text-align: center;
+}
+
+.guiVersion2 #generalHelpInfoDiv {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.guiVersion2 .loginFrame {
+    border: 0 #939598 solid;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255,1)!important;
+}
