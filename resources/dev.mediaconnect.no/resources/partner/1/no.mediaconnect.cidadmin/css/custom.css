@@ -16,17 +16,25 @@
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to multiple lines */
     gap: 10px; /* Add some space between the buttons */
-    justify-content: left; /* Center the items in each row */
+    justify-content: center; /* Center the items in each row */
 }
+
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
     width: 48%; /* Adjust width to fit two per row */
-    padding-left: 6px;
-    border-radius: 25px;
+    padding-left: 0;
     box-sizing: border-box;
     align-items: center;
     text-align: center;
+}
+
+.socialLoginWide .googleLink img,
+.socialLoginWide .facebookLink img,
+.socialLoginWide .appleLink img,
+.socialLoginWide .vippsLink img,
+.socialLoginWide .aidLink img {
+    margin-left: 0;
 }
 
 .socialLoginWide .googleLink span,
@@ -34,7 +42,7 @@
 .socialLoginWide .appleLink span,
 .socialLoginWide .vippsLink span,
 .socialLoginWide .aidLink span {
-    margin-left: 4px;
+    margin-left: 4px ;
 }
 
 .socialLoginWide .vippsLink,
@@ -43,6 +51,7 @@
 .socialLoginWide .appleLink,
 .socialLoginWide .aidLink {
     margin-bottom: 0;
+    justify-content: center;
 }
 
 /* Optional: Style adjustments for smaller screens */
