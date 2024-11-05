@@ -21,7 +21,7 @@
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
-    width: 49%; /* Adjust width to fit two per row */
+    width: 48%; /* Adjust width to fit two per row */
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
@@ -34,7 +34,7 @@
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
-        width: 100%; /* Make each button full-width on small screens */
+        width: 48%; /* Make each button full-width on small screens */
     }
 }
 
