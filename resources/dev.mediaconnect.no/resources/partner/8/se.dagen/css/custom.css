@@ -64,10 +64,14 @@ input:not(#j_username):focus {
 }
 
 .guiVersion2 .outerFrame {
-    margin-top: 250px;
+    margin-top: 20px;
     padding-bottom: 30px;
     border-radius: 25px;
     width: 100%;
+}
+
+.guiVersion2 #sequence-confirmAutoLogin #state-43 .outerFrame {
+    margin-top: 150px;
 }
 
 .guiVersion2 .loginFram {
