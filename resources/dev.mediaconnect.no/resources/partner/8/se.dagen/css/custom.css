@@ -80,10 +80,6 @@ input:not(#j_username):focus {
     width: 100%;
 }
 
-.guiVersion2 #sequence-confirmAutoLogin #state-43 .outerFrame {
-    margin-top: 150px;
-}
-
 .guiVersion2 .loginFram {
     margin: 0;
     padding-bottom: 30px;
