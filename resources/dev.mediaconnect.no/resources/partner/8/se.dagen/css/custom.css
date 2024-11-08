@@ -2,13 +2,11 @@
     background-color: #f4f4f4;
 }
 
-/*
 .guiVersion2 #loginForm {
     display: flex;
     justify-content: center;
     align-items: center;
 }
- */
 
 .guiVersion2 #loginForm .outerFrame {
     padding-top: 30px;
@@ -156,6 +154,11 @@ input:not(#j_username):focus {
         width: 420px;
     }
 
+    .guiVersion2 #loginForm {
+        justify-content: center;
+        align-items: center;
+    }
+
     .loginInner .logoDiv  {
         position: fixed;
         top: 0;
@@ -198,6 +201,10 @@ input:not(#j_username):focus {
         width: 100%;
     }
 
+    .guiVersion2 #loginForm {
+        justify-content: center;
+        align-items: center;
+    }
 
     .loginInner .logoDiv  {
         position: fixed;
