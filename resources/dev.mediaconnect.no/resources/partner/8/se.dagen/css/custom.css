@@ -2,6 +2,16 @@
     background-color: #f4f4f4;
 }
 
+.guiVersion2 #loginForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guiVersion2 #loginForm .outerFrame {
+    padding-top: 30px;
+}
+
 .socialLoginWide {
     width: fit-content;
     margin: 0 auto; /* This centers the element horizontally */
@@ -98,14 +108,8 @@ input:not(#j_username):focus {
     max-height: 50px;
 }
 
-#loginForm {
-    padding-top: 100px;
-
-}
-
 .loginFrame {
     width: 680px;
-
     border: none;
     box-shadow: none;
     border-radius: 2%;
@@ -187,7 +191,8 @@ input:not(#j_username):focus {
     }
 
     HTML, BODY, #loginForm, .outerFrame {
-        background-color: #f4f4f4;
+        margin: 0;
+        padding-top: 20px;
     }
 
     .loginFrame {
