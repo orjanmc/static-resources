@@ -2,11 +2,13 @@
     background-color: #f4f4f4;
 }
 
+/*
 .guiVersion2 #loginForm {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+ */
 
 .guiVersion2 #loginForm .outerFrame {
     padding-top: 30px;
@@ -40,6 +42,7 @@
     font-weight: 700 !important;
     border-radius: 25px;
     width: fit-content;
+    text-transform: none;
 }
 
 /*
