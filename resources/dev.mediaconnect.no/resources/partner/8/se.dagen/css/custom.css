@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.guiVersion2 .par {
+    margin: 10px 0;
+}
+
 .guiVersion2 #loginForm .outerFrame {
     padding-top: 30px;
 }
