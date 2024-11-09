@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+#showSocialLoginButtonsDiv {
+    margin-top: -20px;
+}
+
 .guiVersion2 .par {
     /*margin: 10px 0;*/
     margin: 20px 0;
