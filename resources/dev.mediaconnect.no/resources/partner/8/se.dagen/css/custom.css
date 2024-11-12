@@ -291,7 +291,7 @@ input:not(#j_username):focus {
     .socialLoginWide a {
         width: 22%; /* Make each button full-width on small screens */
         display: inline-flex; /* Display buttons side by side */
-        padding-left: 14px;
+        padding-left: 12px;
         padding-right: 10px;
         border-radius: 25px;
         box-sizing: border-box;
