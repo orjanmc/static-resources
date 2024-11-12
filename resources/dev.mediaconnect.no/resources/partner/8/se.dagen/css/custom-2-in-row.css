@@ -289,27 +289,7 @@ input:not(#j_username):focus {
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
-        width: 22%; /* Make each button full-width on small screens */
-        display: inline-flex; /* Display buttons side by side */
-        padding-left: 14px;
-        padding-right: 10px;
-        border-radius: 25px;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .socialLoginWide .googleLink span,
-    .socialLoginWide .facebookLink span,
-    .socialLoginWide .appleLink span,
-    .socialLoginWide .vippsLink span,
-    .socialLoginWide .aidLink span {
-        display: none;
-    }
-
-    .socialLoginWide .vippsLink img.label {
-        display: none;
+        width: 48%; /* Make each button full-width on small screens */
     }
 }
 
