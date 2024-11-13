@@ -166,8 +166,15 @@ input:focus {
         background-color: #f4f4f4;
     }
 
+    .loginFrame {
+        width: 420px;
+    }
 
-
+    .guiVersion2 #loginForm {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
 
     .loginInner .logoDiv  {
         position: fixed;
@@ -217,7 +224,7 @@ input:focus {
     }
 
     .guiVersion2 #loginForm {
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
     }
