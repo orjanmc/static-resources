@@ -202,7 +202,6 @@ input:focus {
         width:  100% ! important;
         padding-top: 20px;
     }
-    body { background-image: none ! important; }
 
     .column {
     }
@@ -243,6 +242,7 @@ input:focus {
         font-weight: 700;
         font-size: 1.2em;
     }
+
 }
 
 .dd-options {
@@ -287,6 +287,55 @@ input:focus {
 
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
+    @-webkit-viewport { width: 100% ! important; }
+    @-moz-viewport { width:  100% ! important;  }
+    @-ms-viewport { width:  100% ! important; }
+    @-o-viewport { width:  100% ! important; }
+    @viewport { width:  100% ! important; }
+    HTML, BODY, #loginForm, .outerFrame {
+        width:  100% ! important;
+    }
+
+
+    .column {
+    }
+
+    .guiVersion2 .headingColumn {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .loginFrame {
+        width: 100%;
+    }
+
+    .guiVersion2 #loginForm {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginInner .logoDiv  {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 62px;
+        padding: 4px 4px;
+        border-bottom: 1px solid rgb(153 1 1);
+        background-color: #ffffff;
+        z-index: 9999;
+    }
+
+    .logoDiv img.logo {
+        padding: 6px 73px;
+    }
+
+    .guiVersion2 .heading {
+        padding: 30px;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
     .socialLoginWide a {
         width: 22%; /* Make each button full-width on small screens */
         display: inline-flex; /* Display buttons side by side */
