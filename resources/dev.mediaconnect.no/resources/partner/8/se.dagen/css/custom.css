@@ -217,7 +217,7 @@ input:focus {
     }
 
     .guiVersion2 #loginForm {
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
     }
