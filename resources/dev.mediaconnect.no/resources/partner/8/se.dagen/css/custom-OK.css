@@ -200,16 +200,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 479px) {
-    @-webkit-viewport { width: 100% ! important; }
-    @-moz-viewport { width:  100% ! important;  }
-    @-ms-viewport { width:  100% ! important; }
-    @-o-viewport { width:  100% ! important; }
-    @viewport { width:  100% ! important; }
-    HTML, BODY, #loginForm, .outerFrame {
-        width:  100% ! important;
-        padding-top: 20px;
-    }
-    body { background-image: none ! important; }
 
     .column {
     }
@@ -217,6 +207,11 @@ input:focus {
     .guiVersion2 .headingColumn {
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+
+    HTML, BODY, #loginForm, .outerFrame {
+        margin: 0;
+        padding-top: 20px;
     }
 
     .loginFrame {
