@@ -293,9 +293,7 @@ input:focus {
     @-o-viewport { width:  100% ! important; }
     @viewport { width:  100% ! important; }
     HTML, BODY, #loginForm, .outerFrame {
-        width:  100% ! important;
     }
-
 
     .column {
     }
