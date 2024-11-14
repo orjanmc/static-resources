@@ -199,6 +199,11 @@ input:focus {
 }
 
 @media only screen and (max-width: 479px) {
+    HTML, BODY, #loginForm, .outerFrame {
+        margin: 0;
+        padding-top: 20px;
+        background-color: #fbfbfb;
+    }
 
     .column {
     }
@@ -206,11 +211,6 @@ input:focus {
     .guiVersion2 .headingColumn {
         padding-left: 0 !important;
         padding-right: 0 !important;
-    }
-
-    HTML, BODY, #loginForm, .outerFrame {
-        margin: 0;
-        padding-top: 20px;
     }
 
     .loginFrame {
