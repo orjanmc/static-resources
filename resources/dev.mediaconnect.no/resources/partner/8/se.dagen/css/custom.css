@@ -201,6 +201,7 @@ input:focus {
     HTML, BODY, #loginForm, .outerFrame {
         width:  100% ! important;
         padding-top: 20px;
+        background-color: #fbfbfb;
     }
 
     .column {
