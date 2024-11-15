@@ -14,7 +14,8 @@
 }
 
 #sequence-confirmAutoLogin #state-1 #headingColumn,
-#sequence-login #headingColumn {
+#sequence-login #state-1 #headingColumn,
+#sequence-login #state-4 #headingColumn {
     display: none;
 }
 
