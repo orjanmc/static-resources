@@ -212,7 +212,7 @@ input:focus {
 @media only screen and (max-width: 479px) {
     HTML, BODY, #loginForm, .outerFrame {
         margin: 0;
-        /* padding-top: 20px;*/
+        padding-top: 10px;
         background-color: #fbfbfb;
     }
 
