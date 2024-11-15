@@ -13,6 +13,7 @@
     text-align: center;
 }
 
+#sequence-confirmAutoLogin #state-1 #headingColumn,
 #sequence-login #headingColumn {
     display: none;
 }
