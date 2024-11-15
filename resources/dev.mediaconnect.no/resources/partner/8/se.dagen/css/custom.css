@@ -8,6 +8,15 @@
     align-items: center;
 }
 
+#loginHeaderInfoDiv {
+    justify-content: center;
+    text-align: center;
+}
+
+#sequence-login #headingColumn {
+    display: none;
+}
+
 #showSocialLoginButtonsDiv {
 }
 
