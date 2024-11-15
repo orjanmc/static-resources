@@ -1,5 +1,5 @@
 .guiVersion2 body {
-    background-color: #f4f4f4;
+    background-color: #f1f5f9;
 }
 
 .guiVersion2 #loginForm {
@@ -153,7 +153,7 @@ input:focus {
     padding: 10px;
     border-width: 0 0;
     border-top: 0;
-    border-color: #f4f4f4;
+    border-color: #f1f5f9;
 }
 
 .footerContent {
@@ -171,7 +171,7 @@ input:focus {
     }
 
     HTML, BODY, #loginForm, .outerFrame {
-        background-color: #f4f4f4;
+        background-color: #f1f5f9;
     }
 
     .loginFrame {
@@ -257,6 +257,18 @@ input:focus {
 
 .dd-options {
     box-shadow: 0 0 15px rgba(105, 105, 105, .8);
+}
+
+.credentialTypePickerStandaloneComponent {
+    background-color:  #dfe5ed;
+}
+
+.dd-selected {
+    background-color:  #dfe5ed !important;
+}
+
+#credentialTypePickerLabel {
+    background-color: #dfe5ed !important;
 }
 
 .socialLoginWide {
