@@ -359,7 +359,7 @@ input:focus {
 #state-4 #showSocialLoginButtonsLinks ,
 #state-4 #authenticateUsingPasswordLinkHref,
 #state-4 #authenticateUsingPasswordLinkDiv,
-#state-4 showSocialLoginButtonsDiv,
+#state-4 #showSocialLoginButtonsDiv,
 #state-4 #orLoginWith,
 #state-4 #socialLinkLabel{
     display: none;
@@ -369,7 +369,7 @@ input:focus {
 #state-5 #showSocialLoginButtonsLinks ,
 #state-5 #authenticateUsingPasswordLinkHref,
 #state-5 #authenticateUsingPasswordLinkDiv,
-#state-5 showSocialLoginButtonsDiv,
+#state-5 #showSocialLoginButtonsDiv,
 #state-5 #orLoginWith,
 #state-5 #socialLinkLabel{
     display: none;
