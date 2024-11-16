@@ -42,6 +42,7 @@
     margin: 0 auto; /* This centers the element horizontally */
     display: block; /* Ensure it's treated as a block-level element to be centered */
     border-radius: 25px;
+    height: 44px;
 }
 
 .socialLoginWide .vippsLink span,
@@ -279,6 +280,7 @@ input:focus {
     flex-wrap: wrap; /* Allow wrapping to multiple lines */
     gap: 10px; /* Add some space between the buttons */
     justify-content: center; /* Center the items in each row */
+    height: 44px;
 }
 
 .socialLoginWide a {
@@ -305,6 +307,7 @@ input:focus {
 .socialLoginWide .appleLink,
 .socialLoginWide .aidLink {
     margin-bottom: 0;
+    height: 44px;
 }
 
 /* Optional: Style adjustments for smaller screens */
