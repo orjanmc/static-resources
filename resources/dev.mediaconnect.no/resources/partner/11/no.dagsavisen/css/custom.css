@@ -57,6 +57,7 @@
 .socialLoginWide .facebookLink,
 .socialLoginWide .googleLink{
     border-radius: 25px;
+    height: 44px;
 }
 
 .guiVersion2 .button  {
@@ -291,6 +292,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 44px;
 }
 
 .socialLoginWide .googleLink span,
@@ -322,6 +324,7 @@ input:focus {
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 44px;
     }
 
 }
