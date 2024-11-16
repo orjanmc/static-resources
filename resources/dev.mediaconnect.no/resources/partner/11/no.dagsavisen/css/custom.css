@@ -193,8 +193,8 @@ input:focus {
         width: 100%;
         height: 62px;
         padding: 4px 4px;
-        border-bottom: 1px solid rgb(153 1 1);
-        background-color: #ffffff;
+        --tw-bg-opacity: 1;
+        background-color: rgb(153 27 27 / var(--tw-bg-opacity));
         z-index: 9999;
     }
 
@@ -284,11 +284,10 @@ input:focus {
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
-    width: 23%; /* Adjust width to fit two per row */
-    padding-left: 6px;
+    width: 50%; /* Adjust width to fit two per row */
     border-radius: 25px;
     box-sizing: border-box;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -312,7 +311,7 @@ input:focus {
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
-        width: 22%; /* Make each button full-width on small screens */
+        width: 50%; /* Make each button full-width on small screens */
         display: inline-flex; /* Display buttons side by side */
         padding-left: 12px;
         padding-right: 10px;
@@ -323,17 +322,6 @@ input:focus {
         text-align: center;
     }
 
-    .socialLoginWide .googleLink span,
-    .socialLoginWide .facebookLink span,
-    .socialLoginWide .appleLink span,
-    .socialLoginWide .vippsLink span,
-    .socialLoginWide .aidLink span {
-        display: none;
-    }
-
-    .socialLoginWide .vippsLink img.label {
-        display: none;
-    }
 }
 
 /* Hover styles for each social login button with a gradient overlay */
