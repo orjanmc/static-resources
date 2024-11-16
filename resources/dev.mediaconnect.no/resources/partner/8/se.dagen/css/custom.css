@@ -361,3 +361,10 @@ input:focus {
 .guiVersion2 .heading {
     padding: 0 0;
 }
+
+#startRegistrationButtonDiv,
+#startRegistrationLinkHref {
+    height: 1px;
+    color: white !important;
+    margin-top: -30px
+}
