@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+
+#startRegistrationLink {
+    display: none !important;
+}
+
 #loginHeaderInfoDiv, #registerHeaderInfoDiv {
     justify-content: center;
     text-align: center;
