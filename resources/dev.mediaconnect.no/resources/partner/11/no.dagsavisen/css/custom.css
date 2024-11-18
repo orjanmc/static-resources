@@ -8,6 +8,9 @@
     align-items: center;
 }
 
+.guiVersion2 .par .orLoginWith {
+    border-bottom: 1px solid #CBD5E1;
+}
 
 #startRegistrationLink {
     display: none !important;
@@ -88,18 +91,18 @@ input[type="text"]:focus, input[type="password"]:focus {
 .credentialComponent:focus-within {
     outline: none;
     border-color: gray; /* Change border color on focus */
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
 .credentialComponent:focus {
     border-color: gray;
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
 /* input:not(#j_username):focus {  change to that style if picker a part of input */
 input:focus {
     border-color: gray; /* Change border color on focus */
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
 .guiVersion2 .button:hover {
