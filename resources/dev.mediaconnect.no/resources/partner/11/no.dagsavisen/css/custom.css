@@ -388,3 +388,7 @@ input:focus {
 #state-5 #socialLinkLabel{
     display: none;
 }
+
+#credentialLabel, #credentialDescriptionEmail, #credentialDescriptionMobilePhone {
+    display: none;
+}
