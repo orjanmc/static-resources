@@ -392,3 +392,31 @@ input:focus {
 #credentialLabel, #credentialDescriptionEmail, #credentialDescriptionMobilePhone {
     display: none;
 }
+
+#enterVerificationCodeFieldDiv  {
+    justify-content:center;
+    text-align: center;
+}
+
+/* digit cerification code */
+.code-input {
+    width: 48px; /* Width of each box */
+    height: 48px; /* Height of each box */
+    max-width: 48px;
+    max-height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px !important; /* Font size for the digits */
+    border: 2px solid #ccc !important; /* Default border */
+    border-radius: 8px; /* Rounded corners */
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.code-input::placeholder {
+    color: transparent;
+}
+
+.code-input:focus {
+    border: 2px solid #1a202c !important; /* Darker border on focus */
+}
