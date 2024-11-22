@@ -435,3 +435,11 @@ input:focus {
     border-radius: 8px;
     text-align: center;
 }
+
+#state-5 .credentialTypePickerStandaloneComponent, #state-23 .credentialTypePickerStandaloneComponent {
+    display: none;
+}
+
+#state-5 #j_username, #state-23 #j_username {
+    display: none;
+}
