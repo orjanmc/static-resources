@@ -420,3 +420,16 @@ input:focus {
 .code-input:focus {
     border: 2px solid #1a202c !important; /* Darker border on focus */
 }
+
+.error {
+    background: none;
+    color: #DC2626;
+    border: none;
+}
+
+.errorBox {
+    background: none;
+    color: #DC2626;
+    border: 1px solid #DC2626;
+    border-radius: 8px
+}
