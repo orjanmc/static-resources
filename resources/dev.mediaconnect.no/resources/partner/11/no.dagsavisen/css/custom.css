@@ -406,7 +406,7 @@ input:focus {
     max-height: 48px;
     text-align: center;
     font-weight: bold;
-    font-size: 22px !important; /* Font size for the digits */
+    font-size: 24px !important; /* Font size for the digits */
     border: 2px solid #ccc !important; /* Default border */
     border-radius: 8px; /* Rounded corners */
     outline: none;
