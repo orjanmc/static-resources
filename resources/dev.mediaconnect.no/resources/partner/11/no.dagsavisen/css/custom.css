@@ -443,3 +443,10 @@ input:focus {
 #state-5 #j_username, #state-23 #j_username {
     display: none;
 }
+
+.belowPassword {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
