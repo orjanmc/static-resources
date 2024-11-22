@@ -425,11 +425,13 @@ input:focus {
     background: none;
     color: #DC2626;
     border: none;
+    text-align: center;
 }
 
 .errorBox {
     background: none;
     color: #DC2626;
     border: 1px solid #DC2626;
-    border-radius: 8px
+    border-radius: 8px;
+    text-align: center;
 }
