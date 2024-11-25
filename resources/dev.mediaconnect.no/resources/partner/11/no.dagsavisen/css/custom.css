@@ -313,9 +313,15 @@ input:focus {
 .socialLoginWide .facebookLink,
 .socialLoginWide .googleLink,
 .socialLoginWide .appleLink,
-.socialLoginWide .aidLink {
+.socialLoginWide .aidLink,
+.socialLoginWide .mobileLoginLink,
+.socialLoginWide .emailLoginLink {
     margin-bottom: 0;
     height: 44px;
+}
+
+.loginStyleWideButtonsCompact {
+    padding-top: 10px;
 }
 
 /* Optional: Style adjustments for smaller screens */
