@@ -528,3 +528,7 @@ input:focus {
     }
 }
 
+#orLoginWithLoginStyleWideButtonsAll,
+#orLoginWithLoginStyleWideButtonsCompact {
+    display: block;
+}
