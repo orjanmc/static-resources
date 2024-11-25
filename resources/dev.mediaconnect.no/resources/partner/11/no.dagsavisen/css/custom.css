@@ -370,12 +370,18 @@ input:focus {
     margin-top: -30px
 }
 
-#state-4 #showSocialLoginButtonsLinks ,
-#state-4 #authenticateUsingPasswordLinkHref,
-#state-4 #authenticateUsingPasswordLinkDiv,
-#state-4 #showSocialLoginButtonsDiv,
-#state-4 #orLoginWith,
-#state-4 #socialLinkLabel{
+#sequence-login #state-4 #showSocialLoginButtonsLinks ,
+#sequence-login #state-4 #authenticateUsingPasswordLinkHref,
+#sequence-login #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-login #state-4 #showSocialLoginButtonsDiv,
+#sequence-login #state-4 #orLoginWith,
+#sequence-login #state-4 #socialLinkLabel,
+#sequence-sequence-confirmAutoLogin #state-4 #showSocialLoginButtonsLinks ,
+#sequence-sequence-confirmAutoLogin #state-4 #authenticateUsingPasswordLinkHref,
+#sequence-sequence-confirmAutoLogin #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-sequence-confirmAutoLogin #state-4 #showSocialLoginButtonsDiv,
+#sequence-sequence-confirmAutoLogin #state-4 #orLoginWith,
+#sequence-sequence-confirmAutoLogin #state-4 #socialLinkLabel{
     display: none;
 }
 
