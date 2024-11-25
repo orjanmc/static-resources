@@ -460,3 +460,71 @@ input:focus {
     text-align: center;
     align-items: center;
 }
+
+/* Container styling for alignment */
+#logOutLinkButton {
+    display: inline-block;
+    margin-top: -6px;
+    text-align: left; /* Adjust alignment if needed */
+}
+
+/* Anchor link styling */
+#logOutLinkHref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px; /* Space between icon and text */
+    text-decoration: none;
+    padding: 1px 15px;
+    background-color: #ffffff; /* White background to match input box */
+    border: 1px solid #ccc; /* Subtle border for consistency */
+    border-radius: 20px; /* Rounded corners */
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hover effect */
+#logOutLinkHref:hover {
+    background-color: #e74c3c; /* Red hover background */
+    color: #fff; /* White text */
+    border-color: #e74c3c; /* Match hover color */
+    box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+}
+
+/* Focus effect */
+#logOutLinkHref:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.6);
+}
+
+/* Icon styling */
+#logOutLink::after {
+    content: '\f08b'; /* FontAwesome logout icon */
+    font-family: FontAwesome, fantasy;
+    font-size: 16px;
+    padding-left: 6px;
+    color: inherit; /* Match text color */
+}
+
+/* Text inside logout button */
+#logOutLink {
+    display: inline;
+}
+
+/* Add responsive adjustments */
+@media (max-width: 680px) {
+    #logOutLinkHref {
+        font-size: 12px;
+    }
+
+    #logOutLink::after {
+        font-size: 12px;
+        padding-left: 6px;
+    }
+}
+
