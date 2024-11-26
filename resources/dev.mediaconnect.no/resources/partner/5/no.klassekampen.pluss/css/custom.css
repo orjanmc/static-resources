@@ -1,5 +1,48 @@
 .guiVersion2 body {
-    background-color: #f4f4f4;
+    background-color: #f1f5f9;
+}
+
+.guiVersion2 #loginForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guiVersion2 .par .orLoginWith {
+    border-bottom: 1px solid #CBD5E1;
+}
+
+#startRegistrationLink {
+    display: none !important;
+}
+
+#loginHeaderInfoDiv, #registerHeaderInfoDiv {
+    justify-content: center;
+    text-align: center;
+}
+
+#sequence-confirmAutoLogin #state-1 #headingColumn,
+#sequence-login #state-1 #headingColumn,
+#sequence-login #state-4 #headingColumn {
+    display: none;
+}
+
+#showSocialLoginButtonsDiv {
+}
+
+.guiVersion2 .par {
+    /*margin: 10px 0;*/
+    margin: 20px 0;
+}
+
+.loginMain {
+    /*padding: 20px 0 20px 0;*/
+    padding: 20px 0 20px 0;
+}
+
+.guiVersion2 #loginForm .outerFrame {
+    /*padding-top: 20px;*/
+    padding-top: 30px;
 }
 
 .socialLoginWide {
@@ -20,9 +63,8 @@
 .socialLoginWide .appleLink,
 .socialLoginWide .facebookLink,
 .socialLoginWide .googleLink{
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 25px;
+    height: 44px;
 }
 
 .guiVersion2 .button  {
@@ -31,38 +73,35 @@
     font-weight: 700 !important;
     border-radius: 25px;
     width: fit-content;
+    text-transform: none;
 }
 
 /*
-input[type="text"], input[type="password"] {
-    border: 2px solid #ccc;
-    border-radius: 5%;
-    padding: 10px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s;
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: gray;
+    box-shadow: 0 0 15px rgba(105, 105, 105, .8);
 }
 */
 
 .credentialComponent:has(.textField.ng-invalid):not(:focus-within) {
     border: 1px solid #F35D67;
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
 }
 
 .credentialComponent:focus-within {
     outline: none;
-    border: 1px solid gray;
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    border-color: gray; /* Change border color on focus */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
 .credentialComponent:focus {
     border-color: gray;
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
-input:not(#j_username):focus {
+/* input:not(#j_username):focus {  change to that style if picker a part of input */
+input:focus {
     border-color: gray; /* Change border color on focus */
-    box-shadow: 0 0 15px rgba(105, 105, 105, .8); /* Optional shadow effect */
+    box-shadow: 0 0 0 3px #E2E8F0, 0 0 0 5px #A0AEC0;
 }
 
 .guiVersion2 .button:hover {
@@ -70,7 +109,7 @@ input:not(#j_username):focus {
 }
 
 .guiVersion2 .outerFrame {
-    margin-top: 250px;
+    margin-top: 20px;
     padding-bottom: 30px;
     border-radius: 25px;
     width: 100%;
@@ -100,14 +139,8 @@ input:not(#j_username):focus {
     max-height: 50px;
 }
 
-#loginForm {
-    padding-top: 100px;
-
-}
-
 .loginFrame {
     width: 680px;
-
     border: none;
     box-shadow: none;
     border-radius: 2%;
@@ -130,7 +163,7 @@ input:not(#j_username):focus {
     padding: 10px;
     border-width: 0 0;
     border-top: 0;
-    border-color: #f4f4f4;
+    border-color: #f1f5f9;
 }
 
 .footerContent {
@@ -148,11 +181,17 @@ input:not(#j_username):focus {
     }
 
     HTML, BODY, #loginForm, .outerFrame {
-        background-color: #f4f4f4;
+        background-color: #f1f5f9;
     }
 
     .loginFrame {
         width: 420px;
+    }
+
+    .guiVersion2 #loginForm {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
     }
 
     .loginInner .logoDiv  {
@@ -179,6 +218,11 @@ input:not(#j_username):focus {
 }
 
 @media only screen and (max-width: 479px) {
+    HTML, BODY, #loginForm, .outerFrame {
+        margin: 0;
+        padding-top: 10px;
+        background-color: #fbfbfb;
+    }
 
     .column {
     }
@@ -188,14 +232,15 @@ input:not(#j_username):focus {
         padding-right: 0 !important;
     }
 
-    HTML, BODY, #loginForm, .outerFrame {
-        background-color: #f4f4f4;
-    }
-
     .loginFrame {
         width: 100%;
     }
 
+    .guiVersion2 #loginForm {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
 
     .loginInner .logoDiv  {
         position: fixed;
@@ -204,8 +249,8 @@ input:not(#j_username):focus {
         width: 100%;
         height: 62px;
         padding: 4px 4px;
-        border-bottom: 1px solid rgb(153 1 1);
-        background-color: #ffffff;
+        --tw-bg-opacity: 1;
+        background-color: rgb(153 27 27 / var(--tw-bg-opacity));
         z-index: 9999;
     }
 
@@ -224,6 +269,18 @@ input:not(#j_username):focus {
     box-shadow: 0 0 15px rgba(105, 105, 105, .8);
 }
 
+.credentialTypePickerStandaloneComponent {
+    background-color:  #dfe5ed;
+}
+
+.dd-selected {
+    background-color:  #dfe5ed !important;
+}
+
+#credentialTypePickerLabel {
+    background-color: #dfe5ed !important;
+}
+
 .socialLoginWide {
     width: 100%;
     margin: 0 auto; /* Center the container */
@@ -235,21 +292,53 @@ input:not(#j_username):focus {
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
-    width: 12%; /* Adjust width to fit two per row */
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 50%; /* Adjust width to fit two per row */
     border-radius: 25px;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 44px;
+}
+
+.socialLoginWide .googleLink span,
+.socialLoginWide .facebookLink span,
+.socialLoginWide .appleLink span,
+.socialLoginWide .vippsLink span,
+.socialLoginWide .aidLink span {
+    margin-left: 4px;
+}
+
+.socialLoginWide .vippsLink,
+.socialLoginWide .facebookLink,
+.socialLoginWide .googleLink,
+.socialLoginWide .appleLink,
+.socialLoginWide .aidLink,
+.socialLoginWide .mobileLoginLink,
+.socialLoginWide .emailLoginLink {
+    margin-bottom: 0;
+    height: 44px;
+}
+
+.loginStyleWideButtonsCompact {
+    padding-top: 10px;
 }
 
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
-        width: 22%; /* Make each button full-width on small screens */
+        width: 100%; /* Make each button full-width on small screens */
+        display: inline-flex; /* Display buttons side by side */
+        padding-left: 12px;
+        padding-right: 10px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 44px;
     }
+
 }
 
 /* Hover styles for each social login button with a gradient overlay */
@@ -273,39 +362,179 @@ input:not(#j_username):focus {
 .socialLoginWide a {
     transition: background 0.3s ease;
 }
-.socialLoginWide .vippsLink .label {
-    display: none;
-}
 
 .guiVersion2 .heading {
     padding: 0 0;
 }
 
-/* custom klassekampen styles and colours */
-.guiVersion2 a {
-    color: #AD1409;
+#startRegistrationButtonDiv,
+#startRegistrationLinkHref {
+    height: 1px;
+    color: #fff !important;
+    margin-top: -30px
+}
+
+#sequence-login #state-4 #showSocialLoginButtonsLinks ,
+#sequence-login #state-4 #authenticateUsingPasswordLinkHref,
+#sequence-login #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-login #state-4 #showSocialLoginButtonsDiv,
+#sequence-login #state-4 #orLoginWith,
+#sequence-login #state-4 #socialLinkLabel,
+#sequence-sequence-confirmAutoLogin #state-4 #showSocialLoginButtonsLinks ,
+#sequence-sequence-confirmAutoLogin #state-4 #authenticateUsingPasswordLinkHref,
+#sequence-sequence-confirmAutoLogin #state-4 #authenticateUsingPasswordLinkDiv,
+#sequence-sequence-confirmAutoLogin #state-4 #showSocialLoginButtonsDiv,
+#sequence-sequence-confirmAutoLogin #state-4 #orLoginWith,
+#sequence-sequence-confirmAutoLogin #state-4 #socialLinkLabel{
+    display: none;
+}
+
+
+#state-5 #showSocialLoginButtonsLinks ,
+#state-5 #authenticateUsingPasswordLinkHref,
+#state-5 #authenticateUsingPasswordLinkDiv,
+#state-5 #showSocialLoginButtonsDiv,
+#state-5 #orLoginWith,
+#state-5 #socialLinkLabel{
+    display: none;
+}
+
+#credentialLabel, #credentialDescriptionEmail, #credentialDescriptionMobilePhone {
+    display: none;
+}
+
+#enterVerificationCodeFieldDiv  {
+    justify-content:center;
+    text-align: center;
+}
+
+/* digit cerification code */
+.code-input {
+    width: 48px; /* Width of each box */
+    height: 48px; /* Height of each box */
+    max-width: 48px;
+    max-height: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px !important; /* Font size for the digits */
+    border: 2px solid #ccc !important; /* Default border */
+    border-radius: 8px; /* Rounded corners */
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.code-input::placeholder {
+    color: transparent;
+}
+
+.code-input:focus {
+    border: 2px solid #1a202c !important; /* Darker border on focus */
+}
+
+.error {
+    background: none;
+    color: #DC2626;
+    border: none;
+    text-align: center;
+}
+
+.errorBox {
+    color: #DC2626;
+    border: 1px solid #DC2626;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ffe6e6; /* Light red background to indicate an error */
+    border: 1px solid #ff4d4d; /* Solid red border */
+    color: #d00000; /* Dark red text for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Space inside the box */
+    margin: 20px auto; /* Add spacing above and below */
+    max-width: 90%; /* Restrict the width of the error box */
+}
+
+#state-5 .credentialTypePickerStandaloneComponent, #state-23 .credentialTypePickerStandaloneComponent {
+    display: none;
+}
+
+#state-5 #j_username, #state-23 #j_username {
+    display: none;
+}
+
+.belowPassword {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Container styling for alignment */
+#logOutLinkButton {
+    display: inline-block;
+    margin-top: -6px;
+    text-align: left; /* Adjust alignment if needed */
+}
+
+/* Anchor link styling */
+#logOutLinkHref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px; /* Space between icon and text */
     text-decoration: none;
+    padding: 1px 15px;
+    background-color: #ffffff; /* White background to match input box */
+    border: 1px solid #ccc; /* Subtle border for consistency */
+    border-radius: 20px; /* Rounded corners */
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.guiVersion2 a:hover {
-    text-decoration: underline;
+/* Hover effect */
+#logOutLinkHref:hover {
+    background-color: #e74c3c; /* Red hover background */
+    color: #fff; /* White text */
+    border-color: #e74c3c; /* Match hover color */
+    box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
 }
 
-.guiVersion2 .button:hover {
-    background-color: #AD1409 !important;
+/* Focus effect */
+#logOutLinkHref:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.6);
 }
 
-.guiVersion2 #loginHeaderInfoDiv {
-    text-align: center;
+/* Icon styling */
+#logOutLink::after {
+    content: '\f08b'; /* FontAwesome logout icon */
+    font-family: FontAwesome, fantasy;
+    font-size: 16px;
+    padding-left: 6px;
+    color: inherit; /* Match text color */
 }
 
-.guiVersion2 #generalHelpInfoDiv {
-    text-align: center;
-    font-size: 1.1em;
+/* Text inside logout button */
+#logOutLink {
+    display: inline;
 }
 
-.guiVersion2 .loginFrame {
-    border: 0 #939598 solid;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255,1)!important;
+/* Add responsive adjustments */
+@media (max-width: 680px) {
+    #logOutLinkHref {
+        font-size: 12px;
+    }
+
+    #logOutLink::after {
+        font-size: 12px;
+        padding-left: 6px;
+    }
+}
+
+#orLoginWithLoginStyleWideButtonsAll,
+#orLoginWithLoginStyleWideButtonsCompact {
+    display: block;
 }
