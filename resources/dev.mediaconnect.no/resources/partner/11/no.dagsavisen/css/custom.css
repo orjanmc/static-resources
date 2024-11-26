@@ -301,6 +301,17 @@ input:focus {
     height: 44px;
 }
 
+.loginStyleWideButtonsAll a {
+    display: inline-flex;
+    width: 50%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 44px;
+}
+
 .socialLoginWide .googleLink span,
 .socialLoginWide .facebookLink span,
 .socialLoginWide .appleLink span,

@@ -245,6 +245,17 @@ input:not(#j_username):focus {
     text-align: center;
 }
 
+.loginStyleWideButtonsAll a {
+    display: inline-flex;
+    width: 50%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 44px;
+}
+
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
     .socialLoginWide a {
