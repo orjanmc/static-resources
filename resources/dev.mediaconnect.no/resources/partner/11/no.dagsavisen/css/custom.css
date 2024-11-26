@@ -439,11 +439,17 @@ input:focus {
 }
 
 .errorBox {
-    background: none;
     color: #DC2626;
     border: 1px solid #DC2626;
     border-radius: 8px;
     text-align: center;
+    background-color: #ffe6e6; /* Light red background to indicate an error */
+    border: 1px solid #ff4d4d; /* Solid red border */
+    color: #d00000; /* Dark red text for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Space inside the box */
+    margin: 20px auto; /* Add spacing above and below */
+    max-width: 90%; /* Restrict the width of the error box */
 }
 
 #state-5 .credentialTypePickerStandaloneComponent, #state-23 .credentialTypePickerStandaloneComponent {
