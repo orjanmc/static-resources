@@ -292,7 +292,7 @@ input:focus {
 
 .socialLoginWide a {
     display: inline-flex; /* Display buttons side by side */
-    width: 50%; /* Adjust width to fit two per row */
+    width: 49%; /* Adjust width to fit two per row 2 49% 1 50%*/
     border-radius: 25px;
     box-sizing: border-box;
     justify-content: center;
