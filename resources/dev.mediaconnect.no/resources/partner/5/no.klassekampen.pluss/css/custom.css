@@ -557,6 +557,7 @@ input:focus {
     }
 }
 
-#orLoginWithAnotherWayButton {
+#orLoginWithAnotherWayButton,
+#state-48 #orLoginWithLoginStyleWideButtonsAll  {
     display: block;
 }
