@@ -349,7 +349,7 @@ input:focus {
 
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
-    .socialLoginWide a, .loginStyleWideButtonsAll a, .anotherWayLink a, .anotherWayButton a {  {
+    .socialLoginWide a, .loginStyleWideButtonsAll a, .anotherWayLink a, .anotherWayButton a {
         width: 100%; /* Make each button full-width on small screens */
         display: inline-flex; /* Display buttons side by side */
         padding-left: 12px;
