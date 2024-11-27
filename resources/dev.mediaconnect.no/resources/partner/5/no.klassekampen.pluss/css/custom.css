@@ -312,6 +312,17 @@ input:focus {
     height: 44px;
 }
 
+.anotherWayButton a {
+    display: inline-flex;
+    width: 50%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 44px;
+}
+
 .socialLoginWide .googleLink span,
 .socialLoginWide .facebookLink span,
 .socialLoginWide .appleLink span,
@@ -326,18 +337,19 @@ input:focus {
 .socialLoginWide .appleLink,
 .socialLoginWide .aidLink,
 .socialLoginWide .mobileLoginLink,
-.socialLoginWide .emailLoginLink {
+.socialLoginWide .emailLoginLink,
+.socialLoginWide .anotherWayLink{
     margin-bottom: 0;
     height: 44px;
 }
 
-.loginStyleWideButtonsCompact {
+.anotherWayButton {
     padding-top: 10px;
 }
 
 /* Optional: Style adjustments for smaller screens */
 @media only screen and (max-width: 680px) {
-    .socialLoginWide a, .loginStyleWideButtonsAll a {
+    .socialLoginWide a, .loginStyleWideButtonsAll a, .anotherWayLink a  {
         width: 100%; /* Make each button full-width on small screens */
         display: inline-flex; /* Display buttons side by side */
         padding-left: 12px;
@@ -545,6 +557,6 @@ input:focus {
     }
 }
 
-#orLoginWithLoginStyleWideButtonsCompact {
+#orLoginWithAnotherWayButton {
     display: block;
 }
