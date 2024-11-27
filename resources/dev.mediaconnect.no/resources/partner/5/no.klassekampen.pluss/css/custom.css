@@ -381,6 +381,18 @@ input:focus {
     background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #474646; /* Apple */
 }
 
+.mobileLoginLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
+.emailLoginLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
+.anotherWayLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
 /* Optional: transition for smooth gradient effect */
 .socialLoginWide a {
     transition: background 0.3s ease;
