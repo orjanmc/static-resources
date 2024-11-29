@@ -16,7 +16,7 @@
     display: none !important;
 }
 
-#loginHeaderInfoDiv, #registerHeaderInfoDiv {
+#loginHeaderInfoDiv, #registerHeaderInfoDiv, #socialLoginMergeWithMainHeaderInfoDiv {
     justify-content: center;
     text-align: center;
 }
