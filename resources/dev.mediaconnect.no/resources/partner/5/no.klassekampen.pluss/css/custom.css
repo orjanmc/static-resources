@@ -598,3 +598,7 @@ input:focus {
 #socialLoginMergeWithMainIgnoreButton:hover {
     background-color: #616161 !important; /* Even darker gray on hover */
 }
+
+#orLoginWithSocial {
+    display: block;
+}
