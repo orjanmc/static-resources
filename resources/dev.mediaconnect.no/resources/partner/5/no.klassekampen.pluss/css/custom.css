@@ -16,7 +16,10 @@
     display: none !important;
 }
 
-#loginHeaderInfoDiv, #registerHeaderInfoDiv, #socialLoginMergeWithMainHeaderInfoDiv {
+#registerHeaderInfoDiv, #consentHeaderInfoDiv, #createUserHeaderInfoDiv, #buyAccessHeaderInfoDiv,
+#loginHeaderInfoDiv, #configFieldsHeaderInfoDiv, #resetPasswordHeaderInfoDiv, #setPasswordHeaderInfoDiv,
+#twoFactorVerificationHeaderInfoDiv, #confirmLoginHeaderInfoDiv, #socialLoginMergeWithMainHeaderInfoDiv
+{
     justify-content: center;
     text-align: center;
 }
