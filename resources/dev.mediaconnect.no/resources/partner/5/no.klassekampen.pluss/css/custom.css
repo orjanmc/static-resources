@@ -496,7 +496,7 @@ input:focus {
     display: none;
 }
 
-.belowPassword {
+.belowPassword, #sendVerificationCodeAgainDiv {
     /* display: flex; */
     justify-content: center;
     text-align: center;
@@ -601,4 +601,28 @@ input:focus {
 
 #orLoginWithSocial {
     display: block;
+}
+
+#sendVerificationCodeAgainLinkHref {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 24px;
+    background-color: #F0F1F3;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+#sendVerificationCodeAgainLinkHref:hover {
+    background-color: #F8F9FA;
+}
+
+#sendVerificationCodeAgainDiv {
+    text-align: center;
 }
