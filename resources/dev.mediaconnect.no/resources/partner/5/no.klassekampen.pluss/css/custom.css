@@ -442,9 +442,14 @@ input:focus {
     display: none;
 }
 
+
 #enterVerificationCodeFieldDiv  {
     justify-content:center;
     text-align: center;
+}
+
+#digit4 {
+    margin-left: 10px;
 }
 
 /* digit cerification code */
