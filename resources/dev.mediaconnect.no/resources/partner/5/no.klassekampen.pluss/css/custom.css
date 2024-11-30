@@ -511,6 +511,10 @@ input:focus {
     align-items: center;
 }
 
+#sendVerificationCodeAgainDiv {
+    margin-top: 50px;
+}
+
 /* Container styling for alignment */
 #logOutLinkButton {
     display: inline-block;
