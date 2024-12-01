@@ -27,7 +27,10 @@
 #sequence-confirmAutoLogin #state-1 #headingColumn,
 #sequence-login #state-1 #headingColumn,
 #sequence-login #state-4 #headingColumn,
-#sequence-login #state-48 #headingColumn {
+#sequence-login #state-45 #headingColumn,
+#sequence-login #state-46 #headingColumn,
+#sequence-login #state-48 #headingColumn,
+#sequence-login #state-49 #headingColumn{
     display: none;
 }
 
