@@ -342,7 +342,8 @@ input:focus {
 .socialLoginWide .aidLink,
 .socialLoginWide .mobileLoginLink,
 .socialLoginWide .emailLoginLink,
-.socialLoginWide .anotherWayLink{
+.socialLoginWide .anotherWayLink,
+.socialLoginWide .mobileOrEmailLoginLink {
     margin-bottom: 0;
     height: 44px;
 }
@@ -390,6 +391,11 @@ input:focus {
 }
 
 .emailLoginLink:hover {
+    background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
+}
+
+
+.mobileOrEmailLoginLink:hover {
     background: linear-gradient(rgba(22,18,37,0.04), rgba(22,18,37,0.04)), #f4f4f4; /* Light Gray */
 }
 
@@ -652,4 +658,15 @@ input:focus {
 }
 #orLoginWithLoginStyleWideButtonsAll {
     margin-top: 60px;
+}
+
+.mobileOrEmailLoginLink {
+    background: #edf2f7; /* Light grayish-blue background */
+    color: #4a5568; /* Medium-dark gray for text color */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.mobileOrEmailLoginLink:hover {
+    background-color: #F0F1F3; /* Slightly darker background on hover */
+    color: #2d3748; /* Darker text color on hover */
 }
