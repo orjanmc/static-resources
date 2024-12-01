@@ -646,3 +646,10 @@ input:focus {
 #state-1 #showAnotherWayButtonDiv {
     display: none;
 }
+
+#showSocialLoginButtonsDiv {
+    margin-top: 50px
+}
+#orLoginWithLoginStyleWideButtonsAll {
+    margin-top: 60px;
+}
