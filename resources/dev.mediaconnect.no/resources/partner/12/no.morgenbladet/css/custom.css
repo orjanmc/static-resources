@@ -661,12 +661,13 @@ input:focus {
 }
 
 .mobileOrEmailLoginLink {
-    background: #edf2f7; /* Light grayish-blue background */
+    border:none;
+    background: rgb(226, 232, 240); /* Light grayish-blue background */
     color: #4a5568; /* Medium-dark gray for text color */
     transition: all 0.3s ease; /* Smooth hover transition */
 }
 
 .mobileOrEmailLoginLink:hover {
-    background-color: #F0F1F3; /* Slightly darker background on hover */
+    background-color:rgba(241, 245, 249, 0.8); /* Slightly darker background on hover */
     color: #2d3748; /* Darker text color on hover */
 }
