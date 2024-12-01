@@ -660,14 +660,14 @@ input:focus {
     margin-top: 60px;
 }
 
-.mobileOrEmailLoginLink {
+.mobileOrEmailLoginLink, .anotherWayLink {
     border:none;
     background: rgb(226, 232, 240); /* Light grayish-blue background */
     color: #4a5568; /* Medium-dark gray for text color */
     transition: all 0.3s ease; /* Smooth hover transition */
 }
 
-.mobileOrEmailLoginLink:hover {
+.mobileOrEmailLoginLink:hover, .anotherWayLink {
     background-color:rgba(241, 245, 249, 0.8); /* Slightly darker background on hover */
     color: #2d3748; /* Darker text color on hover */
 }
