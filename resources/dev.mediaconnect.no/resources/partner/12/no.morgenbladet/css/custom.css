@@ -638,3 +638,11 @@ input:focus {
 #sendVerificationCodeAgainDiv {
     text-align: center;
 }
+
+#orLoginWithLoginStyleWideButtonsAll  {
+    display: block;
+}
+
+#state-1 #showAnotherWayButtonDiv {
+    display: none;
+}
