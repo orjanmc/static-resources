@@ -674,3 +674,14 @@ input:focus {
     background-color:rgba(241, 245, 249, 0.8); /* Slightly darker background on hover */
     color: #2d3748; /* Darker text color on hover */
 }
+
+.mobileOrEmailLoginLink img{
+    display: none;
+}
+.socialLoginWide .vippsLink img.icon{
+    display: none;
+}
+
+.anotherWayLink img{
+    display: none;
+}
