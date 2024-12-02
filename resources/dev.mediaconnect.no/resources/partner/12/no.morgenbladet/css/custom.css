@@ -142,8 +142,6 @@ input:focus {
 }
 
 .logoDiv img.logo {
-    padding: 0 9px;
-    max-height: 50px;
 }
 
 .loginFrame {
@@ -214,7 +212,6 @@ input:focus {
     }
 
     .logoDiv img.logo {
-        padding: 6px 73px;
     }
 
     .guiVersion2 .heading {
@@ -262,7 +259,6 @@ input:focus {
     }
 
     .logoDiv img.logo {
-        padding: 6px 73px;
     }
 
     .guiVersion2 .heading {
