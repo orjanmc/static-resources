@@ -277,10 +277,18 @@ input:focus {
 }
 
 .credentialTypePickerStandaloneComponent {
-    background-color:  #dfe5ed;
+    background-color:  #dfe5ed !important;
+}
+
+.dd-container {
+    background-color:  #dfe5ed !important;
 }
 
 .dd-selected {
+    background-color:  #dfe5ed !important;
+}
+
+.dd-select {
     background-color:  #dfe5ed !important;
 }
 
