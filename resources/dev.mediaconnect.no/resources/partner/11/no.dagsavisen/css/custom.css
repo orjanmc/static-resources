@@ -472,7 +472,7 @@ input:focus {
     display: none;
 }
 
-.belowPassword {
+.belowPassword, #sendVerificationCodeAgainDiv {
     /* display: flex; */
     justify-content: center;
     text-align: center;
@@ -548,5 +548,61 @@ input:focus {
 
 #orLoginWithLoginStyleWideButtonsAll,
 #orLoginWithLoginStyleWideButtonsCompact {
+    display: block;
+}
+
+/* Style for the first button (Koble til en eksisterende konto) */
+#socialLoginMergeWithMainConfirmButton {
+    background-color: #d32f2f !important; /* Bold red to stand out */
+    border: 2px solid #b71c1c; /* Remove any default borders */
+    cursor: pointer; /* Indicate clickability */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#socialLoginMergeWithMainConfirmButton:hover {
+    background-color: #b71c1c !important; /* Darker red on hover */
+}
+
+/* Style for the second button (Fortsett med en ny brukerkonto) */
+#socialLoginMergeWithMainIgnoreButton {
+    background-color: #757575 !important; /* Dark gray for more visibility */
+    border: 1px solid #616161 !important; /* Slightly darker border for definition */
+    cursor: pointer; /* Indicate clickability */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#socialLoginMergeWithMainIgnoreButton:hover {
+    background-color: #616161 !important; /* Even darker gray on hover */
+}
+
+#orLoginWithSocial {
+    display: block;
+}
+
+#sendVerificationCodeAgainLinkHref {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 24px;
+    background-color: #F0F1F3;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+#sendVerificationCodeAgainLinkHref:hover {
+    background-color: #F8F9FA;
+}
+
+#sendVerificationCodeAgainDiv {
+    text-align: center;
+}
+
+#orLoginWithLoginStyleWideButtonsAll  {
     display: block;
 }
