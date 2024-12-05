@@ -1,5 +1,5 @@
 .guiVersion2 .button {
-    background-color: #489d73 ! important;
+    background-color: #45989e ! important;
     padding: 12px 30px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -7,5 +7,5 @@
 }
 
 .guiVersion2 .button:hover {
-    background-color: #489d73 !important;
+    background-color: #45989e !important;
 }
