@@ -61,7 +61,8 @@
     "selfservice.saltenposten": "api/client/config?clientId=selfservice.saltenposten",
     "selfservice.osfusa": "api/client/config?clientId=selfservice.osfusa",
     "selfservice.suldalsposten": "api/client/config?clientId=selfservice.suldalsposten",
-    "selfservice.tysnesbladet": "api/client/config?clientId=selfservice.tysnesbladet"
+    "selfservice.tysnesbladet": "api/client/config?clientId=selfservice.tysnesbladet",
+    "selfservice.dagligvarehandelen": "api/client/config?clientId=selfservice.dagligvarehandelen"
   },
   "messages": {
     "default-message": {
