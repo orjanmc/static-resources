@@ -43,6 +43,7 @@
 
 .logoDiv img.logo {
     padding: 0 9px;
+    max-height: 104px;
 }
 
 #loginForm {
