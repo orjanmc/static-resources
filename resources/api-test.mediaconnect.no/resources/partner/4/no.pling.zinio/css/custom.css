@@ -1,5 +1,9 @@
 .guiVersion2 body {
     background-color: #f4f4f4;
+    background-image: url(https://www.pling.no/sites/default/files/inline-images/Rectangle%204.2_5.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .guiVersion2 .button  {
@@ -93,6 +97,10 @@
 
     HTML, BODY, #loginForm, .outerFrame {
         background-color: #f4f4f4;
+        background-image: url(https://www.pling.no/sites/default/files/inline-images/Rectangle%204.2_5.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .outerFrame:before{
