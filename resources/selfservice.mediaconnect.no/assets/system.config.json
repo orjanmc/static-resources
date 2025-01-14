@@ -62,7 +62,8 @@
     "selfservice.osfusa": "api/client/config?clientId=selfservice.osfusa",
     "selfservice.suldalsposten": "api/client/config?clientId=selfservice.suldalsposten",
     "selfservice.tysnesbladet": "api/client/config?clientId=selfservice.tysnesbladet",
-    "selfservice.dagligvarehandelen": "api/client/config?clientId=selfservice.dagligvarehandelen"
+    "selfservice.dagligvarehandelen": "api/client/config?clientId=selfservice.dagligvarehandelen",
+    "selfservice.grenda": "api/client/config?clientId=selfservice.grenda"
   },
   "messages": {
     "default-message": {
