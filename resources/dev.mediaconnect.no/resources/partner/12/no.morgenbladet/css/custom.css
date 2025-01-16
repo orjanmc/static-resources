@@ -142,6 +142,7 @@ input:focus {
 }
 
 .logoDiv img.logo {
+    max-width: 520px;
 }
 
 .loginFrame {
