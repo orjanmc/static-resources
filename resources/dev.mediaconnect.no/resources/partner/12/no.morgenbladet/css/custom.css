@@ -213,6 +213,8 @@ input:focus {
     }
 
     .logoDiv img.logo {
+        max-width: 100%;
+        padding: 10px;
     }
 
     .guiVersion2 .heading {
