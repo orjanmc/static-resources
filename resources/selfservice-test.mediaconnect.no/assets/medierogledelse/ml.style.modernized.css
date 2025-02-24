@@ -135,7 +135,7 @@
 
 .mat-app-footer a {
     color: #212121;
-    decoration: underline;
+    text-decoration: underline;
 }
 
 .msg-error,
