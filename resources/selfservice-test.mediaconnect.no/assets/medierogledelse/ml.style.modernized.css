@@ -147,5 +147,5 @@
 .msg-success,
 .msg-success.mat-mdc-snack-bar-container .mdc-snackbar__surface {
   background-color: #339fff;
-  --mdc-snackbar-container-color: #339fff;
+  --mdc-snackbar-container-color: #339ffe;
 }
