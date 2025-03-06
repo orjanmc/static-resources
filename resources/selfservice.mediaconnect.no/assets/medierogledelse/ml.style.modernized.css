@@ -150,8 +150,7 @@
   --mdc-snackbar-container-color: #339fff;
 }
 
-.app-message-email-cont,
-.app-message-cont {
+.app-message-email,
+.app-message {
     display: none;
 }
-
